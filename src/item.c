@@ -290,7 +290,7 @@ bool8 AddBagItem(u16 itemId, u16 count)
                     {
                         count -= slotCapacity - ownedCount;
                         SetBagItemQuantity(&newItems[i].quantity, slotCapacity);
-                        // don't create another instance of the item if it's at max slot capacity and count is equal to 0
+                        // don't create another instance of the item if es isch at max slot capacity and count is equal to 0
                         if (count == 0)
                         {
                             break;

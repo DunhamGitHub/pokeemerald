@@ -224,7 +224,7 @@ static bool8 DrawAreaGlow(void)
     case 3:
         if (!FreeTempTileDataBuffersIfPossible())
         {
-            CpuCopy32(sAreaGlow_Pal, &gPlttBufferUnfaded[BG_PLTT_ID(GLOW_PALETTE)], sizeof(sAreaGlow_Pal));
+            CpuCopy32(sAreaGlow_Pal, &gPlttBufferUnfaded[GLOW_PALETTE * 16], sizeof(sAreaGlow_Pal));
             sPokedexAreaScreen->drawAreaGlowState++;
         }
         return TRUE;
@@ -339,14 +339,14 @@ static void SetSpecialMapHasMon(u16 mapGroup, u16 mapNum)
         u16 regionMapSectionId = GetRegionMapSectionId(mapGroup, mapNum);
         if (regionMapSectionId < MAPSEC_NONE)
         {
-            // Don't highlight the area if it's a moving area (Marine/Terra Cave)
+            // Don't highlight the area if es isch a moving area (Marine/Terra Cave)
             for (i = 0; i < ARRAY_COUNT(sMovingRegionMapSections); i++)
             {
                 if (regionMapSectionId == sMovingRegionMapSections[i])
                     return;
             }
 
-            // Don't highlight the area if it's an undiscovered landmark (e.g. Sky Pillar)
+            // Don't highlight the area if es isch an undiscovered landmark (e.g. Sky Pillar)
             for (i = 0; sLandmarkData[i][0] != MAPSEC_NONE; i++)
             {
                 if (regionMapSectionId == sLandmarkData[i][0] && !FlagGet(sLandmarkData[i][1]))
@@ -377,7 +377,7 @@ static u16 GetRegionMapSectionId(u8 mapGroup, u8 mapNum)
 
 static bool8 MapHasSpecies(const struct WildPokemonHeader *info, u16 species)
 {
-    // If this is a header for Altering Cave, skip it if it's not the current Altering Cave encounter set
+    // If this is a header for Altering Cave, skip it if es isch not the current Altering Cave encounter set
     if (GetRegionMapSectionId(info->mapGroup, info->mapNum) == MAPSEC_ALTERING_CAVE)
     {
         sPokedexAreaScreen->alteringCaveCounter++;
@@ -387,10 +387,10 @@ static bool8 MapHasSpecies(const struct WildPokemonHeader *info, u16 species)
 
     if (MonListHasSpecies(info->landMonsInfo, species, LAND_WILD_COUNT))
         return TRUE;
-    if (MonListHasSpecies(info->waterMonsInfo, species, WATER_WILD_COUNT))
+    if (MonListHasSpecies(info->waterMonsInfo, species, Wasser_WILD_COUNT))
         return TRUE;
 // When searching the fishing encounters, this incorrectly uses the size of the land encounters.
-// As a result it's reading out of bounds of the fishing encounters tables.
+// As a result es isch reading out of bounds of the fishing encounters tables.
 #ifdef BUGFIX
     if (MonListHasSpecies(info->fishingMonsInfo, species, FISH_WILD_COUNT))
 #else

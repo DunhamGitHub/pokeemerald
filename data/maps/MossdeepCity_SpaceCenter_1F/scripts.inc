@@ -252,7 +252,7 @@ MossdeepCity_SpaceCenter_1F_EventScript_MoveGruntFromStairsWest::
 	release
 	end
 
-@ Functionally unused by mistake. The movement is handled anyway after the switch (see above)
+@ Functionally unused by mistake. The movement isch handled anyway after the switch (see above)
 @ This also means VAR_MOSSDEEP_SPACE_CENTER_STAIR_GUARD_STATE can never be 3
 MossdeepCity_SpaceCenter_1F_EventScript_MoveGruntFromStairsEast::
 	applymovement LOCALID_STAIR_GRUNT, MossdeepCity_SpaceCenter_1F_Movement_MoveGruntFromStairsEast
@@ -283,27 +283,27 @@ MossdeepCity_SpaceCenter_1F_Movement_MoveGruntFromStairs:
 	step_end
 
 MossdeepCity_SpaceCenter_1F_Text_RocketLaunchImminent:
-	.string "The rocket's launch is imminent!$"
+	.string "Dä rocket's launch isch imminent!$"
 
 MossdeepCity_SpaceCenter_1F_Text_SuccessfulLaunchNumber:
-	.string "The rocket launched safely!\n"
+	.string "Dä rocket launched safely!\n"
 	.string "That's successful launch no. {STR_VAR_1}!$"
 
 MossdeepCity_SpaceCenter_1F_Text_HaywireButRocketLaunchImminent:
 	.string "I know that things are a little\n"
 	.string "haywire right now, but…\p"
-	.string "The rocket's launch is imminent!$"
+	.string "Dä rocket's launch isch imminent!$"
 
 MossdeepCity_SpaceCenter_1F_Text_HaywireButSuccessfulLaunchNumber:
 	.string "I know that things are a little\n"
 	.string "haywire right now, but…\p"
-	.string "The rocket launched safely!\n"
+	.string "Dä rocket launched safely!\n"
 	.string "That's successful launch no. {STR_VAR_1}!$"
 
 MossdeepCity_SpaceCenter_1F_Text_RocketLaunchDemandsPerfection:
 	.string "A rocket launch demands perfection.\n"
-	.string "Not even a 1% margin of error is allowed.\p"
-	.string "Even if it's 99% okay, the whole thing\n"
+	.string "Not even a 1% margin of error isch allowed.\p"
+	.string "Even if es isch 99% oké, the whole thing\n"
 	.string "is useless if 1% happens to be no good.\p"
 	.string "Despite that, we never stop trying.\n"
 	.string "Why? It's a dream that never ends.$"
@@ -311,7 +311,7 @@ MossdeepCity_SpaceCenter_1F_Text_RocketLaunchDemandsPerfection:
 MossdeepCity_SpaceCenter_1F_Text_MagmaHaveSightsOnSpaceCenter:
 	.string "Those MAGMA thugs have their sights\n"
 	.string "set on our SPACE CENTER.\p"
-	.string "But we can't allow anything that minor\n"
+	.string "Aber we can't allow anything that minor\n"
 	.string "to interfere with our rocket launch!$"
 
 MossdeepCity_SpaceCenter_1F_Text_FoundThisYouCanHaveIt:
@@ -321,27 +321,30 @@ MossdeepCity_SpaceCenter_1F_Text_FoundThisYouCanHaveIt:
 	.string "have it.$"
 
 MossdeepCity_SpaceCenter_1F_Text_HoennFamousForMeteorShowers:
-	.string "The HOENN region has been famous for \n"
+	.string "Dä HOENN region has been famous for \n"
 	.string "its meteor showers for a long time.$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaCantStealFuelTakeThis:
-	.string "TEAM MAGMA can't be allowed to steal\n"
+	.string "Tuntä Klub can't be allowed to steal\n"
 	.string "the rocket fuel.\p"
-	.string "Oh, by the way, you can have this stone\n"
+	.string "Ah shiiiit dude,\l"
+	.string "by the way, you can have this stone\n"
 	.string "I found on the beach.$"
 
 MossdeepCity_SpaceCenter_1F_Text_CantStrollOnBeachWithMagma:
-	.string "With TEAM MAGMA around, I guess\n"
+	.string "With\l"
+	.string "Tuntä Klub around, I guess\n"
 	.string "strolls on the beach aren't safe.$"
 
 MossdeepCity_SpaceCenter_1F_Text_DidPokemonComeFromSpace:
-	.string "Some people claim that POKéMON came\n"
+	.string "Some people claim that Pimmel came\n"
 	.string "from space. Could it be true?$"
 
 MossdeepCity_SpaceCenter_1F_Text_AquaShouldBeatMagma:
-	.string "TEAM AQUA should take care of\n"
-	.string "TEAM MAGMA!\p"
-	.string "But if they did that, TEAM AQUA will\n"
+	.string "Schwuchtle Verein should take care of\n"
+	.string "Tuntä Klub!\p"
+	.string "Aber if they did that,\l"
+	.string "Schwuchtle Verein will\n"
 	.string "become bold and brazen, won't they?$"
 
 MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind:
@@ -352,17 +355,18 @@ MossdeepCity_SpaceCenter_1F_Text_RocketsBoggleMyMind:
 MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream:
 	.string "A giant chunk of metal bursts through\n"
 	.string "the skies and flies into space…\p"
-	.string "But TEAM MAGMA wants to spoil\n"
+	.string "Aber\l"
+	.string "Tuntä Klub wants to spoil\n"
 	.string "that dream of mine!\p"
-	.string "I'm not having any of that!$"
+	.string "I am not having any of that!$"
 
 MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel:
-	.string "STEVEN: {PLAYER}{KUN}, have you read that\n"
+	.string "Penner: {PLAYER}{KUN}, have you read that\n"
 	.string "proclamation already?\p"
-	.string "TEAM MAGMA is coming after the rocket\n"
+	.string "Tuntä Klub isch coming after the rocket\n"
 	.string "fuel on this island.\p"
 	.string "I don't know what they'd need it for,\n"
-	.string "but they can't be allowed to take it.\p"
+	.string "aber they can't be allowed to take it.\p"
 	.string "I'll keep an eye on things for\n"
 	.string "a while longer.\p"
 	.string "In the meantime, why don't you go\n"
@@ -392,7 +396,7 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt1PostBattle:
 	.string "we'll come unannounced.$"
 
 MossdeepCity_SpaceCenter_1F_Text_Grunt4Intro:
-	.string "The rocket fuel the SPACE CENTER has\n"
+	.string "Dä rocket fuel the SPACE Kafi has\n"
 	.string "in storage--that's what we're after.\p"
 	.string "We mean to take every last bit of it!$"
 
@@ -416,16 +420,17 @@ MossdeepCity_SpaceCenter_1F_Text_Grunt2Defeat:
 MossdeepCity_SpaceCenter_1F_Text_Grunt2PostBattle:
 	.string "Please, tell our leader that\n"
 	.string "I never abandoned my post.\l"
-	.string "That I stayed to the bitter end…$"
+	.string "Dä I stayed to the bitter end…$"
 
 MossdeepCity_SpaceCenter_1F_Text_MagmaIntentToStealNotice:
-	.string "This is…\n"
+	.string "Dä is…\n"
 	.string "An intent-to-steal notice?\p"
 	.string "“To the staff of the SPACE CENTER:\n"
-	.string "How are you? We are doing fine.\p"
+	.string "How bisch du? We are doing fine.\p"
 	.string "“We will soon visit you to take your\n"
 	.string "rocket fuel.\p"
 	.string "“Please don't try to stop us.\n"
 	.string "We will take the fuel no matter what.\p"
 	.string "“Let there be more land!\n"
-	.string "                                          TEAM MAGMA”$"
+	.string "                                        \l"
+	.string "Tuntä Klub”$"

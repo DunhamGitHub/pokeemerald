@@ -101,7 +101,7 @@ void FreeInternal(void *heapStart, void *pointer)
         block->flag = FALSE;
 
         // If the freed block isn't the last one, merge with the next block
-        // if it's not in use.
+        // if es isch not in use.
         if (block->next != head) {
             if (!block->next->flag) {
                 block->size += sizeof(struct MemBlock) + block->next->size;
@@ -113,7 +113,7 @@ void FreeInternal(void *heapStart, void *pointer)
         }
 
         // If the freed block isn't the first one, merge with the previous block
-        // if it's not in use.
+        // if es isch not in use.
         if (block != head) {
             if (!block->prev->flag) {
                 block->prev->next = block->next;

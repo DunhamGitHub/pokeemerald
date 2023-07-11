@@ -2195,7 +2195,9 @@ static void Task_HandleReplaceMoveInput(u8 taskId)
             }
             else if (JOY_NEW(A_BUTTON))
             {
-                if (CanReplaceMove() == TRUE)
+                //sp can replace hm, why not... can forget hm
+                //if (CanReplaceMove() == TRUE)
+                if(TRUE == TRUE)
                 {
                     StopPokemonAnimations();
                     PlaySE(SE_SELECT);
@@ -2225,7 +2227,8 @@ static bool8 CanReplaceMove(void)
 {
     if (sMonSummaryScreen->firstMoveIndex == MAX_MON_MOVES
         || sMonSummaryScreen->newMove == MOVE_NONE
-        || IsMoveHm(sMonSummaryScreen->summary.moves[sMonSummaryScreen->firstMoveIndex]) != TRUE)
+        || IsMoveHm(sMonSummaryScreen->summary.moves[sMonSummaryScreen->firstMoveIndex]) != TRUE
+        )
         return TRUE;
     else
         return FALSE;

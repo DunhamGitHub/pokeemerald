@@ -156,7 +156,7 @@ void StartWeather(void)
     if (!FuncIsActiveTask(Task_WeatherMain))
     {
         u8 index = AllocSpritePalette(PALTAG_WEATHER);
-        CpuCopy32(gFogPalette, &gPlttBufferUnfaded[OBJ_PLTT_ID(index)], PLTT_SIZE_4BPP);
+        CpuCopy32(gFogPalette, &gPlttBufferUnfaded[0x100 + index * 16], 32);
         BuildColorMaps();
         gWeatherPtr->contrastColorMapSpritePalIndex = index;
         gWeatherPtr->weatherPicSpritePalIndex = AllocSpritePalette(PALTAG_WEATHER_2);
@@ -215,7 +215,7 @@ void SetCurrentAndNextWeatherNoDelay(u8 weather)
 
 static void Task_WeatherInit(u8 taskId)
 {
-    // Waits until it's ok to initialize weather.
+    // Waits until es isch ok to initialize weather.
     // When the screen fades in, this is set to TRUE.
     if (gWeatherPtr->readyForInit)
     {
@@ -471,7 +471,7 @@ static void ApplyColorMap(u8 startPalIndex, u8 numPalettes, s8 colorMapIndex)
     if (colorMapIndex > 0)
     {
         colorMapIndex--;
-        palOffset = PLTT_ID(startPalIndex);
+        palOffset = startPalIndex * 16;
         numPalettes += startPalIndex;
         curPalIndex = startPalIndex;
 
@@ -481,7 +481,7 @@ static void ApplyColorMap(u8 startPalIndex, u8 numPalettes, s8 colorMapIndex)
             if (sPaletteColorMapTypes[curPalIndex] == COLOR_MAP_NONE)
             {
                 // No palette change.
-                CpuFastCopy(&gPlttBufferUnfaded[palOffset], &gPlttBufferFaded[palOffset], PLTT_SIZE_4BPP);
+                CpuFastCopy(gPlttBufferUnfaded + palOffset, gPlttBufferFaded + palOffset, 16 * sizeof(u16));
                 palOffset += 16;
             }
             else
@@ -511,7 +511,7 @@ static void ApplyColorMap(u8 startPalIndex, u8 numPalettes, s8 colorMapIndex)
     {
         // A negative gammIndex value means that the blending will come from the special Drought weather's palette tables.
         colorMapIndex = -colorMapIndex - 1;
-        palOffset = PLTT_ID(startPalIndex);
+        palOffset = startPalIndex * 16;
         numPalettes += startPalIndex;
         curPalIndex = startPalIndex;
 
@@ -520,7 +520,7 @@ static void ApplyColorMap(u8 startPalIndex, u8 numPalettes, s8 colorMapIndex)
             if (sPaletteColorMapTypes[curPalIndex] == COLOR_MAP_NONE)
             {
                 // No palette change.
-                CpuFastCopy(&gPlttBufferUnfaded[palOffset], &gPlttBufferFaded[palOffset], PLTT_SIZE_4BPP);
+                CpuFastCopy(gPlttBufferUnfaded + palOffset, gPlttBufferFaded + palOffset, 16 * sizeof(u16));
                 palOffset += 16;
             }
             else
@@ -538,7 +538,7 @@ static void ApplyColorMap(u8 startPalIndex, u8 numPalettes, s8 colorMapIndex)
     else
     {
         // No palette blending.
-        CpuFastCopy(&gPlttBufferUnfaded[PLTT_ID(startPalIndex)], &gPlttBufferFaded[PLTT_ID(startPalIndex)], numPalettes * PLTT_SIZE_4BPP);
+        CpuFastCopy(gPlttBufferUnfaded + startPalIndex * 16, gPlttBufferFaded + startPalIndex * 16, numPalettes * 16 * sizeof(u16));
     }
 }
 
@@ -552,7 +552,7 @@ static void ApplyColorMapWithBlend(u8 startPalIndex, u8 numPalettes, s8 colorMap
     u8 gBlend = color.g;
     u8 bBlend = color.b;
 
-    palOffset = PLTT_ID(startPalIndex);
+    palOffset = BG_PLTT_ID(startPalIndex);
     numPalettes += startPalIndex;
     colorMapIndex--;
     curPalIndex = startPalIndex;
@@ -666,8 +666,8 @@ static void ApplyFogBlend(u8 blendCoeff, u16 blendColor)
     {
         if (LightenSpritePaletteInFog(curPalIndex))
         {
-            u16 palEnd = PLTT_ID(curPalIndex + 1);
-            u16 palOffset = PLTT_ID(curPalIndex);
+            u16 palEnd = (curPalIndex + 1) * 16;
+            u16 palOffset = curPalIndex * 16;
 
             while (palOffset < palEnd)
             {
@@ -786,7 +786,7 @@ void FadeScreen(u8 mode, s8 delay)
     if (fadeOut)
     {
         if (useWeatherPal)
-            CpuFastCopy(gPlttBufferFaded, gPlttBufferUnfaded, PLTT_SIZE);
+            CpuFastCopy(gPlttBufferFaded, gPlttBufferUnfaded, PLTT_BUFFER_SIZE * 2);
 
         BeginNormalPaletteFade(PALETTES_ALL, delay, 0, 16, fadeColor);
         gWeatherPtr->palProcessingState = WEATHER_PAL_STATE_SCREEN_FADING_OUT;
@@ -824,14 +824,14 @@ void UpdateSpritePaletteWithWeather(u8 spritePaletteIndex)
         {
             if (gWeatherPtr->currWeather == WEATHER_FOG_HORIZONTAL)
                 MarkFogSpritePalToLighten(paletteIndex);
-            paletteIndex = PLTT_ID(paletteIndex);
+            paletteIndex *= 16;
             for (i = 0; i < 16; i++)
                 gPlttBufferFaded[paletteIndex + i] = gWeatherPtr->fadeDestColor;
         }
         break;
     case WEATHER_PAL_STATE_SCREEN_FADING_OUT:
         paletteIndex = PLTT_ID(paletteIndex);
-        CpuFastCopy(&gPlttBufferFaded[paletteIndex], &gPlttBufferUnfaded[paletteIndex], PLTT_SIZE_4BPP);
+        CpuFastCopy(gPlttBufferFaded + paletteIndex, gPlttBufferUnfaded + paletteIndex, PLTT_SIZE_4BPP);
         BlendPalette(paletteIndex, 16, gPaletteFade.y, gPaletteFade.blendColor);
         break;
     // WEATHER_PAL_STATE_CHANGING_WEATHER

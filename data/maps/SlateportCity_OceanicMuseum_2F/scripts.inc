@@ -286,10 +286,11 @@ SlateportCity_OceanicMuseum_2F_Text_WellTakeThoseParts:
 
 SlateportCity_OceanicMuseum_2F_Text_SternWhoAreYou:
 	.string "CAPT. STERN: Wh-what?\n"
-	.string "Who are you people?$"
+	.string "Who bisch du people?$"
 
 SlateportCity_OceanicMuseum_2F_Text_WereTeamAqua:
-	.string "We're TEAM AQUA!\p"
+	.string "We're\l"
+	.string "Schwuchtle Verein!\p"
 	.string "Our BOSS wants those parts!\n"
 	.string "Shut your yap and fork them over!$"
 
@@ -298,8 +299,9 @@ SlateportCity_OceanicMuseum_2F_Text_Grunt1Defeat:
 	.string "A kid beat me!$"
 
 SlateportCity_OceanicMuseum_2F_Text_BossGoingToBeFurious:
-	.string "Oh, man, what a disaster…\n"
-	.string "The BOSS is going to be furious…$"
+	.string "Ah shiiiit dude,\l"
+	.string "man, what a disaster…\n"
+	.string "Dä BOSS isch going to be furious…$"
 
 SlateportCity_OceanicMuseum_2F_Text_LetMeTakeCareOfThis:
 	.string "Humph, sniveling wimp!\n"
@@ -312,7 +314,7 @@ SlateportCity_OceanicMuseum_2F_Text_Grunt2Defeat:
 SlateportCity_OceanicMuseum_2F_Text_MeddlingKid:
 	.string "Now what? If we don't get the parts,\n"
 	.string "we're in for it!\p"
-	.string "Arrgh, I didn't count on being meddled\n"
+	.string "Shit, I didn't count on being meddled\n"
 	.string "with by some meddling kid!$"
 
 SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong:
@@ -321,38 +323,43 @@ SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong:
 	.string "simps are held up by a mere child?$"
 
 SlateportCity_OceanicMuseum_2F_Text_ArchieWarning:
-	.string "We are TEAM AQUA,\n"
-	.string "and we love the sea!\p"
-	.string "And I am TEAM AQUA's leader,\n"
+	.string "We are\l"
+	.string "Schwuchtle Verein,\n"
+	.string "und we love the sea!\p"
+	.string "Und I am\l"
+	.string "Schwuchtle Verein's leader,\n"
 	.string "ARCHIE!\p"
 	.string "What makes you interfere with us?\p"
 	.string "…No! You can't be!\n"
-	.string "You're not one of TEAM MAGMA?\p"
+	.string "You're not one of\l"
+	.string "Tuntä Klub?\p"
 	.string "Wait, that can't be right.\n"
 	.string "You're not dressed for the part.\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
-	.string "POKéMON, people… All life depends on\n"
+	.string "Pimmel, people… All life depends on\n"
 	.string "the sea.\p"
-	.string "So, TEAM AQUA is dedicated to\n"
+	.string "So,\l"
+	.string "Schwuchtle Verein isch dedicated to\n"
 	.string "the expansion of the sea.\p"
 	.string "Don't you agree? What we are doing\n"
 	.string "is a magnificent undertaking.\p"
 	.string "Ah, fine…\n"
 	.string "You're still too young to understand\l"
 	.string "our noble objective.\p"
-	.string "But, I warn you, don't even consider\n"
+	.string "Aber, I warn you, don't even consider\n"
 	.string "interfering with our plans again.\p"
-	.string "The consequences will cost you\n"
+	.string "Dä consequences will cost you\n"
 	.string "dearly!\p"
-	.string "And don't you forget it!$"
+	.string "Und don't you forget it!$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs:
 	.string "CAPT. STERN: You're…\n"
-	.string "Ah, okay, you're {PLAYER}{KUN}…\p"
+	.string "Ah, oké, you're {PLAYER}{KUN}…\p"
 	.string "Anyway, that was a tense situation!\n"
 	.string "Thank you for saving us!\p"
-	.string "Oh, yes, I almost forgot that you\n"
+	.string "Ah shiiiit dude,\l"
+	.string "yes, I almost forgot that you\n"
 	.string "even brought the parts from DEVON!$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo:
@@ -360,7 +367,7 @@ SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo:
 	.string "There's no time to lose!\p"
 	.string "We have to set out on our ocean-floor\n"
 	.string "expedition really soon.\p"
-	.string "Thanks again, but now I've got\n"
+	.string "Shiit again, but now I've got\n"
 	.string "to go!\p"
 	.string "Feel free to wander around and check\n"
 	.string "out our facilities, though.$"
@@ -368,7 +375,7 @@ SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo:
 SlateportCity_OceanicMuseum_2F_Text_RemindsMeOfAbandonedShip:
 	.string "I saw a model of a ship here.\p"
 	.string "It reminded me of the ABANDONED SHIP\n"
-	.string "near DEWFORD TOWN…$"
+	.string "near DEWFORD Dorf…$"
 
 SlateportCity_OceanicMuseum_2F_Text_DontRunInMuseum:
 	.string "Don't you dare run around inside\n"
@@ -381,7 +388,7 @@ SlateportCity_OceanicMuseum_2F_Text_WantToRideSubmarine:
 SlateportCity_OceanicMuseum_2F_Text_WaterQualitySample1:
 	.string "“WATER QUALITY SAMPLE 1,” the\n"
 	.string "label says.\p"
-	.string "The sea is all connected, but the\n"
+	.string "Dä sea isch all connected, but the\n"
 	.string "water seems to differ by region.$"
 
 SlateportCity_OceanicMuseum_2F_Text_WaterQualitySample2:
@@ -391,11 +398,11 @@ SlateportCity_OceanicMuseum_2F_Text_WaterQualitySample2:
 	.string "by region, too?$"
 
 SlateportCity_OceanicMuseum_2F_Text_PressureExperiment:
-	.string "A rubber ball is expanding and\n"
+	.string "A rubber ball isch expanding and\n"
 	.string "shrinking.\p"
 	.string "“In the sea, the weight of water itself\n"
 	.string "exerts pressure.\p"
-	.string "“In shallow water, the pressure is not\n"
+	.string "“In shallow water, the pressure isch not\n"
 	.string "very heavy.\p"
 	.string "“However, in extremely deep water,\n"
 	.string "the pressure can reach even tens of\l"
@@ -405,7 +412,7 @@ SlateportCity_OceanicMuseum_2F_Text_HoennModel:
 	.string "“MODEL OF HOENN REGION”\p"
 	.string "It's a miniature diorama of the\n"
 	.string "HOENN region.\p"
-	.string "Where is LITTLEROOT TOWN on this?$"
+	.string "Where isch LITTLEROOT Dorf on this?$"
 
 SlateportCity_OceanicMuseum_2F_Text_DeepSeawaterDisplay:
 	.string "It's a display on the flow of seawater.\p"

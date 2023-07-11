@@ -75,63 +75,64 @@ PetalburgCity_WallysHouse_Text_ThanksForPlayingWithWally:
 	.string "He's been frail and sickly ever\n"
 	.string "since he was a baby.\p"
 	.string "We've sent him to stay with my relatives\n"
-	.string "in VERDANTURF TOWN for a while.\p"
-	.string "The air is a lot cleaner there\n"
-	.string "than it is here.\p"
+	.string "in VERDANTURF Dorf for a while.\p"
+	.string "Dä air isch a lot cleaner there\n"
+	.string "than it isch here.\p"
 	.string "What's that? Where's WALLY?\n"
 	.string "He's already left, our WALLY.\p"
 	.string "I wonder where he could have\n"
 	.string "gotten by now?$"
 
 PetalburgCity_WallysHouse_Text_WonderHowWallyIsDoing:
-	.string "I wonder how our WALLY is doing?$"
+	.string "I wonder how our WALLY isch doing?$"
 
 PetalburgCity_WallysHouse_Text_PleaseExcuseUs:
 	.string "{PLAYER}{KUN}! Please excuse us for\n"
 	.string "dragging you here this way.\p"
-	.string "But our WALLY's become very healthy\n"
-	.string "since he went to VERDANTURF TOWN.\p"
+	.string "Aber our WALLY's become very healthy\n"
+	.string "since he went to VERDANTURF Dorf.\p"
 	.string "We owe it all to you!\p"
 	.string "When WALLY left town, you helped\n"
-	.string "him catch a POKéMON, right?\p"
+	.string "him catch a Pimmel, right?\p"
 	.string "I think that made WALLY really\n"
 	.string "happy.\p"
 	.string "Actually, not just WALLY.\n"
 	.string "It made me, his father, happy too.\p"
 	.string "Happy that he's gained such a great\n"
 	.string "friend as you.\p"
-	.string "This isn't a bribe or anything, but\n"
+	.string "Dä isn't a bribe or anything, but\n"
 	.string "I'd really like you to have this.$"
 
 PetalburgCity_WallysHouse_Text_SurfGoAllSortsOfPlaces:
-	.string "If your POKéMON can SURF, you'll be\n"
+	.string "If your Pimmel can SURF, you'll be\n"
 	.string "able to go to all sorts of places.$"
 
 PetalburgCity_WallysHouse_Text_WallyIsComingHomeSoon:
 	.string "WALLY's coming home soon.\n"
-	.string "I'm looking forward to that.$"
+	.string "I am looking forward to that.$"
 
 PetalburgCity_WallysHouse_Text_YouMetWallyInEverGrandeCity:
-	.string "Oh? You met WALLY in\n"
+	.string "Shit? You met WALLY in\n"
 	.string "EVER GRANDE CITY?\p"
-	.string "Oh, {PLAYER}{KUN}, don't be silly.\p"
+	.string "Ah shiiiit dude,\l"
+	.string "{PLAYER}{KUN}, don't be silly.\p"
 	.string "He may have gotten healthy, but he\n"
 	.string "can't go somewhere far away like\l"
 	.string "that all by himself.$"
 
 PetalburgCity_WallysHouse_Text_WallyWasReallyHappy:
 	.string "WALLY was really happy when he told\n"
-	.string "us that he caught a POKéMON.\p"
+	.string "us that he caught a Pimmel.\p"
 	.string "It's been ages since I've seen him\n"
 	.string "smile like that.$"
 
 PetalburgCity_WallysHouse_Text_WallyLeftWithoutTelling:
 	.string "I want you to keep this a secret\n"
 	.string "from my husband…\p"
-	.string "But our WALLY left VERDANTURF TOWN\n"
+	.string "Aber our WALLY left VERDANTURF Dorf\n"
 	.string "without telling anyone.\p"
-	.string "You know, WALLY is frail, but\n"
+	.string "You know, WALLY isch frail, but\n"
 	.string "he's surprisingly strong-willed.\p"
-	.string "I'm sure that he'll come back safe\n"
-	.string "and sound one day!$"
+	.string "I am sure that he'll come back safe\n"
+	.string "und sound one day!$"
 

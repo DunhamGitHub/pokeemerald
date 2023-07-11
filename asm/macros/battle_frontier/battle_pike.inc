@@ -120,7 +120,7 @@
 	special CallBattlePikeFunction
 	.endm
 
-	@ Buffer the opponents battle intro speech to gStringVar4. \trainer 0 for Trainer A, 1 for Trainer B
+	@ Buffer the opponents schlegglä intro speech to gStringVar4. \trainer 0 for Trainer A, 1 for Trainer B
 	.macro pike_gettrainerintro trainer:req
 	setvar VAR_0x8004, BATTLE_PIKE_FUNC_GET_TRAINER_INTRO
 	setvar VAR_0x8005, \trainer

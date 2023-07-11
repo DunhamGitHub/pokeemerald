@@ -219,28 +219,28 @@ BattleFrontier_BattlePyramidTop_Movement_CameraPanUp:
 	step_end
 
 BattleFrontier_BattlePyramidTop_Text_ReachedSummitUpYouGo:
-	.string "It is a delight to see you here!\n"
+	.string "It isch a delight to see you here!\n"
 	.string "You have reached the summit of\l"
-	.string "the BATTLE PYRAMID!\p"
-	.string "Above here is the PYRAMID's\n"
+	.string "the Bättle PYRAMID!\p"
+	.string "Above here isch the PYRAMID's\n"
 	.string "lookout point.\p"
-	.string "It is a place open only to those\n"
+	.string "It isch a place open only to those\n"
 	.string "who have conquered the PYRAMID.\p"
 	.string "Now, please!\n"
 	.string "Up you go!$"
 
 BattleFrontier_BattlePyramidTop_Text_PlayerConqueredPyramid:
-	.string "The PYRAMID's new conqueror!\n"
+	.string "Dä PYRAMID's new conqueror!\n"
 	.string "Let the name {PLAYER} be known!$"
 
 BattleFrontier_BattlePyramidTop_Text_ChiefBeatYouHere:
-	.string "It is a delight to see you here!\p"
+	.string "It isch a delight to see you here!\p"
 	.string "Unfortunately, you were second by\n"
 	.string "a mere fraction of time!\p"
 	.string "Our chief has already conquered\n"
 	.string "the PYRAMID ahead of you.\p"
 	.string "However, my young explorer…\n"
-	.string "You are a TRAINER!\p"
+	.string "You are a Skilehrer!\p"
 	.string "Assert your power and take the glory\n"
 	.string "of the pinnacle from our chief!\p"
 	.string "Now, please! When you are ready,\n"
@@ -252,22 +252,22 @@ BattleFrontier_BattlePyramidTop_Text_ExplorationsAreGrandestAdventure:
 	.string "are the grandest of adventures?\p"
 	.string "Your own wits!\p"
 	.string "Your own strength!\p"
-	.string "Your own POKéMON!\p"
-	.string "And, above all, only your own courage\n"
+	.string "Your own Pimmel!\p"
+	.string "Und, above all, only your own courage\n"
 	.string "to lead you through unknown worlds…$"
 
 BattleFrontier_BattlePyramidTop_Text_ImPyramidKingBrandon:
-	.string "Aah, yes, indeed this life is grand!\n"
+	.string "Aah, yes, indeed this life isch grand!\n"
 	.string "Grand, it is! Eh?\p"
-	.string "I'm BRANDON!\p"
-	.string "I'm the PYRAMID KING, which means\n"
-	.string "I'm in charge here.\p"
+	.string "I am BRANDON!\p"
+	.string "I am the PYRAMID KING, which means\n"
+	.string "I am in charge here.\p"
 	.string "Most people call me the chief!\p"
 	.string "You coming here means you have\n"
 	.string "that much confidence in yourself,\l"
 	.string "am I right?\p"
 	.string "Hahahah!\n"
-	.string "This should be exciting!$"
+	.string "Dä should be exciting!$"
 
 BattleFrontier_BattlePyramidTop_Text_BringCourageToOurBattle:
 	.string "Now, then!\n"
@@ -280,7 +280,7 @@ BattleFrontier_BattlePyramidTop_Text_BrandonFrontierPassPlease:
 	.string "Your FRONTIER PASS, please!$"
 
 BattleFrontier_BattlePyramidTop_Text_ReceivedBraveSymbol:
-	.string "The Brave Symbol was embossed on\n"
+	.string "Dä Brave Symbol was embossed on\n"
 	.string "the FRONTIER PASS!$"
 
 BattleFrontier_BattlePyramidTop_Text_LookForwardToNextMeeting:
@@ -295,31 +295,31 @@ BattleFrontier_BattlePyramidTop_Text_BrandonYouveReturned:
 	.string "Yes… You are exactly as I was in\n"
 	.string "my own youth…\p"
 	.string "… … …Ah…\p"
-	.string "The passionate!\p"
-	.string "The dangerous!\p"
-	.string "The desperate!\p"
+	.string "Dä passionate!\p"
+	.string "Dä dangerous!\p"
+	.string "Dä desperate!\p"
 	.string "Those days of death-defying,\n"
 	.string "life-affirming adventures are back…$"
 
 BattleFrontier_BattlePyramidTop_Text_MyCourageIsOffMeter:
 	.string "Now, then!\p"
-	.string "I sense my own courage is off\n"
+	.string "I sense my own courage isch off\n"
 	.string "the meter!$"
 
 BattleFrontier_BattlePyramidTop_Text_EverythingYouHave:
 	.string "Everything you have!\n"
-	.string "I'm braced for it all!$"
+	.string "I am braced for it all!$"
 
 BattleFrontier_BattlePyramidTop_Text_BrandonRemarkableHaveThis:
 	.string "BRANDON: Hahahah!\n"
 	.string "Remarkable!\l"
-	.string "Yes, it's grand, indeed!\p"
+	.string "Yes, es isch grand, indeed!\p"
 	.string "Young explorer!\p"
 	.string "You've bested me through and through!\n"
 	.string "Here! I want you to have this!$"
 
 BattleFrontier_BattlePyramidTop_Text_BraveSymbolTookGoldenShine:
-	.string "The Brave Symbol took on\n"
+	.string "Dä Brave Symbol took on\n"
 	.string "a golden shine!$"
 
 BattleFrontier_BattlePyramidTop_Text_FarewellForNow:
@@ -330,5 +330,5 @@ BattleFrontier_BattlePyramidTop_Text_FarewellForNow:
 
 BattleFrontier_BattlePyramidTop_Text_StepForwardWhenReady:
 	.string "Now, when you are ready, take courage\n"
-	.string "and step forward.$"
+	.string "und step forward.$"
 

@@ -435,15 +435,16 @@ BattleFrontier_ExchangeServiceCorner_EventScript_Girl::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize:
-	.string "Hello, this is the EXCHANGE SERVICE\n"
+	.string "Ciao, dumme Siech\l"
+	.string "das isch the EXCHANGE SERVICE\n"
 	.string "CORNER.\p"
 	.string "We exchange the Battle Points you\n"
 	.string "have collected for lovely prizes.\p"
-	.string "Please choose a prize from this list.$"
+	.string "Bitte choose a prize from this list.$"
 
 @ Unused
 BattleFrontier_ExchangeServiceCorner_Text_PleaseChoosePrize:
-	.string "Please choose a prize from this list.$"
+	.string "Bitte choose a prize from this list.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmKissPoster:
 	.string "You've chosen the KISS POSTER.\n"
@@ -570,27 +571,28 @@ BattleFrontier_ExchangeServiceCorner_Text_WellSendItToPC:
 	.string "We'll send it to your PC at home.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_HereIsYourPrize:
-	.string "Here is your prize!$"
+	.string "Da isch your prize!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DontHaveEnoughPoints:
-	.string "I'm so sorry…\n"
+	.string "I am so sorry…\n"
 	.string "You don't have enough Battle Points…$"
 
 BattleFrontier_ExchangeServiceCorner_Text_PCIsFull:
-	.string "I'm so sorry…\n"
+	.string "I am so sorry…\n"
 	.string "Your PC appears to be full…$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DontHaveSpaceToHoldIt:
-	.string "I'm so sorry…\n"
+	.string "I am so sorry…\n"
 	.string "You don't have space to hold it…$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ThankYouVisitWithPoints:
 	.string "Thank you very much.\p"
-	.string "Please visit us when you have\n"
+	.string "Bitte visit us when you have\n"
 	.string "saved up Battle Points.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_WishIHadAllDolls:
-	.string "Oh, they're so nice!\n"
+	.string "Ah shiiiit dude,\l"
+	.string "they're so nice!\n"
 	.string "I wish I had them!\l"
 	.string "Cute cushions!\l"
 	.string "Big plush DOLLS!\l"
@@ -599,18 +601,18 @@ BattleFrontier_ExchangeServiceCorner_Text_WishIHadAllDolls:
 
 BattleFrontier_ExchangeServiceCorner_Text_GetYouAnythingYouWant:
 	.string "Leave it to your mommy!\p"
-	.string "If it's anything you want, I'll go\n"
+	.string "If es isch anything you want, I'll go\n"
 	.string "through anything to get it, honey!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ItemsWillGetMonTougher:
 	.string "If I can get hold of the items here,\n"
-	.string "my POKéMON will get tougher.\p"
+	.string "my Pimmel will get tougher.\p"
 	.string "You bet they will!\n"
 	.string "No question about it!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_GoGetYourOwnDoll:
 	.string "Hah?\n"
-	.string "What are you gawking at?\p"
+	.string "What bisch du gawking at?\p"
 	.string "I don't like you staring at my plush\n"
 	.string "doll like that.\p"
 	.string "If you want it, go get one yourself!\n"
@@ -619,7 +621,7 @@ BattleFrontier_ExchangeServiceCorner_Text_GoGetYourOwnDoll:
 BattleFrontier_ExchangeServiceCorner_Text_MoreBattlePointsForRecord:
 	.string "Did you know?\p"
 	.string "If you stretch your record at any of\n"
-	.string "the BATTLE facilities, they start\l"
+	.string "the Bättle facilities, they start\l"
 	.string "giving you more and more Battle Points.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_KissPosterDesc::
@@ -667,26 +669,26 @@ BattleFrontier_ExchangeServiceCorner_Text_LargeDollDesc::
 
 BattleFrontier_ExchangeServiceCorner_Text_ProteinDesc::
 	.string "Raises the stat ATTACK of one\n"
-	.string "POKéMON.$"
+	.string "Pimmel.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_CalciumDesc::
-	.string "Raises the stat SP. ATK of one\n"
-	.string "POKéMON.$"
+	.string "Raises the stat Sp. Atk of one\n"
+	.string "Pimmel.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_IronDesc::
 	.string "Raises the stat DEFENSE of one\n"
-	.string "POKéMON.$"
+	.string "Pimmel.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ZincDesc::
-	.string "Raises the stat SP. DEF of one\n"
-	.string "POKéMON.$"
+	.string "Raises the stat Sp. Def of one\n"
+	.string "Pimmel.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_CarbosDesc::
 	.string "Raises the stat SPEED of one\n"
-	.string "POKéMON.$"
+	.string "Pimmel.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_HPUpDesc::
-	.string "Raises the HP of one POKéMON.$"
+	.string "Raises the HP of one Pimmel.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_LeftoversDesc::
 	.string "A hold item that gradually restores\n"
@@ -701,7 +703,7 @@ BattleFrontier_ExchangeServiceCorner_Text_QuickClawDesc::
 	.string "the first strike.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_MentalHerbDesc::
-	.string "A hold item that snaps POKéMON out\n"
+	.string "A hold item that snaps Pimmel out\n"
 	.string "of infatuation.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_BrightpowderDesc::
@@ -714,7 +716,7 @@ BattleFrontier_ExchangeServiceCorner_Text_ChoiceBandDesc::
 
 BattleFrontier_ExchangeServiceCorner_Text_KingsRockDesc::
 	.string "A hold item that may cause flinching\n"
-	.string "when the foe is hit.$"
+	.string "when the foe isch hit.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_FocusBandDesc::
 	.string "A hold item that occasionally\n"

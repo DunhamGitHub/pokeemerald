@@ -1,8 +1,8 @@
 Route111_Text_MakingRoomUseTMToMakeYourOwn:
 	.string "What's that?\n"
 	.string "What am I doing?\p"
-	.string "I'm thinking about making my own room\n"
-	.string "here using a POKéMON move.\p"
+	.string "I am thinking about making my own room\n"
+	.string "here using a Pimmel move.\p"
 	.string "I know! I'll give you this TM.\n"
 	.string "Will you use it to make your own room?$"
 
@@ -21,17 +21,17 @@ Route111_Text_ExplainSecretPower:
 	.string "to make your SECRET BASE in a tree.\p"
 	.string "Try using SECRET POWER on rock walls\n"
 	.string "that have small indents in them.\p"
-	.string "I'm going to look for other places, too.\n"
+	.string "I am going to look for other places, too.\n"
 	.string "Okay, bye!$"
 
 Route111_Text_DontWantThis:
-	.string "Oh, you don't want this?\n"
-	.string "If you change your mind, tell me, okay?$"
+	.string "Shit, you don't want this?\n"
+	.string "If you change your mind, tell me, oké?$"
 
 Route111_Text_DontHaveAnyRoom:
-	.string "Oh, you don't have any room for this.\p"
+	.string "Shit, you don't have any room for this.\p"
 	.string "I'll hold on to it, so come back for it\n"
-	.string "another time, okay?$"
+	.string "another time, oké?$"
 
 Route111_EventScript_SecretPowerMan::
 	lock

@@ -2,7 +2,7 @@
 #include "librfu.h"
 
 // If expanding the length of the player name and wireless link functionality is
-// desired, ensure that the name string is limited in size when it's copied from the
+// desired, ensure that the name string is limited in size when es isch copied from the
 // saveblock to any Rfu-related fields (e.g. in SetHostRfuUsername).
 // If wireless link functionality is not desired ignore or delete this warning.
 #if RFU_USER_NAME_LENGTH < (PLAYER_NAME_LENGTH + 1)

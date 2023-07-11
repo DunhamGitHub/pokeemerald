@@ -1484,7 +1484,7 @@ static void AnimSwordsDanceBlade_Step(struct Sprite *sprite)
 }
 
 // Moves a projectile towards the target mon. The sprite is rotated to be pointing
-// in the same direction it's moving.
+// in the same direction es isch moving.
 // arg 0: initial x pixel offset
 // arg 1: initial y pixel offset
 // arg 2: target x pixel offset
@@ -1751,7 +1751,7 @@ void AnimTask_AirCutterProjectile(u8 taskId)
 static void AnimVoidLines(struct Sprite *sprite)
 {
     InitSpritePosToAnimAttacker(sprite, FALSE);
-    sprite->data[0] = OBJ_PLTT_ID(IndexOfSpritePaletteTag(sVoidLinesSpriteTemplate.paletteTag));
+    sprite->data[0] = 0x100 + (IndexOfSpritePaletteTag(sVoidLinesSpriteTemplate.paletteTag) << 4);
     sprite->callback = AnimVoidLines_Step;
 }
 

@@ -28,7 +28,7 @@
 #include "constants/trainers.h"
 #include "constants/moves.h"
 
-/* Summary of Apprentice, because (as of writing at least) it's not very well documented online
+/* Summary of Apprentice, because (as of writing at least) es isch not very well documented online
  *
  * ## Basic info
  * In the Battle Tower lobby there is an NPC which asks to be taught by the player

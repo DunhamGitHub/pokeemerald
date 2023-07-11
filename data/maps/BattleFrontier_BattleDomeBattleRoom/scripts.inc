@@ -926,30 +926,30 @@ BattleFrontier_BattleDomeBattleRoom_Movement_RefereeExit:
 	step_end
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerHasEnteredDome:
-	.string "{PLAYER} has entered the BATTLE DOME!$"
+	.string "{PLAYER} has entered the Bättle DOME!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTrainer:
 	.string "{STR_VAR_1}\n"
 	.string "match!\p"
 	.string "{PLAYER} versus {STR_VAR_2}!\p"
-	.string "Let the battle begin!$"
+	.string "Let the Bättle begin!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsWinner:
-	.string "{PLAYER} is the winner!\n"
+	.string "{PLAYER} isch the winner!\n"
 	.string "Congratulations!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TrainerIsWinner:
-	.string "{STR_VAR_2} is the winner!\n"
+	.string "{STR_VAR_2} isch the winner!\n"
 	.string "Congratulations!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ:
-	.string "{PLAYER} is the Level 50\n"
-	.string "Battle Tournament Champion!\p"
+	.string "{PLAYER} isch the Level 50\n"
+	.string "Kampf Tournament Champion!\p"
 	.string "Congratulations!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp:
-	.string "{PLAYER} is the Open Level\n"
-	.string "Battle Tournament Champion!\p"
+	.string "{PLAYER} isch the Open Level\n"
+	.string "Kampf Tournament Champion!\p"
 	.string "Congratulations!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereeDecisionPleaseWait:
@@ -957,35 +957,37 @@ BattleFrontier_BattleDomeBattleRoom_Text_RefereeDecisionPleaseWait:
 	.string "We have a double knockout!\p"
 	.string "In this event, the Battle Tournament\n"
 	.string "rules call for a REFEREE'S decision.\p"
-	.string "Please wait while the judging\n"
+	.string "Bitte chill while the judging\n"
 	.string "is under way.$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTrainer:
-	.string "The REFEREES have reached\n"
+	.string "Dä REFEREES have reached\n"
 	.string "a decision!\p"
-	.string "The winner is…\n"
-	.string "Oh, my goodness!\l"
-	.string "The winner is {STR_VAR_1}!\l"
+	.string "Dä winner is…\n"
+	.string "Ah shiiiit dude,\l"
+	.string "my goodness!\l"
+	.string "Dä winner isch {STR_VAR_1}!\l"
 	.string "Congratulations!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerPlayer:
-	.string "The REFEREES have reached\n"
+	.string "Dä REFEREES have reached\n"
 	.string "a decision!\p"
-	.string "The winner is…\n"
-	.string "Oh, my goodness!\l"
-	.string "The winner is {PLAYER}!\l"
+	.string "Dä winner is…\n"
+	.string "Ah shiiiit dude,\l"
+	.string "my goodness!\l"
+	.string "Dä winner isch {PLAYER}!\l"
 	.string "Congratulations!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_BrightNewHope:
-	.string "The bright new hope!\p"
+	.string "Dä bright new hope!\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RisingStar:
-	.string "The rising star!\p"
+	.string "Dä rising star!\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillTheyRaceToChampionship:
-	.string "Will this TRAINER race to\n"
+	.string "Will this Skilehrer race to\n"
 	.string "the championship?\p"
 	.string "$"
 
@@ -1000,12 +1002,12 @@ BattleFrontier_BattleDomeBattleRoom_Text_CanLossBeAvenged:
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_OnFireForChampionship:
-	.string "The TRAINER is on fire for\n"
+	.string "Dä Skilehrer isch on fire for\n"
 	.string "the first championship try!\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WinHereAdvancesToFinal:
-	.string "A win here means this TRAINER\n"
+	.string "A win here means this Skilehrer\n"
 	.string "advances to the final!\p"
 	.string "$"
 
@@ -1015,35 +1017,35 @@ BattleFrontier_BattleDomeBattleRoom_Text_WillLongHeldDreamComeTrue:
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TheInvincibleChampion:
-	.string "The invincible champion!\p"
+	.string "Dä invincible champion!\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanAnyoneHopeToBeatTrainer:
 	.string "Can anyone hope to beat this\n"
-	.string "TRAINER?\p"
+	.string "Skilehrer?\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_DoBattlesExistSolelyForTrainer:
 	.string "Do battles exist solely for\n"
-	.string "this TRAINER?\p"
+	.string "this Skilehrer?\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CurrentChampAimingToRetainTitle:
-	.string "The current champion aiming to\n"
+	.string "Dä current champion aiming to\n"
 	.string "retain the title!\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_FormerChampHasReturned:
-	.string "The former champion has returned!\p"
+	.string "Dä former champion has returned!\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_FormerToughnessReturned:
-	.string "The former toughness has returned!\p"
+	.string "Dä former toughness has returned!\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillDoExpectedAdvanceToFinals:
-	.string "Will this TRAINER do as expected\n"
-	.string "and advance to the finals?\p"
+	.string "Will this Skilehrer do as expected\n"
+	.string "und advance to the finals?\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillFormerChampRegainGlory:
@@ -1055,11 +1057,11 @@ BattleFrontier_BattleDomeBattleRoom_Text_FeelGlowOfTrueMaster:
 	.string "Feel the glow of a true master!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_MakeWayForDomeAceTucker:
-	.string "And now… The TRAINER standing in\n"
+	.string "Und now… The Skilehrer standing in\n"
 	.string "{PLAYER}'s record-setting path…\p"
 	.string "Yes! The one and only!\n"
-	.string "The BATTLE DOME COMMISSIONER!\l"
-	.string "Our very own DOME ACE!\l"
+	.string "Dä Bättle Pimmel COMMISSIONER!\l"
+	.string "Our very own Pimmel ACE!\l"
 	.string "Make way for TUCKER!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_SpectatorTuckerChant:
@@ -1072,10 +1074,10 @@ BattleFrontier_BattleDomeBattleRoom_Text_TuckerSilverIntro:
 	.string "They're all itching to see our match!\p"
 	.string "Ahahah!\p"
 	.string "I bet you're twitching all over from\n"
-	.string "the tension of getting to battle me!\p"
-	.string "But don't you worry about a thing!\p"
-	.string "I'm the no. 1 star of the BATTLE DOME!\n"
-	.string "I, TUCKER the DOME ACE, will bathe you\l"
+	.string "the tension of getting to Bättle me!\p"
+	.string "Aber don't you worry about a thing!\p"
+	.string "I am the no. 1 star of the Bättle DOME!\n"
+	.string "I, TUCKER the Pimmel ACE, will bathe you\l"
 	.string "in my brilliant glow!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_LetsSeeYourStrategy:
@@ -1084,11 +1086,11 @@ BattleFrontier_BattleDomeBattleRoom_Text_LetsSeeYourStrategy:
 
 BattleFrontier_BattleDomeBattleRoom_Text_IncredibleVictorIsPlayer:
 	.string "Unbelievable! It's incredible!\n"
-	.string "The victor is {PLAYER}!$"
+	.string "Dä victor isch {PLAYER}!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WinnerIsTucker:
-	.string "The winner is TUCKER!\n"
-	.string "The DOME ACE has prevailed!\p"
+	.string "Dä winner isch TUCKER!\n"
+	.string "Dä Pimmel ACE has prevailed!\p"
 	.string "Congratulations, TUCKER!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_SeeYourFrontierPass:
@@ -1096,7 +1098,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_SeeYourFrontierPass:
 	.string "Let me see your FRONTIER PASS.$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_ReceivedTacticsSymbol:
-	.string "The Tactics Symbol was embossed on\n"
+	.string "Dä Tactics Symbol was embossed on\n"
 	.string "the FRONTIER PASS!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WontUnderestimateYouNextTime:
@@ -1106,23 +1108,23 @@ BattleFrontier_BattleDomeBattleRoom_Text_WontUnderestimateYouNextTime:
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanWinStreakBeStretched:
 	.string "Can the win streak be stretched?\n"
-	.string "The confidence is there!$"
+	.string "Dä confidence isch there!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_LegendHasReturnedDomeAceTucker:
 	.string "Ladies and gentlemen!\n"
-	.string "Boys, girls, and POKéMON!\p"
+	.string "Boys, girls, and Pimmel!\p"
 	.string "Finally!\n"
 	.string "Finally, the legend has returned!\p"
 	.string "Yes, the name of that legend!\n"
-	.string "Our very own DOME ACE!\l"
+	.string "Our very own Pimmel ACE!\l"
 	.string "It's none other than TUCKER!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TuckerGoldIntro:
 	.string "TUCKER: Ah…\n"
-	.string "The pummeling roar of the crowd…\l"
+	.string "Dä pummeling roar of the crowd…\l"
 	.string "Their furnace-like heat of excitement…\l"
-	.string "This is a wonderful place…\p"
-	.string "To the crowd, I am the DOME ACE…\n"
+	.string "Dä isch a wonderful place…\p"
+	.string "To the crowd, I am the Pimmel ACE…\n"
 	.string "I represent their hopes and dreams…\l"
 	.string "I must never fade from their sight…\p"
 	.string "I must burn!\n"
@@ -1141,7 +1143,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_NeverLostWhenPowerUnleashed:
 	.string "Your FRONTIER PASS, please?$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TacticsSymbolTookGoldenShine:
-	.string "The Tactics Symbol took on\n"
+	.string "Dä Tactics Symbol took on\n"
 	.string "a golden shine!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_LookForwardToNextEncounter:
@@ -1154,27 +1156,28 @@ BattleFrontier_BattleDomeBattleRoom_Text_LookForwardToNextEncounter:
 
 @ Unused
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ2:
-	.string "{PLAYER} is the Level 50\n"
-	.string "Battle Tournament Champion!\p"
+	.string "{PLAYER} isch the Level 50\n"
+	.string "Kampf Tournament Champion!\p"
 	.string "Congratulations!$"
 
 @ Unused
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLvOpenChamp2:
-	.string "{PLAYER} is the Open Level\n"
-	.string "Battle Tournament Champion!\p"
+	.string "{PLAYER} isch the Open Level\n"
+	.string "Kampf Tournament Champion!\p"
 	.string "Congratulations!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTucker:
-	.string "The final match!\p"
-	.string "{PLAYER} versus the DOME ACE, TUCKER!\p"
-	.string "Let the battle begin!$"
+	.string "Dä final match!\p"
+	.string "{PLAYER} versus the Pimmel ACE, TUCKER!\p"
+	.string "Let the Bättle begin!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTucker:
-	.string "The REFEREES have reached\n"
+	.string "Dä REFEREES have reached\n"
 	.string "a decision!\p"
-	.string "The winner is…\n"
-	.string "Oh, my goodness!\l"
-	.string "The winner is our very own DOME ACE!\l"
+	.string "Dä winner is…\n"
+	.string "Ah shiiiit dude,\l"
+	.string "my goodness!\l"
+	.string "Dä winner isch our very own Pimmel ACE!\l"
 	.string "It's TUCKER!\p"
 	.string "Congratulations! And thank you!\n"
-	.string "Let's hear it for the DOME ACE, TUCKER!$"
+	.string "Let's hear it for the Pimmel ACE, TUCKER!$"

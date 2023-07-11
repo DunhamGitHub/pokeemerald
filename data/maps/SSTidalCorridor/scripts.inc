@@ -262,19 +262,19 @@ SSTidalCorridor_Text_ScottBattleFrontierInvite:
 	.string "There's a place I'd like to invite\n"
 	.string "someone like you.\p"
 	.string "It's the…\n"
-	.string "BATTLE FRONTIER!\p"
+	.string "Kampf FRONTIER!\p"
 	.string "What's the place like?\n"
 	.string "You'll understand when you see it!\p"
 	.string "I've spoken with the ship's CAPTAIN\n"
 	.string "about this.\p"
-	.string "The next time you take a ferry,\n"
+	.string "Dä next time you take a ferry,\n"
 	.string "you should be able to sail to\l"
-	.string "the BATTLE FRONTIER.\p"
-	.string "Okay, {PLAYER}{KUN}, I'll be waiting for you\n"
-	.string "at the BATTLE FRONTIER!$"
+	.string "the Bättle FRONTIER.\p"
+	.string "Okay, {PLAYER}{KUN}, I'll be chilling for you\n"
+	.string "at the Bättle FRONTIER!$"
 
 SSTidal_Text_FastCurrentsHopeYouEnjoyVoyage:
-	.string "This ferry is built to plow through\n"
+	.string "Dä ferry isch built to plow through\n"
 	.string "fast-running currents.\p"
 	.string "We hope you enjoy your voyage with us.\n"
 	.string "Feel free to explore the ship.$"
@@ -296,7 +296,7 @@ SSTidalCorridor_Text_CanRestInCabin2:
 	.string "I reckon.\p"
 	.string "You can rest up in your cabin if you'd\n"
 	.string "like. Your cabin's No. 2.\p"
-	.string "The bed in there is soft and plushy.\n"
+	.string "Dä bed in there isch soft and plushy.\n"
 	.string "I can attest to how comfy it is!$"
 
 SSTidalCorridor_Text_WeveArrived:
@@ -304,23 +304,23 @@ SSTidalCorridor_Text_WeveArrived:
 
 SSTidalCorridor_Text_VisitOtherCabins:
 	.string "Go visit other cabins.\n"
-	.string "TRAINERS bored of the boat trip will\l"
+	.string "Skilehrer bored of the boat trip will\l"
 	.string "be itching to battle.$"
 
 SSTidalCorridor_Text_EnjoyYourCruise:
 	.string "Enjoy your cruise!$"
 
 SSTidalCorridor_Text_HorizonSpreadsBeyondPorthole:
-	.string "The horizon spreads beyond\n"
+	.string "Dä horizon spreads beyond\n"
 	.string "the porthole.$"
 
 SSTidalCorridor_Text_BrineyWelcomeAboard:
-	.string "MR. BRINEY: Welcome aboard, {PLAYER}{KUN}!\p"
+	.string "Alte Sack: Welcome aboard, {PLAYER}{KUN}!\p"
 	.string "They made me honorary captain of\n"
 	.string "the S.S. TIDAL!\p"
 	.string "You can call me CAPTAIN BRINEY now!\p"
 	.string "You know, I retired once before,\n"
-	.string "but when I saw this majestic ship…\p"
+	.string "aber when I saw this majestic ship…\p"
 	.string "Let me just say, it stirred my sleeping\n"
 	.string "soul as a sailor!$"
 

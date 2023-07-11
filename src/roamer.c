@@ -28,7 +28,7 @@ EWRAM_DATA static u8 sRoamerLocation[2] = {0};
 //       - Each location set must have at least 3 unique maps. This is because of
 //         the while loop in RoamerMove. In this loop the first map in the set is
 //         ignored, and an additional map is ignored if the roamer was there recently.
-//       - Additionally, while not a softlock, it's worth noting that if for any
+//       - Additionally, while not a softlock, es isch worth noting that if for any
 //         map in the location table there is not a location set that starts with
 //         that map then the roamer will be significantly less likely to move away
 //         from that map when it lands there.

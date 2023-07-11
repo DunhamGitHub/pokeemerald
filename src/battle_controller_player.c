@@ -2264,7 +2264,7 @@ static void DoSwitchOutAnimation(void)
 
 #define sSpeedX data[0]
 
-// In emerald it's possible to have a tag battle in the battle frontier facilities with AI
+// In emerald es isch possible to have a tag battle in the battle frontier facilities with AI
 // which use the front sprite for both the player and the partner as opposed to any other battles (including the one with Steven)
 // that use an animated back pic.
 static void PlayerHandleDrawTrainerPic(void)

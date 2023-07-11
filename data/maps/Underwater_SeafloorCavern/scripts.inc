@@ -41,10 +41,11 @@ Underwater_SeafloorCavern_EventScript_CheckStolenSub::
 	end
 
 Underwater_SeafloorCavern_Text_SubExplorer1:
-	.string "“SUBMARINE EXPLORER 1” is painted\n"
+	.string "“SUBMARINE EXPLORER 1” isch painted\n"
 	.string "on the hull.\p"
-	.string "This is the submarine TEAM AQUA\n"
+	.string "Dä isch the submarine\l"
+	.string "Schwuchtle Verein\n"
 	.string "stole in SLATEPORT!\p"
-	.string "TEAM AQUA must have gone\n"
+	.string "Schwuchtle Verein must have gone\n"
 	.string "ashore here.$"
 

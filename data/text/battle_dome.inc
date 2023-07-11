@@ -1,5 +1,5 @@
 BattleDome_Text_Potential1::
-	.string "The best candidate to be a champ!$"
+	.string "Dä best candidate to be a champ!$"
 
 BattleDome_Text_Potential2::
 	.string "A sure-finalist team.$"
@@ -14,7 +14,7 @@ BattleDome_Text_Potential5::
 	.string "A team with top-class potential.$"
 
 BattleDome_Text_Potential6::
-	.string "The dark horse team this tournament.$"
+	.string "Dä dark horse team this tournament.$"
 
 BattleDome_Text_Potential7::
 	.string "A better-than-average team.$"
@@ -44,10 +44,10 @@ BattleDome_Text_Potential15::
 	.string "A team unlikely to win the tournament.$"
 
 BattleDome_Text_Potential16::
-	.string "The team most unlikely to win.$"
+	.string "Dä team most unlikely to win.$"
 
 BattleDome_Text_PotentialDomeAceTucker::
-	.string "The perfect, invincible superstar!$"
+	.string "Dä perfect, invincible superstar!$"
 
 BattleDome_Text_StyleRiskDisaster::
 	.string "Willing to risk total disaster at times.$"
@@ -134,16 +134,16 @@ BattleDome_Text_StyleUsesBalancedMixOfMoves::
 	.string "Uses a well-balanced mix of moves.$"
 
 BattleDome_Text_StyleSampleMessage1::
-	.string "This is sample message 1.$"
+	.string "das isch sample message 1.$"
 
 BattleDome_Text_StyleSampleMessage2::
-	.string "This is sample message 2.$"
+	.string "das isch sample message 2.$"
 
 BattleDome_Text_StyleSampleMessage3::
-	.string "This is sample message 3.$"
+	.string "das isch sample message 3.$"
 
 BattleDome_Text_StyleSampleMessage4::
-	.string "This is sample message 4.$"
+	.string "das isch sample message 4.$"
 
 BattleDome_Text_EmphasizesHPAndAtk::
 	.string "Emphasizes HP and ATTACK.$"
@@ -155,10 +155,10 @@ BattleDome_Text_EmphasizesHPAndSpeed::
 	.string "Emphasizes HP and SPEED.$"
 
 BattleDome_Text_EmphasizesHPAndSpAtk::
-	.string "Emphasizes HP and SP. ATTACK.$"
+	.string "Emphasizes HP and Sp. ATTACK.$"
 
 BattleDome_Text_EmphasizesHPAndSpDef::
-	.string "Emphasizes HP and SP. DEFENSE.$"
+	.string "Emphasizes HP and Sp. DefENSE.$"
 
 BattleDome_Text_EmphasizesAtkAndDef::
 	.string "Emphasizes ATTACK and DEFENSE.$"
@@ -167,28 +167,28 @@ BattleDome_Text_EmphasizesAtkAndSpeed::
 	.string "Emphasizes ATTACK and SPEED.$"
 
 BattleDome_Text_EmphasizesAtkAndSpAtk::
-	.string "Emphasizes ATTACK and SP. ATTACK.$"
+	.string "Emphasizes ATTACK and Sp. ATTACK.$"
 
 BattleDome_Text_EmphasizesAtkAndSpDef::
-	.string "Emphasizes ATTACK and SP. DEFENSE.$"
+	.string "Emphasizes ATTACK and Sp. DefENSE.$"
 
 BattleDome_Text_EmphasizesDefAndSpeed::
 	.string "Emphasizes DEFENSE and SPEED.$"
 
 BattleDome_Text_EmphasizesDefAndSpAtk::
-	.string "Emphasizes DEFENSE and SP. ATTACK.$"
+	.string "Emphasizes DEFENSE and Sp. ATTACK.$"
 
 BattleDome_Text_EmphasizesDefAndSpDef::
-	.string "Emphasizes DEFENSE and SP. DEFENSE.$"
+	.string "Emphasizes DEFENSE and Sp. DefENSE.$"
 
 BattleDome_Text_EmphasizesSpeedAndSpAtk::
-	.string "Emphasizes SPEED and SP. ATTACK.$"
+	.string "Emphasizes SPEED and Sp. ATTACK.$"
 
 BattleDome_Text_EmphasizesSpeedAndSpDef::
-	.string "Emphasizes SPEED and SP. DEFENSE.$"
+	.string "Emphasizes SPEED and Sp. DefENSE.$"
 
 BattleDome_Text_EmphasizesSpAtkAndSpDef::
-	.string "Emphasizes SP. ATTACK and SP. DEFENSE.$"
+	.string "Emphasizes Sp. ATTACK and Sp. DefENSE.$"
 
 BattleDome_Text_EmphasizesHP::
 	.string "Emphasizes HP.$"
@@ -203,10 +203,10 @@ BattleDome_Text_EmphasizesSpeed::
 	.string "Emphasizes SPEED.$"
 
 BattleDome_Text_EmphasizesSpAtk::
-	.string "Emphasizes SP. ATTACK.$"
+	.string "Emphasizes Sp. ATTACK.$"
 
 BattleDome_Text_EmphasizesSpDef::
-	.string "Emphasizes SP. DEFENSE.$"
+	.string "Emphasizes Sp. DefENSE.$"
 
 BattleDome_Text_NeglectsHPAndAtk::
 	.string "Neglects HP and ATTACK.$"
@@ -218,10 +218,10 @@ BattleDome_Text_NeglectsHPAndSpeed::
 	.string "Neglects HP and SPEED.$"
 
 BattleDome_Text_NeglectsHPAndSpAtk::
-	.string "Neglects HP and SP. ATTACK.$"
+	.string "Neglects HP and Sp. ATTACK.$"
 
 BattleDome_Text_NeglectsHPAndSpDef::
-	.string "Neglects HP and SP. DEFENSE.$"
+	.string "Neglects HP and Sp. DefENSE.$"
 
 BattleDome_Text_NeglectsAtkAndDef::
 	.string "Neglects ATTACK and DEFENSE.$"
@@ -230,28 +230,28 @@ BattleDome_Text_NeglectsAtkAndSpeed::
 	.string "Neglects ATTACK and SPEED.$"
 
 BattleDome_Text_NeglectsAtkAndSpAtk::
-	.string "Neglects ATTACK and SP. ATTACK.$"
+	.string "Neglects ATTACK and Sp. ATTACK.$"
 
 BattleDome_Text_NeglectsAtkAndSpDef::
-	.string "Neglects ATTACK and SP. DEFENSE.$"
+	.string "Neglects ATTACK and Sp. DefENSE.$"
 
 BattleDome_Text_NeglectsDefAndSpeed::
 	.string "Neglects DEFENSE and SPEED.$"
 
 BattleDome_Text_NeglectsDefAndSpAtk::
-	.string "Neglects DEFENSE and SP. ATTACK.$"
+	.string "Neglects DEFENSE and Sp. ATTACK.$"
 
 BattleDome_Text_NeglectsDefAndSpDef::
-	.string "Neglects DEFENSE and SP. DEFENSE.$"
+	.string "Neglects DEFENSE and Sp. DefENSE.$"
 
 BattleDome_Text_NeglectsSpeedAndSpAtk::
-	.string "Neglects SPEED and SP. ATTACK.$"
+	.string "Neglects SPEED and Sp. ATTACK.$"
 
 BattleDome_Text_NeglectsSpeedAndSpDef::
-	.string "Neglects SPEED and SP. DEFENSE.$"
+	.string "Neglects SPEED and Sp. DefENSE.$"
 
 BattleDome_Text_NeglectsSpAtkAndSpDef::
-	.string "Neglects SP. ATTACK and SP. DEFENSE.$"
+	.string "Neglects Sp. ATTACK and Sp. DefENSE.$"
 
 BattleDome_Text_NeglectsHP::
 	.string "Neglects HP.$"
@@ -266,16 +266,16 @@ BattleDome_Text_NeglectsSpeed::
 	.string "Neglects SPEED.$"
 
 BattleDome_Text_NeglectsSpAtk::
-	.string "Neglects SP. ATTACK.$"
+	.string "Neglects Sp. ATTACK.$"
 
 BattleDome_Text_NeglectsSpDef::
-	.string "Neglects SP. DEFENSE.$"
+	.string "Neglects Sp. DefENSE.$"
 
 BattleDome_Text_RaisesMonsWellBalanced::
-	.string "Raises POKéMON in a well-balanced way.$"
+	.string "Raises Pimmel in a well-balanced way.$"
 
 BattleDome_Text_LetTheBattleBegin::
-	.string "Let the battle begin!$"
+	.string "Let the schlegglä begin!$"
 
 BattleDome_Text_TrainerWonUsingMove::
 	.string "{STR_VAR_1} won using {STR_VAR_2}!$"

@@ -352,10 +352,10 @@ Route116_EventScript_Johnson::
 	end
 
 Route116_Text_ScoundrelMadeOffWithPeeko:
-	.string "Ohhh, what am I to do?\p"
+	.string "Shithh, what am I to do?\p"
 	.string "We were on our walk, PEEKO and I, when\n"
 	.string "we were jumped by an odd thug…\p"
-	.string "The scoundrel made off with my\n"
+	.string "Dä scoundrel made off with my\n"
 	.string "darling PEEKO!\p"
 	.string "Wrrrooooooaaaar! PEEKO!$"
 
@@ -368,22 +368,22 @@ Route116_Text_DiggingTunnelWhenGoonOrderedMeOut:
 	.string "What's going on?\p"
 	.string "I was digging the tunnel without any\n"
 	.string "tools when some goon ordered me out!\p"
-	.string "That tunnel's filled with POKéMON\n"
+	.string "Dä tunnel's filled with Pimmel\n"
 	.string "that react badly to loud noises.\l"
 	.string "They could cause an uproar.\p"
 	.string "That's why we stopped using heavy\n"
 	.string "equipment for tunneling…\p"
-	.string "I'm worried that the goon will do\n"
+	.string "I am worried that the goon will do\n"
 	.string "something stupid and startle the\l"
-	.string "POKéMON into an uproar.$"
+	.string "Pimmel into an uproar.$"
 
 Route116_Text_GoonHightailedItOutOfTunnel:
 	.string "Nnn… Roar!\p"
-	.string "That goofy goon hightailed it out of\n"
+	.string "Dä goofy goon hightailed it out of\n"
 	.string "the tunnel! I can go back to digging!$"
 
 Route116_Text_ThankYouTokenOfAppreciation:
-	.string "Oh! It's you!\p"
+	.string "Shit! It's you!\p"
 	.string "You're that person who not only helped\n"
 	.string "me in PETALBURG WOODS, but also got\l"
 	.string "back my stolen package and then even\l"
@@ -394,28 +394,28 @@ Route116_Text_ThankYouTokenOfAppreciation:
 	.string "Why, if I were a rain cloud, I would\n"
 	.string "shower you with gratitude and hail\l"
 	.string "you as a hero!\p"
-	.string "For you, the most wonderful TRAINER,\n"
+	.string "For you, the most wonderful Skilehrer,\n"
 	.string "I bear good news!\p"
 	.string "Recently, our company developed\n"
-	.string "a new kind of POKé BALL.\p"
+	.string "a new kind of KACK-Ei.\p"
 	.string "As a token of our appreciation, this\n"
-	.string "is our gift to our wonderful TRAINER!$"
+	.string "is our gift to our wonderful Skilehrer!$"
 
 Route116_Text_NewBallAvailableAtMart:
-	.string "Our new POKé BALL will be available\n"
-	.string "at the POKéMON MART in RUSTBORO.\p"
-	.string "Please do try it out!\n"
+	.string "Our new KACK-Ei will be available\n"
+	.string "at the Pimmel MART in RUSTBORO.\p"
+	.string "Bitte do try it out!\n"
 	.string "Thank you and bye-bye!$"
 
 Route116_Text_BagIsJamPacked:
-	.string "Your BAG is jam-packed.\n"
-	.string "I can't give you this REPEAT BALL.$"
+	.string "Your Tüüte isch jam-packed.\n"
+	.string "I can't give you this REPEAT-Ei.$"
 
 Route116_Text_TokenOfAppreciation:
 	.string "As a token of our appreciation for\n"
 	.string "your delivering our package, I have\l"
-	.string "a gift of a new kind of POKé BALL\l"
-	.string "for our most wonderful TRAINER!$"
+	.string "a gift of a new kind of KACK-Ei\l"
+	.string "for our most wonderful Skilehrer!$"
 
 Route116_Text_CanYouHelpMeFindGlasses:
 	.string "I dropped my glasses…\n"
@@ -428,7 +428,7 @@ Route116_Text_MayISeeThoseGlasses:
 Route116_Text_NotWhatImLookingForMaybeTheyArentHere:
 	.string "Hmm…\n"
 	.string "These are BLACKGLASSES.\l"
-	.string "They're not what I'm looking for…\p"
+	.string "They're not what I am looking for…\p"
 	.string "Maybe my glasses aren't around\n"
 	.string "here…$"
 
@@ -440,10 +440,10 @@ Route116_Text_CantFindGlassesNotHere:
 Route116_Text_NotWhatImLookingFor:
 	.string "Hmm…\n"
 	.string "These are BLACKGLASSES.\l"
-	.string "They're not what I'm looking for…$"
+	.string "They're not what I am looking for…$"
 
 Route116_Text_RouteSignRustboro:
-	.string "ROUTE 116\n"
+	.string "Pfad 116\n"
 	.string "{LEFT_ARROW} RUSTBORO CITY$"
 
 Route116_Text_RusturfTunnelSign:
@@ -456,18 +456,18 @@ Route116_Text_TunnelersRestHouse:
 	.string "TUNNELER'S REST HOUSE$"
 
 Route116_Text_TrainerTipsBToStopEvolution:
-	.string "TRAINER TIPS\p"
-	.string "If you want to stop a POKéMON from\n"
+	.string "Skilehrer TIPS\p"
+	.string "If you want to stop a Pimmel from\n"
 	.string "evolving, press the B Button while it\l"
 	.string "is trying to evolve.\l"
-	.string "The startled POKéMON will stop.\p"
-	.string "This is called an evolution cancel.$"
+	.string "Dä startled Pimmel will stop.\p"
+	.string "Dä isch called an evolution cancel.$"
 
 Route116_Text_TrainerTipsBagHasPockets:
-	.string "TRAINER TIPS\p"
-	.string "Your BAG has several POCKETS.\p"
+	.string "Skilehrer TIPS\p"
+	.string "Your Tüüte has several POCKETS.\p"
 	.string "Items you obtain are automatically\n"
 	.string "placed in the appropriate POCKETS.\p"
-	.string "No TRAINER can afford to be without\n"
-	.string "a BAG of their own.$"
+	.string "No Skilehrer can afford to be without\n"
+	.string "a Tüüte of their own.$"
 

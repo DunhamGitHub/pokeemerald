@@ -317,7 +317,7 @@ PetalburgCity_Gym_EventScript_NormanThreeBadges::
 PetalburgCity_Gym_EventScript_NormanFaceDoorSouth::
 	return
 
-@ For all other NormanFaceDoorX, Norman is already facing the door from NormanAddressWallyX
+@ For all other NormanFaceDoorX, Norman isch already facing the Türe from NormanAddressWallyX
 PetalburgCity_Gym_EventScript_NormanFaceDoorNorth::
 	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
@@ -991,8 +991,8 @@ PetalburgCity_Gym_EventScript_JodyPostBadge::
 	msgbox PetalburgCity_Gym_Text_JodyPostBadge, MSGBOX_NPC
 	end
 
-@ VAR_0x8004 below is the room number
-@ VAR_0x8005 below is 0 when the door should be slid open and 1 when it should be unlocked immediately
+@ VAR_0x8004 below isch the room number
+@ VAR_0x8005 below isch 0 when the Türe should be slid open and 1 when it should be unlocked immediately
 PetalburgCity_Gym_EventScript_OpenGymEntranceDoors::
 	setvar VAR_0x8004, 1
 	call_if_eq VAR_0x8005, 0, PetalburgCity_Gym_EventScript_SlideOpenRoomDoors
@@ -1142,56 +1142,58 @@ PetalburgCity_Gym_EventScript_GymStatue::
 	end
 
 PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon:
-	.string "DAD: Hm?\p"
-	.string "Well, if it isn't {PLAYER}!\n"
+	.string "Papi: Hm?\p"
+	.string "Ahh, Futz und Tripper...\l"
+	.string "if it isn't {PLAYER}!\n"
 	.string "So you're all finished moving in?\p"
-	.string "I'm surprised that you managed to\n"
+	.string "I am surprised that you managed to\n"
 	.string "get here by yourself.\p"
-	.string "Oh, I see.\n"
-	.string "You're with your POKéMON.\p"
+	.string "Ah shiiiit dude,\l"
+	.string "I see.\n"
+	.string "You're with your Pimmel.\p"
 	.string "Hm… Then I guess you're going to\n"
-	.string "become a TRAINER like me, {PLAYER}.\p"
+	.string "become a Skilehrer like me, {PLAYER}.\p"
 	.string "That's great news!\n"
 	.string "I'll be looking forward to it!$"
 
 PetalburgCity_Gym_Text_WallyIdLikeAPokemon:
 	.string "Um… I…\n"
-	.string "I'd like to get a POKéMON, please…$"
+	.string "I'd like to get a Pimmel, please…$"
 
 PetalburgCity_Gym_Text_DadOhYoureWallyRight:
-	.string "DAD: Hm? You're… Uh… Oh, right.\n"
+	.string "Papi: Hm? You're… … Shit, right.\n"
 	.string "You're WALLY, right?$"
 
 PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
-	.string "WALLY: I'm going to go stay with my\n"
-	.string "relatives in VERDANTURF TOWN.\p"
+	.string "WALLY: I am going to go stay with my\n"
+	.string "relatives in VERDANTURF Dorf.\p"
 	.string "I thought I would be lonely by myself,\n"
-	.string "so I wanted to take a POKéMON along.\p"
-	.string "But I've never caught a POKéMON before.\n"
+	.string "so I wanted to take a Pimmel along.\p"
+	.string "Aber I've never caught a Pimmel before.\n"
 	.string "I don't know how…$"
 
 PetalburgCity_Gym_Text_DadHmISee:
-	.string "DAD: Hm. I see.$"
+	.string "Papi: Hm. I see.$"
 
 PetalburgCity_Gym_Text_DadPlayerGoWithWally:
-	.string "DAD: {PLAYER}, you heard that,\n"
+	.string "Papi: {PLAYER}, you heard that,\n"
 	.string "right?\p"
 	.string "Go with WALLY and make sure that he\n"
-	.string "safely catches a POKéMON.$"
+	.string "safely catches a Pimmel.$"
 
 PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon:
-	.string "WALLY, here, I'll loan you my POKéMON.\p"
+	.string "WALLY, here, I'll loan you my Pimmel.\p"
 	.string "WALLY received a ZIGZAGOON!$"
 
 PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall:
-	.string "WALLY: Oh, wow!\n"
-	.string "A POKéMON!\p"
-	.string "DAD: Hm. I'll give you a POKé BALL, too.\n"
+	.string "WALLY: Shit, wow!\n"
+	.string "A Pimmel!\p"
+	.string "Papi: Hm. I'll give you a KACK-Ei, too.\n"
 	.string "Go for it!\p"
-	.string "WALLY received a POKé BALL!$"
+	.string "WALLY received a KACK-Ei!$"
 
 PetalburgCity_Gym_Text_WallyOhWowThankYou:
-	.string "WALLY: Oh, wow!\n"
+	.string "WALLY: Shit, wow!\n"
 	.string "Thank you!$"
 
 PetalburgCity_Gym_Text_WouldYouReallyComeWithMe:
@@ -1199,74 +1201,74 @@ PetalburgCity_Gym_Text_WouldYouReallyComeWithMe:
 	.string "with me?$"
 
 PetalburgCity_Gym_Text_DadSoDidItWorkOut:
-	.string "DAD: So, did it work out?$"
+	.string "Papi: So, did it work out?$"
 
 PetalburgCity_Gym_Text_WallyThankYouBye:
 	.string "WALLY: Thank you, yes, it did.\n"
-	.string "Here's your POKéMON back.\p"
+	.string "Here's your Pimmel back.\p"
 	.string "{PLAYER}, thank you for coming along\n"
 	.string "with me.\p"
 	.string "You two are why I was able to catch\n"
-	.string "my POKéMON.\p"
+	.string "my Pimmel.\p"
 	.string "I promise I'll take really good\n"
 	.string "care of it.\p"
-	.string "Oh! My mom's waiting for me,\n"
+	.string "Shit! My mom's chilling for me,\n"
 	.string "so I have to go!\p"
 	.string "Bye, {PLAYER}!$"
 
 PetalburgCity_Gym_Text_DadGoCollectBadges:
-	.string "DAD: Now…\p"
+	.string "Papi: Now…\p"
 	.string "{PLAYER}, if you want to become a\n"
-	.string "strong TRAINER, here's my advice.\p"
+	.string "strong Skilehrer, here's my advice.\p"
 	.string "Head for RUSTBORO CITY beyond this\n"
 	.string "town.\p"
 	.string "There, you should challenge\n"
-	.string "the GYM LEADER, ROXANNE.\p"
-	.string "After her, go on to other POKéMON\n"
-	.string "GYMS and defeat their LEADERS.\p"
-	.string "Collect BADGES from them,\n"
+	.string "the Stripklub Penner, ROXANNE.\p"
+	.string "After her, go on to other Pimmel\n"
+	.string "GYMS and defeat their ChéfS.\p"
+	.string "Collect Ufkläber from them,\n"
 	.string "understood?\p"
-	.string "Of course, I'm a GYM LEADER, too.\n"
-	.string "We'll battle one day, {PLAYER}.\p"
-	.string "But that's only after you become\n"
+	.string "Of course, I am a Stripklub Penner, too.\n"
+	.string "We'll Bättle one day, {PLAYER}.\p"
+	.string "Aber that's only after you become\n"
 	.string "stronger.$"
 
 PetalburgCity_Gym_Text_NormanGoToRustboro:
-	.string "DAD: Hm? Aren't you going to the\n"
-	.string "POKéMON GYM in RUSTBORO CITY?\p"
+	.string "Papi: Hm? Aren't you going to the\n"
+	.string "Pimmel Stripklub in RUSTBORO CITY?\p"
 	.string "There's no challenge for me to\n"
-	.string "battle a greenhorn TRAINER.\p"
+	.string "schlegglä a greenhorn Skilehrer.\p"
 	.string "{PLAYER}, I want you to challenge me\n"
 	.string "when you become a lot stronger.\p"
-	.string "I'll battle you, {PLAYER}, when you\n"
-	.string "can show me four GYM BADGES, okay?$"
+	.string "I'll Bättle you, {PLAYER}, when you\n"
+	.string "can show me four Stripklub Ufkläber, oké?$"
 
 PetalburgCity_Gym_Text_NormanGoToDewford:
-	.string "DAD: I see… So, you've beaten\n"
-	.string "the GYM LEADER in RUSTBORO CITY.\p"
-	.string "But there are many more TRAINERS\n"
+	.string "Papi: I see… So, you've beaten\n"
+	.string "the Stripklub Penner in RUSTBORO CITY.\p"
+	.string "Aber there are many more Pfluutä\n"
 	.string "who are stronger than you, {PLAYER}.\p"
-	.string "Across the sea in DEWFORD TOWN is a\n"
-	.string "GYM LEADER named BRAWLY.\p"
+	.string "Across the sea in DEWFORD Dorf isch a\n"
+	.string "Stripclub Penner named BRAWLY.\p"
 	.string "You should go challenge him.$"
 
 PetalburgCity_Gym_Text_YouHaveGottenStronger:
-	.string "DAD: Hm… {PLAYER}, you have gotten\n"
+	.string "Papi: Hm… {PLAYER}, you have gotten\n"
 	.string "stronger.\p"
-	.string "I can tell by the number of BADGES\n"
+	.string "I can tell by the number of Ufkläber\n"
 	.string "that you've earned.$"
 
 PetalburgCity_Gym_Text_NormanIntro:
-	.string "DAD: Hm…\n"
-	.string "So, you did get four GYM BADGES.\p"
+	.string "Papi: Hm…\n"
+	.string "So, you did get four Stripklub Ufkläber.\p"
 	.string "Fine, as I promised, we will have\n"
-	.string "a POKéMON battle.\p"
+	.string "a Pimmel battle.\p"
 	.string "{PLAYER}…\p"
-	.string "I'm so happy that I can have\n"
-	.string "a real battle with my own child.\p"
-	.string "But, a battle is a battle!\p"
+	.string "I am so happy that I can have\n"
+	.string "a real Bättle with my own child.\p"
+	.string "Aber, a Bättle isch a battle!\p"
 	.string "I will do everything in my power as\n"
-	.string "a GYM LEADER to win.\p"
+	.string "a Stripklub Penner to win.\p"
 	.string "{PLAYER}, you'd better give it your\n"
 	.string "best shot, too!$"
 
@@ -1275,38 +1277,38 @@ PetalburgCity_Gym_Text_NormanDefeat:
 	.string "I… I can't…\p"
 	.string "I can't believe it. {PLAYER}…\p"
 	.string "I lost to {PLAYER}?\p"
-	.string "But, rules are rules!\n"
+	.string "Aber, rules are rules!\n"
 	.string "Here, take this.$"
 
 PetalburgCity_Gym_Text_ReceivedBalanceBadge:
-	.string "{PLAYER} received the BALANCE BADGE\n"
-	.string "from DAD!$"
+	.string "{PLAYER} received the BALANCE Ufkläber\n"
+	.string "from Papi!$"
 
 PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis:
-	.string "DAD: With that BADGE, the DEFENSE\n"
-	.string "of all your POKéMON will increase.\p"
-	.string "POKéMON that know the HM move SURF\n"
+	.string "Papi: With that Ufkläber, the DEFENSE\n"
+	.string "of all your Pimmel will increase.\p"
+	.string "Pimmel that know the HM move SURF\n"
 	.string "will be able to travel over water.\p"
-	.string "This is my gift to you. {PLAYER}, I'm\n"
+	.string "Dä isch my gift to you. {PLAYER}, I am\n"
 	.string "sure you can use it correctly.$"
 
 PetalburgCity_Gym_Text_ExplainFacade:
-	.string "DAD: TM42 contains FACADE.\p"
+	.string "Papi: TM42 contains FACADE.\p"
 	.string "It doubles the power of moves if\n"
-	.string "the POKéMON is poisoned, paralyzed,\l"
+	.string "the Pimmel isch poisoned, paralyzed,\l"
 	.string "or burned.\p"
 	.string "It might be able to turn a bad\n"
 	.string "situation into an advantage.$"
 
 PetalburgCity_Gym_Text_DadHappyAndSad:
-	.string "DAD: As the GYM LEADER, I can't\n"
+	.string "Papi: As the Stripklub Penner, I can't\n"
 	.string "express how upset I am…\p"
-	.string "But as a father, it makes me both\n"
+	.string "Aber as a father, it makes me both\n"
 	.string "happy and a little sad. It's odd…$"
 
 PetalburgCity_Gym_Text_PleaseComeWithMe:
 	.string "Ah, there you are, {PLAYER}{KUN}!\p"
-	.string "Please come with me.\n"
+	.string "Bitte come with me.\n"
 	.string "I have something I want you to have.$"
 
 PetalburgCity_Gym_Text_LetMeBorrowPlayer:
@@ -1315,36 +1317,38 @@ PetalburgCity_Gym_Text_LetMeBorrowPlayer:
 	.string "a minute or two.$"
 
 PetalburgCity_Gym_Text_DadGoingToKeepTraining:
-	.string "DAD: {PLAYER}, you should go visit\n"
+	.string "Papi: {PLAYER}, you should go visit\n"
 	.string "your mother every so often.\p"
-	.string "I'm going to stay here and redouble\n"
+	.string "I am going to stay here and redouble\n"
 	.string "my training.\p"
-	.string "It would bother me as a TRAINER to\n"
+	.string "It would bother me as a Skilehrer to\n"
 	.string "not avenge my loss to you, {PLAYER}!$"
 
 PetalburgCity_Gym_Text_DadNoAmountOfTrainingIsEnough:
-	.string "DAD: {PLAYER}, how are things going?\p"
-	.string "The world of POKéMON is deep.\p"
+	.string "Papi: {PLAYER}, how are things going?\p"
+	.string "Dä world of Pimmel isch deep.\p"
 	.string "I honestly think that no amount of\n"
 	.string "training would ever be enough.$"
 
 PetalburgCity_Gym_Text_GymGuideAdvice:
-	.string "Hey, how's it going, CHAMPION-\n"
+	.string "Ciao, dumme Siech\l"
+	.string "how's it going, CHAMPION-\n"
 	.string "bound {PLAYER}?\p"
-	.string "The doors in this GYM open when you\n"
-	.string "beat the awaiting TRAINERS.\p"
-	.string "Whoops! The doors in this room are\n"
+	.string "Dä Türes in this Stripklub open when you\n"
+	.string "beat the awaiting Pfluutä.\p"
+	.string "Whoops! The Türes in this room are\n"
 	.string "already open, so don't attack me!\p"
-	.string "The TRAINERS of PETALBURG GYM\n"
+	.string "The Pfluutä of PETALBURG Stripclub\n"
 	.string "use all kinds of items.\p"
-	.string "The door at the left leads to\n"
+	.string "Dä Türe at the left leads to\n"
 	.string "the SPEED ROOM.\p"
-	.string "The door at the right leads to\n"
+	.string "Dä Türe at the right leads to\n"
 	.string "the ACCURACY ROOM.\p"
-	.string "The room's name will be on\n"
-	.string "the door, so choose carefully.\p"
-	.string "Once you've chosen the door…\n"
-	.string "Well, hey, go for it!$"
+	.string "Dä room's name will be on\n"
+	.string "the Türe, so choose carefully.\p"
+	.string "Once you've chosen the Türe…\n"
+	.string "Ahh, Futz und Tripper...\l"
+	.string "shit, go for it!$"
 
 PetalburgCity_Gym_Text_GymGuidePostVictory:
 	.string "{PLAYER}! Whoa! You've overcome even\n"
@@ -1353,43 +1357,43 @@ PetalburgCity_Gym_Text_GymGuidePostVictory:
 	.string "What a stunning turn of events!$"
 
 PetalburgCity_Gym_Text_RandallIntro:
-	.string "The ability to attack before the\n"
+	.string "Dä ability to attack before the\n"
 	.string "opponent…\p"
 	.string "Just that alone puts me at a great\n"
 	.string "advantage, don't you agree?$"
 
 PetalburgCity_Gym_Text_RandallDefeat:
-	.string "That was a magnificent battle!$"
+	.string "Dä was a magnificent battle!$"
 
 PetalburgCity_Gym_Text_RandallPostBattle:
 	.string "Go on to the next room where a new\n"
 	.string "challenge awaits you.\p"
-	.string "At the left is the CONFUSION ROOM.\p"
-	.string "The right door leads to the DEFENSE\n"
+	.string "At the left isch the CONFUSION ROOM.\p"
+	.string "Dä right Türe leads to the DEFENSE\n"
 	.string "ROOM.$"
 
 PetalburgCity_Gym_Text_RandallPostBadge:
 	.string "Whomever you beat, and whomever you\n"
 	.string "may lose to, you never shirk from\l"
-	.string "training yourself and your POKéMON.\p"
+	.string "training yourself and your Pimmel.\p"
 	.string "That's what I think being a\n"
-	.string "GYM LEADER is all about.$"
+	.string "Stripclub Penner isch all about.$"
 
 PetalburgCity_Gym_Text_ParkerIntro:
-	.string "This is the CONFUSION ROOM.\p"
+	.string "Dä isch the CONFUSION ROOM.\p"
 	.string "Let me see how well bonded you are\n"
-	.string "with your POKéMON!$"
+	.string "with your Pimmel!$"
 
 PetalburgCity_Gym_Text_ParkerDefeat:
 	.string "I couldn't confuse your team enough…\n"
 	.string "You share a strong bond together.$"
 
 PetalburgCity_Gym_Text_ParkerPostBattle:
-	.string "The next room is the STRENGTH ROOM.\n"
+	.string "Dä next room isch the STRENGTH ROOM.\n"
 	.string "Can you withstand brute force?$"
 
 PetalburgCity_Gym_Text_ParkerPostBadge:
-	.string "After you beat our LEADER, the\n"
+	.string "After you beat our Chéf, the\n"
 	.string "training has become a lot tougher.$"
 
 PetalburgCity_Gym_Text_GeorgeIntro:
@@ -1406,43 +1410,43 @@ PetalburgCity_Gym_Text_GeorgeDefeat:
 
 PetalburgCity_Gym_Text_GeorgePostBattle:
 	.string "I should have expected no less from\n"
-	.string "our LEADER's kid.\p"
-	.string "No, wait! A TRAINER's abilities are\n"
+	.string "our Chéf's kid.\p"
+	.string "No, chill! A Skilehrer's abilities are\n"
 	.string "earned only through effort.\p"
 	.string "I lost because my own efforts\n"
 	.string "weren't enough.\p"
-	.string "Go on! The ONE-HIT KO ROOM is next.$"
+	.string "Go on! The ONE-HIT KO ROOM isch next.$"
 
 PetalburgCity_Gym_Text_GeorgePostBadge:
-	.string "I'm going to keep training at GYMS.\n"
-	.string "One day, I'll become a LEADER.$"
+	.string "I am going to keep training at StripclubS.\n"
+	.string "One day, I'll become a Chéf.$"
 
 PetalburgCity_Gym_Text_BerkeIntro:
-	.string "I'm not going to take it easy just\n"
-	.string "because you're our LEADER's kid.\p"
-	.string "I'll show you how horrid it is for\n"
-	.string "a POKéMON to take a critical hit!$"
+	.string "I am not going to take it easy just\n"
+	.string "because you're our Chéf's kid.\p"
+	.string "I'll show you how horrid it isch for\n"
+	.string "a Pimmel to take a critical hit!$"
 
 PetalburgCity_Gym_Text_BerkeDefeat:
 	.string "Your power…\n"
 	.string "You're the real deal.$"
 
 PetalburgCity_Gym_Text_BerkePostBattle:
-	.string "Your father really is strong.\n"
-	.string "He's a TRAINER worth my respect.\p"
-	.string "And, I sense the same glow coming\n"
+	.string "Your father really isch strong.\n"
+	.string "He's a Skilehrer worth my respect.\p"
+	.string "Und, I sense the same glow coming\n"
 	.string "from you as your father.\p"
 	.string "I hope that you'll stage a terrific\n"
-	.string "battle with your father!$"
+	.string "schlegglä with your father!$"
 
 PetalburgCity_Gym_Text_BerkePostBadge:
-	.string "Since your dad became the LEADER,\n"
-	.string "the TRAINERS of PETALBURG CITY have\l"
+	.string "Since your dad became the Chéf,\n"
+	.string "the Pfluutä of PETALBURG CITY have\l"
 	.string "become a lot tougher.$"
 
 PetalburgCity_Gym_Text_MaryIntro:
 	.string "Giggle…\n"
-	.string "This is the ACCURACY ROOM.\p"
+	.string "Dä isch the ACCURACY ROOM.\p"
 	.string "It's pretty nasty when every attack\n"
 	.string "lands without fail.$"
 
@@ -1451,20 +1455,20 @@ PetalburgCity_Gym_Text_MaryDefeat:
 
 PetalburgCity_Gym_Text_MaryPostBattle:
 	.string "There are some even stronger\n"
-	.string "TRAINERS waiting for you.\p"
-	.string "The left is the DEFENSE ROOM, and\n"
-	.string "the right is the RECOVERY ROOM.\p"
-	.string "Your POKéMON's ATTACK power will be\n"
+	.string "Skilehrer chilling for you.\p"
+	.string "Dä left isch the DEFENSE ROOM, and\n"
+	.string "the right isch the RECOVERY ROOM.\p"
+	.string "Your Pimmel's ATTACK power will be\n"
 	.string "on trial either way.$"
 
 PetalburgCity_Gym_Text_MaryPostBadge:
 	.string "Do you know what we're trying to\n"
-	.string "achieve as TRAINERS?\p"
+	.string "achieve as Pfluutä?\p"
 	.string "We're striving to become soul mates\n"
-	.string "with our POKéMON.$"
+	.string "with our Pimmel.$"
 
 PetalburgCity_Gym_Text_AlexiaIntro:
-	.string "The higher the DEFENSE, the more\n"
+	.string "Dä higher the DEFENSE, the more\n"
 	.string "reckless I can be in attack.$"
 
 PetalburgCity_Gym_Text_AlexiaDefeat:
@@ -1473,40 +1477,41 @@ PetalburgCity_Gym_Text_AlexiaDefeat:
 PetalburgCity_Gym_Text_AlexiaPostBattle:
 	.string "I think you've taught me a valuable\n"
 	.string "lesson here.\p"
-	.string "Now, go on! The left door goes to\n"
+	.string "Now, go on! The left Türe goes to\n"
 	.string "the STRENGTH ROOM.\p"
-	.string "The right door opens to\n"
+	.string "Dä right Türe opens to\n"
 	.string "the ONE-HIT KO ROOM.\p"
-	.string "Both of them have TRAINERS who are\n"
+	.string "Both of them have Pfluutä who are\n"
 	.string "skilled at offense.$"
 
 PetalburgCity_Gym_Text_AlexiaPostBadge:
-	.string "Hi! Have you tried using SURF?$"
+	.string "Noo way broo..\l"
+	.string "Have you tried using SURF?$"
 
 PetalburgCity_Gym_Text_JodyIntro:
-	.string "Our GYM LEADER told us to go all out\n"
-	.string "and beat you.\p"
+	.string "Our Stripklub Penner told us to go all out\n"
+	.string "und beat you.\p"
 	.string "Even if you happen to be the\n"
-	.string "LEADER's kid!$"
+	.string "Chéf's kid!$"
 
 PetalburgCity_Gym_Text_JodyDefeat:
-	.string "But… I went all out!$"
+	.string "Aber… I went all out!$"
 
 PetalburgCity_Gym_Text_JodyPostBattle:
-	.string "The way you use your POKéMON…\n"
+	.string "Dä way you use your Pimmel…\n"
 	.string "It's like your father's style.\p"
-	.string "Go on through! The GYM LEADER, your\n"
-	.string "father, is waiting!$"
+	.string "Go on through! The Stripklub Penner, your\n"
+	.string "father, isch chilling!$"
 
 PetalburgCity_Gym_Text_JodyPostBadge:
-	.string "Sure, it's fine to make your POKéMON\n"
+	.string "Sure, es isch fine to make your Pimmel\n"
 	.string "stronger.\p"
-	.string "But what decides the winner?\p"
-	.string "Why, it's the feelings TRAINERS have\n"
-	.string "for their POKéMON.$"
+	.string "Aber what decides the winner?\p"
+	.string "Why, es isch the feelings Pfluutä have\n"
+	.string "for their Pimmel.$"
 
 PetalburgCity_Gym_Text_DoorAppearsLocked:
-	.string "This door appears to be locked\n"
+	.string "Dä Türe appears to be locked\n"
 	.string "right now…$"
 
 PetalburgCity_Gym_Text_EnterSpeedRoom:
@@ -1515,7 +1520,7 @@ PetalburgCity_Gym_Text_EnterSpeedRoom:
 
 @ Unused
 PetalburgCity_Gym_Text_DoorAppearsLocked2:
-	.string "This door appears to be locked\n"
+	.string "Dä Türe appears to be locked\n"
 	.string "right now…$"
 
 PetalburgCity_Gym_Text_EnterAccuracyRoom:
@@ -1543,53 +1548,53 @@ PetalburgCity_Gym_Text_EnterOHKORoom:
 	.string "Do you want to go through?$"
 
 PetalburgCity_Gym_Text_EnterGymLeadersRoom:
-	.string "“GYM LEADER'S ROOM\p"
-	.string "“See for yourself what POKéMON await\n"
+	.string "“Stripclub Penner'S ROOM\p"
+	.string "“See for yourself what Pimmel await\n"
 	.string "you!” the sign says.\p"
 	.string "Do you want to go through?$"
 
 PetalburgCity_Gym_Text_GymStatue:
-	.string "PETALBURG CITY POKéMON GYM$"
+	.string "PETALBURG CITY Pimmel Stripclub$"
 
 PetalburgCity_Gym_Text_GymStatueCertified:
-	.string "PETALBURG CITY POKéMON GYM\p"
-	.string "NORMAN'S CERTIFIED TRAINERS:\n"
+	.string "PETALBURG CITY Pimmel Stripclub\p"
+	.string "NORMAN'S CERTIFIED Pfluutä:\n"
 	.string "{PLAYER}$"
 
 PetalburgCity_Gym_Text_NormanPreRematch:
-	.string "DAD: {PLAYER}…\n"
+	.string "Papi: {PLAYER}…\n"
 	.string "I had a feeling that you would come.\p"
 	.string "I would never refuse to accept\n"
 	.string "a challenge from you.\p"
 	.string "You do understand, don't you?\p"
-	.string "Inside a GYM, it doesn't matter that\n"
+	.string "Inside a Stripclub, it doesn't matter that\n"
 	.string "we are a parent and child.\p"
 	.string "…No, because we are parent and child,\n"
 	.string "we owe it to each other to do the best\l"
 	.string "we can. Isn't that right, {PLAYER}?$"
 
 PetalburgCity_Gym_Text_NormanRematchDefeat:
-	.string "Uh… Haha…\n"
+	.string "… Haha…\n"
 	.string "Maybe that was going too hard…$"
 
 PetalburgCity_Gym_Text_NormanPostRematch:
-	.string "DAD: {PLAYER}…\n"
-	.string "What is your dream?\p"
+	.string "Papi: {PLAYER}…\n"
+	.string "What isch your dream?\p"
 	.string "My dream…\n"
 	.string "Hahaha…\l"
 	.string "It has already come true, actually.$"
 
 PetalburgCity_Gym_Text_NormanRematchNeedTwoMons:
-	.string "DAD: {PLAYER}…\n"
+	.string "Papi: {PLAYER}…\n"
 	.string "I had a feeling that you would come.\p"
 	.string "I would never refuse to accept\n"
 	.string "a challenge from you.\p"
 	.string "You do understand, don't you?\p"
-	.string "Inside a GYM, it doesn't matter that\n"
+	.string "Inside a Stripclub, it doesn't matter that\n"
 	.string "we are a parent and child.\p"
 	.string "Hm? Wait a second, {PLAYER}.\p"
-	.string "Do you only have one POKéMON that is\n"
+	.string "Do you only have one Pimmel that is\n"
 	.string "capable of battle?\p"
 	.string "Sorry, but you'll have to come back\n"
-	.string "with at least two POKéMON.$"
+	.string "with at least two Pimmel.$"
 

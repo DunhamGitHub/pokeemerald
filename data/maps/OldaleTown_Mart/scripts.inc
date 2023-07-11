@@ -14,10 +14,21 @@ OldaleTown_Mart_EventScript_Clerk::
 
 	.align 2
 OldaleTown_Mart_Pokemart_Basic:
+	.2byte ITEM_POKE_BALL
 	.2byte ITEM_POTION
-	.2byte ITEM_ANTIDOTE
-	.2byte ITEM_PARALYZE_HEAL
-	.2byte ITEM_AWAKENING
+	.2byte ITEM_RARE_CANDY
+	.2byte ITEM_MASTER_BALL
+	.2byte ITEM_MAX_REVIVE
+	.2byte ITEM_FULL_RESTORE
+	.2byte ITEM_EVERSTONE
+	.2byte ITEM_HM01
+	.2byte ITEM_HM02
+	.2byte ITEM_HM03
+	.2byte ITEM_HM04
+	.2byte ITEM_HM05
+	.2byte ITEM_HM06
+	.2byte ITEM_HM07
+	.2byte ITEM_HM08
 	.2byte ITEM_NONE
 	release
 	end
@@ -32,9 +43,19 @@ OldaleTown_Mart_ExpandedItems::
 OldaleTown_Mart_Pokemart_Expanded:
 	.2byte ITEM_POKE_BALL
 	.2byte ITEM_POTION
-	.2byte ITEM_ANTIDOTE
-	.2byte ITEM_PARALYZE_HEAL
-	.2byte ITEM_AWAKENING
+	.2byte ITEM_RARE_CANDY
+	.2byte ITEM_MASTER_BALL
+	.2byte ITEM_MAX_REVIVE
+	.2byte ITEM_FULL_RESTORE
+	.2byte ITEM_EVERSTONE
+	.2byte ITEM_HM01
+	.2byte ITEM_HM02
+	.2byte ITEM_HM03
+	.2byte ITEM_HM04
+	.2byte ITEM_HM05
+	.2byte ITEM_HM06
+	.2byte ITEM_HM07
+	.2byte ITEM_HM08
 	.2byte ITEM_NONE
 	release
 	end
@@ -57,16 +78,16 @@ OldaleTown_Mart_EventScript_Boy::
 	end
 
 OldaleTown_Mart_Text_PokeBallsAreSoldOut:
-	.string "The clerk says they're all sold out.\n"
-	.string "I can't buy any POKé BALLS.$"
+	.string "Dä clerk says they're all sold out.\n"
+	.string "I can't buy any KACK-Eier.$"
 
 OldaleTown_Mart_Text_ImGoingToBuyPokeBalls:
-	.string "I'm going to buy a bunch of POKé BALLS\n"
-	.string "and catch a bunch of POKéMON!$"
+	.string "I am going to buy a bunch of KACK-Eier\n"
+	.string "und catch a bunch of Pimmel!$"
 
 OldaleTown_Mart_Text_RestoreHPWithPotion:
-	.string "If a POKéMON gets hurt and loses its HP\n"
-	.string "and faints, it won't be able to battle.\p"
-	.string "To prevent your POKéMON from fainting,\n"
+	.string "If a Pimmel gets hurt and loses its HP\n"
+	.string "und faints, it won't be able to battle.\p"
+	.string "To prevent your Pimmel from fainting,\n"
 	.string "restore its HP with a POTION.$"
 

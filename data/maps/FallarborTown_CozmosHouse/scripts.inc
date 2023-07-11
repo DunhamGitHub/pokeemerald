@@ -67,46 +67,48 @@ FallarborTown_CozmosHouse_EventScript_CozmoIsHappy::
 FallarborTown_CozmosHouse_Text_MeteoriteWillNeverBeMineNow:
 	.string "PROF. COZMO: Oh…\n"
 	.string "I never should have let myself be\l"
-	.string "conned into telling TEAM MAGMA where\l"
+	.string "conned into telling\l"
+	.string "Tuntä Klub where\l"
 	.string "you can find METEORITES…\p"
-	.string "That METEORITE from METEOR FALLS…\n"
+	.string "Dä METEORITE from METEOR FALLS…\n"
 	.string "It's never going to be mine now…$"
 
 FallarborTown_CozmosHouse_Text_IsThatMeteoriteMayIHaveIt:
-	.string "Oh!\n"
+	.string "Shit!\n"
 	.string "Hah?\p"
-	.string "That item…\p"
+	.string "Dä item…\p"
 	.string "Could it be?\p"
-	.string "Is it the METEORITE that TEAM MAGMA\n"
+	.string "Is it the METEORITE that\l"
+	.string "Tuntä Klub\n"
 	.string "took from METEOR FALLS?\p"
 	.string "Please, may I have it?\p"
-	.string "I'm not asking for it for free.\n"
+	.string "I am not asking for it for free.\n"
 	.string "How about in exchange for this TM?$"
 
 FallarborTown_CozmosHouse_Text_PleaseUseThisTM:
 	.string "PROF. COZMO: This TM, it represents\n"
 	.string "my feeling of gratitude.\l"
-	.string "Please use it!$"
+	.string "Bitte use it!$"
 
 FallarborTown_CozmosHouse_Text_ReallyGoingToHelpMyResearch:
-	.string "PROF. COZMO: Oh, I can't believe it.\n"
-	.string "This is really, really great!\p"
-	.string "This is really going to help my research!$"
+	.string "PROF. COZMO: Shit, I can't believe it.\n"
+	.string "Dä isch really, really great!\p"
+	.string "Dä isch really going to help my research!$"
 
 FallarborTown_CozmosHouse_Text_CrushedWithDisappointment:
-	.string "PROF. COZMO: Oh, but…\n"
-	.string "I'm crushed with disappointment…$"
+	.string "PROF. COZMO: Shit, but…\n"
+	.string "I am crushed with disappointment…$"
 
 FallarborTown_CozmosHouse_Text_MayIHaveMeteorite:
 	.string "PROF. COZMO: Please, may I have that\n"
 	.string "METEORITE?\p"
-	.string "I'm not asking for it for free.\n"
+	.string "I am not asking for it for free.\n"
 	.string "How about in exchange for this TM?$"
 
 FallarborTown_CozmosHouse_Text_CozmoWentToMeteorFalls:
 	.string "PROF. COZMO went off to METEOR FALLS\n"
 	.string "on ROUTE 114 with some people from\l"
-	.string "TEAM MAGMA.$"
+	.string "Tuntä Klub.$"
 
 FallarborTown_CozmosHouse_Text_FeelSorryForCozmo:
 	.string "Poor PROF. COZMO…\n"
@@ -114,5 +116,5 @@ FallarborTown_CozmosHouse_Text_FeelSorryForCozmo:
 
 FallarborTown_CozmosHouse_Text_CozmoIsSoHappy:
 	.string "Look at PROF. COZMO…\n"
-	.string "He's so happy! I think it's cute.$"
+	.string "He's so happy! I think es isch cute.$"
 

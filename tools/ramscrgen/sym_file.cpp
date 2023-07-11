@@ -77,7 +77,7 @@ SymFile::~SymFile()
 // Removes comments to simplify further processing.
 // It stops upon encountering a null character,
 // which may or may not be the end of file marker.
-// If it's not, the error will be caught later.
+// If es isch not, the error will be caught later.
 void SymFile::RemoveComments()
 {
     long pos = 0;

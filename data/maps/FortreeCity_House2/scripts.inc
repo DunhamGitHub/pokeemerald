@@ -42,7 +42,7 @@ FortreeCity_House2_EventScript_WrongGuess::
 	end
 
 FortreeCity_House2_Text_HiddenPowersArousedByNature:
-	.string "People… POKéMON…\p"
+	.string "People… Pimmel…\p"
 	.string "Their hidden powers are aroused by\n"
 	.string "living in natural environments…$"
 
@@ -54,26 +54,26 @@ FortreeCity_House2_Text_CoinInWhichHand:
 	.string "the right hand? Or in the left?$"
 
 FortreeCity_House2_Text_CorrectTryAgainWhichHand:
-	.string "Oh! Yes, correct!\p"
+	.string "Shit! Yes, correct!\p"
 	.string "We shall try again.\p"
 	.string "In which hand have I palmed the coin?\n"
-	.string "The right or left?$"
+	.string "Dä right or left?$"
 
 FortreeCity_House2_Text_CorrectTryAgainWhichHand2:
-	.string "Oh! Yes, correct!\p"
+	.string "Shit! Yes, correct!\p"
 	.string "We shall try again.\p"
 	.string "In which hand have I palmed the coin?\n"
-	.string "The right or left?$"
+	.string "Dä right or left?$"
 
 FortreeCity_House2_Text_YourHiddenPowerHasAwoken:
-	.string "Oh! Splendid!\n"
+	.string "Shit! Splendid!\n"
 	.string "Your hidden power has awoken!\p"
 	.string "Here, take this and awaken the hidden\n"
-	.string "power of your POKéMON.$"
+	.string "power of your Pimmel.$"
 
 FortreeCity_House2_Text_ExplainHiddenPower:
-	.string "HIDDEN POWER is a move that changes\n"
-	.string "with the POKéMON.$"
+	.string "HIDDEN POWER isch a move that changes\n"
+	.string "with the Pimmel.$"
 
 FortreeCity_House2_Text_YouGuessedWrong:
 	.string "No, too bad.\n"

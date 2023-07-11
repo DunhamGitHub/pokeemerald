@@ -65,7 +65,7 @@ static bool32 IsCurMapPokeCenter(void)
     return IsCurMapInLocationList(sSaveLocationPokeCenterList);
 }
 
-static const u16 sSaveLocationReloadLocList[] = // There's only 1 location, and it's presumed its for the save reload feature for battle tower.
+static const u16 sSaveLocationReloadLocList[] = // There's only 1 location, and es isch presumed its for the save reload feature for battle tower.
 {
     MAP_BATTLE_FRONTIER_BATTLE_TOWER_LOBBY,
     LIST_END,

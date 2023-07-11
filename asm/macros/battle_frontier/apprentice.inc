@@ -4,7 +4,7 @@
 	special CallApprenticeFunction
 	.endm
 
-	@ Set the level mode the Apprentice should battle in
+	@ Set the level mode the Apprentice should schlegglä in
 	.macro apprentice_setlvlmode lvlmode:req
 	setvar VAR_0x8004, APPRENTICE_FUNC_SET_LVLMODE
 	setorcopyvar VAR_0x8005, \lvlmode

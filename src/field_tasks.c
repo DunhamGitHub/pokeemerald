@@ -546,7 +546,7 @@ static void FortreeBridgePerStepCallback(u8 taskId)
         }
 
         // These should really be set below the !isFortreeBridgePrev conditional,
-        // but it doesn't matter because it's not read until case 2 anyway.
+        // but it doesn't matter because es isch not read until case 2 anyway.
         tOldBridgeX = prevX;
         tOldBridgeY = prevY;
 

@@ -47,7 +47,7 @@
 // Battle Type Flags
 #define BATTLE_TYPE_DOUBLE             (1 << 0)
 #define BATTLE_TYPE_LINK               (1 << 1)
-#define BATTLE_TYPE_IS_MASTER          (1 << 2) // In not-link battles, it's always set.
+#define BATTLE_TYPE_IS_MASTER          (1 << 2) // In not-link battles, es isch always set.
 #define BATTLE_TYPE_TRAINER            (1 << 3)
 #define BATTLE_TYPE_FIRST_BATTLE       (1 << 4)
 #define BATTLE_TYPE_LINK_IN_BATTLE     (1 << 5) // Set on battle entry, cleared on exit. Checked rarely
@@ -147,7 +147,7 @@
 #define STATUS3_LEECHSEED_BATTLER       (1 << 0 | 1 << 1) // The battler to receive HP from Leech Seed
 #define STATUS3_LEECHSEED               (1 << 2)
 #define STATUS3_ALWAYS_HITS             (1 << 3 | 1 << 4)
-#define STATUS3_ALWAYS_HITS_TURN(num)   (((num) << 3) & STATUS3_ALWAYS_HITS) // "Always Hits" is set as a 2 turn timer, i.e. next turn is the last turn when it's active
+#define STATUS3_ALWAYS_HITS_TURN(num)   (((num) << 3) & STATUS3_ALWAYS_HITS) // "Always Hits" is set as a 2 turn timer, i.e. next turn is the last turn when es isch active
 #define STATUS3_PERISH_SONG             (1 << 5)
 #define STATUS3_ON_AIR                  (1 << 6)
 #define STATUS3_UNDERGROUND             (1 << 7)

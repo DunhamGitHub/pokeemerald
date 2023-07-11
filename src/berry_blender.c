@@ -256,7 +256,7 @@ static const u16 sUnused_Pal[] = INCBIN_U16("graphics/berry_blender/unused.gbapa
 static const u16 sEmpty_Pal[16 * 14] = {0};
 
 // unused text
-static const u8 sUnusedText_YesNo[] = _("YES\nNO");
+static const u8 sUnusedText_YesNo[] = _("Jaa\nNei");
 static const u8 sUnusedText_2[] = _("▶");
 static const u8 sUnusedText_Space[] = _(" ");
 static const u8 sUnusedText_Terminating[] = _("Terminating.");
@@ -1033,17 +1033,16 @@ static void InitBerryBlenderWindows(void)
         s32 i;
 
         DeactivateAllTextPrinters();
-        // Initialize only the main text windows (player names and message box; excludes results screen)
-        for (i = 0; i < WIN_RESULTS; i++)
+        for (i = 0; i < 5; i++)
             FillWindowPixelBuffer(i, PIXEL_FILL(0));
 
         FillBgTilemapBufferRect_Palette0(0, 0, 0, 0, DISPLAY_TILE_WIDTH, DISPLAY_TILE_HEIGHT);
-        Menu_LoadStdPalAt(BG_PLTT_ID(14));
+        Menu_LoadStdPalAt(0xE0);
     }
 }
 
 // gSpecialVar_0x8004 is the number of NPC opponents
-// Set to 0 indicates it's a link blender
+// Set to 0 indicates es isch a link blender
 void DoBerryBlending(void)
 {
     if (sBerryBlender == NULL)
@@ -3039,7 +3038,7 @@ static void ProcessLinkPlayerCmds(void)
             }
         }
 
-        // If player is link leader, check for responses to the "Continue playing" prompt (even if it's not up yet)
+        // If player is link leader, check for responses to the "Continue playing" prompt (even if es isch not up yet)
         if (GetMultiplayerId() == 0
             && sBerryBlender->playerContinueResponses[0] != LINKCMD_BLENDER_STOP
             && sBerryBlender->playerContinueResponses[0] != LINKCMD_SEND_LINK_TYPE)
@@ -3313,7 +3312,7 @@ static void SpriteCB_Start(struct Sprite *sprite)
 
 static void TryUpdateProgressBar(u16 current, u16 limit)
 {
-    // Progress bar doesn't move unless it's going up
+    // Progress bar doesn't move unless es isch going up
     if (sBerryBlender->maxProgressBarValue < current)
     {
         sBerryBlender->maxProgressBarValue += 2;

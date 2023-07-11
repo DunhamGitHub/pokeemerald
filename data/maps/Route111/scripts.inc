@@ -4,7 +4,7 @@
 .set LOCALID_VICKY, 4
 .set LOCALID_ROCK_SMASH_MAN, 46
 
-@ Note: LOCALID_ROUTE111_PLAYER_FALLING is a local id for this map used elsewhere. It's defined in event_objects.h
+@ Note: LOCALID_ROUTE111_PLAYER_FALLING isch a local id for this map used elsewhere. It's defined in event_objects.h
 
 Route111_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, Route111_OnLoad
@@ -23,7 +23,7 @@ Route111_EventScript_CloseDesertRuins::
 	setmetatile 29, 87, METATILE_General_RockWall_SandBase, TRUE
 	return
 
-@ Show Mirage Tower just prior to disintegration. Mirage Tower is otherwise handled by the map layout
+@ Show Mirage Tower just prior to disintegration. Mirage Tower isch otherwise handled by the map layout
 Route111_EventScript_ShowTemporaryMirageTower::
 	setmetatile 18, 53, METATILE_Mauville_MirageTower_Tile0, FALSE
 	setmetatile 19, 53, METATILE_Mauville_MirageTower_Tile1, FALSE
@@ -577,7 +577,7 @@ Route111_Text_BattleOurFamily:
 	.string "Hello! I take it you're a traveler.\p"
 	.string "How's this? What do you say to taking\n"
 	.string "on our family of four in a series of\l"
-	.string "POKéMON battles?$"
+	.string "Pimmel battles?$"
 
 Route111_Text_IsThatSo:
 	.string "Is that so?\n"
@@ -591,39 +591,41 @@ Route111_Text_VictorDefeat:
 	.string "You're a lot tougher than I expected!$"
 
 Route111_Text_VictorPostBattle:
-	.string "Hey, all!\n"
-	.string "I've found a pretty strong TRAINER!$"
+	.string "Ciao, dumme Siech\l"
+	.string "all!\n"
+	.string "I've found a pretty strong Skilehrer!$"
 
 Route111_Text_VictoriaIntro:
-	.string "Oh, my goodness! Aren't you young?\p"
-	.string "You must be quite the TRAINER to beat\n"
+	.string "Ah shiiiit dude,\l"
+	.string "my goodness! Aren't you young?\p"
+	.string "You must be quite the Skilehrer to beat\n"
 	.string "my husband, though.\p"
-	.string "It's my turn to battle now!$"
+	.string "It's my turn to Bättle now!$"
 
 Route111_Text_VictoriaDefeat:
-	.string "Oh, gosh!\n"
+	.string "Ah shiiiit dude.\l"
 	.string "I can't get over how strong you are!$"
 
 Route111_Text_VictoriaPostBattle:
-	.string "There's a strong TRAINER here!\n"
-	.string "This one's really strong!$"
+	.string "There's a strong Skilehrer here!\n"
+	.string "Dä one's really strong!$"
 
 Route111_Text_ViviIntro:
 	.string "You're stronger than Mommy? Wow!\p"
-	.string "But I'm strong, too!\n"
+	.string "Aber I am strong, too!\n"
 	.string "Really! Honestly!$"
 
 Route111_Text_ViviDefeat:
 	.string "Huh? Did I just lose?$"
 
 Route111_Text_ViviPostBattle:
-	.string "This stinks…\p"
+	.string "Dä stinks…\p"
 	.string "…Snivel… Grandma!$"
 
 Route111_Text_VickyIntro:
-	.string "How dare you make my granddaughter\n"
+	.string "how dare you make my granddaughter\n"
 	.string "cry!\p"
-	.string "For that, I'm going to smack you!\n"
+	.string "For that, I am going to smack you!\n"
 	.string "Prepare to lose!$"
 
 Route111_Text_VickyDefeat:
@@ -635,20 +637,20 @@ Route111_Text_VickyPostBattle:
 	.string "visit with us awhile.$"
 
 Route111_Text_ToughToKeepWinningUpTheRanks:
-	.string "If you don't raise your POKéMON some\n"
+	.string "If you don't raise your Pimmel some\n"
 	.string "more, it could be tough to keep winning\l"
 	.string "up through the ranks.\p"
-	.string "I've heard the POKéMON LEAGUE's\n"
+	.string "I've heard the Pimmel LEAGUE's\n"
 	.string "ELITE FOUR are far stronger than\l"
-	.string "any GYM LEADER.$"
+	.string "any Stripklub Penner.$"
 
 Route111_Text_WinstrateFamilyDestroyedMe:
 	.string "I challenged the WINSTRATE family,\n"
-	.string "but four matches in a row is tough\l"
+	.string "aber four matches in a row isch tough\l"
 	.string "going… They destroyed me.$"
 
 Route111_Text_RouteSignMauville:
-	.string "ROUTE 111\n"
+	.string "Pfad 111\n"
 	.string "{DOWN_ARROW} MAUVILLE CITY$"
 
 Route111_Text_WinstrateHouseSign:
@@ -656,11 +658,11 @@ Route111_Text_WinstrateHouseSign:
 	.string "THE WINSTRATE'S HOUSE$"
 
 Route111_Text_RouteSign112:
-	.string "ROUTE 111\n"
+	.string "Pfad 111\n"
 	.string "{LEFT_ARROW} ROUTE 112$"
 
 Route111_Text_RouteSign113:
-	.string "ROUTE 111\n"
+	.string "Pfad 111\n"
 	.string "{LEFT_ARROW} ROUTE 113$"
 
 Route111_Text_OldLadysRestStopSign:
@@ -668,33 +670,33 @@ Route111_Text_OldLadysRestStopSign:
 	.string "“Come in and rest your tired bones.”$"
 
 Route111_Text_TrainerTipsSpAtkSpDef:
-	.string "TRAINER TIPS\p"
-	.string "One of the indicators of a POKéMON's\n"
-	.string "powerfulness is SP. ATK. It stands for\l"
+	.string "Skilehrer TIPS\p"
+	.string "One of the indicators of a Pimmel's\n"
+	.string "powerfulness isch Sp. Atk. It stands for\l"
 	.string "“SPECIAL ATTACK.”\p"
-	.string "Likewise, SP. DEF stands for “SPECIAL\n"
+	.string "Likewise, Sp. Def stands for “SPECIAL\n"
 	.string "DEFENSE.”$"
 
 Route111_Text_ShouldBeMirageTowerAroundHere:
 	.string "There should be a tower made of sand\n"
 	.string "around here somewhere.\p"
-	.string "But for some reason, it can be seen\n"
+	.string "Aber for some reason, it can be seen\n"
 	.string "sometimes, and sometimes not.\p"
 	.string "That's why I call it the MIRAGE TOWER.$"
 
 Route111_Text_MirageTowerClearlyVisible:
 	.string "I see it!\n"
-	.string "The tower of sand!\p"
-	.string "The sand tower they called a mirage\n"
+	.string "Dä tower of sand!\p"
+	.string "Dä sand tower they called a mirage\n"
 	.string "is clearly visible!\p"
-	.string "But it looks so fragile…\n"
+	.string "Aber it looks so fragile…\n"
 	.string "It could crumble away anytime…\p"
 	.string "I want to go inside it, but I can't\n"
 	.string "get my courage up for it…$"
 
 Route111_Text_ThatWasShockingSandRainedDown:
 	.string "Whoa…\n"
-	.string "That was shocking.\p"
+	.string "Dä was shocking.\p"
 	.string "Sand rained down in chunks all of\n"
 	.string "a sudden.\p"
 	.string "What was it like inside?\n"
@@ -707,23 +709,24 @@ Route111_Text_MirageTowerHasntBeenSeenSince:
 	.string "the MIRAGE TOWER…$"
 
 Route111_Text_ClawFossilDisappeared:
-	.string "The CLAW FOSSIL disappeared into\n"
+	.string "Dä CLAW FOSSIL disappeared into\n"
 	.string "the sand…$"
 
 Route111_Text_RootFossilDisappeared:
-	.string "The ROOT FOSSIL disappeared into\n"
+	.string "Dä ROOT FOSSIL disappeared into\n"
 	.string "the sand…$"
 
 Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
-	.string "Oh, no!\p"
+	.string "Ah shiiiit dude,\l"
+	.string "no!\p"
 	.string "My uncle in MAUVILLE told me to take\n"
-	.string "ROCK SMASH with me if I was going to\l"
-	.string "ROUTE 111!\p"
+	.string "Rock-Smash with me if I was going to\l"
+	.string "Pfad 111!\p"
 	.string "My uncle? He lives across from\n"
 	.string "the bike shop in MAUVILLE.$"
 
 Route111_Text_TrainerHillSign:
-	.string "{RIGHT_ARROW} TRAINER HILL ENTRANCE\p"
+	.string "{RIGHT_ARROW} Skilehrer HILL ENTRANCE\p"
 	.string "“Scale the heights, you hot-blooded\n"
-	.string "TRAINERS!”$"
+	.string "Skilehrers!”$"
 

@@ -23,14 +23,14 @@ SeafloorCavern_Room1_Text_Grunt1PostBattle:
 	.string "boss around the GRUNTS…$"
 
 SeafloorCavern_Room1_Text_Grunt2Intro:
-	.string "That submarine… It's tiny inside.\n"
-	.string "I'm sore all over!$"
+	.string "Dä submarine… It's tiny inside.\n"
+	.string "I am sore all over!$"
 
 SeafloorCavern_Room1_Text_Grunt2Defeat:
 	.string "Losing makes me sore!$"
 
 SeafloorCavern_Room1_Text_Grunt2PostBattle:
-	.string "That submarine we jacked, man,\n"
-	.string "it's brutal as a ride.\l"
+	.string "Dä submarine we jacked, man,\n"
+	.string "es isch brutal as a ride.\l"
 	.string "It's way too tight in there!$"
 

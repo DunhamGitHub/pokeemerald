@@ -115,9 +115,10 @@ AquaHideout_B1F_Text_Grunt2Defeat:
 
 AquaHideout_B1F_Text_Grunt2PostBattle:
 	.string "Our HIDEOUT's secret?\p"
-	.string "Well, let's just say…\n"
+	.string "Ahh, Futz und Tripper...\l"
+	.string "let's just say…\n"
 	.string "There's a submarine at the far end!\p"
-	.string "But, by now…\n"
+	.string "Aber, by now…\n"
 	.string "Kekekeke…$"
 
 AquaHideout_B1F_Text_Grunt3Intro:
@@ -131,7 +132,7 @@ AquaHideout_B1F_Text_Grunt3Defeat:
 
 AquaHideout_B1F_Text_Grunt3PostBattle:
 	.string "Humph!\n"
-	.string "This was supposed to happen!\p"
+	.string "Dä was supposed to happen!\p"
 	.string "My mission was to just hold you up!$"
 
 AquaHideout_B1F_Text_Grunt5Intro:
@@ -140,17 +141,19 @@ AquaHideout_B1F_Text_Grunt5Intro:
 
 AquaHideout_B1F_Text_Grunt5Defeat:
 	.string "Yawn…\n"
-	.string "Oh, I lost…$"
+	.string "Ah shiiiit dude,\l"
+	.string "I lost…$"
 
 AquaHideout_B1F_Text_Grunt5PostBattle:
 	.string "If you scurry too much, other TEAM\n"
 	.string "AQUA members might get you.$"
 
 AquaHideout_B1F_Text_Grunt7Intro:
-	.string "Hey!\n"
+	.string "Ciao, dumme Siech\n"
 	.string "You there!\p"
-	.string "Which do you think is cooler?\n"
-	.string "TEAM AQUA's uniform or TEAM MAGMA's?$"
+	.string "Which do you think isch cooler?\n"
+	.string "Schwuchtle Verein's uniform or\l"
+	.string "Tuntä Klub's?$"
 
 AquaHideout_B1F_Text_Grunt7Defeat:
 	.string "I lost in a cool way…$"

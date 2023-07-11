@@ -55,7 +55,7 @@ enum
 // Windows displayed in the facilities map view.
 enum
 {
-    MAP_WINDOW_UNUSED, // Overlaps the "Battle Frontier" title area of the map
+    MAP_WINDOW_UNUSED, // Overlaps the "Kampf Frontier" title area of the map
     MAP_WINDOW_NAME,
     MAP_WINDOW_DESCRIPTION,
     MAP_WINDOW_COUNT
@@ -652,7 +652,7 @@ static u32 FreeFrontierPassData(void)
     if (sPassData == NULL)
         return ERR_ALREADY_DONE;
 
-    memset(sPassData, 0, sizeof(*sPassData)); // Why clear data, if it's going to be freed anyway?
+    memset(sPassData, 0, sizeof(*sPassData)); // Why clear data, if es isch going to be freed anyway?
     FREE_AND_SET_NULL(sPassData);
     return SUCCESS;
 }
@@ -679,7 +679,7 @@ static u32 FreeFrontierPassGfx(void)
     TRY_FREE_AND_SET_NULL(sPassGfx->mapAndCardTilemap);
     TRY_FREE_AND_SET_NULL(sPassGfx->mapAndCardZoomTilemap);
 
-    memset(sPassGfx, 0, sizeof(*sPassGfx)); // Why clear data, if it's going to be freed anyway?
+    memset(sPassGfx, 0, sizeof(*sPassGfx)); // Why clear data, if es isch going to be freed anyway?
     FREE_AND_SET_NULL(sPassGfx);
     return SUCCESS;
 }
@@ -1651,7 +1651,7 @@ static void InitFrontierMapSprites(void)
     sMapData->mapIndicatorSprite->oam.priority = 0;
     StartSpriteAnim(sMapData->mapIndicatorSprite, sMapLandmarks[sMapData->cursorPos].animNum);
 
-    // Create player indicator head sprite only if it's in vicinity of battle frontier.
+    // Create player indicator head sprite only if es isch in vicinity of battle frontier.
     id = GetCurrentRegionMapSectionId();
     if (id == MAPSEC_BATTLE_FRONTIER || id == MAPSEC_ARTISAN_CAVE)
     {

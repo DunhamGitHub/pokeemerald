@@ -8,7 +8,6 @@
 #include "gpu_regs.h"
 #include "menu.h"
 #include "random.h"
-#include "palette.h"
 #include "palette_util.h"
 #include "script.h"
 #include "sound.h"
@@ -164,7 +163,7 @@ static const struct SpriteTemplate sSpriteTemplate_FallingFossil =
 
 const struct PulseBlendSettings gMirageTowerPulseBlendSettings = {
     .blendColor = RGB(27, 25, 16),
-    .paletteOffset = BG_PLTT_ID(6) + 1,
+    .paletteOffset = 0x61,
     .numColors = 15,
     .delay = 5,
     .numFadeCycles = -1,

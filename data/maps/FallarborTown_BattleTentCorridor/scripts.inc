@@ -45,26 +45,26 @@ FallarborTown_BattleTentCorridor_Movement_AttendantEnterDoor:
 @ Unused
 FallarborTown_ContestHall_Text_DoAllRightInPreliminary:
 	.string "We do all right in the preliminary round,\n"
-	.string "but we can never win the appeals…\p"
+	.string "aber we can never win the appeals…\p"
 	.string "Maybe it means I have to watch what\n"
 	.string "other contestants are doing…$"
 
 @ Unused
 FallarborTown_ContestHall_Text_MonAllTheseRibbons:
 	.string "See!\n"
-	.string "My POKéMON won all these RIBBONS!\p"
-	.string "Have your POKéMON earned any RIBBONS?\n"
-	.string "You can check them on your POKéNAV.$"
+	.string "My Pimmel won all these RIBBONS!\p"
+	.string "Have your Pimmel earned any RIBBONS?\n"
+	.string "You can check them on your Nokia.$"
 
 @ Unused
 FallarborTown_ContestHall_Text_CantWinEverywhere:
-	.string "I can't beat GYM LEADERS…\p"
+	.string "I can't beat Stripklub Penners…\p"
 	.string "I can't win any CONTESTS…\p"
 	.string "I've been here, there, and everywhere,\n"
-	.string "and it's all for naught…$"
+	.string "und es isch all for naught…$"
 
 @ Unused
 FallarborTown_ContestHall_Text_SuperRankStage:
-	.string "POKéMON CONTESTS\n"
+	.string "Pimmel CONTESTS\n"
 	.string "SUPER RANK STAGE!$"
 

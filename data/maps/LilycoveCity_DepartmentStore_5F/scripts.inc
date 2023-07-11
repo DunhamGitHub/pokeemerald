@@ -4,8 +4,8 @@ LilycoveCity_DepartmentStore_5F_MapScripts::
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, LilycoveCity_DepartmentStore_5F_OnWarp
 	.byte 0
 
-@ During the abnormal weather from Kyogre/Groudon awakening the dept store rooftop is inaccessible
-@ Likely done to avoid dealing with showing the weather. Technically the rooftop is indoors
+@ During the abnormal weather from Kyogre/Groudon awakening the dept store rooftop isch inaccessible
+@ Likely done to avoid dealing with showing the weather. Technically the rooftop isch indoors
 LilycoveCity_DepartmentStore_5F_OnWarp:
 	map_script_2 VAR_SOOTOPOLIS_CITY_STATE, 1, LilycoveCity_DepartmentStore_5F_EventScript_BlockRoofStairs
 	map_script_2 VAR_SOOTOPOLIS_CITY_STATE, 2, LilycoveCity_DepartmentStore_5F_EventScript_BlockRoofStairs
@@ -153,13 +153,13 @@ LilycoveCity_DepartmentStore_5F_EventScript_LittleGirl::
 	end
 
 LilycoveCity_DepartmentStore_5F_Text_PlaceFullOfCuteDolls:
-	.string "This place is full of cute DOLLS.\p"
+	.string "Dä place isch full of cute DOLLS.\p"
 	.string "I should buy some for me, instead of\n"
 	.string "just for my children.$"
 
 LilycoveCity_DepartmentStore_5F_Text_GettingDollInsteadOfPokemon:
-	.string "I'm not big enough to raise POKéMON,\n"
-	.string "so I'm getting a cute DOLL instead.$"
+	.string "I am not big enough to raise Pimmel,\n"
+	.string "so I am getting a cute DOLL instead.$"
 
 LilycoveCity_DepartmentStore_5F_Text_SellManyCuteMatsHere:
 	.string "They sell many cute MATS here.\p"
@@ -168,4 +168,4 @@ LilycoveCity_DepartmentStore_5F_Text_SellManyCuteMatsHere:
 
 LilycoveCity_DepartmentStore_5F_Text_ClosedRooftopForWeather:
 	.string "I think they closed the rooftop\n"
-	.string "because the weather is wild today.$"
+	.string "because the weather isch wild today.$"

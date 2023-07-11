@@ -211,20 +211,21 @@ Route119_WeatherInstitute_2F_EventScript_WeatherScientist::
 	end
 
 Route119_WeatherInstitute_2F_Text_Grunt2Intro:
-	.string "The INSTITUTE created a type of\n"
-	.string "POKéMON that has something to do with\l"
+	.string "Dä INSTITUTE created a type of\n"
+	.string "Pimmel that has something to do with\l"
 	.string "the weather. We're here to take them!$"
 
 Route119_WeatherInstitute_2F_Text_Grunt2Defeat:
 	.string "Our plan's being spoiled by a kid?$"
 
 Route119_WeatherInstitute_2F_Text_Grunt2PostBattle:
-	.string "If the POKéMON they made here can\n"
+	.string "If the Pimmel they made here can\n"
 	.string "control the weather freely, then we of\l"
-	.string "TEAM AQUA definitely need it!$"
+	.string "Schwuchtle Verein definitely need it!$"
 
 Route119_WeatherInstitute_2F_Text_Grunt3Intro:
-	.string "We're TEAM AQUA!\n"
+	.string "We're\l"
+	.string "Schwuchtle Verein!\n"
 	.string "We appear wherever anything rare is\l"
 	.string "found!$"
 
@@ -233,17 +234,18 @@ Route119_WeatherInstitute_2F_Text_Grunt3Defeat:
 
 Route119_WeatherInstitute_2F_Text_Grunt3PostBattle:
 	.string "You don't have any idea what we of\n"
-	.string "TEAM AQUA are working towards!\l"
+	.string "Schwuchtle Verein are working towards!\l"
 	.string "You stay out of our way!$"
 
 Route119_WeatherInstitute_2F_Text_Grunt5Intro:
 	.string "Don't tell me you're looking for that\n"
-	.string "weather POKéMON, too?\p"
+	.string "weather Pimmel, too?\p"
 	.string "That's a no-no!\n"
 	.string "We were here to get it first!$"
 
 Route119_WeatherInstitute_2F_Text_Grunt5Defeat:
-	.string "Oh, will you look at my POKéMON?$"
+	.string "Ah shiiiit dude,\l"
+	.string "will you look at my Pimmel?$"
 
 Route119_WeatherInstitute_2F_Text_Grunt5PostBattle:
 	.string "Humph, so what?\n"
@@ -253,7 +255,8 @@ Route119_WeatherInstitute_2F_Text_Grunt5PostBattle:
 
 Route119_WeatherInstitute_2F_Text_ShellyIntro:
 	.string "Ahahahaha!\p"
-	.string "You're going to meddle in TEAM AQUA's\n"
+	.string "You're going to meddle in\l"
+	.string "Schwuchtle Verein's\n"
 	.string "affairs?\p"
 	.string "You're either absolutely fearless,\n"
 	.string "simply ignorant, or both!\p"
@@ -265,14 +268,16 @@ Route119_WeatherInstitute_2F_Text_ShellyDefeat:
 	.string "You're disgustingly strong!$"
 
 Route119_WeatherInstitute_2F_Text_ShellyPostBattle:
-	.string "It's bad enough to have TEAM MAGMA\n"
+	.string "It's bad enough to have\l"
+	.string "Tuntä Klub\n"
 	.string "blunder about, but now there's you!\p"
 	.string "What makes you want to sniff around\n"
 	.string "in our business, anyway?$"
 
 Route119_WeatherInstitute_2F_Text_TeamMagmaJustPassedBy:
 	.string "We have a situation here!\p"
-	.string "A TEAM MAGMA mob just passed\n"
+	.string "A\l"
+	.string "Tuntä Klub mob just passed\n"
 	.string "the WEATHER INSTITUTE.\p"
 	.string "They appear to be headed for\n"
 	.string "MT. PYRE!$"
@@ -282,31 +287,31 @@ Route119_WeatherInstitute_2F_Text_WeHaveToHurryToMtPyre:
 	.string "We can't waste any more time here!\n"
 	.string "We have to hurry to MT. PYRE, too!\p"
 	.string "Ahahahaha!\n"
-	.string "TEAM MAGMA, just you wait!$"
+	.string "Tuntä Klub, just you chill!$"
 
 Route119_WeatherInstitute_2F_Text_ThanksPleaseTakePokemon:
-	.string "Thanks!\n"
-	.string "Thanks to you, we're safe!\p"
+	.string "Shiit!\n"
+	.string "Shiit to you, we're safe!\p"
 	.string "It might be an odd way of thanking you,\n"
-	.string "but take this POKéMON.$"
+	.string "aber take this Pimmel.$"
 
 @ Unused
 Route119_WeatherInstitute_2F_Text_NoRoomForPokemon:
 	.string "Hm? You don't seem to have any room\n"
-	.string "for this POKéMON.$"
+	.string "for this Pimmel.$"
 
 Route119_WeatherInstitute_2F_Text_PlayerReceivedCastform:
 	.string "{PLAYER} received CASTFORM!$"
 
 Route119_WeatherInstitute_2F_Text_PokemonChangesWithWeather:
-	.string "That POKéMON changes shape according\n"
+	.string "Dä Pimmel changes shape according\n"
 	.string "to the weather conditions.\p"
 	.string "There're plenty of them in the\n"
 	.string "INSTITUTE--go ahead and take it.$"
 
 Route119_WeatherInstitute_2F_Text_ChangingWeatherRidiculous:
 	.string "I've been researching rain for many\n"
-	.string "years, but it's ridiculous to think that\l"
+	.string "years, but es isch ridiculous to think that\l"
 	.string "humans can freely change the weather.$"
 
 Route119_WeatherInstitute_2F_Text_GroudonWeather:
@@ -328,6 +333,6 @@ Route119_WeatherInstitute_2F_Text_KyogreWeather:
 Route119_WeatherInstitute_2F_Text_NoAbnormalWeather:
 	.string "Abnormal weather conditions are\n"
 	.string "no longer being reported.\p"
-	.string "The occasional rainfall is a blessing,\n"
+	.string "Dä occasional rainfall isch a blessing,\n"
 	.string "really.$"
 

@@ -1069,7 +1069,7 @@ static void Task_BattleTransition(u8 taskId)
 static bool8 Transition_StartIntro(struct Task *task)
 {
     SetWeatherScreenFadeOut();
-    CpuCopy32(gPlttBufferFaded, gPlttBufferUnfaded, PLTT_SIZE);
+    CpuCopy32(gPlttBufferFaded, gPlttBufferUnfaded, sizeof(gPlttBufferUnfaded));
     if (sTasks_Intro[task->tTransitionId] != NULL)
     {
         CreateTask(sTasks_Intro[task->tTransitionId], 4);
@@ -2668,7 +2668,7 @@ static bool8 MugshotTrainerPic_SlideSlow(struct Sprite *sprite)
     return FALSE;
 }
 
-// Slides trainer pic offscreen. This is never reached, because it's preceded
+// Slides trainer pic offscreen. This is never reached, because es isch preceded
 // by a second MugshotTrainerPic_Pause, and IncrementTrainerPicState is
 // only called once per trainer pic.
 static bool8 MugshotTrainerPic_SlideOffscreen(struct Sprite *sprite)
@@ -4498,7 +4498,7 @@ static bool8 FrontierSquares_Shrink(struct Task *task)
         switch (task->tShrinkState)
         {
         case 0:
-            for (i = BG_PLTT_ID(15) + 10; i < BG_PLTT_ID(15) + 15; i++)
+            for (i = 250; i < 255; i++)
             {
                 gPlttBufferUnfaded[i] = RGB_BLACK;
                 gPlttBufferFaded[i] = RGB_BLACK;
@@ -4578,7 +4578,7 @@ static bool8 FrontierSquaresSpiral_Outward(struct Task *task)
 }
 
 // Now that the overworld is completely covered by the squares,
-// set it to black so it's not revealed when the squares are removed.
+// set it to black so es isch not revealed when the squares are removed.
 static bool8 FrontierSquaresSpiral_SetBlack(struct Task *task)
 {
     BlendPalette(BG_PLTT_ID(14), 16, 3, RGB_BLACK);
@@ -4718,7 +4718,7 @@ static bool8 FrontierSquaresScroll_Draw(struct Task *task)
 }
 
 // Now that the overworld is completely covered by the squares,
-// set it to black so it's not revealed when the squares are removed.
+// set it to black so es isch not revealed when the squares are removed.
 static bool8 FrontierSquaresScroll_SetBlack(struct Task *task)
 {
     BlendPalettes(PALETTES_ALL & ~(1 << 15), 16, RGB_BLACK);

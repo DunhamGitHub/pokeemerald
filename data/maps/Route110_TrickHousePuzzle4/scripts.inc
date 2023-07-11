@@ -29,10 +29,10 @@ Route110_TrickHousePuzzle4_EventScript_Paula::
 
 Route110_TrickHousePuzzle4_Text_WroteSecretCodeLockOpened:
 	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“TRICK MASTER is cool.”\n"
+	.string "on the Türe.\p"
+	.string "“TRICK MASTER isch cool.”\n"
 	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "Dä lock clicked open!$"
 
 Route110_TrickHousePuzzle4_Text_CoraIntro:
 	.string "It's too much bother to think this out.\n"
@@ -44,7 +44,7 @@ Route110_TrickHousePuzzle4_Text_CoraDefeat:
 
 Route110_TrickHousePuzzle4_Text_CoraPostBattle:
 	.string "Wouldn't you agree? You would go\n"
-	.string "anywhere if TRAINERS were there.$"
+	.string "anywhere if Pfluutä were there.$"
 
 Route110_TrickHousePuzzle4_Text_YujiIntro:
 	.string "Heh! Boulders like this, I can brush\n"
@@ -59,7 +59,7 @@ Route110_TrickHousePuzzle4_Text_YujiPostBattle:
 	.string "You have to use your head. Be brainy!$"
 
 Route110_TrickHousePuzzle4_Text_PaulaIntro:
-	.string "The TRICK HOUSE is getting trickier,\n"
+	.string "Dä TRICK HOUSE isch getting trickier,\n"
 	.string "isn't it?$"
 
 Route110_TrickHousePuzzle4_Text_PaulaDefeat:

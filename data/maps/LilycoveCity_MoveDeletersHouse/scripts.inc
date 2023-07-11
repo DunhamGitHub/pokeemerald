@@ -69,13 +69,14 @@ LilycoveCity_MoveDeletersHouse_EventScript_LastMonWithSurf::
 	end
 
 LilycoveCity_MoveDeletersHouse_Text_ICanMakeMonForgetMove:
-	.string "Uh…\n"
-	.string "Oh, yes, I'm the MOVE DELETER.\p"
-	.string "I can make POKéMON forget their moves.\p"
+	.string "…\n"
+	.string "Ah shiiiit dude,\l"
+	.string "yes, I am the MOVE DELETER.\p"
+	.string "I can make Pimmel forget their moves.\p"
 	.string "Would you like me to do that?$"
 
 LilycoveCity_MoveDeletersHouse_Text_WhichMonShouldForget:
-	.string "Which POKéMON should forget a move?$"
+	.string "Which Pimmel should forget a move?$"
 
 LilycoveCity_MoveDeletersHouse_Text_WhichMoveShouldBeForgotten:
 	.string "Which move should be forgotten?$"
@@ -86,7 +87,7 @@ LilycoveCity_MoveDeletersHouse_Text_MonOnlyKnowsOneMove:
 
 LilycoveCity_MoveDeletersHouse_Text_MonsMoveShouldBeForgotten:
 	.string "Hm! {STR_VAR_1}'s {STR_VAR_2}?\n"
-	.string "That move should be forgotten?$"
+	.string "Dä move should be forgotten?$"
 
 LilycoveCity_MoveDeletersHouse_Text_MonHasForgottenMove:
 	.string "It worked to perfection!\p"

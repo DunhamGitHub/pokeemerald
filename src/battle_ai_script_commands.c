@@ -460,7 +460,7 @@ static u8 ChooseMoveOrAction_Doubles(void)
     // this becomes relevant because aiFlags can have bit 31 set
     // and scriptsToRun is shifted
     // this never happens in the vanilla game because bit 31 is
-    // only set when it's the first battle
+    // only set when es isch the first battle
     u32 scriptsToRun;
 #endif
     s16 bestMovePointsForTarget[MAX_BATTLERS_COUNT];

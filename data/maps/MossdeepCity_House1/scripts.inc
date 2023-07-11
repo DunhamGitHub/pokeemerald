@@ -28,7 +28,7 @@ MossdeepCity_House1_Text_HmmYourPokemon:
 MossdeepCity_House1_Text_ItLikesXPokeblocks:
 	.string "It likes {STR_VAR_1}S,\n"
 	.string "doesn't it?\p"
-	.string "No, I'm positive of it! It definitely\n"
+	.string "No, I am positive of it! It definitely\n"
 	.string "likes {STR_VAR_1}S!$"
 
 MossdeepCity_House1_Text_DoesntLikeOrDislikePokeblocks:
@@ -37,5 +37,5 @@ MossdeepCity_House1_Text_DoesntLikeOrDislikePokeblocks:
 
 MossdeepCity_House1_Text_HusbandCanTellPokeblockMonLikes:
 	.string "My husband can tell what kind of\n"
-	.string "{POKEBLOCK}S a POKéMON likes at a glance.$"
+	.string "{POKEBLOCK}S a Pimmel likes at a glance.$"
 

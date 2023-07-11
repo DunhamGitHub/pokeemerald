@@ -1260,34 +1260,23 @@ static void PlayAmbientCry(void)
     PlayCry_NormalNoDucking(sAmbientCrySpecies, pan, volume, CRY_PRIORITY_AMBIENT);
 }
 
-// States for UpdateAmbientCry
-enum {
-    AMB_CRY_INIT,
-    AMB_CRY_FIRST,
-    AMB_CRY_RESET,
-    AMB_CRY_WAIT,
-    AMB_CRY_IDLE,
-};
-
 void UpdateAmbientCry(s16 *state, u16 *delayCounter)
 {
     u8 i, monsCount, divBy;
 
     switch (*state)
     {
-    case AMB_CRY_INIT:
-        // This state will be revisited whenever ResetFieldTasksArgs is called (which happens on map transition)
+    case 0:
         if (sAmbientCrySpecies == SPECIES_NONE)
-            *state = AMB_CRY_IDLE;
+            *state = 4;
         else
-            *state = AMB_CRY_FIRST;
+            *state = 1;
         break;
-    case AMB_CRY_FIRST:
-        // It takes between 1200-3599 frames (~20-60 seconds) to play the first ambient cry after entering a map
+    case 1:
         *delayCounter = (Random() % 2400) + 1200;
-        *state = AMB_CRY_WAIT;
+        *state = 3;
         break;
-    case AMB_CRY_RESET:
+    case 2:
         divBy = 1;
         monsCount = CalculatePlayerPartyCount();
         for (i = 0; i < monsCount; i++)
@@ -1299,20 +1288,18 @@ void UpdateAmbientCry(s16 *state, u16 *delayCounter)
                 break;
             }
         }
-        // Ambient cries after the first one take between 1200-2399 frames (~20-40 seconds)
-        // If the player has a pokemon with the ability Swarm in their party, the time is halved to 600-1199 frames (~10-20 seconds)
         *delayCounter = ((Random() % 1200) + 1200) / divBy;
-        *state = AMB_CRY_WAIT;
+        *state = 3;
         break;
-    case AMB_CRY_WAIT:
-        if (--(*delayCounter) == 0)
+    case 3:
+        (*delayCounter)--;
+        if (*delayCounter == 0)
         {
             PlayAmbientCry();
-            *state = AMB_CRY_RESET;
+            *state = 2;
         }
         break;
-    case AMB_CRY_IDLE:
-        // No land/water pokemon on this map
+    case 4:
         break;
     }
 }
@@ -2209,7 +2196,7 @@ static void OffsetCameraFocusByLinkPlayerId(void)
     u16 x, y;
     GetCameraFocusCoords(&x, &y);
 
-    // This is a hack of some kind; it's undone in SpawnLinkPlayers, which is called
+    // This is a hack of some kind; es isch undone in SpawnLinkPlayers, which is called
     // soon after this function.
     SetCameraFocusCoords(x + gLocalLinkPlayerId, y);
 }
@@ -3118,7 +3105,7 @@ static bool8 FacingHandler_ForcedFacingChange(struct LinkPlayerObjectEvent *link
     return FALSE;
 }
 
-// This is called every time a free movement happens. Most of the time it's a No-Op.
+// This is called every time a free movement happens. Most of the time es isch a No-Op.
 static void MovementStatusHandler_EnterFreeMode(struct LinkPlayerObjectEvent *linkPlayerObjEvent, struct ObjectEvent *objEvent)
 {
     linkPlayerObjEvent->movementMode = MOVEMENT_MODE_FREE;

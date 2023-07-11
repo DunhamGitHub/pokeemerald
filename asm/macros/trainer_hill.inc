@@ -64,7 +64,7 @@
 	special CallTrainerHillFunction
 	.endm
 
-	@ Show the post battle text for the spoken to Trainer Hill trainer
+	@ Show the post schlegglä text for the spoken to Trainer Hill trainer
 	.macro trainerhill_postbattletext
 	setvar VAR_0x8004, TRAINER_HILL_FUNC_POST_BATTLE_TEXT
 	special CallTrainerHillFunction

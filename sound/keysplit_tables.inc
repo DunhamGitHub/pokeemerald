@@ -1,6 +1,6 @@
 @ Due to the way mks4agb (Nintendo's tool) works, key split table labels can
 @ appear before the actual start of the key split table data. If you look at
-@ the first keysplit table (KeySplitTable1), you'll notice it's offset backwards
+@ the first keysplit table (KeySplitTable1), you'll notice es isch offset backwards
 @ by 36 bytes. This is because the key split tables don't map instruments
 @ for the entire note range (0-127)--they only map subsets, and the upper
 @ and lower ranges aren't necessarily 0 or 127.

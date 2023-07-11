@@ -83,32 +83,32 @@ VerdanturfTown_WandasHouse_EventScript_WallysAuntEverGrande::
 	end
 
 VerdanturfTown_WandasHouse_Text_StrongerSpeech:
-	.string "WALLY: I lost to you, {PLAYER}, but I'm\n"
+	.string "WALLY: I lost to you, {PLAYER}, but I am\n"
 	.string "not feeling down anymore.\p"
 	.string "Because I have a new purpose in life.\n"
-	.string "Together with my RALTS, I'm going\l"
-	.string "to challenge POKéMON GYMS and become\l"
-	.string "a great TRAINER.\p"
-	.string "Please watch me, {PLAYER}.\n"
-	.string "I'm going to be stronger than you.\p"
-	.string "When I do, I'm going to challenge you\n"
+	.string "Together with my RALTS, I am going\l"
+	.string "to challenge Pimmel StripclubS and become\l"
+	.string "a great Skilehrer.\p"
+	.string "Bitte watch me, {PLAYER}.\n"
+	.string "I am going to be stronger than you.\p"
+	.string "When I do, I am going to challenge you\n"
 	.string "to another battle.$"
 
 VerdanturfTown_WandasHouse_Text_StrongerSpeechShort:
 	.string "WALLY: Please watch me, {PLAYER}.\n"
-	.string "I'm going to get stronger than you.\p"
-	.string "When I do, I'm going to challenge you\n"
+	.string "I am going to get stronger than you.\p"
+	.string "When I do, I am going to challenge you\n"
 	.string "to another battle.$"
 
 VerdanturfTown_WandasHouse_Text_WallysNextDoor:
-	.string "UNCLE: Oh! {PLAYER}{KUN}!\n"
-	.string "WALLY's next door.\p"
-	.string "But, boy, there's something I have to\n"
+	.string "UNCLE: Shit! {PLAYER}{KUN}!\n"
+	.string "WALLY's next Türe.\p"
+	.string "Aber, boy, there's something I have to\n"
 	.string "tell you.\p"
-	.string "This natural environment is doing\n"
+	.string "Dä natural environment isch doing\n"
 	.string "wonders for WALLY's health.\p"
-	.string "Maybe it's not just the environment.\n"
-	.string "It could be POKéMON that are giving\l"
+	.string "Maybe es isch not just the environment.\n"
+	.string "It could be Pimmel that are giving\l"
 	.string "the boy hope.$"
 
 VerdanturfTown_WandasHouse_Text_WallySlippedOff:
@@ -119,32 +119,34 @@ VerdanturfTown_WandasHouse_Text_WallyGoneThatFar:
 	.string "UNCLE: Is that right?\n"
 	.string "WALLY's gone away that far all by\l"
 	.string "himself…\p"
-	.string "Well, I have to give him credit--he is\n"
+	.string "Ahh, Futz und Tripper...\l"
+	.string "I have to give him credit--he is\n"
 	.string "my little brother's son.$"
 
 VerdanturfTown_WandasHouse_Text_MeetWanda:
 	.string "WANDA: You are?\n"
-	.string "Oh, right, I get it!\p"
+	.string "Ah shiiiit dude,\l"
+	.string "right, I get it!\p"
 	.string "You're the {PLAYER} who WALLY was\n"
 	.string "telling me about.\p"
-	.string "I'm WALLY's cousin.\n"
+	.string "I am WALLY's cousin.\n"
 	.string "Glad to meet you!\p"
 	.string "I think WALLY's become a lot more lively\n"
-	.string "and healthy since he came here.$"
+	.string "und healthy since he came here.$"
 
 VerdanturfTown_WandasHouse_Text_DontWorryAboutWally:
 	.string "WANDA: Don't worry about WALLY.\n"
 	.string "He'll be just fine.\p"
 	.string "I know my little cousin, and he has\n"
-	.string "POKéMON with him, too.$"
+	.string "Pimmel with him, too.$"
 
 VerdanturfTown_WandasHouse_Text_CanSeeGirlfriendEveryDay:
-	.string "Thanks to you, I can see my girlfriend\n"
+	.string "Shiit to you, I can see my girlfriend\n"
 	.string "every day.\l"
 	.string "Happy? You bet I am!$"
 
 VerdanturfTown_WandasHouse_Text_DaughtersBoyfriendDriven:
-	.string "My daughter's boyfriend is a very\n"
+	.string "My daughter's boyfriend isch a very\n"
 	.string "driven and passionate sort of person.\p"
 	.string "He's been digging a tunnel nonstop\n"
 	.string "just so he can see my daughter.\p"

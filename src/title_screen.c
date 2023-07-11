@@ -383,6 +383,7 @@ static void SpriteCB_VersionBannerRight(struct Sprite *sprite)
 
 static void SpriteCB_PressStartCopyrightBanner(struct Sprite *sprite)
 {
+    /*
     if (sprite->data[0] == 1)
     {
         sprite->data[1]++;
@@ -396,10 +397,12 @@ static void SpriteCB_PressStartCopyrightBanner(struct Sprite *sprite)
     {
         sprite->invisible = FALSE;
     }
+    */
 }
 
 static void CreatePressStartBanner(s16 x, s16 y)
 {
+    /*
     u8 i;
     u8 spriteId;
 
@@ -410,10 +413,13 @@ static void CreatePressStartBanner(s16 x, s16 y)
         StartSpriteAnim(&gSprites[spriteId], i);
         gSprites[spriteId].data[0] = 1;
     }
+    */
 }
 
 static void CreateCopyrightBanner(s16 x, s16 y)
 {
+    /*
+
     u8 i;
     u8 spriteId;
 
@@ -423,10 +429,12 @@ static void CreateCopyrightBanner(s16 x, s16 y)
         spriteId = CreateSprite(&sStartCopyrightBannerSpriteTemplate, x, y, 0);
         StartSpriteAnim(&gSprites[spriteId], i + 5);
     }
+    */
 }
 
 static void SpriteCB_PokemonLogoShine(struct Sprite *sprite)
 {
+    /*
     if (sprite->x < DISPLAY_WIDTH + 32)
     {
         if (sprite->data[0]) // Flash background
@@ -466,14 +474,17 @@ static void SpriteCB_PokemonLogoShine(struct Sprite *sprite)
         gPlttBufferFaded[0] = RGB_BLACK;
         DestroySprite(sprite);
     }
+    */
 }
 
 static void SpriteCB_PokemonLogoShine2(struct Sprite *sprite)
 {
+    /*
     if (sprite->x < DISPLAY_WIDTH + 32)
         sprite->x += 8;
     else
         DestroySprite(sprite);
+        */
 }
 
 static void StartPokemonLogoShine(u8 flashBg)
@@ -633,6 +644,11 @@ static void MainCB2(void)
 // Shine the Pokemon logo two more times, and fade in the version banner
 static void Task_TitleScreenPhase1(u8 taskId)
 {
+
+    // sp, just skip to totle
+    gTasks[taskId].tSkipToNext = TRUE;
+
+
     // Skip to next phase when A, B, Start, or Select is pressed
     if (JOY_NEW(A_B_START_SELECT) || gTasks[taskId].data[1] != 0)
     {
@@ -643,10 +659,10 @@ static void Task_TitleScreenPhase1(u8 taskId)
     if (gTasks[taskId].tCounter != 0)
     {
         u16 frameNum = gTasks[taskId].tCounter;
-        if (frameNum == 176)
-            StartPokemonLogoShine(1);
-        else if (frameNum == 64)
-            StartPokemonLogoShine(2);
+        //if (frameNum == 176)
+            //StartPokemonLogoShine(1);
+        //else if (frameNum == 64)
+            //StartPokemonLogoShine(2);
 
         gTasks[taskId].tCounter--;
     }
@@ -679,6 +695,9 @@ static void Task_TitleScreenPhase1(u8 taskId)
 static void Task_TitleScreenPhase2(u8 taskId)
 {
     u32 yPos;
+
+    // sp, just skip to title
+    gTasks[taskId].tSkipToNext = TRUE;
 
     // Skip to next phase when A, B, Start, or Select is pressed
     if (JOY_NEW(A_B_START_SELECT) || gTasks[taskId].tSkipToNext)

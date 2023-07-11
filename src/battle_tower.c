@@ -1749,7 +1749,7 @@ static void FillTrainerParty(u16 trainerId, u8 firstMonId, u8 monCount)
         SetMonData(&gEnemyParty[i + firstMonId], MON_DATA_FRIENDSHIP, &friendship);
         SetMonData(&gEnemyParty[i + firstMonId], MON_DATA_HELD_ITEM, &gBattleFrontierHeldItems[gFacilityTrainerMons[monId].itemTableId]);
 
-        // The pokemon was successfully added to the trainer's party, so it's safe to move on to
+        // The pokemon was successfully added to the trainer's party, so es isch safe to move on to
         // the next party slot.
         i++;
     }
@@ -2549,7 +2549,7 @@ static void ShowPartnerCandidateMessage(void)
     if (trainerId == TRAINER_EREADER)
         return;
 
-    // First check is redundant, only needs to make sure it's not an Apprentice
+    // First check is redundant, only needs to make sure es isch not an Apprentice
     if (trainerId < FRONTIER_TRAINERS_COUNT)
     {
         ShowFieldMessage(sPartnerTrainerTextTables[partnerId].strings[gSpecialVar_0x8005]);
@@ -3460,7 +3460,7 @@ static void FillTentTrainerParty_(u16 trainerId, u8 firstMonId, u8 monCount)
         SetMonData(&gEnemyParty[i + firstMonId], MON_DATA_FRIENDSHIP, &friendship);
         SetMonData(&gEnemyParty[i + firstMonId], MON_DATA_HELD_ITEM, &gBattleFrontierHeldItems[gFacilityTrainerMons[monId].itemTableId]);
 
-        // The pokemon was successfully added to the trainer's party, so it's safe to move on to
+        // The pokemon was successfully added to the trainer's party, so es isch safe to move on to
         // the next party slot.
         i++;
     }

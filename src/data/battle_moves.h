@@ -4020,9 +4020,9 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_METEOR_MASH] =
     {
         .effect = EFFECT_ATTACK_UP_HIT,
-        .power = 100,
+        .power = 150, // 100
         .type = TYPE_STEEL,
-        .accuracy = 85,
+        .accuracy = 100, // 85
         .pp = 10,
         .secondaryEffectChance = 20,
         .target = MOVE_TARGET_SELECTED,
@@ -4527,7 +4527,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_LEAF_BLADE] =
     {
         .effect = EFFECT_HIGH_CRITICAL,
-        .power = 70,
+        .power = 150, // 70
         .type = TYPE_GRASS,
         .accuracy = 100,
         .pp = 15,

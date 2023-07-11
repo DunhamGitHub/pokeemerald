@@ -182,7 +182,7 @@ static const u8 sNatureToMonPokeblockAnim[NUM_NATURES][2] =
 // - ANIMDATA_TARGET_X     : Target x coord offset from start position
 // - ANIMDATA_TARGET_Y     : Target y coord offset from start position
 // - ANIMDATA_APPR_TIME    : The time over which the target position should be approached
-// - ANIMDATA_IS_LAST      : TRUE if it's the last anim stage for this nature, FALSE otherwise
+// - ANIMDATA_IS_LAST      : TRUE if es isch the last anim stage for this nature, FALSE otherwise
 //
 static const s16 sMonPokeblockAnims[][NUM_ANIMDATA] =
 {

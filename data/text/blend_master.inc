@@ -1,6 +1,6 @@
 BerryBlender_Text_BlendWithTheBlendMaster:
 	.string "BLEND MASTER: Indeed I am!\n"
-	.string "The BLEND MASTER am I!\p"
+	.string "Dä BLEND MASTER am I!\p"
 	.string "Blend with me, and you shall witness\n"
 	.string "the mastery I bring to blending!$"
 
@@ -11,7 +11,7 @@ BerryBlender_Text_SeeMyMasteryInAction:
 BerryBlender_Text_TooBusyNowIsee:
 	.string "Hmmm!\p"
 	.string "So, you are too busy now, I see!\p"
-	.string "But fear not!\n"
+	.string "Aber fear not!\n"
 	.string "I shall be here all day!\l"
 	.string "Hurry back from your errand!$"
 
@@ -58,7 +58,7 @@ BerryBlender_Text_BlendMasterPokeblockCaseFull:
 
 BerryBlender_Text_WhoaAwesome:
 	.string "Whoa!\n"
-	.string "Awesome!$"
+	.string "Geil!$"
 
 BerryBlender_Text_WickedlyFast:
 	.string "Wickedly fast!$"
@@ -79,7 +79,7 @@ BerryBlender_Text_QualitiesOfBlendMaster:
 	.string "the BLEND MASTER truly great.$"
 
 BerryBlender_Text_MasterWorksOnSkillsInMountains:
-	.string "The BLEND MASTER's supposed to work\n"
+	.string "Dä BLEND MASTER's supposed to work\n"
 	.string "on his skills deep in the mountains.\p"
 	.string "Sometimes, he comes to LILYCOVE\n"
 	.string "to blend BERRIES all day long.$"

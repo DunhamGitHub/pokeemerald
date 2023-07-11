@@ -222,7 +222,7 @@ Route110_TrickHousePuzzle7_EventScript_SetSwitch5Off::
 	releaseall
 	end
 
-@ From here is where the new, actually used puzzle scripts begin
+@ From here isch where the new, actually used puzzle scripts begin
 Route110_TrickHousePuzzle7_EventScript_YellowButton::
 	playse SE_SWITCH
 	waitse
@@ -316,13 +316,13 @@ Route110_TrickHousePuzzle7_EventScript_Everett::
 
 Route110_TrickHousePuzzle7_Text_WroteSecretCodeLockOpened::
 	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“TRICK MASTER is huggable.”\n"
+	.string "on the Türe.\p"
+	.string "“TRICK MASTER isch huggable.”\n"
 	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "Dä lock clicked open!$"
 
 Route110_TrickHousePuzzle7_Text_JoshuaIntro:
-	.string "The TRICK MASTER always vanishes\n"
+	.string "Dä TRICK MASTER always vanishes\n"
 	.string "like smoke. How does he do it?$"
 
 Route110_TrickHousePuzzle7_Text_JoshuaDefeat:
@@ -350,8 +350,9 @@ Route110_TrickHousePuzzle7_Text_AlexisIntro:
 	.string "first. That's the feeling I get.$"
 
 Route110_TrickHousePuzzle7_Text_AlexisDefeat:
-	.string "Oh!\n"
-	.string "Well, go ahead, then!$"
+	.string "Shit!\n"
+	.string "Ahh, Futz und Tripper...\l"
+	.string "go ahead, then!$"
 
 Route110_TrickHousePuzzle7_Text_AlexisPostBattle:
 	.string "You're solving all the puzzles in the\n"
@@ -365,17 +366,18 @@ Route110_TrickHousePuzzle7_Text_MarielaDefeat:
 	.string "You're so casual about winning!$"
 
 Route110_TrickHousePuzzle7_Text_MarielaPostBattle:
-	.string "Humph! I'm not upset!\n"
+	.string "Humph! I am not upset!\n"
 	.string "Not me!$"
 
 Route110_TrickHousePuzzle7_Text_AlvaroIntro:
 	.string "I ever so closely watched you coming!$"
 
 Route110_TrickHousePuzzle7_Text_AlvaroDefeat:
-	.string "This outcome I didn't see coming…$"
+	.string "Dä outcome I didn't see coming…$"
 
 Route110_TrickHousePuzzle7_Text_AlvaroPostBattle:
-	.string "Well, anyway, we both picked a weird\n"
+	.string "Ahh, Futz und Tripper...\l"
+	.string "anyway, we both picked a weird\n"
 	.string "place to get acquainted.\p"
 	.string "As one weirdo to another,\n"
 	.string "let's do our best!$"
@@ -384,7 +386,8 @@ Route110_TrickHousePuzzle7_Text_EverettIntro:
 	.string "It's awfully cramped in here…$"
 
 Route110_TrickHousePuzzle7_Text_EverettDefeat:
-	.string "Oh, yes, strong you are.$"
+	.string "Ah shiiiit dude,\l"
+	.string "yes, strong you are.$"
 
 Route110_TrickHousePuzzle7_Text_EverettPostBattle:
 	.string "I was hoping to switch places with you\n"

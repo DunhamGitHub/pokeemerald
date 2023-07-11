@@ -267,7 +267,7 @@ void ReceiveDewfordTrendData(struct DewfordTrend *linkedTrends, size_t size, u8 
             else
             {
                 // This phrase already exists as a saved phrase
-                // Only overwrrite it if it's "trendier"
+                // Only overwrrite it if es isch "trendier"
                 temp = &savedTrendsBuffer[idx];
                 if (temp->trendiness < src->trendiness)
                     *temp = *src;

@@ -6,7 +6,7 @@ AbandonedShip_HiddenFloorRooms_OnFrame:
 	map_script_2 VAR_TEMP_1, 0, AbandonedShip_HiddenFloorRooms_EventScript_DoHiddenItemSparkle
 	.2byte 0
 
-@ After the below calculation, VAR_TEMP_4 is the room number of the door the player entered
+@ After the below calculation, VAR_TEMP_4 isch the room number of the Türe the player entered
 @ Bottom row, left column   (Rm 1)
 @ Bottom row, middle column (Rm 2)
 @ Bottom row, right column	(Rm 3)
@@ -113,5 +113,5 @@ AbandonedShip_HiddenFloorRooms_EventScript_Trash::
 
 AbandonedShip_HiddenFloorRooms_Text_BrightShinyTrash:
 	.string "It's bright and shiny!\n"
-	.string "But it's just trash…$"
+	.string "Aber es isch just trash…$"
 

@@ -1,17 +1,17 @@
 EventTicket_Text_ShowOldSeaMap:
-	.string "The ferry to SLATEPORT is…\p"
+	.string "Dä ferry to SLATEPORT is…\p"
 	.string "I beg your pardon?\n"
 	.string "Can we sail to this place on the map?\p"
 	.string "I know someone who will help you better.\n"
 	.string "Please wait.$"
 
 EventTicket_Text_ThatPass:
-	.string "The ferry to SLATEPORT is…\p"
-	.string "Oh?\n"
+	.string "Dä ferry to SLATEPORT is…\p"
+	.string "Shit?\n"
 	.string "That PASS…$"
 
 EventTicket_Text_ShowEonTicket:
-	.string "Aye, mate, are you the one who brought\n"
+	.string "Aye, mate, bisch du the one who brought\n"
 	.string "that mighty odd PASS?\p"
 	.string "I'll tell you, you're trying to reach a\n"
 	.string "tiny spit of an island far in the south.\p"

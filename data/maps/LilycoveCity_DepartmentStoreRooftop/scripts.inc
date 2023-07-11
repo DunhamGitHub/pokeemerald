@@ -191,13 +191,13 @@ LilycoveCity_DepartmentStoreRooftop_Text_SetDatesForClearOutSales:
 	.string "commercials.$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_BeenWaitingForClearOutSale:
-	.string "Yes! I've been waiting a long time for\n"
+	.string "Yes! I've been chilling a long time for\n"
 	.string "this clear-out sale.\p"
 	.string "They have items that you can only get\n"
-	.string "here. I'm going to load up, that I am!$"
+	.string "here. I am going to load up, that I am!$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_BoneDryThirsty:
-	.string "Ohh… I'm bone-dry thirsty!$"
+	.string "Shith… I am bone-dry thirsty!$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_WhichDrinkWouldYouLike:
 	.string "It's a VENDING MACHINE.\n"

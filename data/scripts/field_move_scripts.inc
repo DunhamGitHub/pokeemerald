@@ -115,10 +115,10 @@ EventScript_CancelSmash::
 
 Text_WantToSmash:
 	.string "This rock appears to be breakable.\n"
-	.string "Would you like to use ROCK SMASH?$"
+	.string "Would you like to use Rock-Smash?$"
 
 Text_CantSmash:
-	.string "It's a rugged rock, but a POKéMON\n"
+	.string "It's a rugged rock, but a Pimmel\n"
 	.string "may be able to smash it.$"
 
 EventScript_StrengthBoulder::
@@ -165,7 +165,7 @@ EventScript_CancelStrength::
 	end
 
 Text_WantToStrength:
-	.string "It's a big boulder, but a POKéMON\n"
+	.string "It's a big boulder, but a Pimmel\n"
 	.string "may be able to push it aside.\p"
 	.string "Would you like to use STRENGTH?$"
 
@@ -175,7 +175,7 @@ Text_MonUsedStrength:
 	.string "possible to move boulders around!$"
 
 Text_CantStrength:
-	.string "It's a big boulder, but a POKéMON\n"
+	.string "It's a big boulder, but a Pimmel\n"
 	.string "may be able to push it aside.$"
 
 Text_StrengthActivated:
@@ -210,10 +210,10 @@ Text_CantWaterfall:
 
 Text_WantToWaterfall:
 	.string "It's a large waterfall.\n"
-	.string "Would you like to use WATERFALL?$"
+	.string "Would you like to use WasserFALL?$"
 
 Text_MonUsedWaterfall:
-	.string "{STR_VAR_1} used WATERFALL.$"
+	.string "{STR_VAR_1} used WasserFALL.$"
 
 EventScript_UseDive::
 	lockall
@@ -263,11 +263,11 @@ EventScript_EndSurface::
 	end
 
 Text_CantDive:
-	.string "The sea is deep here. A POKéMON\n"
+	.string "Dä sea is deep here. A Pimmel\n"
 	.string "may be able to go underwater.$"
 
 Text_WantToDive:
-	.string "The sea is deep here.\n"
+	.string "Dä sea is deep here.\n"
 	.string "Would you like to use DIVE?$"
 
 Text_MonUsedDive:
@@ -275,7 +275,7 @@ Text_MonUsedDive:
 
 Text_CantSurface:
 	.string "Light is filtering down from above.\n"
-	.string "A POKéMON may be able to surface.$"
+	.string "A Pimmel may be able to surface.$"
 
 Text_WantToSurface:
 	.string "Light is filtering down from above.\n"

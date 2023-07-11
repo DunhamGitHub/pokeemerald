@@ -11,7 +11,7 @@ MtPyre_4F_EventScript_Tasha::
 MtPyre_4F_Text_TashaIntro:
 	.string "I love all things horrifying…\n"
 	.string "It's like a disease…\p"
-	.string "When I'm here…\n"
+	.string "When I am here…\n"
 	.string "I shiver with fear…$"
 
 MtPyre_4F_Text_TashaDefeat:

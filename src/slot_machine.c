@@ -1881,14 +1881,14 @@ static u8 TrySelectBias_Regular(void)
         s16 rval = Random() & 0xff;
         s16 value = sBiasProbabilities_Regular[whichBias][sSlotMachine->machineId];
 
-        // Boost odds of BIAS_POWER if it's a lucky game.
+        // Boost odds of BIAS_POWER if es isch a lucky game.
         if (whichBias == 0 && sSlotMachine->luckyGame == TRUE)
         {
             value += 10;
             if (value > 0x100)
                 value = 0x100;
         }
-        // Reduce odds of BIAS_REPLAY if it's a lucky game
+        // Reduce odds of BIAS_REPLAY if es isch a lucky game
         else if (whichBias == 4 && sSlotMachine->luckyGame == TRUE)
         {
             value -= 10;
@@ -2044,7 +2044,7 @@ static void CheckMatch_Diagonals(void)
     match = GetMatchFromSymbols(sym1, sym2, sym3);
     if (match != MATCH_NONE)
     {
-        // Don't add payout for cherry, since it's already counted in
+        // Don't add payout for cherry, since es isch already counted in
         // CheckMatch_TopAndBottom().
         if (match != MATCH_CHERRY)
         {
@@ -2059,7 +2059,7 @@ static void CheckMatch_Diagonals(void)
     match = GetMatchFromSymbols(sym1, sym2, sym3);
     if (match != MATCH_NONE)
     {
-        // Don't add payout for cherry, since it's already counted in
+        // Don't add payout for cherry, since es isch already counted in
         // CheckMatch_TopAndBottom().
         if (match != MATCH_CHERRY)
         {
@@ -4427,7 +4427,7 @@ static void SpriteCB_ReelTimePikachuAura(struct Sprite *sprite)
     u8 colors[] = {16, 0};
     if (sprite->sFlashPal && --sprite->sDelayTimer <= 0)
     {
-        MultiplyInvertedPaletteRGBComponents(OBJ_PLTT_ID(IndexOfSpritePaletteTag(PALTAG_PIKA_AURA)) + 3, colors[sprite->sColorIdx], colors[sprite->sColorIdx], colors[sprite->sColorIdx]);
+        MultiplyInvertedPaletteRGBComponents((IndexOfSpritePaletteTag(PALTAG_PIKA_AURA) << 4) + 0x103, colors[sprite->sColorIdx], colors[sprite->sColorIdx], colors[sprite->sColorIdx]);
         ++sprite->sColorIdx;
         sprite->sColorIdx &= 1;
         sprite->sDelayTimer = sprite->sDelay;
@@ -4442,7 +4442,7 @@ static void SetReelTimePikachuAuraFlashDelay(s16 delay)
 static void DestroyReelTimePikachuAuraSprites(void)
 {
     u8 i;
-    MultiplyInvertedPaletteRGBComponents(OBJ_PLTT_ID(IndexOfSpritePaletteTag(PALTAG_PIKA_AURA)) + 3, 0, 0, 0);
+    MultiplyInvertedPaletteRGBComponents((IndexOfSpritePaletteTag(PALTAG_PIKA_AURA) << 4) + 0x103, 0, 0, 0);
     for (i = 0; i < ARRAY_COUNT(sSlotMachine->reelTimePikachuAuraSpriteIds); i++)
         DestroySprite(&gSprites[sSlotMachine->reelTimePikachuAuraSpriteIds[i]]);
 }

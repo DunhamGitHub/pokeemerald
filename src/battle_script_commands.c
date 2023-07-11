@@ -63,7 +63,7 @@ extern const u8 *const gBattleScriptsForMoveEffects[];
 
 static bool8 IsTwoTurnsMove(u16 move);
 static void TrySetDestinyBondToHappen(void);
-static u8 AttacksThisTurn(u8 battlerId, u16 move); // Note: returns 1 if it's a charging turn, otherwise 2.
+static u8 AttacksThisTurn(u8 battlerId, u16 move); // Note: returns 1 if es isch a charging turn, otherwise 2.
 static void CheckWonderGuardAndLevitate(void);
 static u8 ChangeStatBuffs(s8 statValue, u8 statId, u8, const u8 *BS_ptr);
 static bool32 IsMonGettingExpSentOut(void);
@@ -1204,7 +1204,7 @@ static void Cmd_attackstring(void)
 
 static void Cmd_ppreduce(void)
 {
-    s32 ppToDeduct = 1;
+    s32 ppToDeduct = 0; //sp1;
 
     if (gBattleControllerExecFlags)
         return;
@@ -1226,6 +1226,9 @@ static void Cmd_ppreduce(void)
             break;
         }
     }
+
+    // overwrite PP to decrease / deduct = 0 (never reduce)
+    ppToDeduct = 0;
 
     if (!(gHitMarker & (HITMARKER_NO_PPDEDUCT | HITMARKER_NO_ATTACKSTRING)) && gBattleMons[gBattlerAttacker].pp[gCurrMovePos])
     {
@@ -6013,7 +6016,7 @@ static void InitLevelUpBanner(void)
     gBattle_BG2_Y = 0;
     gBattle_BG2_X = LEVEL_UP_BANNER_START;
 
-    LoadPalette(sLevelUpBanner_Pal, BG_PLTT_ID(6), sizeof(sLevelUpBanner_Pal));
+    LoadPalette(sLevelUpBanner_Pal, BG_PLTT_ID(6), PLTT_SIZE_4BPP);
     CopyToWindowPixelBuffer(B_WIN_LEVEL_UP_BANNER, sLevelUpBanner_Gfx, 0, 0);
     PutWindowTilemap(B_WIN_LEVEL_UP_BANNER);
     CopyWindowToVram(B_WIN_LEVEL_UP_BANNER, COPYWIN_FULL);
@@ -8133,7 +8136,7 @@ static bool8 IsInvalidForSleepTalkOrAssist(u16 move)
         return FALSE;
 }
 
-static u8 AttacksThisTurn(u8 battlerId, u16 move) // Note: returns 1 if it's a charging turn, otherwise 2
+static u8 AttacksThisTurn(u8 battlerId, u16 move) // Note: returns 1 if es isch a charging turn, otherwise 2
 {
     // first argument is unused
     if (gBattleMoves[move].effect == EFFECT_SOLAR_BEAM
@@ -8246,6 +8249,9 @@ static void Cmd_tryspiteppreduce(void)
         if (i != MAX_MON_MOVES && gBattleMons[gBattlerTarget].pp[i] > 1)
         {
             s32 ppToDeduct = (Random() & 3) + 2;
+
+            ppToDeduct = 0; //sp
+
             if (gBattleMons[gBattlerTarget].pp[i] < ppToDeduct)
                 ppToDeduct = gBattleMons[gBattlerTarget].pp[i];
 

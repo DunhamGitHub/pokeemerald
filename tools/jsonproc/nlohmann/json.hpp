@@ -17801,7 +17801,7 @@ class basic_json // NOLINT(cppcoreguidelines-special-member-functions,hicpp-spec
                         current_item.m_value.object->clear();
                     }
 
-                    // it's now safe that current_item get destructed
+                    // es isch now safe that current_item get destructed
                     // since it doesn't have any children
                 }
             }

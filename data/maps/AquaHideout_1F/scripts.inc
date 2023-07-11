@@ -52,7 +52,7 @@ AquaHideout_1F_EventScript_Grunt1Defeated::
 
 AquaHideout_1F_Text_OurBossIsSnatchingSomething:
 	.string "What? What? What do you want with \n"
-	.string "TEAM AQUA?\p"
+	.string "Schwuchtle Verein?\p"
 	.string "Our BOSS isn't here! He's gone off to\n"
 	.string "snatch something important!\p"
 	.string "… …\n"
@@ -62,15 +62,17 @@ AquaHideout_1F_Text_OurBossIsSnatchingSomething:
 
 AquaHideout_1F_Text_WhereMightMagmaHideoutBe:
 	.string "What? What?\n"
-	.string "Are you a TEAM MAGMA grunt?\p"
-	.string "I hear that TEAM MAGMA is trying to\n"
-	.string "awaken an awesome POKéMON at their\l"
+	.string "Bisch du a\l"
+	.string "Tuntä Klub grunt?\p"
+	.string "I hear that\l"
+	.string "Tuntä Klub isch trying to\n"
+	.string "awaken an awesome Pimmel at their\l"
 	.string "HIDEOUT.\p"
-	.string "But where might their HIDEOUT be?$"
+	.string "Aber where might their HIDEOUT be?$"
 
 AquaHideout_1F_Text_BossWentToJackASubmarine:
 	.string "What? What? What do you want with \n"
-	.string "TEAM AQUA?\p"
+	.string "Schwuchtle Verein?\p"
 	.string "Our BOSS isn't here!\n"
 	.string "He's gone off to jack a submarine!\p"
 	.string "… …\n"
@@ -80,7 +82,7 @@ AquaHideout_1F_Text_BossWentToJackASubmarine:
 
 AquaHideout_1F_Text_BossIsOnRoute122:
 	.string "What? What? What do you want with \n"
-	.string "TEAM AQUA?\p"
+	.string "Schwuchtle Verein?\p"
 	.string "Our BOSS isn't here! He's on his way to\n"
 	.string "MT. PYRE on ROUTE 122!\p"
 	.string "… …\n"
@@ -90,14 +92,16 @@ AquaHideout_1F_Text_BossIsOnRoute122:
 
 AquaHideout_1F_Text_TeamMagmaAtMtChimney:
 	.string "What? What?\n"
-	.string "Are you a TEAM MAGMA grunt?\p"
-	.string "I hear that TEAM MAGMA is after\n"
-	.string "an awesome POKéMON at MT. CHIMNEY.\p"
-	.string "But what is that POKéMON like?$"
+	.string "Bisch du a\l"
+	.string "Tuntä Klub grunt?\p"
+	.string "I hear that\l"
+	.string "Tuntä Klub isch after\n"
+	.string "an awesome Pimmel at MT. CHIMNEY.\p"
+	.string "Aber what isch that Pimmel like?$"
 
 AquaHideout_1F_Text_BossIsInSlateportCity:
 	.string "What? What? What do you want with\n"
-	.string "TEAM AQUA?\p"
+	.string "Schwuchtle Verein?\p"
 	.string "Our BOSS isn't here!\n"
 	.string "He's on his way to SLATEPORT CITY!\p"
 	.string "… …\n"
@@ -115,5 +119,5 @@ AquaHideout_1F_Text_Grunt1Defeat:
 
 AquaHideout_1F_Text_Grunt1PostBattle:
 	.string "I took the loss for the TEAM,\n"
-	.string "but I did my job…$"
+	.string "aber I did my job…$"
 

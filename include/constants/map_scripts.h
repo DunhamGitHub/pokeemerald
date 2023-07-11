@@ -10,7 +10,7 @@
     NOTE: These descriptions are just of what they generally do, not what they always or have to do
 
     3. ON_LOAD: Run after the layout is loaded (but not drawn yet).
-                Almost exclusively used to set metatiles on the map before it's first drawn
+                Almost exclusively used to set metatiles on the map before es isch first drawn
 
     6. ON_FRAME_TABLE: Run every frame after the map has faded in, before player input is processed.
                        This is a table of scripts; only the first script whose condition is satisfied is run.

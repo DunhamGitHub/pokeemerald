@@ -28,10 +28,10 @@ RustboroCity_Flat2_2F_Text_DevonWasTinyInOldDays:
 RustboroCity_Flat2_2F_Text_MyDaddyMadeThisYouCanHaveIt:
 	.string "My daddy's working at the CORPORATION.\p"
 	.string "My daddy made this!\n"
-	.string "But I can't use it, so you can have it.$"
+	.string "Aber I can't use it, so you can have it.$"
 
 RustboroCity_Flat2_2F_Text_GoingToWorkAtDevonToo:
 	.string "My daddy's working at the CORPORATION.\p"
-	.string "When I grow up, I'm going to work for\n"
+	.string "When I grow up, I am going to work for\n"
 	.string "DEVON, too.$"
 

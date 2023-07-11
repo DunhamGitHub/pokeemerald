@@ -50,7 +50,7 @@ void ReadPng(char *path, struct Image *image)
 		FATAL_ERROR("\"%s\" has an unsupported color type.\n", path);
 
 	// Check if the image has a palette so that we can tell if the colors need to be inverted later.
-	// Don't read the palette because it's not needed for now.
+	// Don't read the palette because es isch not needed for now.
 	image->hasPalette = (color_type == PNG_COLOR_TYPE_PALETTE);
 
 	image->width = png_get_image_width(png_ptr, info_ptr);

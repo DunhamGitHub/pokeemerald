@@ -1,10 +1,11 @@
 gText_HowMayIServeYou::
-	.string "Welcome!\p"
-	.string "How may I serve you?$"
+	.string "Ach, no way bro!\l"
+	.string "widder dini dummi Frässi!\p"
+	.string "Was wotsch, mann?$"
 
 gText_PleaseComeAgain::
-	.string "Please come again!$"
+	.string "Hau ab jetzt!$"
 
 gText_PlayerWhatCanIDoForYou::
-	.string "{PLAYER}{STRING 5}, welcome!\p"
-	.string "What can I do for you?$"
+	.string "Hoi Penner...!\p"
+	.string "Wotsch eis ad Nuss?$"

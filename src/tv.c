@@ -485,7 +485,7 @@ static const u8 *const sTVPokemonTodayFailedTextGroup[] = {
     gTVPokemonTodayFailedText06
 };
 
-static const u8 *const sTVPokemonAnglerTextGroup[] = {
+static const u8 *const sTVPokemonAnslerTextGroup[] = {
     gTVPokemonAnglerText00,
     gTVPokemonAnglerText01
 };
@@ -1167,7 +1167,7 @@ void TryPutPokemonTodayOnAir(void)
     }
 }
 
-// Show is initialized in last slot and updated there until it's
+// Show is initialized in last slot and updated there untiles isch
 // either triggered or deleted at the end of the day by ResolveWorldOfMastersShow
 static void InitWorldOfMastersShowAttempt(void)
 {
@@ -5502,7 +5502,7 @@ static void DoTVShowPokemonAngler(void)
         TVShowDone();
         break;
     }
-    ShowFieldMessage(sTVPokemonAnglerTextGroup[state]);
+    ShowFieldMessage(sTVPokemonAnslerTextGroup[state]);
 }
 
 static void DoTVShowTheWorldOfMasters(void)

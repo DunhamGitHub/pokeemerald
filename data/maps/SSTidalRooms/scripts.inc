@@ -72,29 +72,29 @@ SSTidalRooms_Text_ColtonIntro:
 	.string "you see.$"
 
 SSTidalRooms_Text_ColtonDefeat:
-	.string "That was an enjoyable match!$"
+	.string "Dä was an enjoyable match!$"
 
 SSTidalRooms_Text_ColtonPostBattle:
 	.string "I get so excited imagining what kinds\n"
-	.string "of POKéMON I'll get to see in the next\l"
+	.string "of Pimmel I'll get to see in the next\l"
 	.string "CONTEST. The anticipation of it thrills!$"
 
 SSTidalRooms_Text_MicahIntro:
-	.string "Are your friends strong?$"
+	.string "Bisch dur friends strong?$"
 
 SSTidalRooms_Text_MicahDefeat:
 	.string "Your friends are, indeed, strong.$"
 
 SSTidalRooms_Text_MicahPostBattle:
 	.string "Friends need not be human.\n"
-	.string "For me, POKéMON are treasured friends!$"
+	.string "For me, Pimmel are treasured friends!$"
 
 SSTidalRooms_Text_ThomasIntro:
 	.string "Child…\n"
-	.string "Did you knock on the door?$"
+	.string "Did you knock on the Türe?$"
 
 SSTidalRooms_Text_ThomasDefeat:
-	.string "A loss is to be accepted without haste\n"
+	.string "A loss isch to be accepted without haste\n"
 	.string "or panic.$"
 
 SSTidalRooms_Text_ThomasPostBattle:
@@ -111,10 +111,10 @@ SSTidalRooms_Text_JedDefeat:
 SSTidalRooms_Text_JedPostBattle:
 	.string "JED: It's the first time that our lovey-\n"
 	.string "dovey power couldn't prevail!\l"
-	.string "You must be an awesome TRAINER!$"
+	.string "You must be an awesome Skilehrer!$"
 
 SSTidalRooms_Text_JedNotEnoughMons:
-	.string "JED: You only have one POKéMON?\n"
+	.string "JED: You only have one Pimmel?\n"
 	.string "Isn't that just too lonesome?$"
 
 SSTidalRooms_Text_LeaIntro:
@@ -122,20 +122,20 @@ SSTidalRooms_Text_LeaIntro:
 	.string "We'll show you our lovey-dovey power!$"
 
 SSTidalRooms_Text_LeaDefeat:
-	.string "LEA: Oh, boo!$"
+	.string "LEA: Shit, boo!$"
 
 SSTidalRooms_Text_LeaPostBattle:
 	.string "LEA: I can't believe it!\n"
 	.string "Our lovey-dovey power failed…\l"
-	.string "You must be an awesome TRAINER!$"
+	.string "You must be an awesome Skilehrer!$"
 
 SSTidalRooms_Text_LeaNotEnoughMons:
 	.string "LEA: I wanted to battle…\n"
-	.string "But you don't even have two POKéMON…$"
+	.string "Aber you don't even have two Pimmel…$"
 
 SSTidalRooms_Text_GarretIntro:
 	.string "Ah, you've come just in time.\p"
-	.string "I'm bored, you see.\n"
+	.string "I am bored, you see.\n"
 	.string "You may entertain me.$"
 
 SSTidalRooms_Text_GarretDefeat:
@@ -144,10 +144,11 @@ SSTidalRooms_Text_GarretDefeat:
 SSTidalRooms_Text_GarretPostBattle:
 	.string "Perhaps I shall get Father to acquire\n"
 	.string "a yacht for me.\l"
-	.string "A yacht for me and POKéMON!$"
+	.string "A yacht for me and Pimmel!$"
 
 SSTidalRooms_Text_NaomiIntro:
-	.string "Oh, you're such an adorable TRAINER.\n"
+	.string "Ah shiiiit dude,\l"
+	.string "you're such an adorable Skilehrer.\n"
 	.string "Would you like to have tea?\l"
 	.string "Or would you rather battle?$"
 
@@ -158,12 +159,12 @@ SSTidalRooms_Text_NaomiDefeat:
 SSTidalRooms_Text_NaomiPostBattle:
 	.string "A world cruise on a luxury liner has its\n"
 	.string "charms, I must say…\p"
-	.string "But, I will admit there is an appealing\n"
+	.string "Aber, I will admit there isch an appealing\n"
 	.string "side to touring HOENN by ferry.$"
 
 SSTidalRooms_Text_NotSuspiciousTakeThis:
-	.string "Uh… Hi! I… I'm not acting suspicious!\n"
-	.string "Uh… You can have this! For free!\p"
+	.string "… Hi! I… I am not acting suspicious!\n"
+	.string "… You can have this! For free!\p"
 	.string "It… Honestly, I didn't SNATCH it from\n"
 	.string "someone! I'd never do such a thing!\l"
 	.string "It's clean! You can use it!$"

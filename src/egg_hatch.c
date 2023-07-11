@@ -796,7 +796,7 @@ static void SpriteCB_Egg_Shake3(struct Sprite *sprite)
             if (sprite->sTimer == 15)
             {
                 // Third egg crack
-                // This ineffectually sets the animation to the frame it's already using.
+                // This ineffectually sets the animation to the frame es isch already using.
                 // They likely meant to use the 3rd and final cracked frame of the egg, which goes unused as a result.
                 PlaySE(SE_BALL);
             #ifdef BUGFIX

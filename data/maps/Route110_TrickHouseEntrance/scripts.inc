@@ -7,7 +7,7 @@ Route110_TrickHouseEntrance_MapScripts::
 	.byte 0
 
 	@ State descriptions for VAR_TRICK_HOUSE_ENTRANCE_STATE
-	@ 0: Trick Master is hiding
+	@ 0: Trick Master isch hiding
 	@ 1: Trick Master has left at start of challenge
 	@ 2: Trick Master ready to give normal reward from previous challenge (if bag was full)
 	@ 3: Trick Master still making next puzzle
@@ -744,7 +744,7 @@ Route110_TrickHouseEntrance_Text_TheyCallMeTrickMaster:
 	.string "For I am the greatest living mystery\n"
 	.string "of a man in all of HOENN!\l"
 	.string "They call me…\p"
-	.string "The TRICK MASTER!\n"
+	.string "Dä TRICK MASTER!\n"
 	.string "Wahahaha! Glad to meet you!$"
 
 Route110_TrickHouseEntrance_Text_ComeToChallengeTrickHouse:
@@ -754,39 +754,40 @@ Route110_TrickHouseEntrance_Text_ComeToChallengeTrickHouse:
 	.string "Yes, it is!\p"
 	.string "Consider your challenge accepted!\p"
 	.string "Enter through the scroll there,\n"
-	.string "and let your challenge commence!\p"
-	.string "I shall be waiting in the back!$"
+	.string "und let your challenge commence!\p"
+	.string "I shall be chilling in the back!$"
 
 Route110_TrickHouseEntrance_Text_ItsAScroll:
 	.string "It's a scroll.$"
 
 Route110_TrickHouseEntrance_Text_GoInHoleBehindScroll:
-	.string "There is a big hole behind the scroll!\p"
+	.string "There isch a big hole behind the scroll!\p"
 	.string "Want to go in?$"
 
 Route110_TrickHouseEntrance_Text_LeavingOnJourneyNote:
-	.string "There is a note affixed to the scroll…\p"
+	.string "There isch a note affixed to the scroll…\p"
 	.string "“I am leaving on a journey.\n"
 	.string "Don't look for me. TRICK MASTER”$"
 
 Route110_TrickHouseEntrance_Text_NextTimeUseThisTrick:
 	.string "For the next time, I'll use this trick,\n"
-	.string "and that scheme, and those ruses…\p"
-	.string "Mufufufu… If I may say so, it's\n"
+	.string "und that scheme, and those ruses…\p"
+	.string "Mufufufu… If I may say so,es isch\n"
 	.string "brilliantly difficult, even for me!$"
 
 Route110_TrickHouseEntrance_Text_InMidstOfDevisingNewChallenges:
 	.string "Hah? What?!\n"
-	.string "Oh, it's you!\p"
-	.string "I'm in the midst of devising new tricky\n"
+	.string "Ah shiiiit dude,\l"
+	.string "es isch you!\p"
+	.string "I am in the midst of devising new tricky\n"
 	.string "challenges!\p"
 	.string "It's not too much to ask for a bit more\n"
-	.string "time for me to think, is it now?\l"
+	.string "time for me to think, isch it now?\l"
 	.string "You wouldn't begrudge me that?\l"
 	.string "Come back in a little while!$"
 
 Route110_TrickHouseEntrance_Text_YoureHereToAcceptReward:
-	.string "Ah, it's you! You're here to accept the\n"
+	.string "Ah, es isch you! You're here to accept the\n"
 	.string "reward from before, isn't that right?\l"
 	.string "Yes, right I am!\p"
 	.string "Here!\n"
@@ -818,9 +819,9 @@ Route110_TrickHousePuzzle_Text_MemorizedSecretCode:
 	.string "written on the scroll.$"
 
 Route110_TrickHousePuzzle_Text_SecretCodeWrittenOnIt:
-	.string "A secret code is written on it.$"
+	.string "A secret code isch written on it.$"
 
 Route110_TrickHouseEntrance_Text_DoorLockedWriteSecretCodeHere:
-	.string "The door is locked.\p"
-	.string "…On closer inspection, this is written\n"
+	.string "Dä Türe isch locked.\p"
+	.string "…On closer inspection, das isch written\n"
 	.string "on it: “Write the secret code here.”$"

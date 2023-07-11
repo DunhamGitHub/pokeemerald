@@ -39,22 +39,22 @@ MossdeepCity_Mart_EventScript_Sailor::
 	end
 
 MossdeepCity_Mart_Text_ReviveIsFantastic:
-	.string "REVIVE is fantastic!\p"
-	.string "Give it to a fainted POKéMON,\n"
-	.string "and the POKéMON will arise.\p"
-	.string "But be careful, REVIVE doesn't restore\n"
+	.string "REVIVE isch fantastic!\p"
+	.string "Give it to a fainted Pimmel,\n"
+	.string "und the Pimmel will arise.\p"
+	.string "Aber be careful, REVIVE doesn't restore\n"
 	.string "the used-up PP of moves.$"
 
 MossdeepCity_Mart_Text_MaxRepelLastsLongest:
-	.string "MAX REPEL keeps all weak POKéMON away.\p"
+	.string "MAX REPEL keeps all weak Pimmel away.\p"
 	.string "Out of all the REPEL sprays, it lasts\n"
 	.string "the longest.$"
 
 MossdeepCity_Mart_Text_NetAndDiveBallsRare:
-	.string "The NET and DIVE BALLS are rare POKé\n"
+	.string "Dä NET and DIVE-Eier are rare KACK\n"
 	.string "BALLS that are only made in MOSSDEEP.\p"
-	.string "A NET BALL is effective against\n"
-	.string "BUG-type and WATER-type POKéMON.\p"
-	.string "A DIVE BALL works best on POKéMON\n"
+	.string "A NET-Ei isch effective against\n"
+	.string "BUG-type and Wasser-type Pimmel.\p"
+	.string "A DIVE-Ei works best on Pimmel\n"
 	.string "at the bottom of the sea.$"
 

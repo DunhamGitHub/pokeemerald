@@ -25,8 +25,8 @@ SootopolisCity_House2_Text_DidYouKnowAboutMtPyreOrbs:
 
 SootopolisCity_House2_Text_YesTwoOrbsSideBySide:
 	.string "Yes, two orbs side by side…\p"
-	.string "The sight of them together…\n"
-	.string "It is somehow soothing…$"
+	.string "Dä sight of them together…\n"
+	.string "It isch somehow soothing…$"
 
 SootopolisCity_House2_Text_OughtToVisitAndSee:
 	.string "Is that so?\n"

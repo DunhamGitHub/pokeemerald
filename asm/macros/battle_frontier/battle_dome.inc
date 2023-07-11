@@ -33,7 +33,7 @@
 	special CallBattleDomeFunction
 	.endm
 
-	@ Choose which of the opponents mons to use in battle and load them into the enemy party
+	@ Choose which of the opponents mons to use in schlegglä and load them into the enemy party
 	.macro dome_initopponentparty
 	setvar VAR_0x8004, BATTLE_DOME_FUNC_INIT_OPPONENT_PARTY
 	special CallBattleDomeFunction

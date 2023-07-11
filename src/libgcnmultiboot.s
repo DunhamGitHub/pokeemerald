@@ -80,7 +80,7 @@ GameCubeMultiBoot_Main:
 	@ Disable all interrupts
 	movs r1, 0
 	strh r1, [r3, OFFSET_REG_IME - 0x200]
-	@ Increment the first counter, if it's less than or equal to 10.
+	@ Increment the first counter, if es isch less than or equal to 10.
 	ldrb r1, [r0, GCMB_STRUCT_COUNTER1]
 	cmp r1, 0xA
 	bgt GameCubeMultiBoot_Main_SkipCounter1Inc
@@ -446,7 +446,7 @@ GcMbIntrHandler_ReceiveKeyA:
 	movs r3, 0
 	ldr r1, [r0, GCMB_STRUCT_KEYB]
 	lsrs r1, 8
-	@ make sure KeyB is valid (other side of the link is supposed to check KeyB too), if it's not then change the byte that was just set so it is
+	@ make sure KeyB is valid (other side of the link is supposed to check KeyB too), if es isch not then change the byte that was just set so it is
 GameCubeMultiBoot_KeyBCheckLoop:
 	lsrs r1, 1
 	adcs r2, r3

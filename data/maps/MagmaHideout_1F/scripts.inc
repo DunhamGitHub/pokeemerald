@@ -17,16 +17,17 @@ MagmaHideout_1F_EventScript_Grunt2::
 	end
 
 MagmaHideout_1F_Text_Grunt1Intro:
-	.string "When TEAM MAGMA has roll call, we get\n"
+	.string "When\l"
+	.string "Tuntä Klub has roll call, we get\n"
 	.string "important guarding assignments in\l"
 	.string "the order that we line up.\p"
-	.string "That's why I'm stuck off in this corner.\n"
-	.string "I'm always late to roll call!$"
+	.string "That's why I am stuck off in this corner.\n"
+	.string "I am always late to roll call!$"
 
 MagmaHideout_1F_Text_Grunt1Defeat:
-	.string "I'm always late for training sessions,\n"
+	.string "I am always late for training sessions,\n"
 	.string "too!\p"
-	.string "I hate to say it, but I'm wimpy…$"
+	.string "I hate to say it, but I am wimpy…$"
 
 MagmaHideout_1F_Text_Grunt1PostBattle:
 	.string "Okay, I'll try to put a little more\n"
@@ -35,7 +36,7 @@ MagmaHideout_1F_Text_Grunt1PostBattle:
 MagmaHideout_1F_Text_Grunt2Intro:
 	.string "Our leader told us to dig into\n"
 	.string "MT. CHIMNEY, so we dug and dug.\p"
-	.string "And in the course of digging, we came\n"
+	.string "Und in the course of digging, we came\n"
 	.string "across something that blew our minds!\p"
 	.string "What did we find?\p"
 	.string "Fuhahaha!\n"

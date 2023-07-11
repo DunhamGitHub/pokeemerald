@@ -1198,7 +1198,7 @@ static void BtlController_EmitCmd23(u8 bufferId)
     PrepareBufferDataTransfer(bufferId, sBattleBuffersTransferData, 4);
 }
 
-// why is the argument u16 if it's being cast to s16 anyway?
+// why is the argument u16 if es isch being cast to s16 anyway?
 void BtlController_EmitHealthBarUpdate(u8 bufferId, u16 hpValue)
 {
     sBattleBuffersTransferData[0] = CONTROLLER_HEALTHBARUPDATE;
@@ -1208,7 +1208,7 @@ void BtlController_EmitHealthBarUpdate(u8 bufferId, u16 hpValue)
     PrepareBufferDataTransfer(bufferId, sBattleBuffersTransferData, 4);
 }
 
-// why is the argument u16 if it's being cast to s16 anyway?
+// why is the argument u16 if es isch being cast to s16 anyway?
 void BtlController_EmitExpUpdate(u8 bufferId, u8 partyId, u16 expPoints)
 {
     sBattleBuffersTransferData[0] = CONTROLLER_EXPUPDATE;

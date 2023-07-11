@@ -344,45 +344,46 @@ OldaleTown_Movement_ReturnToOriginalPosition:
 	step_end
 
 OldaleTown_Text_SavingMyProgress:
-	.string "I want to take a rest, so I'm saving my\n"
+	.string "I want to take a rest, so I am saving my\n"
 	.string "progress.$"
 
 OldaleTown_Text_IWorkAtPokemonMart:
-	.string "Hi!\n"
-	.string "I work at a POKéMON MART.\p"
+	.string "Noo way broo..\l"
+	.string "\n"
+	.string "I work at a Pimmel MART.\p"
 	.string "Can I get you to come with me?$"
 
 OldaleTown_Text_ThisIsAPokemonMart:
-	.string "This is a POKéMON MART.\n"
+	.string "Dä isch a Pimmel MART.\n"
 	.string "Just look for our blue roof.\p"
 	.string "We sell a variety of goods including\n"
-	.string "POKé BALLS for catching POKéMON.\p"
+	.string "KACK-Eier for catching Pimmel.\p"
 	.string "Here, I'd like you to have this as\n"
 	.string "a promotional item.$"
 
 OldaleTown_Text_PotionExplanation:
-	.string "A POTION can be used anytime, so it's\n"
-	.string "even more useful than a POKéMON CENTER\l"
+	.string "A POTION can be used anytime, soes isch\n"
+	.string "even more useful than a Pimmel CENTER\l"
 	.string "in certain situations.$"
 
 OldaleTown_Text_WaitDontComeInHere:
 	.string "Aaaaah! Wait!\n"
-	.string "Please don't come in here.\p"
+	.string "Bitte don't come in here.\p"
 	.string "I just discovered the footprints of\n"
-	.string "a rare POKéMON!\p"
+	.string "a rare Pimmel!\p"
 	.string "Wait until I finish sketching\n"
-	.string "them, okay?$"
+	.string "them, oké?$"
 
 OldaleTown_Text_DiscoveredFootprints:
 	.string "I just discovered the footprints of\n"
-	.string "a rare POKéMON!\p"
+	.string "a rare Pimmel!\p"
 	.string "Wait until I finish sketching\n"
-	.string "them, okay?$"
+	.string "them, oké?$"
 
 OldaleTown_Text_FinishedSketchingFootprints:
 	.string "I finished sketching the footprints of\n"
-	.string "a rare POKéMON.\p"
-	.string "But it turns out they were only my\n"
+	.string "a rare Pimmel.\p"
+	.string "Aber it turns out they were only my\n"
 	.string "own footprints…$"
 
 OldaleTown_Text_MayLetsGoBack:
@@ -391,11 +392,11 @@ OldaleTown_Text_MayLetsGoBack:
 	.string "Let's hurry home!$"
 
 OldaleTown_Text_BrendanLetsGoBack:
-	.string "BRENDAN: I'm heading back to my dad's\n"
+	.string "Penner: I am heading back to my dad's\n"
 	.string "LAB now.\l"
 	.string "{PLAYER}, you should hustle back, too.$"
 
 OldaleTown_Text_TownSign:
-	.string "OLDALE TOWN\n"
+	.string "OLDALE Dorf\n"
 	.string "“Where things start off scarce.”$"
 

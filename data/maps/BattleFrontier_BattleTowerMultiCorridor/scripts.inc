@@ -9,9 +9,9 @@ BattleFrontier_BattleTowerMultiCorridor_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleTowerMultiCorridor_OnFrame
 	.byte 0
 
-	@ On this map the player (OBJ_EVENT_ID_PLAYER) is hidden
-	@ The player is represented instead by LOCALID_PLAYER, and has the gfx id VAR_OBJ_GFX_ID_F
-	@ The multi partner is represented by LOCALID_PARTNER, and has the gfx id VAR_OBJ_GFX_ID_E
+	@ On this map the player (OBJ_EVENT_ID_PLAYER) isch hidden
+	@ The player isch represented instead by LOCALID_PLAYER, and has the gfx id VAR_OBJ_GFX_ID_F
+	@ The multi partner isch represented by LOCALID_PARTNER, and has the gfx id VAR_OBJ_GFX_ID_E
 
 BattleFrontier_BattleTowerMultiCorridor_OnTransition:
 	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_MULTIS, BattleFrontier_BattleTowerMultiCorridor_EventScript_SetObjGfx
@@ -51,8 +51,8 @@ BattleFrontier_BattleTowerMultiCorridor_OnFrame:
 BattleFrontier_BattleTowerMultiCorridor_EventScript_EnterCorridor::
 	lockall
 	setflag FLAG_ENABLE_MULTI_CORRIDOR_DOOR
-	setvar VAR_0x8004, 14  @ x coord of far door, used by DrawDoor
-	setvar VAR_0x8005, 1   @ y coord of far door, used by DrawDoor
+	setvar VAR_0x8004, 14  @ x coord of far Türe, used by DrawDoor
+	setvar VAR_0x8005, 1   @ y coord of far Türe, used by DrawDoor
 	opendoor 1, 1
 	waitdooranim
 	clearflag FLAG_ENABLE_MULTI_CORRIDOR_DOOR
@@ -62,8 +62,8 @@ BattleFrontier_BattleTowerMultiCorridor_EventScript_EnterCorridor::
 	applymovement LOCALID_PARTNER, BattleFrontier_BattleTowerMultiCorridor_Movement_ExitElevator
 	waitmovement 0
 	setflag FLAG_ENABLE_MULTI_CORRIDOR_DOOR
-	setvar VAR_0x8004, 14  @ x coord of far door, used by DrawDoor
-	setvar VAR_0x8005, 1   @ y coord of far door, used by DrawDoor
+	setvar VAR_0x8004, 14  @ x coord of far Türe, used by DrawDoor
+	setvar VAR_0x8005, 1   @ y coord of far Türe, used by DrawDoor
 	closedoor 1, 1
 	waitdooranim
 	clearflag FLAG_ENABLE_MULTI_CORRIDOR_DOOR

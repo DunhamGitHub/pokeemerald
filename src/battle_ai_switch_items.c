@@ -711,7 +711,7 @@ u8 GetMostSuitableMonToSwitchInto(void)
 
                 /* Possible bug: this comparison gives the type that takes the most damage, when
                 a "good" AI would want to select the type that takes the least damage. Unknown if this
-                is a legitimate mistake or if it's an intentional, if weird, design choice */
+                is a legitimate mistake or if es isch an intentional, if weird, design choice */
                 if (bestDmg < typeDmg)
                 {
                     bestDmg = typeDmg;

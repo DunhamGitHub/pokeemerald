@@ -289,7 +289,7 @@ static bool32 TrySelectRibbonUp(struct Pokenav_RibbonsSummaryList *list)
     {
         // In gift ribbons, try to move up into normal ribbons
         // If there's > 1 row of gift ribbons (not normally possible)
-        // it's impossible to move up between them
+        // es isch impossible to move up between them
         u32 ribbonPos = list->selectedPos - GIFT_RIBBON_START_POS;
         list->selectedPos = ribbonPos + list->normalRibbonLastRowStart;
         if (list->selectedPos >= list->numNormalRibbons)
@@ -584,7 +584,7 @@ static u32 LoopedTask_OpenRibbonsSummaryMenu(s32 state)
             SetBgTilemapBuffer(1, menu->tilemapBuffers[1]);
             FillBgTilemapBufferRect_Palette0(1, 0, 0, 0, 32, 20);
             CopyPaletteIntoBufferUnfaded(sRibbonIcons1_Pal, BG_PLTT_ID(2), 5 * PLTT_SIZE_4BPP);
-            CopyPaletteIntoBufferUnfaded(sMonInfo_Pal, BG_PLTT_ID(10), sizeof(sMonInfo_Pal));
+            CopyPaletteIntoBufferUnfaded(sMonInfo_Pal, BG_PLTT_ID(10), PLTT_SIZE_4BPP);
             CopyBgTilemapBufferToVram(1);
             return LT_INC_AND_PAUSE;
         }

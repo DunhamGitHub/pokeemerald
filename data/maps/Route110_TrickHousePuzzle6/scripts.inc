@@ -43,26 +43,26 @@ Route110_TrickHousePuzzle6_EventScript_Sebastian::
 
 Route110_TrickHousePuzzle6_Text_WroteSecretCodeLockOpened:
 	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“TRICK MASTER is my life.”\n"
+	.string "on the Türe.\p"
+	.string "“TRICK MASTER isch my life.”\n"
 	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "Dä lock clicked open!$"
 
 Route110_TrickHousePuzzle6_Text_SophiaIntro:
 	.string "When I heard there was a strange\n"
 	.string "house, I had to check it out.$"
 
 Route110_TrickHousePuzzle6_Text_SophiaDefeat:
-	.string "I've discovered a tough TRAINER!$"
+	.string "I've discovered a tough Skilehrer!$"
 
 Route110_TrickHousePuzzle6_Text_SophiaPostBattle:
-	.string "I'm sure having a good time checking\n"
+	.string "I am sure having a good time checking\n"
 	.string "this place out.\p"
 	.string "It's a challenge I've found worth\n"
 	.string "repeating!$"
 
 Route110_TrickHousePuzzle6_Text_BennyIntro:
-	.string "Maybe I could get my BIRD POKéMON\n"
+	.string "Maybe I could get my BIRD Pimmel\n"
 	.string "to fly over the wall…$"
 
 Route110_TrickHousePuzzle6_Text_BennyDefeat:
@@ -73,7 +73,7 @@ Route110_TrickHousePuzzle6_Text_BennyPostBattle:
 	.string "I was trying to cheat.$"
 
 Route110_TrickHousePuzzle6_Text_SebastianIntro:
-	.string "I'm getting dizzy from these rotating\n"
+	.string "I am getting dizzy from these rotating\n"
 	.string "doors…$"
 
 Route110_TrickHousePuzzle6_Text_SebastianDefeat:

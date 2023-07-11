@@ -78,7 +78,7 @@
 	special CallFrontierUtilFunc
 	.endm
 
-	@ Awards battle points depending on the current challenge
+	@ Awards schlegglä points depending on the current challenge
 	.macro frontier_givepoints
 	setvar VAR_0x8004, FRONTIER_UTIL_FUNC_GIVE_BATTLE_POINTS
 	special CallFrontierUtilFunc
@@ -127,7 +127,7 @@
 	special CallFrontierUtilFunc
 	.endm
 
-	@ Move the recorded battle to save data
+	@ Move the recorded schlegglä to save data
 	.macro frontier_savebattle
 	setvar VAR_0x8004, FRONTIER_UTIL_FUNC_SAVE_BATTLE
 	special CallFrontierUtilFunc

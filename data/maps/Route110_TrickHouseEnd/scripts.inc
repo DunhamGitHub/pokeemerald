@@ -279,13 +279,13 @@ Route110_TrickHouseEnd_Text_AllNightToShoveBoulders:
 
 Route110_TrickHouseEnd_Text_AllNightToMakeMechadolls:
 	.string "It took me all night to make MECHADOLLS\n"
-	.string "and another to think up the quiz…\p"
+	.string "und another to think up the quiz…\p"
 	.string "You're almost my equal in greatness by\n"
 	.string "one, two places!$"
 
 Route110_TrickHouseEnd_Text_AllNightToInstallDoors:
 	.string "It took me all night to install\n"
-	.string "the doors…\p"
+	.string "the Türes…\p"
 	.string "You're almost my equal in greatness!$"
 
 Route110_TrickHouseEnd_Text_AllNightSettingUpArrows:
@@ -301,7 +301,7 @@ Route110_TrickHouseEnd_Text_FountainOfIdeasRunDry:
 	.string "Wh-what should I do?\n"
 	.string "My fountain of ideas for tricks has\l"
 	.string "run dry…\p"
-	.string "Perhaps it is time I toured the country\n"
+	.string "Perhaps it isch time I toured the country\n"
 	.string "on a quest to devise new tricks…$"
 
 Route110_TrickHouseEnd_Text_DefeatedMePreferWhichTent:
@@ -309,12 +309,12 @@ Route110_TrickHouseEnd_Text_DefeatedMePreferWhichTent:
 	.string "bested me!\p"
 	.string "Still, you must have been reeled in by\n"
 	.string "my charisma for you to visit me again\l"
-	.string "and again. Yes, you must have!\p"
-	.string "But that has nothing to do with my\n"
+	.string "und again. Yes, you must have!\p"
+	.string "Aber that has nothing to do with my\n"
 	.string "losing!\p"
 	.string "In recognition of the friendship\n"
 	.string "between you, the driven, and the genius\l"
-	.string "that is myself, I demand that you take\l"
+	.string "das isch myself, I demand that you take\l"
 	.string "this keepsake!\p"
 	.string "Actually there are two--\n"
 	.string "a RED TENT and a BLUE TENT.\l"
@@ -332,7 +332,7 @@ Route110_TrickHouseEnd_Text_LeavingOnJourney:
 	.string "A quest in search of new tricks.\p"
 	.string "I wish that you will one day visit and\n"
 	.string "entertain me again.\p"
-	.string "And now, farewell!$"
+	.string "Und now, farewell!$"
 
 Route110_TrickHouseEnd_Text_YouHaveEarnedThisReward:
 	.string "Fine!\n"
@@ -341,7 +341,7 @@ Route110_TrickHouseEnd_Text_YouHaveEarnedThisReward:
 Route110_TrickHouseEnd_Text_NoRoomForThis:
 	.string "What? Have you no room for this?\n"
 	.string "What manner of items do you carry?\p"
-	.string "But fine, since you've reached me,\n"
+	.string "Aber fine, since you've reached me,\n"
 	.string "your reward will be with me till later.$"
 
 Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou:

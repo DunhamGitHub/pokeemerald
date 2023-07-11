@@ -93,11 +93,11 @@ AquaHideout_B2F_Text_MattIntro:
 	.string "Hehehe…\p"
 	.string "Got here already, did you?\n"
 	.string "We underestimated you!\p"
-	.string "But this is it!\p"
-	.string "I'm a cut above the GRUNTS you've seen\n"
+	.string "Aber das isch it!\p"
+	.string "I am a cut above the GRUNTS you've seen\n"
 	.string "so far.\p"
-	.string "I'm not stalling for time.\n"
-	.string "I'm going to pulverize you!$"
+	.string "I am not stalling for time.\n"
+	.string "I am going to pulverize you!$"
 
 AquaHideout_B2F_Text_MattDefeat:
 	.string "Hehehe…\n"
@@ -115,15 +115,15 @@ AquaHideout_B2F_Text_MattPostBattle:
 	.string "If you're going to give chase, you'd\n"
 	.string "better search the big, wide sea beyond\l"
 	.string "LILYCOVE.\p"
-	.string "But will you find it then?\n"
+	.string "Aber will you find it then?\n"
 	.string "Hehehe!$"
 
 AquaHideout_B2F_Text_Grunt4Intro:
-	.string "Wahahah, I grew weary of waiting!\n"
+	.string "Wahahah, I grew weary of chilling!\n"
 	.string "You owe me a battle, too!$"
 
 AquaHideout_B2F_Text_Grunt4Defeat:
-	.string "Tired of waiting…\n"
+	.string "Tired of chilling…\n"
 	.string "Lost and dazed…$"
 
 AquaHideout_B2F_Text_Grunt4PostBattle:
@@ -132,7 +132,7 @@ AquaHideout_B2F_Text_Grunt4PostBattle:
 
 AquaHideout_B2F_Text_Grunt6Intro:
 	.string "Warp panels, the HIDEOUT's pride\n"
-	.string "and joy!\p"
+	.string "und joy!\p"
 	.string "You're clueless about where you are,\n"
 	.string "aren't you?\p"
 	.string "Fluster and tire out the enemy, then\n"
@@ -143,13 +143,14 @@ AquaHideout_B2F_Text_Grunt6Defeat:
 	.string "You're not tired at all!$"
 
 AquaHideout_B2F_Text_Grunt6PostBattle:
-	.string "That reminds me… I can't remember\n"
-	.string "where I put the MASTER BALL.\p"
+	.string "Dä reminds me… I can't remember\n"
+	.string "where I put the MASTER-Ei.\p"
 	.string "If I fail to guard it, our BOSS will\n"
 	.string "chew me out…$"
 
 AquaHideout_B2F_Text_Grunt8Intro:
-	.string "When I joined TEAM AQUA, the first\n"
+	.string "When I joined\l"
+	.string "Schwuchtle Verein, the first\n"
 	.string "thing I had to learn was how these\l"
 	.string "warp panels connected.$"
 
@@ -159,4 +160,4 @@ AquaHideout_B2F_Text_Grunt8Defeat:
 
 AquaHideout_B2F_Text_Grunt8PostBattle:
 	.string "I'll have to learn about how I can\n"
-	.string "battle more effectively…$"
+	.string "schlegglä more effectively…$"

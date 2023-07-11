@@ -28,7 +28,7 @@ PacifidlogTown_EventScript_TownSign::
 	end
 
 PacifidlogTown_Text_FastRunningCurrent:
-	.string "The sea between PACIFIDLOG and\n"
+	.string "Dä sea between PACIFIDLOG and\n"
 	.string "SLATEPORT has a fast-running tide.\p"
 	.string "If you decide to SURF, you could end\n"
 	.string "up swept away somewhere else.$"
@@ -39,7 +39,7 @@ PacifidlogTown_Text_NeatHousesOnWater:
 	.string "I was born here!$"
 
 PacifidlogTown_Text_SkyPillarTooScary:
-	.string "The SKY PILLAR?\p"
+	.string "Dä SKY PILLAR?\p"
 	.string "…Oh, you must mean that tall, tall\n"
 	.string "tower a little further out.\p"
 	.string "If you asked me, I wouldn't climb it.\n"
@@ -48,7 +48,7 @@ PacifidlogTown_Text_SkyPillarTooScary:
 	.string "that suits me fine.$"
 
 PacifidlogTown_Text_TownSign:
-	.string "PACIFIDLOG TOWN\p"
+	.string "PACIFIDLOG Dorf\p"
 	.string "“Where the morning sun smiles upon\n"
 	.string "the waters.”$"
 

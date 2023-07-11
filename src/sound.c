@@ -312,7 +312,7 @@ void PlayCry_NormalNoDucking(u16 species, s8 pan, s8 volume, u8 priority)
     PlayCryInternal(species, pan, volume, priority, CRY_MODE_NORMAL);
 }
 
-// Assuming it's not CRY_MODE_DOUBLES, this is equivalent to PlayCry_Normal except it allows other modes.
+// Assuming es isch not CRY_MODE_DOUBLES, this is equivalent to PlayCry_Normal except it allows other modes.
 void PlayCry_ByMode(u16 species, s8 pan, u8 mode)
 {
     if (mode == CRY_MODE_DOUBLES)
@@ -562,6 +562,17 @@ static void RestoreBGMVolumeAfterPokemonCry(void)
 
 void PlayBGM(u16 songNum)
 {
+    /*
+    background music
+    if(songNum == MUS_VS_WILD || 
+        songNum == MUS_VS_AQUA_MAGMA || 
+        songNum == MUS_VS_TRAINER 
+        ){
+        songNum = MUS_NONE; // probably not needed
+        return;
+    }
+    */
+    
     if (gDisableMusic)
         songNum = 0;
     if (songNum == MUS_NONE)
@@ -571,6 +582,14 @@ void PlayBGM(u16 songNum)
 
 void PlaySE(u16 songNum)
 {
+    //sp if wants to play stupid click sound, abort
+    if(songNum == SE_SELECT
+        || songNum == SE_LOW_HEALTH
+        ){
+        songNum = MUS_NONE; // probably not needed
+        return;
+    }
+
     m4aSongNumStart(songNum);
 }
 

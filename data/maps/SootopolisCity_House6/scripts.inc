@@ -41,11 +41,12 @@ SootopolisCity_House6_Text_TakeGoodCareOfIt:
 	.string "Take good care of it!$"
 
 SootopolisCity_House6_Text_IllHoldItForYou:
-	.string "Oh, you want it, but not right now?\n"
+	.string "Ah shiiiit dude,\l"
+	.string "you want it, but not right now?\n"
 	.string "Okay, then I'll hold it for you.$"
 
 SootopolisCity_House6_Text_DontWantThisDoll:
-	.string "Are you sure?\n"
+	.string "Bisch du sure?\n"
 	.string "You don't want this DOLL?$"
 
 SootopolisCity_House6_Text_LovePlushDolls:

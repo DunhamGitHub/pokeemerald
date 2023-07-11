@@ -1086,8 +1086,8 @@ static void Task_HandleMainMenuAPressed(u8 taskId)
             case ACTION_INVALID:
                 gTasks[taskId].tCurrItem = 0;
                 gTasks[taskId].func = Task_DisplayMainMenuInvalidActionError;
-                gPlttBufferUnfaded[BG_PLTT_ID(15) + 1] = RGB_WHITE;
-                gPlttBufferFaded[BG_PLTT_ID(15) + 1] = RGB_WHITE;
+                gPlttBufferUnfaded[0xF1] = RGB_WHITE;
+                gPlttBufferFaded[0xF1] = RGB_WHITE;
                 SetGpuReg(REG_OFFSET_BG2HOFS, 0);
                 SetGpuReg(REG_OFFSET_BG2VOFS, 0);
                 SetGpuReg(REG_OFFSET_BG1HOFS, 0);
@@ -2251,7 +2251,7 @@ static void NewGameBirchSpeech_ClearWindow(u8 windowId)
 
 static void NewGameBirchSpeech_WaitForThisIsPokemonText(struct TextPrinterTemplate *printer, u16 renderCmd)
 {
-    // Wait for Birch's "This is a Pokémon" text to reach the pause
+    // Wait for Birch's "das isch a Pokémon" text to reach the pause
     // Then start the PokéBall release (if it hasn't been started already)
     if (*(printer->currentChar - 2) == EXT_CTRL_CODE_PAUSE && !sStartedPokeBallTask)
     {

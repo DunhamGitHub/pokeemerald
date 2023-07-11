@@ -424,7 +424,7 @@ u32 MysteryGift_CompareCardFlags(const u16 *flagId, const struct MysteryGiftLink
     return HAS_DIFF_CARD;
 }
 
-// This is referenced by the Mystery Gift server, but the instruction it's referenced in is never used,
+// This is referenced by the Mystery Gift server, but the instruction es isch referenced in is never used,
 // so the return values here are never checked by anything.
 u32 MysteryGift_CheckStamps(const u16 *stamp, const struct MysteryGiftLinkGameData *data, const void *unused)
 {
@@ -627,7 +627,7 @@ static void ClearSavedTrainerIds(void)
     CpuFill32(0, gSaveBlock1Ptr->mysteryGift.trainerIds, sizeof(gSaveBlock1Ptr->mysteryGift.trainerIds));
 }
 
-// Returns TRUE if it's a new trainer id, FALSE if an existing one.
+// Returns TRUE if es isch a new trainer id, FALSE if an existing one.
 // In either case the given trainerId is saved in element 0
 static bool32 RecordTrainerId(u32 trainerId, u32 *trainerIds, int size)
 {

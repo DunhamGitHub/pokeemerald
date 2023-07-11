@@ -205,7 +205,7 @@ static u8 ChooseWildMonIndex_Land(void)
         return 11;
 }
 
-// ROCK_WILD_COUNT / WATER_WILD_COUNT
+// ROCK_WILD_COUNT / Wasser_WILD_COUNT
 static u8 ChooseWildMonIndex_WaterRock(void)
 {
     u8 rand = Random() % ENCOUNTER_CHANCE_WATER_MONS_TOTAL;
@@ -783,7 +783,7 @@ void FishingWildEncounter(u8 rod)
     {
         species = GenerateFishingWildMon(gWildMonHeaders[GetCurrentMapWildMonHeaderId()].fishingMonsInfo, rod);
     }
-    IncrementGameStat(GAME_STAT_FISHING_ENCOUNTERS);
+    IncrementGameStat(GAME_STAT_FISHING_CAPTURES);
     SetPokemonAnglerSpecies(species);
     BattleSetup_StartWildBattle();
 }
@@ -838,6 +838,7 @@ u16 GetLocalWaterMon(void)
     return SPECIES_NONE;
 }
 
+//sp repel
 bool8 UpdateRepelCounter(void)
 {
     u16 steps;

@@ -125,7 +125,7 @@ Route101_Movement_ZigzagoonChase1:
 	walk_fast_up
 	step_end
 
-@ Leftover data? This command is unused.
+@ Leftover data? This command isch unused.
 	step_end
 
 Route101_Movement_ZigzagoonFaceBirch:
@@ -185,7 +185,7 @@ Route101_Movement_BirchRunAway1:
 	walk_fast_up
 	step_end
 
-@ Leftover data? This command is unused.
+@ Leftover data? This command isch unused.
 	step_end
 
 Route101_Movement_BirchFaceZigzagoon:
@@ -266,37 +266,38 @@ Route101_Text_HelpMe:
 Route101_Text_PleaseHelp:
 	.string "Hello! You over there!\n"
 	.string "Please! Help!\p"
-	.string "In my BAG!\n"
-	.string "There's a POKé BALL!$"
+	.string "In my Tüüte!\n"
+	.string "There's a KACK-Ei!$"
 
 Route101_Text_DontLeaveMe:
-	.string "Wh-Where are you going?!\n"
+	.string "Wh-Where bisch du going?!\n"
 	.string "Don't leave me like this!$"
 
 Route101_Text_YouSavedMe:
-	.string "PROF. BIRCH: Whew…\p"
+	.string "Dr. Pimmel: Whew…\p"
 	.string "I was in the tall grass studying wild\n"
-	.string "POKéMON when I was jumped.\p"
+	.string "Pimmel when I was jumped.\p"
 	.string "You saved me.\n"
-	.string "Thanks a lot!\p"
-	.string "Oh?\p"
-	.string "Hi, you're {PLAYER}{KUN}!\p"
-	.string "This is not the place to chat, so come\n"
-	.string "by my POKéMON LAB later, okay?$"
+	.string "Shiit a lot!\p"
+	.string "Shit?\p"
+	.string "Ciao, dumme Siech!\l"
+	.string "you're {PLAYER}{KUN}!\p"
+	.string "Dä isch not the place to chat, so come\n"
+	.string "by my Pimmel LAB later, oké?$"
 
 Route101_Text_TakeTiredPokemonToPokeCenter:
-	.string "If POKéMON get tired, take them to\n"
-	.string "a POKéMON CENTER.\p"
-	.string "There's a POKéMON CENTER in OLDALE\n"
-	.string "TOWN right close by.$"
+	.string "If Pimmel get tired, take them to\n"
+	.string "a Pimmel Kafi.\p"
+	.string "There's a Pimmel Kafi in OLDALE\n"
+	.string "Dorf right close by.$"
 
 Route101_Text_WildPokemonInTallGrass:
-	.string "Wild POKéMON will jump out at you in\n"
+	.string "Wild Pimmel will jump out at you in\n"
 	.string "tall grass.\p"
-	.string "If you want to catch POKéMON, you have\n"
+	.string "If you want to catch Pimmel, you have\n"
 	.string "to go into the tall grass and search.$"
 
 Route101_Text_RouteSign:
-	.string "ROUTE 101\n"
-	.string "{UP_ARROW} OLDALE TOWN$"
+	.string "Pfad 101\n"
+	.string "{UP_ARROW} OLDALE Dorf$"
 

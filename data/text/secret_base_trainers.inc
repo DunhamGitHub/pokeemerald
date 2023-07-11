@@ -6,12 +6,12 @@ SecretBase_Text_Trainer0Intro:
 	.string "you like to battle?$"
 
 SecretBase_Text_Trainer0AcceptBattle:
-	.string "Okay!\n"
-	.string "Here we come!$"
+	.string "Oké!\n"
+	.string "Da we come!$"
 
 SecretBase_Text_Trainer0DeclineBattle:
 	.string "Hunh?\n"
-	.string "Oh, you can't now…$"
+	.string "Shit, you can't now…$"
 
 SecretBase_Text_Trainer0Defeated::
 	.string "Waaargh! You're too strong!\n"
@@ -30,20 +30,20 @@ SecretBase_Text_Trainer0PreChampion:
 SecretBase_Text_Trainer5Intro:
 	.string "There're a lot of places where\n"
 	.string "you can make a SECRET BASE.\p"
-	.string "But I like this spot best.\n"
-	.string "Don't you think it's nice?\p"
-	.string "Oh, would you like to have a battle?$"
+	.string "Aber I like this spot best.\n"
+	.string "Don't you think es isch nice?\p"
+	.string "Shit, would you like to have a battle?$"
 
 SecretBase_Text_Trainer5AcceptBattle:
 	.string "Okay, here goes!$"
 
 SecretBase_Text_Trainer5DeclineBattle:
-	.string "Oh…\n"
-	.string "You can't now, okay.$"
+	.string "Shit…\n"
+	.string "You can't now, oké.$"
 
 SecretBase_Text_Trainer5Defeated::
 	.string "Hmmm… It's our loss…\n"
-	.string "But don't tell anyone!\l"
+	.string "Aber don't tell anyone!\l"
 	.string "It's a confidential secret!$"
 
 SecretBase_Text_Trainer5PostBattle:
@@ -53,20 +53,20 @@ SecretBase_Text_Trainer5PostBattle:
 SecretBase_Text_Trainer5PreChampion:
 	.string "There're a lot of places where you can\n"
 	.string "make a SECRET BASE.\p"
-	.string "But I like this spot best.\n"
-	.string "Don't you think it's nice?$"
+	.string "Aber I like this spot best.\n"
+	.string "Don't you think es isch nice?$"
 
 SecretBase_Text_Trainer1Intro:
-	.string "This is a popular spot.\n"
+	.string "das isch a popular spot.\n"
 	.string "It's always taken.\p"
-	.string "Oh! Were you thinking about\n"
+	.string "Shit! Were you thinking about\n"
 	.string "taking this spot, too?\p"
 	.string "I'll tell you what, you can have this\n"
 	.string "spot if you can beat me.$"
 
 SecretBase_Text_Trainer1AcceptBattle:
-	.string "Okay!\n"
-	.string "I'm going to defend my SECRET BASE!$"
+	.string "Oké!\n"
+	.string "I am going to defend my SECRET BASE!$"
 
 SecretBase_Text_Trainer1DeclineBattle:
 	.string "Hunh? Is that right?\n"
@@ -81,22 +81,22 @@ SecretBase_Text_Trainer1PostBattle:
 	.string "this place will be yours!$"
 
 SecretBase_Text_Trainer1PreChampion:
-	.string "This is a popular spot.\n"
+	.string "das isch a popular spot.\n"
 	.string "It's always taken.\p"
 	.string "I waited a long time for it to open.\n"
 	.string "I finally got to use it!$"
 
 SecretBase_Text_Trainer6Intro:
-	.string "Welcome to my POKéMON LAB.\p"
+	.string "Welcome to my Pimmel LAB.\p"
 	.string "I carry out research on battling in\n"
 	.string "secrecy.\p"
 	.string "Would you like to see how strong I am?$"
 
 SecretBase_Text_Trainer6AcceptBattle:
-	.string "I'm going to go all out!$"
+	.string "I am going to go all out!$"
 
 SecretBase_Text_Trainer6DeclineBattle:
-	.string "Oh.\n"
+	.string "Shit.\n"
 	.string "Some other time, then!$"
 
 SecretBase_Text_Trainer6Defeated::
@@ -108,7 +108,7 @@ SecretBase_Text_Trainer6PostBattle:
 	.string "Please come back again tomorrow.$"
 
 SecretBase_Text_Trainer6PreChampion:
-	.string "Welcome to my POKéMON LAB.\p"
+	.string "Welcome to my Pimmel LAB.\p"
 	.string "I carry out research on battling in\n"
 	.string "secrecy.$"
 
@@ -127,7 +127,7 @@ SecretBase_Text_Trainer2DeclineBattle:
 
 SecretBase_Text_Trainer2Defeated::
 	.string "Aww! Done in!\n"
-	.string "But it's still fun to battle!$"
+	.string "Aber es isch still fun to battle!$"
 
 SecretBase_Text_Trainer2PostBattle:
 	.string "Well, anyway, I should go buy some\n"
@@ -144,17 +144,17 @@ SecretBase_Text_Trainer2PreChampion:
 SecretBase_Text_Trainer7Intro:
 	.string "I simply adore shopping for decorations\n"
 	.string "and furniture.\p"
-	.string "I also love raising POKéMON just\n"
+	.string "I also love raising Pimmel just\n"
 	.string "as much.\p"
 	.string "If you would be so kind, will you battle\n"
-	.string "with my POKéMON?$"
+	.string "with my Pimmel?$"
 
 SecretBase_Text_Trainer7AcceptBattle:
 	.string "Thank you.\n"
 	.string "Shall we begin?$"
 
 SecretBase_Text_Trainer7DeclineBattle:
-	.string "Oh.\n"
+	.string "Shit.\n"
 	.string "How disappointing…$"
 
 SecretBase_Text_Trainer7Defeated::
@@ -167,21 +167,21 @@ SecretBase_Text_Trainer7PostBattle:
 SecretBase_Text_Trainer7PreChampion:
 	.string "I simply adore shopping for decorations\n"
 	.string "and furniture.\p"
-	.string "I also love raising POKéMON just\n"
+	.string "I also love raising Pimmel just\n"
 	.string "as much.$"
 
 SecretBase_Text_Trainer3Intro:
 	.string "Some people make their SECRET BASES in\n"
 	.string "hard-to-find places.\l"
 	.string "Do they want to just lie low?\p"
-	.string "But since you found me, how about we\n"
+	.string "Aber since you found me, how about we\n"
 	.string "have a battle?$"
 
 SecretBase_Text_Trainer3AcceptBattle:
-	.string "I'm not going down easily!$"
+	.string "I am not going down easily!$"
 
 SecretBase_Text_Trainer3DeclineBattle:
-	.string "Oh… Are you maybe tired from searching\n"
+	.string "Shit… Bisch du maybe tired from searching\n"
 	.string "for this place?$"
 
 SecretBase_Text_Trainer3Defeated::
@@ -204,11 +204,11 @@ SecretBase_Text_Trainer8Intro:
 	.string "In the meantime, want to battle?$"
 
 SecretBase_Text_Trainer8AcceptBattle:
-	.string "This is my SECRET BASE.\n"
+	.string "das isch my SECRET BASE.\n"
 	.string "I can't lose!$"
 
 SecretBase_Text_Trainer8DeclineBattle:
-	.string "I'll battle with you anytime.$"
+	.string "I'll schlegglä with you anytime.$"
 
 SecretBase_Text_Trainer8Defeated::
 	.string "Huh?\n"
@@ -227,10 +227,10 @@ SecretBase_Text_Trainer8PreChampion:
 SecretBase_Text_Trainer4Intro:
 	.string "I found a spot I liked, and I did it up\n"
 	.string "with my favorite decorations.\p"
-	.string "I raise my favorite POKéMON and grow\n"
+	.string "I raise my favorite Pimmel and grow\n"
 	.string "stronger with it.\p"
 	.string "That's what I do.\n"
-	.string "Want to battle with me?$"
+	.string "Want to schlegglä with me?$"
 
 SecretBase_Text_Trainer4AcceptBattle:
 	.string "Show me what you're made of!$"
@@ -249,7 +249,7 @@ SecretBase_Text_Trainer4PostBattle:
 SecretBase_Text_Trainer4PreChampion:
 	.string "I found a spot I liked, and I did it up\n"
 	.string "with my favorite decorations.\p"
-	.string "I raise my favorite POKéMON and grow\n"
+	.string "I raise my favorite Pimmel and grow\n"
 	.string "stronger with it.\p"
 	.string "Every day is a great day.$"
 
@@ -259,7 +259,7 @@ SecretBase_Text_Trainer9Intro:
 	.string "decorations they have, and how they\l"
 	.string "display them.\p"
 	.string "What do you think of my taste?\n"
-	.string "Are you speechless?\p"
+	.string "Bisch du speechless?\p"
 	.string "Want to see my taste in battling?$"
 
 SecretBase_Text_Trainer9AcceptBattle:
@@ -283,4 +283,4 @@ SecretBase_Text_Trainer9PreChampion:
 	.string "decorations they have, and how they\l"
 	.string "display them.\p"
 	.string "What do you think of my taste?\n"
-	.string "Are you speechless?$"
+	.string "Bisch du speechless?$"

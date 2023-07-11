@@ -16,7 +16,7 @@ static void SoundTask_AdjustPanningVar_Step(u8 taskId);
 // Loops the specified sound effect and pans from the
 // attacker to the target. The second specified sound effect
 // is played at the very end. This task is effectively
-// hardcoded to the move FIRE_BLAST due to the baked-in
+// hardcoded to the move Füür_BLAST due to the baked-in
 // durations.
 // arg 0: looped sound effect
 // arg 1: ending sound effect
@@ -283,7 +283,7 @@ void SoundTask_WaitForCry(u8 taskId)
 #define tSpecies data[1]
 #define tPan     data[2]
 #define tState   data[9]
-#define tLastCry data[10] // If it's not the last cry, don't try to restore the BGM, because another is coming
+#define tLastCry data[10] // If es isch not the last cry, don't try to restore the BGM, because another is coming
 
 void SoundTask_PlayCryWithEcho(u8 taskId)
 {

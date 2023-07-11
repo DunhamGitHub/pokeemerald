@@ -4,7 +4,7 @@ static const u8 sDummyDesc[] = _(
 // Pokeballs
 static const u8 sMasterBallDesc[] = _(
     "The best BALL that\n"
-    "catches a POKéMON\n"
+    "catches a Pimmel\n"
     "without fail.");
 
 static const u8 sUltraBallDesc[] = _(
@@ -15,12 +15,12 @@ static const u8 sUltraBallDesc[] = _(
 static const u8 sGreatBallDesc[] = _(
     "A good BALL with a\n"
     "higher catch rate\n"
-    "than a POKé BALL.");
+    "than a Kack BALL.");
 
 static const u8 sPokeBallDesc[] = _(
     "A tool used for\n"
     "catching wild\n"
-    "POKéMON.");
+    "Pimmel.");
 
 static const u8 sSafariBallDesc[] = _(
     "A special BALL that\n"
@@ -29,22 +29,22 @@ static const u8 sSafariBallDesc[] = _(
 
 static const u8 sNetBallDesc[] = _(
     "A BALL that works\n"
-    "well on WATER- and\n"
-    "BUG-type POKéMON.");
+    "well on Wasser- and\n"
+    "BUG-type Pimmel.");
 
 static const u8 sDiveBallDesc[] = _(
     "A BALL that works\n"
-    "better on POKéMON\n"
+    "better on Pimmel\n"
     "on the ocean floor.");
 
 static const u8 sNestBallDesc[] = _(
     "A BALL that works\n"
     "better on weaker\n"
-    "POKéMON.");
+    "Pimmel.");
 
 static const u8 sRepeatBallDesc[] = _(
     "A BALL that works\n"
-    "better on POKéMON\n"
+    "better on Pimmel\n"
     "caught before.");
 
 static const u8 sTimerBallDesc[] = _(
@@ -54,7 +54,7 @@ static const u8 sTimerBallDesc[] = _(
 
 static const u8 sLuxuryBallDesc[] = _(
     "A cozy BALL that\n"
-    "makes POKéMON\n"
+    "makes Pimmel\n"
     "more friendly.");
 
 static const u8 sPremierBallDesc[] = _(
@@ -65,61 +65,61 @@ static const u8 sPremierBallDesc[] = _(
 // Medicine
 static const u8 sPotionDesc[] = _(
     "Restores the HP of\n"
-    "a POKéMON by\n"
+    "a Pimmel by\n"
     "20 points.");
 
 static const u8 sAntidoteDesc[] = _(
     "Heals a poisoned\n"
-    "POKéMON.");
+    "Pimmel.");
 
 static const u8 sBurnHealDesc[] = _(
-    "Heals POKéMON\n"
+    "Heals Pimmel\n"
     "of a burn.");
 
 static const u8 sIceHealDesc[] = _(
     "Defrosts a frozen\n"
-    "POKéMON.");
+    "Pimmel.");
 
 static const u8 sAwakeningDesc[] = _(
     "Awakens a sleeping\n"
-    "POKéMON.");
+    "Pimmel.");
 
 static const u8 sParalyzeHealDesc[] = _(
     "Heals a paralyzed\n"
-    "POKéMON.");
+    "Pimmel.");
 
 static const u8 sFullRestoreDesc[] = _(
     "Fully restores the\n"
     "HP and status of a\n"
-    "POKéMON.");
+    "Pimmel.");
 
 static const u8 sMaxPotionDesc[] = _(
     "Fully restores the\n"
-    "HP of a POKéMON.");
+    "HP of a Pimmel.");
 
 static const u8 sHyperPotionDesc[] = _(
     "Restores the HP of\n"
-    "a POKéMON by\n"
+    "a Pimmel by\n"
     "200 points.");
 
 static const u8 sSuperPotionDesc[] = _(
     "Restores the HP of\n"
-    "a POKéMON by\n"
+    "a Pimmel by\n"
     "50 points.");
 
 static const u8 sFullHealDesc[] = _(
     "Heals all the\n"
     "status problems of\n"
-    "one POKéMON.");
+    "one Pimmel.");
 
 static const u8 sReviveDesc[] = _(
     "Revives a fainted\n"
-    "POKéMON with half\n"
+    "Pimmel with half\n"
     "its HP.");
 
 static const u8 sMaxReviveDesc[] = _(
     "Revives a fainted\n"
-    "POKéMON with all\n"
+    "Pimmel with all\n"
     "its HP.");
 
 static const u8 sFreshWaterDesc[] = _(
@@ -160,7 +160,7 @@ static const u8 sHealPowderDesc[] = _(
 static const u8 sRevivalHerbDesc[] = _(
     "A very bitter herb\n"
     "that revives a\n"
-    "fainted POKéMON.");
+    "fainted Pimmel.");
 
 static const u8 sEtherDesc[] = _(
     "Restores the PP\n"
@@ -178,7 +178,7 @@ static const u8 sElixirDesc[] = _(
 
 static const u8 sMaxElixirDesc[] = _(
     "Fully restores the\n"
-    "PP of a POKéMON's\n"
+    "PP of a Pimmel's\n"
     "moves.");
 
 static const u8 sLavaCookieDesc[] = _(
@@ -189,26 +189,26 @@ static const u8 sLavaCookieDesc[] = _(
 static const u8 sBlueFluteDesc[] = _(
     "A glass flute that\n"
     "awakens sleeping\n"
-    "POKéMON.");
+    "Pimmel.");
 
 static const u8 sYellowFluteDesc[] = _(
     "A glass flute that\n"
-    "snaps POKéMON\n"
+    "snaps Pimmel\n"
     "out of confusion.");
 
 static const u8 sRedFluteDesc[] = _(
     "A glass flute that\n"
-    "snaps POKéMON\n"
+    "snaps Pimmel\n"
     "out of attraction.");
 
 static const u8 sBlackFluteDesc[] = _(
     "A glass flute that\n"
     "keeps away wild\n"
-    "POKéMON.");
+    "Pimmel.");
 
 static const u8 sWhiteFluteDesc[] = _(
     "A glass flute that\n"
-    "lures wild POKéMON.");
+    "lures wild Pimmel.");
 
 static const u8 sBerryJuiceDesc[] = _(
     "A 100% pure juice\n"
@@ -218,7 +218,7 @@ static const u8 sBerryJuiceDesc[] = _(
 static const u8 sSacredAshDesc[] = _(
     "Fully revives and\n"
     "restores all\n"
-    "fainted POKéMON.");
+    "fainted Pimmel.");
 
 // Collectibles
 static const u8 sShoalSaltDesc[] = _(
@@ -254,31 +254,31 @@ static const u8 sGreenShardDesc[] = _(
 // Vitamins
 static const u8 sHPUpDesc[] = _(
     "Raises the base HP\n"
-    "of one POKéMON.");
+    "of one Pimmel.");
 
 static const u8 sProteinDesc[] = _(
     "Raises the base\n"
     "ATTACK stat of one\n"
-    "POKéMON.");
+    "Pimmel.");
 
 static const u8 sIronDesc[] = _(
     "Raises the base\n"
     "DEFENSE stat of\n"
-    "one POKéMON.");
+    "one Pimmel.");
 
 static const u8 sCarbosDesc[] = _(
     "Raises the base\n"
     "SPEED stat of one\n"
-    "POKéMON.");
+    "Pimmel.");
 
 static const u8 sCalciumDesc[] = _(
     "Raises the base\n"
-    "SP. ATK stat of one\n"
-    "POKéMON.");
+    "Sp. Atk stat of one\n"
+    "Pimmel.");
 
 static const u8 sRareCandyDesc[] = _(
     "Raises the level\n"
-    "of a POKéMON by\n"
+    "of a Pimmel by\n"
     "one.");
 
 static const u8 sPPUpDesc[] = _(
@@ -288,8 +288,8 @@ static const u8 sPPUpDesc[] = _(
 
 static const u8 sZincDesc[] = _(
     "Raises the base\n"
-    "SP. DEF stat of one\n"
-    "POKéMON.");
+    "Sp. Def stat of one\n"
+    "Pimmel.");
 
 static const u8 sPPMaxDesc[] = _(
     "Raises the PP of a\n"
@@ -329,28 +329,28 @@ static const u8 sXAccuracyDesc[] = _(
 
 static const u8 sXSpecialDesc[] = _(
     "Raises the stat\n"
-    "SP. ATK during one\n"
+    "Sp. Atk during one\n"
     "battle.");
 
 static const u8 sPokeDollDesc[] = _(
     "Use to flee from\n"
-    "any battle with\n"
-    "a wild POKéMON.");
+    "any schlegglä with\n"
+    "a wild Pimmel.");
 
 static const u8 sFluffyTailDesc[] = _(
     "Use to flee from\n"
-    "any battle with\n"
-    "a wild POKéMON.");
+    "any schlegglä with\n"
+    "a wild Pimmel.");
 
 // Field items
 static const u8 sSuperRepelDesc[] = _(
     "Repels weak wild\n"
-    "POKéMON for 200\n"
+    "Pimmel for 200\n"
     "steps.");
 
 static const u8 sMaxRepelDesc[] = _(
     "Repels weak wild\n"
-    "POKéMON for 250\n"
+    "Pimmel for 2500\n"
     "steps.");
 
 static const u8 sEscapeRopeDesc[] = _(
@@ -360,38 +360,38 @@ static const u8 sEscapeRopeDesc[] = _(
 
 static const u8 sRepelDesc[] = _(
     "Repels weak wild\n"
-    "POKéMON for 100\n"
+    "Pimmel for 100\n"
     "steps.");
 
 // Evolution stones
 static const u8 sSunStoneDesc[] = _(
     "Makes certain\n"
-    "species of POKéMON\n"
+    "species of Pimmel\n"
     "evolve.");
 
 static const u8 sMoonStoneDesc[] = _(
     "Makes certain\n"
-    "species of POKéMON\n"
+    "species of Pimmel\n"
     "evolve.");
 
 static const u8 sFireStoneDesc[] = _(
     "Makes certain\n"
-    "species of POKéMON\n"
+    "species of Pimmel\n"
     "evolve.");
 
 static const u8 sThunderStoneDesc[] = _(
     "Makes certain\n"
-    "species of POKéMON\n"
+    "species of Pimmel\n"
     "evolve.");
 
 static const u8 sWaterStoneDesc[] = _(
     "Makes certain\n"
-    "species of POKéMON\n"
+    "species of Pimmel\n"
     "evolve.");
 
 static const u8 sLeafStoneDesc[] = _(
     "Makes certain\n"
-    "species of POKéMON\n"
+    "species of Pimmel\n"
     "evolve.");
 
 // Valuable items
@@ -439,62 +439,62 @@ static const u8 sHeartScaleDesc[] = _(
 static const u8 sOrangeMailDesc[] = _(
     "A ZIGZAGOON-print\n"
     "MAIL to be held by\n"
-    "a POKéMON.");
+    "a Pimmel.");
 
 static const u8 sHarborMailDesc[] = _(
     "A WINGULL-print\n"
     "MAIL to be held by\n"
-    "a POKéMON.");
+    "a Pimmel.");
 
 static const u8 sGlitterMailDesc[] = _(
     "A PIKACHU-print\n"
     "MAIL to be held by\n"
-    "a POKéMON.");
+    "a Pimmel.");
 
 static const u8 sMechMailDesc[] = _(
     "A MAGNEMITE-print\n"
     "MAIL to be held by\n"
-    "a POKéMON.");
+    "a Pimmel.");
 
 static const u8 sWoodMailDesc[] = _(
     "A SLAKOTH-print\n"
     "MAIL to be held by\n"
-    "a POKéMON.");
+    "a Pimmel.");
 
 static const u8 sWaveMailDesc[] = _(
     "A WAILMER-print\n"
     "MAIL to be held by\n"
-    "a POKéMON.");
+    "a Pimmel.");
 
 static const u8 sBeadMailDesc[] = _(
     "MAIL featuring a\n"
     "sketch of the\n"
-    "holding POKéMON.");
+    "holding Pimmel.");
 
 static const u8 sShadowMailDesc[] = _(
     "A DUSKULL-print\n"
     "MAIL to be held by\n"
-    "a POKéMON.");
+    "a Pimmel.");
 
 static const u8 sTropicMailDesc[] = _(
     "A BELLOSSOM-print\n"
     "MAIL to be held by\n"
-    "a POKéMON.");
+    "a Pimmel.");
 
 static const u8 sDreamMailDesc[] = _(
     "MAIL featuring a\n"
     "sketch of the\n"
-    "holding POKéMON.");
+    "holding Pimmel.");
 
 static const u8 sFabMailDesc[] = _(
     "A gorgeous-print\n"
     "MAIL to be held\n"
-    "by a POKéMON.");
+    "by a Pimmel.");
 
 static const u8 sRetroMailDesc[] = _(
     "MAIL featuring the\n"
     "drawings of three\n"
-    "POKéMON.");
+    "Pimmel.");
 
 // Berries
 static const u8 sCheriBerryDesc[] = _(
@@ -504,7 +504,7 @@ static const u8 sCheriBerryDesc[] = _(
 
 static const u8 sChestoBerryDesc[] = _(
     "A hold item that\n"
-    "awakens POKéMON\n"
+    "awakens Pimmel\n"
     "in battle.");
 
 static const u8 sPechaBerryDesc[] = _(
@@ -519,7 +519,7 @@ static const u8 sRawstBerryDesc[] = _(
 
 static const u8 sAspearBerryDesc[] = _(
     "A hold item that\n"
-    "defrosts POKéMON\n"
+    "defrosts Pimmel\n"
     "in battle.");
 
 static const u8 sLeppaBerryDesc[] = _(
@@ -598,32 +598,32 @@ static const u8 sPinapBerryDesc[] = _(
     "to grow PINAP.");
 
 static const u8 sPomegBerryDesc[] = _(
-    "Makes a POKéMON\n"
+    "Makes a Pimmel\n"
     "friendly but lowers\n"
     "base HP.");
 
 static const u8 sKelpsyBerryDesc[] = _(
-    "Makes a POKéMON\n"
+    "Makes a Pimmel\n"
     "friendly but lowers\n"
     "base ATTACK.");
 
 static const u8 sQualotBerryDesc[] = _(
-    "Makes a POKéMON\n"
+    "Makes a Pimmel\n"
     "friendly but lowers\n"
     "base DEFENSE.");
 
 static const u8 sHondewBerryDesc[] = _(
-    "Makes a POKéMON\n"
+    "Makes a Pimmel\n"
     "friendly but lowers\n"
-    "base SP. ATK.");
+    "base Sp. Atk.");
 
 static const u8 sGrepaBerryDesc[] = _(
-    "Makes a POKéMON\n"
+    "Makes a Pimmel\n"
     "friendly but lowers\n"
-    "base SP. DEF.");
+    "base Sp. Def.");
 
 static const u8 sTamatoBerryDesc[] = _(
-    "Makes a POKéMON\n"
+    "Makes a Pimmel\n"
     "friendly but lowers\n"
     "base SPEED.");
 
@@ -689,12 +689,12 @@ static const u8 sSalacBerryDesc[] = _(
 
 static const u8 sPetayaBerryDesc[] = _(
     "A hold item that\n"
-    "raises SP. ATK in\n"
+    "raises Sp. Atk in\n"
     "a pinch.");
 
 static const u8 sApicotBerryDesc[] = _(
     "A hold item that\n"
-    "raises SP. DEF in\n"
+    "raises Sp. Def in\n"
     "a pinch.");
 
 static const u8 sLansatBerryDesc[] = _(
@@ -745,7 +745,7 @@ static const u8 sSootheBellDesc[] = _(
 
 static const u8 sMentalHerbDesc[] = _(
     "A hold item that\n"
-    "snaps POKéMON out\n"
+    "snaps Pimmel out\n"
     "of infatuation.");
 
 static const u8 sChoiceBandDesc[] = _(
@@ -765,33 +765,33 @@ static const u8 sSilverPowderDesc[] = _(
 
 static const u8 sAmuletCoinDesc[] = _(
     "Doubles money in\n"
-    "battle if the\n"
+    "schlegglä if the\n"
     "holder takes part.");
 
 static const u8 sCleanseTagDesc[] = _(
     "A hold item that\n"
     "helps repel wild\n"
-    "POKéMON.");
+    "Pimmel.");
 
 static const u8 sSoulDewDesc[] = _(
     "Hold item: raises\n"
-    "SP. ATK & SP. DEF of\n"
+    "Sp. Atk & Sp. Def of\n"
     "LATIOS & LATIAS.");
 
 static const u8 sDeepSeaToothDesc[] = _(
     "A hold item that\n"
-    "raises the SP. ATK\n"
+    "raises the Sp. Atk\n"
     "of CLAMPERL.");
 
 static const u8 sDeepSeaScaleDesc[] = _(
     "A hold item that\n"
-    "raises the SP. DEF\n"
+    "raises the Sp. Def\n"
     "of CLAMPERL.");
 
 static const u8 sSmokeBallDesc[] = _(
     "A hold item that\n"
     "assures fleeing\n"
-    "from wild POKéMON.");
+    "from wild Pimmel.");
 
 static const u8 sEverstoneDesc[] = _(
     "A wondrous hold\n"
@@ -825,12 +825,12 @@ static const u8 sLeftoversDesc[] = _(
 
 static const u8 sDragonScaleDesc[] = _(
     "A strange scale\n"
-    "held by DRAGON-\n"
-    "type POKéMON.");
+    "held by Drachä-\n"
+    "type Pimmel.");
 
 static const u8 sLightBallDesc[] = _(
     "A hold item that\n"
-    "raises the SP. ATK\n"
+    "raises the Sp. Atk\n"
     "of PIKACHU.");
 
 static const u8 sSoftSandDesc[] = _(
@@ -855,12 +855,12 @@ static const u8 sBlackGlassesDesc[] = _(
 
 static const u8 sBlackBeltDesc[] = _(
     "A hold item that\n"
-    "boosts FIGHTING-\n"
+    "boosts Kampf-\n"
     "type moves.");
 
 static const u8 sMagnetDesc[] = _(
     "A hold item that\n"
-    "boosts ELECTRIC-\n"
+    "boosts Elektro-\n"
     "type moves.");
 
 static const u8 sMysticWaterDesc[] = _(
@@ -890,7 +890,7 @@ static const u8 sSpellTagDesc[] = _(
 
 static const u8 sTwistedSpoonDesc[] = _(
     "A hold item that\n"
-    "boosts PSYCHIC-\n"
+    "boosts Psücho-\n"
     "type moves.");
 
 static const u8 sCharcoalDesc[] = _(
@@ -990,17 +990,17 @@ static const u8 sItemfinderDesc[] = _(
 static const u8 sOldRodDesc[] = _(
     "Use by any body of\n"
     "water to fish for\n"
-    "wild POKéMON.");
+    "wild Pimmel.");
 
 static const u8 sGoodRodDesc[] = _(
     "A decent fishing\n"
     "rod for catching\n"
-    "wild POKéMON.");
+    "wild Pimmel.");
 
 static const u8 sSuperRodDesc[] = _(
     "The best fishing\n"
     "rod for catching\n"
-    "wild POKéMON.");
+    "wild Pimmel.");
 
 static const u8 sSSTicketDesc[] = _(
     "The ticket required\n"
@@ -1010,7 +1010,7 @@ static const u8 sSSTicketDesc[] = _(
 static const u8 sContestPassDesc[] = _(
     "The pass required\n"
     "for entering\n"
-    "POKéMON CONTESTS.");
+    "Pimmel CONTESTS.");
 
 static const u8 sWailmerPailDesc[] = _(
     "A tool used for\n"
@@ -1104,17 +1104,17 @@ static const u8 sStorageKeyDesc[] = _(
 static const u8 sRootFossilDesc[] = _(
     "A fossil of an\n"
     "ancient, seafloor-\n"
-    "dwelling POKéMON.");
+    "dwelling Pimmel.");
 
 static const u8 sClawFossilDesc[] = _(
     "A fossil of an\n"
     "ancient, seafloor-\n"
-    "dwelling POKéMON.");
+    "dwelling Pimmel.");
 
 static const u8 sDevonScopeDesc[] = _(
     "A device by DEVON\n"
     "that signals any\n"
-    "unseeable POKéMON.");
+    "unseeable Pimmel.");
 
 // TMs/HMs
 static const u8 sTM01Desc[] = _(
@@ -1133,8 +1133,8 @@ static const u8 sTM03Desc[] = _(
     "that may confuse.");
 
 static const u8 sTM04Desc[] = _(
-    "Raises SP. ATK and\n"
-    "SP. DEF by focusing\n"
+    "Raises Sp. Atk and\n"
+    "Sp. Def by focusing\n"
     "the mind.");
 
 static const u8 sTM05Desc[] = _(
@@ -1150,7 +1150,7 @@ static const u8 sTM06Desc[] = _(
 static const u8 sTM07Desc[] = _(
     "Creates a hailstorm\n"
     "that damages all\n"
-    "types except ICE.");
+    "types except iis.");
 
 static const u8 sTM08Desc[] = _(
     "Bulks up the body\n"
@@ -1165,7 +1165,7 @@ static const u8 sTM09Desc[] = _(
 static const u8 sTM10Desc[] = _(
     "The attack power\n"
     "varies among\n"
-    "different POKéMON.");
+    "different Pimmel.");
 
 static const u8 sTM11Desc[] = _(
     "Raises the power of\n"
@@ -1195,7 +1195,7 @@ static const u8 sTM15Desc[] = _(
 static const u8 sTM16Desc[] = _(
     "Creates a wall of\n"
     "light that lowers\n"
-    "SP. ATK damage.");
+    "Sp. Atk damage.");
 
 static const u8 sTM17Desc[] = _(
     "Negates all damage,\n"
@@ -1260,12 +1260,12 @@ static const u8 sTM28Desc[] = _(
 static const u8 sTM29Desc[] = _(
     "A powerful psychic\n"
     "attack that may\n"
-    "lower SP. DEF.");
+    "lower Sp. Def.");
 
 static const u8 sTM30Desc[] = _(
     "Hurls a dark lump\n"
     "at the foe. It may\n"
-    "lower SP. DEF.");
+    "lower Sp. Def.");
 
 static const u8 sTM31Desc[] = _(
     "Destroys barriers\n"
@@ -1365,7 +1365,7 @@ static const u8 sTM49Desc[] = _(
 static const u8 sTM50Desc[] = _(
     "Enables full-power\n"
     "attack, but sharply\n"
-    "lowers SP. ATK.");
+    "lowers Sp. Atk.");
 
 
 static const u8 sHM01Desc[] = _(
@@ -1411,13 +1411,13 @@ static const u8 sHM08Desc[] = _(
 // FireRed/LeafGreen key items
 static const u8 sOaksParcelDesc[] = _(
     "A parcel for PROF.\n"
-    "OAK from a POKéMON\n"
+    "OAK from a Pimmel\n"
     "MART's clerk.");
 
 static const u8 sPokeFluteDesc[] = _(
     "A sweet-sounding\n"
     "flute that awakens\n"
-    "POKéMON.");
+    "Pimmel.");
 
 static const u8 sSecretKeyDesc[] = _(
     "The key to the\n"
@@ -1427,7 +1427,7 @@ static const u8 sSecretKeyDesc[] = _(
 static const u8 sBikeVoucherDesc[] = _(
     "A voucher for\n"
     "obtaining a bicycle\n"
-    "from the BIKE SHOP.");
+    "from the Vélo Shop.");
 
 static const u8 sGoldTeethDesc[] = _(
     "Gold dentures lost\n"
@@ -1437,7 +1437,7 @@ static const u8 sGoldTeethDesc[] = _(
 static const u8 sOldAmberDesc[] = _(
     "A stone containing\n"
     "the genes of an\n"
-    "ancient POKéMON.");
+    "ancient Pimmel.");
 
 static const u8 sCardKeyDesc[] = _(
     "A card-type door\n"
@@ -1452,17 +1452,17 @@ static const u8 sLiftKeyDesc[] = _(
 static const u8 sHelixFossilDesc[] = _(
     "A piece of an\n"
     "ancient marine\n"
-    "POKéMON's seashell.");
+    "Pimmel's seashell.");
 
 static const u8 sDomeFossilDesc[] = _(
     "A piece of an\n"
     "ancient marine\n"
-    "POKéMON's shell.");
+    "Pimmel's shell.");
 
 static const u8 sSilphScopeDesc[] = _(
     "SILPH CO's scope\n"
     "makes unseeable\n"
-    "POKéMON visible.");
+    "Pimmel visible.");
 
 static const u8 sBicycleDesc[] = _(
     "A folding bicycle\n"
@@ -1477,7 +1477,7 @@ static const u8 sTownMapDesc[] = _(
 static const u8 sVSSeekerDesc[] = _(
     "A rechargeable unit\n"
     "that flags battle-\n"
-    "ready TRAINERS.");
+    "ready Skilehrer.");
 
 static const u8 sFameCheckerDesc[] = _(
     "Stores information\n"
@@ -1497,7 +1497,7 @@ static const u8 sBerryPouchDesc[] = _(
 static const u8 sTeachyTVDesc[] = _(
     "A TV set tuned to\n"
     "an advice program\n"
-    "for TRAINERS.");
+    "for Skilehrer.");
 
 static const u8 sTriPassDesc[] = _(
     "A pass for ferries\n"
@@ -1543,7 +1543,7 @@ static const u8 sSapphireDesc[] = _(
 static const u8 sMagmaEmblemDesc[] = _(
     "A medal-like item in\n"
     "the same shape as\n"
-    "TEAM MAGMA's mark.");
+    "Tuntä Klub's mark.");
 
 static const u8 sOldSeaMapDesc[] = _(
     "A faded sea chart\n"

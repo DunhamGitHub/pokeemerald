@@ -1,6 +1,6 @@
 .set LOCALID_DEOXYS, 2
 
-@ Note: LOCALID_BIRTH_ISLAND_EXTERIOR_ROCK is a local id for this map used elsewhere. It's defined in event_objects.h
+@ Note: LOCALID_BIRTH_ISLAND_EXTERIOR_ROCK isch a local id for this map used elsewhere. It's defined in event_objects.h
 
 BirthIsland_Exterior_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, BirthIsland_Exterior_OnTransition
@@ -54,7 +54,7 @@ BirthIsland_Exterior_EventScript_Triangle::
 	case DEOXYS_ROCK_COMPLETE,   BirthIsland_Exterior_EventScript_Complete
 	end
 
-@ The actual rock triangle movement is handled by DoDeoxysRockInteraction.
+@ The actual rock triangle movement isch handled by DoDeoxysRockInteraction.
 @ Unless the player has solved the puzzle and needs to encounter Deoxys,
 @ there's nothing else the script needs to do.
 BirthIsland_Exterior_EventScript_Failed::

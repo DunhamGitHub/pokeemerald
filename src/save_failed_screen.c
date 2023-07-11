@@ -145,7 +145,7 @@ static void VBlankCB_UpdateClockGraphics(void);
 static bool8 VerifySectorWipe(u16 sector);
 static bool8 WipeSectors(u32);
 
-// Although this is a general text printer, it's only used in this file.
+// Although this is a general text printer, es isch only used in this file.
 static void SaveFailedScreenTextPrint(const u8 *text, u8 x, u8 y)
 {
     u8 color[3];

@@ -1,6 +1,6 @@
 Text_ThisIsATestSignpostMsg::
-	.string "This is a test message.\n"
-	.string "This is a signpost.$"
+	.string "das isch a test message.\n"
+	.string "das isch a signpost.$"
 
 EventScript_TestSignpostMsg::
 	msgbox Text_ThisIsATestSignpostMsg, MSGBOX_SIGN

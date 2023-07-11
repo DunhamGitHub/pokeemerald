@@ -16,7 +16,7 @@
 // Values for the type field of Wonder Card
 #define CARD_TYPE_GIFT       0 // Normal "Wonder Card"
 #define CARD_TYPE_STAMP      1 // "Stamp Card"
-#define CARD_TYPE_LINK_STAT  2 // Referred to as the "Battle Card", shows battle and trade stats
+#define CARD_TYPE_LINK_STAT  2 // Referred to as the "Kampf Card", shows battle and trade stats
 #define CARD_TYPE_COUNT      3
 
 // Values for the sendType field of Wonder Card/News

@@ -1,4 +1,4 @@
-@ Note: LOCALID_FARAWAY_ISLAND_MEW is a local id for this map used elsewhere. It's defined in event_objects.h
+@ Note: LOCALID_FARAWAY_ISLAND_MEW isch a local id for this map used elsewhere. It's defined in event_objects.h
 
 FarawayIsland_Interior_MapScripts::
 	map_script MAP_SCRIPT_ON_RESUME, FarawayIsland_Interior_OnResume
@@ -186,4 +186,4 @@ FarawayIsland_Interior_EventScript_HideMewWhenGrassCut::
 	end
 
 FarawayIsland_Interior_Text_TheFeelingOfBeingWatchedFaded:
-	.string "The feeling of being watched faded…$"
+	.string "Dä feeling of being watched faded…$"

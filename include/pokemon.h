@@ -190,7 +190,7 @@ union PokemonSubstruct
     struct PokemonSubstruct1 type1;
     struct PokemonSubstruct2 type2;
     struct PokemonSubstruct3 type3;
-    u16 raw[NUM_SUBSTRUCT_BYTES / 2]; // /2 because it's u16, not u8
+    u16 raw[NUM_SUBSTRUCT_BYTES / 2]; // /2 because es isch u16, not u8
 };
 
 struct BoxPokemon
@@ -210,7 +210,7 @@ struct BoxPokemon
 
     union
     {
-        u32 raw[(NUM_SUBSTRUCT_BYTES * 4) / 4]; // *4 because there are 4 substructs, /4 because it's u32, not u8
+        u32 raw[(NUM_SUBSTRUCT_BYTES * 4) / 4]; // *4 because there are 4 substructs, /4 because es isch u32, not u8
         union PokemonSubstruct substructs[4];
     } secure;
 };

@@ -73,8 +73,8 @@ ContestHall_EventScript_SetContestObjects::
 	call ContestHall_EventScript_CreateAudience
 	end
 
-@ There are 8 audience member object events, 7 of which are given random gfx below (the 8th is the Artist)
-@ The rest of the audience is created statically by ContestHall_EventScript_CreateAudience
+@ There are 8 audience member object events, 7 of which are given random gfx below (the 8th isch the Artist)
+@ The rest of the audience isch created statically by ContestHall_EventScript_CreateAudience
 ContestHall_EventScript_AddRandomAudienceMembers::
 	call ContestHall_EventScript_GetRandomAudienceGfxId
 	call ContestHall_EventScript_SetRandomAudienceGfx

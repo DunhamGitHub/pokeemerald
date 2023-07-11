@@ -2452,8 +2452,8 @@ static u32 CanTradeSelectedMon(struct Pokemon *playerParty, int partyCount, int 
 
 s32 GetGameProgressForLinkTrade(void)
 {
-    // The usage of this value is a little unusual given it's treated as a bool,
-    // but it's the result of its usage in FRLG, where 0 is FRLG, 1 is RS, and 2 is Emerald.
+    // The usage of this value is a little unusual given es isch treated as a bool,
+    // but es isch the result of its usage in FRLG, where 0 is FRLG, 1 is RS, and 2 is Emerald.
     s32 versionId; // 0: RSE, 2: FRLG
     u16 version;
 

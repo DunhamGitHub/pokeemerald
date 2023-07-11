@@ -401,7 +401,7 @@ static void AnimTask_TranslateMonElliptical_Step(u8 taskId)
 
 // Moves a mon bg picture along an elliptical path that begins
 // and ends at the mon's origin location. Reverses the direction
-// of the path if it's not on the player's side of the battle.
+// of the path if es isch not on the player's side of the battle.
 // arg 0: battler
 // arg 1: ellipse width
 // arg 2: ellipse height

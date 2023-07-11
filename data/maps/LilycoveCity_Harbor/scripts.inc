@@ -30,7 +30,7 @@ LilycoveCity_Harbor_EventScript_FerryAttendant::
 	goto LilycoveCity_Harbor_EventScript_NoFirstTimeEventTickets
 	end
 
-@ First goto_if_eq is unnecessary; identical scripts
+@ First goto_if_eq isch unnecessary; identical scripts
 LilycoveCity_Harbor_EventScript_NoFirstTimeEventTickets::
 	goto_if_eq VAR_TEMP_A, 0, LilycoveCity_Harbor_EventScript_NoEventTickets
 	msgbox LilycoveCity_Harbor_Text_MayISeeYourTicket, MSGBOX_DEFAULT
@@ -544,35 +544,36 @@ LilycoveCity_Harbor_Movement_SailorBoardWithBrineyEast:
 LilycoveCity_Harbor_Text_FerryUnavailable:
 	.string "I beg your pardon?\n"
 	.string "You're looking for a ship?\p"
-	.string "I'm sorry, the ferry service isn't\n"
+	.string "I am sorry, the ferry service isn't\n"
 	.string "available at present…$"
 
 LilycoveCity_Harbor_Text_MayISeeYourTicket:
-	.string "Hello, are you here for the ferry?\n"
+	.string "Ciao, dumme Siech\l"
+	.string "bisch du here for the ferry?\n"
 	.string "May I see your TICKET?$"
 
 LilycoveCity_Harbor_Text_NoTicket:
 	.string "{PLAYER} doesn't have the TICKET…\p"
-	.string "I'm terribly sorry.\p"
+	.string "I am terribly sorry.\p"
 	.string "You must have a TICKET to board\n"
 	.string "the ferry.$"
 
 LilycoveCity_Harbor_Text_FlashTicketWhereTo:
 	.string "{PLAYER} flashed the TICKET.\p"
 	.string "Perfect! That's all you need!\p"
-	.string "And where would you like to go?$"
+	.string "Und where would you like to go?$"
 
 LilycoveCity_Harbor_Text_SailAnotherTime:
-	.string "Please sail with us another time!$"
+	.string "Bitte sail with us another time!$"
 
 LilycoveCity_Harbor_Text_SlateportItIs:
 	.string "SLATEPORT CITY it is, then!$"
 
 LilycoveCity_Harbor_Text_BattleFrontierItIs:
-	.string "BATTLE FRONTIER it is, then!$"
+	.string "Kampf FRONTIER it is, then!$"
 
 LilycoveCity_Harbor_Text_PleaseBoard:
-	.string "Please board the ferry and wait for\n"
+	.string "Bitte board the ferry and chill for\n"
 	.string "departure.$"
 
 LilycoveCity_Harbor_Text_WhereWouldYouLikeToGo:
@@ -585,8 +586,9 @@ LilycoveCity_Harbor_Text_SailorFerryUnavailable:
 	.string "at the SHIPYARD in SLATEPORT.$"
 
 LilycoveCity_Harbor_Text_SailorFerryAvailable:
-	.string "The ferry S.S. TIDAL is finally in\n"
+	.string "Dä ferry S.S. TIDAL isch finally in\n"
 	.string "operation.\p"
-	.string "The folks at the SHIPYARD in SLATEPORT\n"
+	.string "Dä folks at the SHIPYARD in SLATEPORT\n"
 	.string "must've worked extra hard.\p"
-	.string "Well, it's my turn to get busy now!$"
+	.string "Ahh, Futz und Tripper...\l"
+	.string "es isch my turn to get busy now!$"

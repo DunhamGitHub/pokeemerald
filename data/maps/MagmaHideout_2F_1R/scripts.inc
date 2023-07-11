@@ -23,20 +23,24 @@ MagmaHideout_2F_1R_EventScript_Grunt5::
 
 MagmaHideout_2F_1R_Text_Grunt14Intro:
 	.string "What, what, what?\p"
-	.string "Only TEAM MAGMA members are supposed\n"
+	.string "Only\l"
+	.string "Tuntä Klub members are supposed\n"
 	.string "to be in here!\p"
-	.string "But you're not dressed in TEAM MAGMA's\n"
+	.string "Aber you're not dressed in\l"
+	.string "Tuntä Klub's\n"
 	.string "uniform…\p"
 	.string "You rouse my suspicion!\n"
-	.string "Battle with me!$"
+	.string "Kampf with me!$"
 
 MagmaHideout_2F_1R_Text_Grunt14Defeat:
 	.string "Aiyiyi…\n"
-	.string "My pride as a TEAM MAGMA member…$"
+	.string "My pride as a\l"
+	.string "Tuntä Klub member…$"
 
 MagmaHideout_2F_1R_Text_Grunt14PostBattle:
 	.string "If you suffer from chills, you should\n"
-	.string "join TEAM MAGMA.$"
+	.string "join\l"
+	.string "Tuntä Klub.$"
 
 MagmaHideout_2F_1R_Text_Grunt3Intro:
 	.string "Hold it right there!\p"
@@ -64,12 +68,13 @@ MagmaHideout_2F_1R_Text_Grunt4PostBattle:
 	.string "around in a circle?$"
 
 MagmaHideout_2F_1R_Text_Grunt5Intro:
-	.string "Oh, oh!\n"
+	.string "Ah shiiiit dude,\l"
+	.string "oh!\n"
 	.string "An intruder!$"
 
 MagmaHideout_2F_1R_Text_Grunt5Defeat:
 	.string "Mutter…$"
 
 MagmaHideout_2F_1R_Text_Grunt5PostBattle:
-	.string "Actually, I'm no expert at battling…$"
+	.string "Actually, I am no expert at battling…$"
 

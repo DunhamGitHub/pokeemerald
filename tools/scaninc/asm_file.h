@@ -71,7 +71,7 @@ private:
         return c;
     }
 
-    // No newline translation because it's not needed for any use of this function.
+    // No newline translation because es isch not needed for any use of this function.
     int PeekChar()
     {
         if (m_pos >= m_size)

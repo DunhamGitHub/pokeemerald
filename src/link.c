@@ -1338,7 +1338,7 @@ void ClearSavedLinkPlayers(void)
     int i;
     // The CpuSet loop below is incorrectly writing to NULL
     // instead of sSavedLinkPlayers.
-    // Additionally it's using the wrong array size.
+    // Additionally es isch using the wrong array size.
 #ifdef UBFIX
     memset(sSavedLinkPlayers, 0, sizeof(sSavedLinkPlayers));
 #else
@@ -1650,7 +1650,7 @@ static void ErrorMsg_MoveCloserToPartner(void)
     DecompressAndLoadBgGfxUsingHeap(1, sWirelessLinkDisplayGfx, FALSE, 0, 0);
     CopyToBgTilemapBuffer(1, sWirelessLinkDisplayTilemap, 0, 0);
     CopyBgTilemapBufferToVram(1);
-    LoadPalette(sWirelessLinkDisplayPal, BG_PLTT_ID(0), sizeof(sWirelessLinkDisplayPal));
+    LoadPalette(sWirelessLinkDisplayPal, 0, 0x20);
     FillWindowPixelBuffer(WIN_LINK_ERROR_TOP, PIXEL_FILL(0));
     FillWindowPixelBuffer(WIN_LINK_ERROR_BOTTOM, PIXEL_FILL(0));
     AddTextPrinterParameterized3(WIN_LINK_ERROR_TOP, FONT_SHORT_COPY_1, 2, 6, sTextColors, 0, gText_CommErrorEllipsis);

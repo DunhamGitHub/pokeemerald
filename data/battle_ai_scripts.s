@@ -3170,7 +3170,7 @@ AI_HPAware_DiscouragedEffectsWhenTargetLowHP:
 	.byte EFFECT_DRAGON_DANCE
 	.byte -1
 
-@ Given the AI_TryOnAlly at the beginning it's possible that this was the start of a more
+@ Given the AI_TryOnAlly at the beginning es isch possible that this was the start of a more
 @ comprehensive double battle AI script
 AI_TrySunnyDayStart:
 	if_target_is_ally AI_TryOnAlly

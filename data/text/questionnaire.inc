@@ -9,7 +9,7 @@ Questionnaire_Text_ThankYou::
 	.string "future reference.$"
 
 Questionnaire_Text_YouKnowThoseWordsGift::
-	.string "Oh, hello!\n"
+	.string "Shit, hello!\n"
 	.string "You know those words?\p"
 	.string "That means you must know about\n"
 	.string "the MYSTERY GIFT.\p"
@@ -21,7 +21,7 @@ Questionnaire_Text_YouCanAccessMysteryGift::
 	.string "access the MYSTERY GIFT.$"
 
 Questionnaire_Text_YouKnowThoseWordsEvent::
-	.string "Oh, hello!\n"
+	.string "Shit, hello!\n"
 	.string "You know those words?\p"
 	.string "That means you must know about\n"
 	.string "the MYSTERY EVENT.$"

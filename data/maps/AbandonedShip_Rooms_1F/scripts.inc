@@ -32,7 +32,7 @@ AbandonedShip_Rooms_1F_EventScript_ThaliaRematch::
 	end
 
 AbandonedShip_Rooms_1F_Text_TakingALookAround:
-	.string "Ships of this sort are rare, so I'm\n"
+	.string "Ships of this sort are rare, so I am\n"
 	.string "taking a look around.\p"
 	.string "Hmhm…\n"
 	.string "There appear to be other cabins…$"
@@ -45,12 +45,12 @@ AbandonedShip_Rooms_1F_Text_ThaliaDefeat:
 	.string "Not just curious, but also strong…$"
 
 AbandonedShip_Rooms_1F_Text_ThaliaPostBattle:
-	.string "The man next door…\p"
+	.string "Dä man next Türe…\p"
 	.string "He says he's just sightseeing,\n"
-	.string "but I don't know about that.$"
+	.string "aber I don't know about that.$"
 
 AbandonedShip_Rooms_1F_Text_ThaliaRegister:
-	.string "You're such a tough TRAINER!\n"
+	.string "You're such a tough Skilehrer!\n"
 	.string "Let me register you as a memento!$"
 
 AbandonedShip_Rooms_1F_Text_ThaliaRematchIntro:
@@ -61,7 +61,7 @@ AbandonedShip_Rooms_1F_Text_ThaliaRematchDefeat:
 	.string "Aren't you too strong?$"
 
 AbandonedShip_Rooms_1F_Text_ThaliaPostRematch:
-	.string "I'm sure that man's up to something!\n"
+	.string "I am sure that man's up to something!\n"
 	.string "He just acts so suspiciously!$"
 
 AbandonedShip_Rooms_1F_Text_DemetriusIntro:
@@ -69,9 +69,10 @@ AbandonedShip_Rooms_1F_Text_DemetriusIntro:
 	.string "I've been found! …Huh?$"
 
 AbandonedShip_Rooms_1F_Text_DemetriusDefeat:
-	.string "Oh, you're not my mom.$"
+	.string "Ah shiiiit dude,\l"
+	.string "you're not my mom.$"
 
 AbandonedShip_Rooms_1F_Text_DemetriusPostBattle:
-	.string "I'm in trouble with my mom, so I ran.\n"
+	.string "I am in trouble with my mom, so I ran.\n"
 	.string "Keep it a secret where I am!$"
 

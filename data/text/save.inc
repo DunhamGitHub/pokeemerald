@@ -1,17 +1,18 @@
 	.align 2
 gText_ConfirmSave::
-	.string "Would you like to save the game?$"
+	.string "Wotsch speichere, Penner?$"
 
 gText_AlreadySavedFile::
-	.string "There is already a saved file.\n"
-	.string "Is it okay to overwrite it?$"
+	.string "Du Bhinderete, \l"
+	.string "es git scho en Save,\n"
+	.string "Überschribe?$"
 
 gText_SavingDontTurnOff::
-	.string "SAVING…\n"
-	.string "DON'T TURN OFF THE POWER.$"
+	.string "Chills, es speichert grad…\n"
+	.string "Heb churz de Rand ....$"
 
 gText_PlayerSavedGame::
-	.string "{PLAYER} saved the game.$"
+	.string "Penner hät gspeicheret.$"
 
 gText_DifferentSaveFile::
 	.string "WARNING!\p"
@@ -19,8 +20,8 @@ gText_DifferentSaveFile::
 	.string "is already saved.\p"
 	.string "If you save now, the other file's\n"
 	.string "adventure, including items and\l"
-	.string "POKéMON, will be entirely lost.\p"
-	.string "Are you sure you want to save now\n"
+	.string "Pimmel, will be entirely lost.\p"
+	.string "Bisch du sure you want to save now\n"
 	.string "and overwrite the other save file?$"
 
 gText_SaveError::

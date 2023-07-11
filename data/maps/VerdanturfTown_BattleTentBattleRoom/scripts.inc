@@ -8,9 +8,9 @@ VerdanturfTown_BattleTentBattleRoom_MapScripts::
 	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, VerdanturfTown_BattleTentBattleRoom_OnWarp
 	.byte 0
 
-	@ On this map the player (OBJ_EVENT_ID_PLAYER) is hidden
-	@ The player is represented instead by object event 1, which has the gfx id VAR_OBJ_GFX_ID_1
-	@ The opponent is represented by object event 2, which has the gfx id VAR_OBJ_GFX_ID_0
+	@ On this map the player (OBJ_EVENT_ID_PLAYER) isch hidden
+	@ The player isch represented instead by object event 1, which has the gfx id VAR_OBJ_GFX_ID_1
+	@ The opponent isch represented by object event 2, which has the gfx id VAR_OBJ_GFX_ID_0
 
 VerdanturfTown_BattleTentBattleRoom_OnTransition:
 	call VerdanturfTown_BattleTentBattleRoom_EventScript_SetPlayerGfx

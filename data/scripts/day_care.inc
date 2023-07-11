@@ -273,23 +273,23 @@ EventScript_EggHatch::
 	end
 
 Route117_Text_SeeWifeIfYoudLikeMeToRaiseMon:
-	.string "I'm the DAY-CARE MAN.\p"
+	.string "I am the DAY-CARE MAN.\p"
 	.string "I help take care of the precious\n"
-	.string "POKéMON of TRAINERS.\p"
-	.string "If you'd like me to raise your POKéMON,\n"
+	.string "Pimmel of Skilehrer.\p"
+	.string "If you'd like me to raise your Pimmel,\n"
 	.string "have a word with my wife.$"
 
 Route117_Text_DoYouWantEgg:
-	.string "Ah, it's you!\p"
-	.string "We were raising your POKéMON,\n"
+	.string "Ah, es isch you!\p"
+	.string "We were raising your Pimmel,\n"
 	.string "and my goodness, were we surprised!\p"
-	.string "Your POKéMON had an EGG!\p"
+	.string "Your Pimmel had an EGG!\p"
 	.string "We don't know how it got there,\n"
-	.string "but your POKéMON had it.\p"
+	.string "but your Pimmel had it.\p"
 	.string "You do want it, yes?$"
 
 Route117_Text_YourMonIsDoingFine:
-	.string "Ah, it's you! Good to see you.\n"
+	.string "Ah, es isch you! Good to see you.\n"
 	.string "Your {STR_VAR_1}'s doing fine.$"
 
 Route117_Text_IllKeepIt:
@@ -316,11 +316,11 @@ Route117_Text_FriendlyWithOtherTrainersMon:
 
 @ Unused
 Route117_Text_SeeWifeIfYouWantToPickUpMon:
-	.string "If you want to pick up your POKéMON,\n"
+	.string "If you want to pick up your Pimmel,\n"
 	.string "have a word with my wife.$"
 
 Route117_Text_YourMonsAreDoingFine:
-	.string "Ah, it's you! Your {STR_VAR_1} and\n"
+	.string "Ah, es isch you! Your {STR_VAR_1} and\n"
 	.string "{STR_VAR_2} are doing fine.$"
 
 Route117_Text_IWillKeepDoYouWantIt:
@@ -328,12 +328,12 @@ Route117_Text_IWillKeepDoYouWantIt:
 	.string "You do want this, yes?$"
 
 Route117_PokemonDayCare_Text_WouldYouLikeUsToRaiseAMon:
-	.string "I'm the DAY-CARE LADY.\p"
-	.string "We can raise POKéMON for you.\p"
+	.string "I am the DAY-CARE LADY.\p"
+	.string "We can raise Pimmel for you.\p"
 	.string "Would you like us to raise one?$"
 
 Route117_PokemonDayCare_Text_WhichMonShouldWeRaise:
-	.string "Which POKéMON should we raise for\n"
+	.string "Which Pimmel should we raise for\n"
 	.string "you?$"
 
 Route117_PokemonDayCare_Text_WellRaiseYourMon:
@@ -342,14 +342,14 @@ Route117_PokemonDayCare_Text_WellRaiseYourMon:
 	.string "Come back for it later.$"
 
 Route117_PokemonDayCare_Text_WeCanRaiseOneMore:
-	.string "We can raise two of your POKéMON.\n"
+	.string "We can raise two of your Pimmel.\n"
 	.string "Would you like us to raise one more?$"
 
 Route117_PokemonDayCare_Text_HusbandWasLookingForYou:
 	.string "My husband was looking for you.$"
 
 Route117_PokemonDayCare_Text_FineThenComeAgain:
-	.string "Oh, fine, then.\n"
+	.string "Shit, fine, then.\n"
 	.string "Come again.$"
 
 Route117_PokemonDayCare_Text_NotEnoughMoney:
@@ -364,20 +364,20 @@ Route117_PokemonDayCare_Text_ComeAgain:
 	.string "Come again.$"
 
 Route117_PokemonDayCare_Text_GoodToSeeYou:
-	.string "Ah, it's you! Good to see you.\n"
-	.string "Your POKéMON can only be doing good!$"
+	.string "Ah, es isch you! Good to see you.\n"
+	.string "Your Pimmel can only be doing good!$"
 
 Route117_PokemonDayCare_Text_YourMonHasGrownXLevels:
 	.string "By level, your {STR_VAR_1} has\n"
 	.string "grown by {STR_VAR_2}.$"
 
 Route117_PokemonDayCare_Text_YourTeamIsFull:
-	.string "Your POKéMON team is full.\n"
+	.string "Your Pimmel team is full.\n"
 	.string "Make room, then come see me.$"
 
 @ Unused
 Route117_PokemonDayCare_Text_TakeBackWhichMon:
-	.string "Which POKéMON will you take back?$"
+	.string "Which Pimmel will you take back?$"
 
 Route117_PokemonDayCare_Text_ItWillCostX:
 	.string "If you want your {STR_VAR_1} back,\n"
@@ -385,23 +385,23 @@ Route117_PokemonDayCare_Text_ItWillCostX:
 
 Route117_PokemonDayCare_Text_HeresYourMon:
 	.string "Perfect!\n"
-	.string "Here's your POKéMON.$"
+	.string "Here's your Pimmel.$"
 
 Route117_PokemonDayCare_Text_TookBackMon:
 	.string "{PLAYER} took back {STR_VAR_1} from\n"
 	.string "the DAY-CARE LADY.$"
 
 Route117_PokemonDayCare_Text_YouHaveJustOneMon:
-	.string "Oh? But you have just one\n"
-	.string "POKéMON.\p"
+	.string "Shit? But you have just one\n"
+	.string "Pimmel.\p"
 	.string "Come back another time.$"
 
 Route117_PokemonDayCare_Text_TakeYourMonBack:
-	.string "Will you take your POKéMON back?$"
+	.string "Will you take your Pimmel back?$"
 
 Route117_PokemonDayCare_Text_WhatWillYouBattleWith:
-	.string "If you leave me that POKéMON,\n"
-	.string "what will you battle with?\p"
+	.string "If you leave me that Pimmel,\n"
+	.string "what will you schlegglä with?\p"
 	.string "Come back another time.$"
 
 Text_EggHatchHuh:
@@ -410,7 +410,7 @@ Text_EggHatchHuh:
 Route117_PokemonDayCare_Text_YoullBeLeftWithJustOne:
 	.string "Huh?\n"
 	.string "Now, now.\p"
-	.string "If you leave that POKéMON with\n"
+	.string "If you leave that Pimmel with\n"
 	.string "me, you'll be left with just one.\p"
 	.string "You will be better off if you catch\n"
 	.string "some more, I dare say.$"

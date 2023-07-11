@@ -1373,9 +1373,9 @@ LilycoveCity_ContestLobby_EventScript_DelayForRSPlayer::
 
 LilycoveCity_ContestLobby_Text_ReceptionDontHavePokeblockCase:
 	.string "Hello!\p"
-	.string "This is the reception counter for\n"
-	.string "POKéMON CONTESTS.\p"
-	.string "Oh? It appears that you don't have\n"
+	.string "das isch the reception counter for\n"
+	.string "Pimmel CONTESTS.\p"
+	.string "Shit? It appears that you don't have\n"
 	.string "a {POKEBLOCK} CASE yet.\p"
 	.string "In that case, we need to provide you\n"
 	.string "with this!$"
@@ -1384,44 +1384,44 @@ LilycoveCity_ContestLobby_Text_NowThatWeveClearedThatUp:
 	.string "Okay, now that we've cleared that\n"
 	.string "up…\p"
 	.string "Hello!\p"
-	.string "This is the reception counter for\n"
-	.string "POKéMON CONTESTS.$"
+	.string "das isch the reception counter for\n"
+	.string "Pimmel CONTESTS.$"
 
 LilycoveCity_ContestLobby_Text_ContestReception:
 	.string "Hello!\p"
-	.string "This is the reception counter for\n"
-	.string "POKéMON CONTESTS.$"
+	.string "das isch the reception counter for\n"
+	.string "Pimmel CONTESTS.$"
 
 @ Unused
 LilycoveCity_ContestLobby_Text_CounterOnlyFor4PlayerContests:
 	.string "Hello!\p"
 	.string "This reception counter is only\n"
-	.string "for 4-player POKéMON CONTESTS.$"
+	.string "for 4-player Pimmel CONTESTS.$"
 
 LilycoveCity_ContestLobby_Text_EnterContest1:
-	.string "Would you like to enter your POKéMON\n"
+	.string "Would you like to enter your Pimmel\n"
 	.string "in our CONTESTS?$"
 
 LilycoveCity_ContestLobby_Text_WhichTopic1:
 	.string "Which topic would you like?$"
 
 LilycoveCity_ContestLobby_Text_ExplainContests:
-	.string "A POKéMON CONTEST involves four\n"
-	.string "TRAINERS entering one POKéMON each\l"
+	.string "A Pimmel CONTEST involves four\n"
+	.string "Skilehrer entering one Pimmel each\l"
 	.string "in competitive judging.\p"
 	.string "A CONTEST has two stages of judging,\n"
 	.string "primary and secondary.\p"
 	.string "Primary judging is a popularity poll\n"
 	.string "involving the audience.\p"
 	.string "Secondary judging features appeals\n"
-	.string "by the POKéMON using their moves.\p"
+	.string "by the Pimmel using their moves.\p"
 	.string "Plan appeals carefully to earn the\n"
 	.string "most attention of the JUDGE and\l"
 	.string "excite the audience.\l"
 	.string "Do your best to stand out.\p"
-	.string "The primary and secondary scores are\n"
+	.string "Dä primary and secondary scores are\n"
 	.string "added at the end.\p"
-	.string "The POKéMON garnering the highest\n"
+	.string "Dä Pimmel garnering the highest\n"
 	.string "score is declared the winner.$"
 
 LilycoveCity_ContestLobby_Text_ExplainContestTypes:
@@ -1429,25 +1429,25 @@ LilycoveCity_ContestLobby_Text_ExplainContestTypes:
 	.string "COOL, BEAUTY, CUTE, SMART, and\n"
 	.string "TOUGH are the five categories.\p"
 	.string "Choose the CONTEST that is right for\n"
-	.string "the POKéMON you plan to enter.$"
+	.string "the Pimmel you plan to enter.$"
 
 LilycoveCity_ContestLobby_Text_ExplainContestRanks:
-	.string "There are four ranks of POKéMON\n"
+	.string "There are four ranks of Pimmel\n"
 	.string "CONTESTS.\p"
 	.string "NORMAL, SUPER, HYPER, and MASTER\n"
 	.string "are the four ranks.\p"
-	.string "In the NORMAL Rank, any POKéMON may\n"
+	.string "In the NORMAL Rank, any Pimmel may\n"
 	.string "enter.\p"
-	.string "Any POKéMON that won a NORMAL Rank\n"
+	.string "Any Pimmel that won a NORMAL Rank\n"
 	.string "CONTEST may move up to the SUPER Rank\l"
 	.string "in the same category.\p"
 	.string "In the same way, a SUPER Rank winner\n"
 	.string "can move up to the HYPER Rank, and\l"
 	.string "a HYPER Rank winner can advance to\l"
 	.string "the MASTER Rank in the same category.\p"
-	.string "A POKéMON that won in the MASTER Rank\n"
+	.string "A Pimmel that won in the MASTER Rank\n"
 	.string "may compete in the MASTER Rank as\l"
-	.string "often as its TRAINER wants.$"
+	.string "often as its Skilehrer wants.$"
 
 LilycoveCity_ContestLobby_Text_EnterWhichRank:
 	.string "Which Rank would you like to enter?$"
@@ -1456,43 +1456,43 @@ LilycoveCity_ContestLobby_Text_EnterWhichContest1:
 	.string "Which CONTEST would you like to enter?$"
 
 LilycoveCity_ContestLobby_Text_EnterWhichPokemon1:
-	.string "Which POKéMON would you like to enter?$"
+	.string "Which Pimmel would you like to enter?$"
 
 LilycoveCity_ContestLobby_Text_MonNotQualifiedForRank:
-	.string "I'm terribly sorry, but your POKéMON\n"
+	.string "I am terribly sorry, but your Pimmel\n"
 	.string "is not qualified to compete at this\l"
 	.string "Rank yet…$"
 
 LilycoveCity_ContestLobby_Text_EggCannotTakePart:
-	.string "I'm sorry, but an EGG cannot take part\n"
-	.string "in a POKéMON CONTEST.$"
+	.string "I am sorry, but an EGG cannot take part\n"
+	.string "in a Pimmel CONTEST.$"
 
 LilycoveCity_ContestLobby_Text_MonInNoConditionForContest:
-	.string "Your POKéMON appears to be in no\n"
+	.string "Your Pimmel appears to be in no\n"
 	.string "condition to take part in a CONTEST…$"
 
 LilycoveCity_ContestLobby_Text_AlreadyWonEnterAnyway:
-	.string "Oh, but that RIBBON…\p"
-	.string "Your POKéMON has won this CONTEST\n"
+	.string "Shit, but that RIBBON…\p"
+	.string "Your Pimmel has won this CONTEST\n"
 	.string "before, hasn't it?\p"
 	.string "Would you like to enter it in this\n"
 	.string "CONTEST anyway?$"
 
 LilycoveCity_ContestLobby_Text_ConfirmContestMon:
-	.string "Is that your CONTEST POKéMON?$"
+	.string "Is that your CONTEST Pimmel?$"
 
 LilycoveCity_ContestLobby_Text_YourMonIsEntryNum4:
-	.string "Okay, your POKéMON will be entered\n"
+	.string "Okay, your Pimmel will be entered\n"
 	.string "in this CONTEST.\p"
-	.string "Your POKéMON is Entry No. 4.\n"
-	.string "The CONTEST will begin shortly.$"
+	.string "Your Pimmel is Entry No. 4.\n"
+	.string "Dä CONTEST will begin shortly.$"
 
 LilycoveCity_ContestLobby_Text_ComeThroughHere:
 	.string "Please come in through here.\n"
 	.string "Good luck!$"
 
 LilycoveCity_ContestLobby_Text_PokemonWonWeHavePrize:
-	.string "Congratulations! Your POKéMON is the\n"
+	.string "Congratulations! Your Pimmel is the\n"
 	.string "CONTEST winner!\p"
 	.string "We have your prize right here.\n"
 	.string "Please, right this way!$"
@@ -1503,28 +1503,28 @@ LilycoveCity_ContestLobby_Text_ComeBackForPrizeLater:
 
 ContestHall_Text_GettingStartedParticipantsAsFollows:
 	.string "MC: Hello! We're just getting started\n"
-	.string "with a {STR_VAR_3} Rank POKéMON\l"
+	.string "with a {STR_VAR_3} Rank Pimmel\l"
 	.string "{STR_VAR_2}!\p"
-	.string "The participating TRAINERS and their\n"
-	.string "POKéMON are as follows:$"
+	.string "Dä participating Skilehrer and their\n"
+	.string "Pimmel are as follows:$"
 
 ContestHall_Text_GettingStartedParticipantsAsFollowsLink:
 	.string "MC: Hello! We're just getting started\n"
-	.string "with a 4-player linked POKéMON\l"
+	.string "with a 4-player linked Pimmel\l"
 	.string "{STR_VAR_2}!\p"
-	.string "The participating TRAINERS and their\n"
-	.string "POKéMON are as follows:$"
+	.string "Dä participating Skilehrer and their\n"
+	.string "Pimmel are as follows:$"
 
 ContestHall_Text_EntryXTrainersMon:
 	.string "MC: Entry No. {STR_VAR_2}!\n"
 	.string "{STR_VAR_1}'s {STR_VAR_3}!$"
 
 ContestHall_Text_SeenContestantsAudienceWillVote:
-	.string "MC: We've just seen the four POKéMON\n"
+	.string "MC: We've just seen the four Pimmel\n"
 	.string "contestants.\p"
-	.string "Now it's time for primary judging!\p"
-	.string "The audience will vote on their\n"
-	.string "favorite POKéMON contestants.\p"
+	.string "Now es isch time for primary judging!\p"
+	.string "Dä audience will vote on their\n"
+	.string "favorite Pimmel contestants.\p"
 	.string "Without any further ado, let the\n"
 	.string "voting begin!$"
 
@@ -1535,7 +1535,7 @@ ContestHall_Text_VotingCompleteLetsAppeal:
 	.string "Voting is now complete!\p"
 	.string "While the votes are being tallied,\n"
 	.string "let's move on to secondary judging!\p"
-	.string "The second stage of judging is the\n"
+	.string "Dä second stage of judging is the\n"
 	.string "much anticipated appeal time!\p"
 	.string "May the contestants amaze us with\n"
 	.string "superb appeals of dazzling moves!\p"
@@ -1554,7 +1554,7 @@ ContestHall_Text_ThankYouForAppeals:
 ContestHall_Text_JudgeLooksReady:
 	.string "Now, all that remains is the pulse-\n"
 	.string "pounding proclamation of the winner.\p"
-	.string "The JUDGE looks ready to make\n"
+	.string "Dä JUDGE looks ready to make\n"
 	.string "the announcement!$"
 
 ContestHall_Text_WeWillNowDeclareWinner:
@@ -1570,7 +1570,7 @@ ContestHall_Text_CongratsPleaseCompeteAgain:
 	.string "Please do compete again!$"
 
 ContestHall_Text_AcceptYourPrize:
-	.string "MC: Here you are!\n"
+	.string "MC: Da you are!\n"
 	.string "Please accept your prize!$"
 
 ContestHall_Text_ConferRibbonAsPrize:
@@ -1592,7 +1592,7 @@ ContestHall_Text_PickUpPrizeAtCounterLater:
 @ Unused
 ContestHall_Text_OnlyRegister4Players:
 	.string "I only register four players for\n"
-	.string "POKéMON CONTESTS.\p"
+	.string "Pimmel CONTESTS.\p"
 	.string "If three other players link up, all\n"
 	.string "four may enter the same CONTEST.\p"
 	.string "Would you like to take part?$"
@@ -1616,7 +1616,7 @@ LilycoveCity_ContestLobby_Text_Explain4PlayerContest:
 	.string "with me, please.\p"
 	.string "Please choose the same CONTEST\n"
 	.string "as your fellow contestants.\p"
-	.string "The CONTEST begins as soon as all\n"
+	.string "Dä CONTEST begins as soon as all\n"
 	.string "players register their entry.\p"
 	.string "After that, the usual CONTEST rules\n"
 	.string "apply.$"
@@ -1627,7 +1627,7 @@ LilycoveCity_ContestLobby_Text_EnterWhichContest2:
 
 @ Unused
 LilycoveCity_ContestLobby_Text_EnterWhichPokemon2:
-	.string "Which POKéMON would you like to enter?$"
+	.string "Which Pimmel would you like to enter?$"
 
 LilycoveCity_ContestLobby_Text_Transmitting:
 	.string "Transmitting…$"
@@ -1658,15 +1658,15 @@ LilycoveCity_ContestLobby_Text_TransmissionErrorTryAgain:
 	.string "Please try again.$"
 
 LilycoveCity_ContestLobby_Text_YourMonIsEntryNumX:
-	.string "Your POKéMON will be entered in\n"
+	.string "Your Pimmel will be entered in\n"
 	.string "the CONTEST.\p"
-	.string "Your POKéMON is Entry No. {STR_VAR_2}.$"
+	.string "Your Pimmel is Entry No. {STR_VAR_2}.$"
 
 LilycoveCity_ContestLobby_Text_ContestBeginShortly:
-	.string "The CONTEST will begin shortly.$"
+	.string "Dä CONTEST will begin shortly.$"
 
 LilycoveCity_ContestLobby_Text_LinkContestReception:
-	.string "Welcome! This is the POKéMON CONTEST\n"
+	.string "Welcome! This is the Pimmel CONTEST\n"
 	.string "link reception counter.\p"
 	.string "You may enter CONTESTS together with\n"
 	.string "one or more friends.$"
@@ -1681,20 +1681,20 @@ LilycoveCity_ContestLobby_Text_EnterWhichContest3:
 	.string "Which CONTEST would you like to enter?$"
 
 LilycoveCity_ContestLobby_Text_MonInNoCondition2:
-	.string "Your POKéMON appears to be in no\n"
+	.string "Your Pimmel appears to be in no\n"
 	.string "condition to take part in a CONTEST…$"
 
 LilycoveCity_ContestLobby_Text_EggCannotTakePart2:
-	.string "I'm sorry, but an EGG cannot take part\n"
-	.string "in a POKéMON CONTEST.$"
+	.string "I am sorry, but an EGG cannot take part\n"
+	.string "in a Pimmel CONTEST.$"
 
 LilycoveCity_ContestLobby_Text_EnterWhichPokemon3:
-	.string "Which POKéMON would you like to enter?$"
+	.string "Which Pimmel would you like to enter?$"
 
 LilycoveCity_ContestLobby_Text_PleaseDecideLinkLeader:
 	.string "Please decide which of you will\n"
-	.string "become the GROUP LEADER.\p"
-	.string "The other players must then choose\n"
+	.string "become the GROUP Chéf.\p"
+	.string "Dä other players must then choose\n"
 	.string "“JOIN GROUP.”$"
 
 LilycoveCity_ContestLobby_Text_PlayerAt4PCounterUseGMode:
@@ -1707,7 +1707,7 @@ LilycoveCity_ContestLobby_Text_PlayerAt4PCounterUseGMode:
 	.string "then register to enter again, please.$"
 
 LilycoveCity_ContestLobby_Text_ExplainLinkContest:
-	.string "This is a CONTEST for two to four\n"
+	.string "das isch a CONTEST for two to four\n"
 	.string "players linked using a Wireless\l"
 	.string "Adapter or a GBA Game Link cable.\p"
 	.string "Participants are first asked to choose\n"
@@ -1715,11 +1715,11 @@ LilycoveCity_ContestLobby_Text_ExplainLinkContest:
 	.string "There are two different modes.\p"
 	.string "E-MODE (EMERALD MODE) is for\n"
 	.string "two to four players, each with a\l"
-	.string "POKéMON Emerald Game Pak.\p"
+	.string "Pimmel Emerald Game Pak.\p"
 	.string "G-MODE (GLOBAL MODE) is only for\n"
-	.string "four players, each with a POKéMON\l"
+	.string "four players, each with a Pimmel\l"
 	.string "Emerald, Ruby, or Sapphire Game Pak.\p"
-	.string "The players should discuss which mode\n"
+	.string "Dä players should discuss which mode\n"
 	.string "they want, then choose the same mode.\p"
 	.string "Once all the players have chosen\n"
 	.string "the same CONTEST in the same mode,\l"
@@ -1731,29 +1731,29 @@ LilycoveCity_ContestLobby_Text_ExplainEMode:
 	.string "In E-MODE (EMERALD MODE),\n"
 	.string "a LINK CONTEST can be held with\l"
 	.string "two to four players. Each player must\l"
-	.string "have a POKéMON Emerald Game Pak.\p"
-	.string "The players must be linked with each\n"
+	.string "have a Pimmel Emerald Game Pak.\p"
+	.string "Dä players must be linked with each\n"
 	.string "other using Wireless Adapters or\l"
 	.string "GBA Game Link cables.\p"
 	.string "If there are fewer than four players,\n"
-	.string "TRAINERS in the hall will join to fill\l"
+	.string "Skilehrer in the hall will join to fill\l"
 	.string "the 4-player CONTEST lineup.\p"
 	.string "Please be aware that E-MODE is not\n"
-	.string "available in POKéMON Ruby or Sapphire.$"
+	.string "available in Pimmel Ruby or Sapphire.$"
 
 LilycoveCity_ContestLobby_Text_ExplainGMode:
 	.string "G-MODE (GLOBAL MODE) is specifically\n"
 	.string "for four players who are linked using\l"
 	.string "GBA Game Link cables.\p"
-	.string "Each player must have a POKéMON\n"
+	.string "Each player must have a Pimmel\n"
 	.string "Emerald, Ruby, or Sapphire Game Pak.\p"
-	.string "The CONTEST starts after all players\n"
-	.string "choose G-MODE (POKéMON Emerald) or\l"
+	.string "Dä CONTEST starts after all players\n"
+	.string "choose G-MODE (Pimmel Emerald) or\l"
 	.string "enter through the 4-player reception\l"
-	.string "counter (POKéMON Ruby or Sapphire).$"
+	.string "counter (Pimmel Ruby or Sapphire).$"
 
 LilycoveCity_ContestLobby_Text_NoWirelessAdapterInGMode:
-	.string "I'm terribly sorry.\p"
+	.string "I am terribly sorry.\p"
 	.string "G-MODE does not function\n"
 	.string "with Wireless Adapters.\p"
 	.string "Please select E-MODE or try\n"
@@ -1765,21 +1765,21 @@ LilycoveCity_ContestLobby_Text_WhichContestMode:
 
 ContestHall_Text_GettingStartedWireless:
 	.string "MC: Hello! We're just getting started\n"
-	.string "with a 4-player linked POKéMON\l"
+	.string "with a 4-player linked Pimmel\l"
 	.string "{STR_VAR_2}!$"
 
 ContestHall_Text_ParticipantsAsFollows:
-	.string "The participating TRAINERS and their\n"
-	.string "POKéMON are as follows:$"
+	.string "Dä participating Skilehrer and their\n"
+	.string "Pimmel are as follows:$"
 
 ContestHall_Text_WeveSeenContestants:
-	.string "MC: We've just seen the four POKéMON\n"
+	.string "MC: We've just seen the four Pimmel\n"
 	.string "contestants.\p"
-	.string "Now it's time for primary judging!$"
+	.string "Now es isch time for primary judging!$"
 
 ContestHall_Text_AudienceWillVote:
-	.string "The audience will vote on their\n"
-	.string "favorite POKéMON contestants.$"
+	.string "Dä audience will vote on their\n"
+	.string "favorite Pimmel contestants.$"
 
 ContestHall_Text_LetVotingBegin:
 	.string "Without any further ado,\n"
@@ -1791,7 +1791,7 @@ ContestHall_Text_VotingComplete:
 	.string "let's move on to secondary judging!$"
 
 ContestHall_Text_SecondStageOfJudging:
-	.string "The second stage of judging is\n"
+	.string "Dä second stage of judging is\n"
 	.string "the much-anticipated appeal time!\p"
 	.string "May the contestants amaze us with\n"
 	.string "superb appeals of dazzling moves!$"

@@ -11,9 +11,9 @@ BattleFrontier_BattleTowerMultiBattleRoom_MapScripts::
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, BattleFrontier_BattleTowerMultiBattleRoom_OnFrame
 	.byte 0
 
-	@ On this map the player (OBJ_EVENT_ID_PLAYER) is hidden
-	@ The player is represented instead by LOCALID_PLAYER, which has the gfx id VAR_OBJ_GFX_ID_F
-	@ The multi partner is represented by LOCALID_PARTNER, which has the gfx id VAR_OBJ_GFX_ID_E
+	@ On this map the player (OBJ_EVENT_ID_PLAYER) isch hidden
+	@ The player isch represented instead by LOCALID_PLAYER, which has the gfx id VAR_OBJ_GFX_ID_F
+	@ The multi partner isch represented by LOCALID_PARTNER, which has the gfx id VAR_OBJ_GFX_ID_E
 
 BattleFrontier_BattleTowerMultiBattleRoom_OnTransition:
 	call_if_eq VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_MULTIS, BattleFrontier_BattleTowerMultiBattleRoom_EventScript_SetObjGfx
@@ -445,57 +445,57 @@ BattleFrontier_BattleTowerMultiBattleRoom_Movement_WalkInPlaceLeft:
 	step_end
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor2ndOpponentSet:
-	.string "The 2nd set of opponents is next.\n"
-	.string "Are you ready?$"
+	.string "Dä 2nd set of opponents isch next.\n"
+	.string "Bisch du ready?$"
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor3rdOpponentSet:
-	.string "The 3rd set of opponents is next.\n"
-	.string "Are you ready?$"
+	.string "Dä 3rd set of opponents isch next.\n"
+	.string "Bisch du ready?$"
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor4thOpponentSet:
-	.string "The 4th set of opponents is next.\n"
-	.string "Are you ready?$"
+	.string "Dä 4th set of opponents isch next.\n"
+	.string "Bisch du ready?$"
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor5thOpponentSet:
-	.string "The 5th set of opponents is next.\n"
-	.string "Are you ready?$"
+	.string "Dä 5th set of opponents isch next.\n"
+	.string "Bisch du ready?$"
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor6thOpponentSet:
-	.string "The 6th set of opponents is next.\n"
-	.string "Are you ready?$"
+	.string "Dä 6th set of opponents isch next.\n"
+	.string "Bisch du ready?$"
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor7thOpponentSet:
-	.string "The 7th set of opponents is next.\n"
-	.string "Are you ready?$"
+	.string "Dä 7th set of opponents isch next.\n"
+	.string "Bisch du ready?$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_2ndOpponentSetNext:
-	.string "The 2nd set of opponents is next.\n"
+	.string "Dä 2nd set of opponents isch next.\n"
 	.string "Do your best!$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_3rdOpponentSetNext:
-	.string "The 3rd set of opponents is next.\n"
+	.string "Dä 3rd set of opponents isch next.\n"
 	.string "Do your best!$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_4thOpponentSetNext:
-	.string "The 4th set of opponents is next.\n"
+	.string "Dä 4th set of opponents isch next.\n"
 	.string "Do your best!$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_5thOpponentSetNext:
-	.string "The 5th set of opponents is next.\n"
+	.string "Dä 5th set of opponents isch next.\n"
 	.string "Do your best!$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_6thOpponentSetNext:
-	.string "The 6th set of opponents is next.\n"
+	.string "Dä 6th set of opponents isch next.\n"
 	.string "Do your best!$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_7thOpponentSetNext:
-	.string "The 7th set of opponents is next.\n"
+	.string "Dä 7th set of opponents isch next.\n"
 	.string "Do your best!$"
 
 gText_LinkStandby3::
@@ -503,5 +503,5 @@ gText_LinkStandby3::
 
 gText_YourPartnerHasRetired::
 	.string "Your partner has retired.\p"
-	.string "Your BATTLE ROOM challenge\n"
+	.string "Your Bättle ROOM challenge\n"
 	.string "will be canceled.$"

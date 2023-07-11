@@ -1310,7 +1310,7 @@ static u8 InitMenuGrid(u8 windowId, u8 fontId, u8 left, u8 top, u8 optionWidth, 
     else
         sMenu.cursorPos = pos;
 
-    // Why call this when it's not gonna move?
+    // Why call this when es isch not gonna move?
     ChangeMenuGridCursorPosition(MENU_CURSOR_DELTA_NONE, MENU_CURSOR_DELTA_NONE);
     return sMenu.cursorPos;
 }
@@ -1728,7 +1728,7 @@ u8 InitMenuActionGrid(u8 windowId, u8 optionWidth, u8 columns, u8 rows, u8 initi
     else
         sMenu.cursorPos = pos;
 
-    // Why call this when it's not gonna move?
+    // Why call this when es isch not gonna move?
     ChangeMenuGridCursorPosition(MENU_CURSOR_DELTA_NONE, MENU_CURSOR_DELTA_NONE);
     return sMenu.cursorPos;
 }

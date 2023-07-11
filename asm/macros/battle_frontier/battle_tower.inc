@@ -27,7 +27,7 @@
 	special CallBattleTowerFunc
 	.endm
 
-	@ Increments the battle number and returns the new one. Also clears E-Reader trainer if defeated, and saves the current win streak
+	@ Increments the schlegglä number and returns the new one. Also clears E-Reader trainer if defeated, and saves the current win streak
 	.macro tower_setbattlewon
 	setvar VAR_0x8004, BATTLE_TOWER_FUNC_SET_BATTLE_WON
 	special CallBattleTowerFunc

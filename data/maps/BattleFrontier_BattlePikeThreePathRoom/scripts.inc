@@ -297,11 +297,11 @@ BattleFrontier_BattlePikeThreePathRoom_Text_ContinueWithChallenge:
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SaveChallengeAndQuit:
 	.string "Would you like to save your challenge\n"
-	.string "and quit the game for now?$"
+	.string "und quit the game for now?$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_RetireFromChallenge:
 	.string "Do you wish to retire from your\n"
-	.string "Battle Choice challenge?$"
+	.string "Kampf Choice challenge?$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_AwaitingReturnSaveBeforeResume:
 	.string "We've been awaiting your return…\p"
@@ -309,7 +309,7 @@ BattleFrontier_BattlePikeThreePathRoom_Text_AwaitingReturnSaveBeforeResume:
 	.string "challenge, let me save the game…$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_PleaseEnjoyChallenge:
-	.string "Please do enjoy your Battle Choice\n"
+	.string "Bitte do enjoy your Battle Choice\n"
 	.string "challenge…$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SavingYourData:
@@ -317,12 +317,12 @@ BattleFrontier_BattlePikeThreePathRoom_Text_SavingYourData:
 	.string "A little time, please…$"
 
 BattleFrontier_BattlePike_Text_PathBlockedNoTurningBack:
-	.string "The path is blocked!\n"
-	.string "And there is no turning back…$"
+	.string "Dä path isch blocked!\n"
+	.string "Und there isch no turning back…$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_FindingItDifficultToChoose:
 	.string "I beg your pardon, but…\p"
-	.string "Are you perhaps finding it difficult\n"
+	.string "Bisch du perhaps finding it difficult\n"
 	.string "to choose your path?$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_ApologizeForImpertinence:
@@ -330,23 +330,23 @@ BattleFrontier_BattlePikeThreePathRoom_Text_ApologizeForImpertinence:
 	.string "I apologize for my impertinence…$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutRightPath:
-	.string "Ah, let me see… There is something\n"
+	.string "Ah, let me see… There isch something\n"
 	.string "about the path on the right…$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutCenterPath:
-	.string "Ah, let me see… There is something\n"
+	.string "Ah, let me see… There isch something\n"
 	.string "about the path in the center…$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutLeftPath:
-	.string "Ah, let me see… There is something\n"
+	.string "Ah, let me see… There isch something\n"
 	.string "about the path on the left…$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_AromaOfPokemon:
 	.string "It seems to have the distinct aroma\n"
-	.string "of POKéMON wafting around it…$"
+	.string "of Pimmel wafting around it…$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_PresenceOfPeople:
-	.string "Is it… A TRAINER?\n"
+	.string "Is it… A Skilehrer?\n"
 	.string "I sense the presence of people…$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_HeardWhispering:
@@ -362,7 +362,7 @@ BattleFrontier_BattlePikeThreePathRoom_Text_TerrifyingEvent:
 	.string "A terrifying event, yes, a horrible one,\n"
 	.string "is about to befall you…\p"
 	.string "I urge you to pay the utmost care\n"
-	.string "and prepare for the worst…$"
+	.string "und prepare for the worst…$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_DreadfulPresence:
 	.string "From every path I sense a dreadful\n"

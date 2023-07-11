@@ -91,14 +91,16 @@ RustboroCity_DevonCorp_1F_Text_StaffGotRobbed:
 	.string "got robbed of an important parcel.$"
 
 RustboroCity_DevonCorp_1F_Text_ThoseShoesAreOurProduct:
-	.string "Hey, those RUNNING SHOES!\n"
+	.string "Ciao, dumme Siech\l"
+	.string "those RUNNING SHOES!\n"
 	.string "They're one of our products!\p"
 	.string "It makes me happy when I see someone\n"
 	.string "using something we made.$"
 
 RustboroCity_DevonCorp_1F_Text_RobberWasntVeryBright:
-	.string "That stolen parcel…\p"
-	.string "Well, sure it's important, but it's not\n"
+	.string "Dä stolen parcel…\p"
+	.string "Ahh, Futz und Tripper...\l"
+	.string "sure es isch important, but es isch not\n"
 	.string "anything that anyone can use.\p"
 	.string "In my estimation, that robber must not\n"
 	.string "have been very bright.$"
@@ -108,7 +110,7 @@ RustboroCity_DevonCorp_1F_Text_SoundsLikeStolenGoodsRecovered:
 	.string "the ripped-off DEVON GOODS.$"
 
 RustboroCity_DevonCorp_1F_Text_OnlyAuthorizedPeopleEnter:
-	.string "I'm sorry, only authorized people\n"
+	.string "I am sorry, only authorized people\n"
 	.string "are allowed to enter here.$"
 
 RustboroCity_DevonCorp_1F_Text_HowCouldWeGetRobbed:
@@ -116,7 +118,8 @@ RustboroCity_DevonCorp_1F_Text_HowCouldWeGetRobbed:
 	.string "How could we get robbed?$"
 
 RustboroCity_DevonCorp_1F_Text_YoureAlwaysWelcomeHere:
-	.string "Hi, there!\n"
+	.string "Ciao, dumme Siech!\l"
+	.string "there!\n"
 	.string "You're always welcome here!$"
 
 RustboroCity_DevonCorp_1F_Text_RocksMetalDisplay:
@@ -130,7 +133,7 @@ RustboroCity_DevonCorp_1F_Text_RocksMetalDisplay:
 	.string "filings in the sand.\p"
 	.string "“From that humble start as a producer\n"
 	.string "of raw materials, DEVON developed.\p"
-	.string "“DEVON is now a manufacturer of a wide\n"
+	.string "“DEVON isch now a manufacturer of a wide\n"
 	.string "range of industrial products.”$"
 
 RustboroCity_DevonCorp_1F_Text_ProductDisplay:
@@ -141,6 +144,6 @@ RustboroCity_DevonCorp_1F_Text_ProductDisplay:
 	.string "DEVON now markets sundries and\l"
 	.string "pharmaceuticals for better lifestyles.\p"
 	.string "“Recently, DEVON has begun marketing\n"
-	.string "tools for POKéMON TRAINERS, including\l"
-	.string "POKé BALLS and POKéNAV systems.”$"
+	.string "tools for Pimmel Pfluutä, including\l"
+	.string "KACK-Eier and Nokia systems.”$"
 

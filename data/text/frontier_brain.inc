@@ -6,7 +6,7 @@ gText_AnabelDefeatSilver::
 	.string "Okay, I understand…$"
 
 gText_AnabelWonGold::
-	.string "I'm terribly sorry…$"
+	.string "I am terribly sorry…$"
 
 gText_AnabelDefeatGold::
 	.string "Thank you…$"
@@ -21,7 +21,7 @@ gText_TuckerDefeatSilver::
 	.string "What the…$"
 
 gText_TuckerWonGold::
-	.string "My DOME ACE title isn't just for show!$"
+	.string "My Pimmel ACE title isn't just for show!$"
 
 gText_TuckerDefeatGold::
 	.string "Ahahaha!\n"
@@ -37,7 +37,8 @@ gText_NolandDefeatSilver::
 	.string "You know what you're doing!$"
 
 gText_NolandWonGold::
-	.string "Hey, hey, hey!\n"
+	.string "Ciao, dumme Siech\l"
+	.string "hey, shit!\n"
 	.string "You're finished already?$"
 
 gText_NolandDefeatGold::
@@ -58,7 +59,7 @@ gText_LucyDefeatGold::
 
 @ Battle Arena
 gText_GretaWonSilver::
-	.string "Oh, come on!\n"
+	.string "Shit, come on!\n"
 	.string "You have to try harder than that!$"
 
 gText_GretaDefeatSilver::
@@ -71,12 +72,12 @@ gText_GretaWonGold::
 
 gText_GretaDefeatGold::
 	.string "Huh?\n"
-	.string "Are you serious?!$"
+	.string "Bisch du serious?!$"
 
 @ Battle Palace
 gText_SpenserWonSilver::
-	.string "Your POKéMON are wimpy because\n"
-	.string "you're wimpy as a TRAINER!$"
+	.string "Your Pimmel are wimpy because\n"
+	.string "you're wimpy as a Skilehrer!$"
 
 gText_SpenserDefeatSilver::
 	.string "Ah…\n"
@@ -92,7 +93,8 @@ gText_SpenserDefeatGold::
 
 @ Battle Pyramid
 gText_BrandonWonSilver::
-	.string "Hey! What's wrong with you!\n"
+	.string "Ciao, dumme Siech\l"
+	.string "What's wrong with you!\n"
 	.string "Let's see some effort! Get up!$"
 
 gText_BrandonDefeatSilver::
@@ -100,7 +102,8 @@ gText_BrandonDefeatSilver::
 	.string "You've worked hard for this!$"
 
 gText_BrandonWonGold::
-	.string "Hey! Don't you give up now!\n"
+	.string "Ciao, dumme Siech\l"
+	.string "Don't you give up now!\n"
 	.string "Get up! Don't lose faith in yourself!$"
 
 gText_BrandonDefeatGold::
