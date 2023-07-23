@@ -247,6 +247,8 @@ static const struct ItemSlot sNewGamePCItems[] =
     { ITEM_MAX_REPEL, 98 }, //100
     { ITEM_MAX_REPEL, 98 }, //200
     { ITEM_MAX_REPEL, 98 }, //300
+    { ITEM_NUGGET, 98 },
+    { ITEM_ESCAPE_ROPE, 98 },
     { ITEM_NONE, 0 }
 };
 

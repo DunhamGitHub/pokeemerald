@@ -21,6 +21,7 @@ OldaleTown_Mart_Pokemart_Basic:
 	.2byte ITEM_MAX_REVIVE
 	.2byte ITEM_FULL_RESTORE
 	.2byte ITEM_EVERSTONE
+	.2byte ITEM_ESCAPE_ROPE
 	.2byte ITEM_HM01
 	.2byte ITEM_HM02
 	.2byte ITEM_HM03
