@@ -19,7 +19,6 @@
 *.fwjpnfont
 sound/**/*.bin
 sound/songs/midi/*.s
-tools/agbcc
 *.map
 *.ld
 *.bat
@@ -39,3 +38,5 @@ prefabs.json
 *.diff
 *.sym
 *.js
+
+# tools/agbcc
