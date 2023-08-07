@@ -127,15 +127,16 @@ Note that in msys2, Copy is Ctrl+Insert and Paste is Shift+Insert.
 
 1. Open msys2 at C:\devkitPro\msys2\mingw64.exe or run `C:\devkitPro\msys2\msys2_shell.bat -mingw64`.
 
-2. Certain packages are required to build pokeemerald. Install these by running the following command:
+2. Certain packages are required to build pokeemerald. Install these by running the following two commands:
 
     ```bash
-    pacman -S make zlib-devel git mingw-w64-x86_64-gcc mingw-w64-x86_64-libpng
+    pacman -Sy msys2-keyring
+    pacman -S make gcc zlib-devel git
     ```
     <details>
         <summary><i>Note...</i></summary>
 
-    >   This command will ask for confirmation, just enter the yes action when prompted.
+    >   The commands will ask for confirmation, just enter the yes action when prompted.
     </details>
 
 ### Choosing where to store pokeemerald (msys2)
