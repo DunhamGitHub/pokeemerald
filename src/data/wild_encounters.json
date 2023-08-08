@@ -29,51 +29,51 @@
 				"mons": [{
 					"min_level": 1,
 					"max_level": 1,
-					"species": "SPECIES_DELIBIRD"
+					"species": "SPECIES_BULBASAUR"
 				}, {
 					"min_level": 1,
 					"max_level": 1,
-					"species": "SPECIES_HOUNDOUR"
+					"species": "SPECIES_SQUIRTLE"
 				}, {
 					"min_level": 1,
 					"max_level": 1,
-					"species": "SPECIES_MAROWAK"
+					"species": "SPECIES_CHARMANDER"
 				}, {
 					"min_level": 1,
 					"max_level": 1,
-					"species": "SPECIES_MEOWTH"
+					"species": "SPECIES_MEW"
 				}, {
 					"min_level": 1,
 					"max_level": 1,
-					"species": "SPECIES_BUTTERFREE"
+					"species": "SPECIES_BULBASAUR"
 				}, {
 					"min_level": 1,
 					"max_level": 1,
-					"species": "SPECIES_SKARMORY"
+					"species": "SPECIES_SQUIRTLE"
 				}, {
 					"min_level": 1,
 					"max_level": 1,
-					"species": "SPECIES_SHUCKLE"
+					"species": "SPECIES_CHARMANDER"
 				}, {
 					"min_level": 1,
 					"max_level": 1,
-					"species": "SPECIES_VIGOROTH"
+					"species": "SPECIES_MEW"
+				},{
+					"min_level": 1,
+					"max_level": 1,
+					"species": "SPECIES_BULBASAUR"
 				}, {
 					"min_level": 1,
 					"max_level": 1,
-					"species": "SPECIES_ESPEON"
+					"species": "SPECIES_SQUIRTLE"
 				}, {
 					"min_level": 1,
 					"max_level": 1,
-					"species": "SPECIES_TYRANITAR"
+					"species": "SPECIES_CHARMANDER"
 				}, {
 					"min_level": 1,
 					"max_level": 1,
-					"species": "SPECIES_MUDKIP"
-				}, {
-					"min_level": 1,
-					"max_level": 1,
-					"species": "SPECIES_SWINUB"
+					"species": "SPECIES_MEW"
 				}]
 			}
 		}, {
@@ -206,53 +206,53 @@
 				"encounter_rate": 20,
 				"sp_info": "seems like need to be an array of 12 always in land_mons",
 				"mons": [{
-					"min_level": 1,
-					"max_level": 1,
-					"species": "SPECIES_SWABLU"
+					"min_level": 80,
+					"max_level": 80,
+					"species": "SPECIES_HO_OH"
 				}, {
-					"min_level": 1,
-					"max_level": 1,
-					"species": "SPECIES_MEGANIUM"
+					"min_level": 80,
+					"max_level": 80,
+					"species": "SPECIES_LUGIA"
 				}, {
-					"min_level": 1,
-					"max_level": 1,
-					"species": "SPECIES_ROSELIA"
+					"min_level": 80,
+					"max_level": 80,
+					"species": "SPECIES_MEWTWO"
 				}, {
-					"min_level": 1,
-					"max_level": 1,
-					"species": "SPECIES_BLAZIKEN"
+					"min_level": 80,
+					"max_level": 80,
+					"species": "SPECIES_PIKACHU"
 				}, {
-					"min_level": 1,
-					"max_level": 1,
-					"species": "SPECIES_SHARPEDO"
+					"min_level": 80,
+					"max_level": 80,
+					"species": "SPECIES_SPHEAL"
 				}, {
-					"min_level": 1,
-					"max_level": 1,
-					"species": "SPECIES_ELECTRIKE"
+					"min_level": 80,
+					"max_level": 80,
+					"species": "SPECIES_VENUSAUR"
 				}, {
-					"min_level": 1,
-					"max_level": 1,
-					"species": "SPECIES_MASQUERAIN"
+					"min_level": 80,
+					"max_level": 80,
+					"species": "SPECIES_CHARIZARD"
 				}, {
-					"min_level": 1,
-					"max_level": 1,
-					"species": "SPECIES_GYARADOS"
+					"min_level": 80,
+					"max_level": 80,
+					"species": "SPECIES_BLASTOISE"
 				}, {
-					"min_level": 1,
-					"max_level": 1,
-					"species": "SPECIES_KABUTO"
+					"min_level": 80,
+					"max_level": 80,
+					"species": "SPECIES_HO_OH"
 				}, {
-					"min_level": 1,
-					"max_level": 1,
-					"species": "SPECIES_GULPIN"
+					"min_level": 80,
+					"max_level": 80,
+					"species": "SPECIES_HO_OH"
 				}, {
-					"min_level": 1,
-					"max_level": 1,
-					"species": "SPECIES_LATIOS"
+					"min_level": 80,
+					"max_level": 80,
+					"species": "SPECIES_HO_OH"
 				}, {
-					"min_level": 1,
-					"max_level": 1,
-					"species": "SPECIES_KRABBY"
+					"min_level": 80,
+					"max_level": 80,
+					"species": "SPECIES_HO_OH"
 				}]
 			},
 			"water_mons": {
