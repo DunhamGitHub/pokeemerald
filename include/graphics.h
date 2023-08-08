@@ -2940,8 +2940,8 @@ extern const u32 gTrainerFrontPic_Twins[];
 extern const u32 gTrainerFrontPic_Sailor[];
 extern const u32 gTrainerFrontPic_MagmaAdmin[];
 extern const u32 gTrainerFrontPic_Wally[];
-extern const u32 gTrainerFrontPic_Brendan[];
-extern const u32 gTrainerFrontPic_May[];
+
+
 extern const u32 gTrainerFrontPic_BugCatcher[];
 extern const u32 gTrainerFrontPic_PokemonRangerM[];
 extern const u32 gTrainerFrontPic_PokemonRangerF[];
@@ -3034,8 +3034,7 @@ extern const u32 gTrainerPalette_Twins[];
 extern const u32 gTrainerPalette_Sailor[];
 extern const u32 gTrainerPalette_MagmaAdmin[];
 extern const u32 gTrainerPalette_Wally[];
-extern const u32 gTrainerPalette_Brendan[];
-extern const u32 gTrainerPalette_May[];
+
 extern const u32 gTrainerPalette_BugCatcher[];
 extern const u32 gTrainerPalette_PokemonRangerM[];
 extern const u32 gTrainerPalette_PokemonRangerF[];
@@ -3057,10 +3056,10 @@ extern const u32 gTrainerPalette_Leaf[];
 extern const u32 gTrainerPalette_RubySapphireBrendan[];
 extern const u32 gTrainerPalette_RubySapphireMay[];
 
-extern const u8 gTrainerBackPic_Brendan[];
-extern const u8 gTrainerBackPic_May[];
+
 extern const u8 gTrainerBackPic_Red[];
 extern const u8 gTrainerBackPic_Leaf[];
+
 extern const u8 gTrainerBackPic_RubySapphireBrendan[];
 extern const u8 gTrainerBackPic_RubySapphireMay[];
 extern const u8 gTrainerBackPic_Wally[];
@@ -5023,10 +5022,8 @@ extern const u16 gFrontierFactorySelectMenu_Tilemap[];
 extern const u16 gFrontierFactorySelectMenu_Pal[];
 
 // Object event pals
-extern const u16 gObjectEventPal_Brendan[];
-extern const u16 gObjectEventPal_May[];
-extern const u16 gObjectEventPal_RubySapphireBrendan[];
-extern const u16 gObjectEventPal_RubySapphireMay[];
+extern const u16 gObjectEventPal_Player[];
+
 
 // Mail
 extern const u16 gMailPalette_Orange[];

@@ -290,14 +290,6 @@ static const union AnimCmd *const sAnims_May[] ={
     sAnim_GeneralFrame0,
 };
 
-static const union AnimCmd *const sAnims_Red[] ={
-    sAnim_GeneralFrame0,
-};
-
-static const union AnimCmd *const sAnims_Leaf[] ={
-    sAnim_GeneralFrame0,
-};
-
 static const union AnimCmd *const sAnims_BugCatcher[] ={
     sAnim_GeneralFrame0,
 };
@@ -359,6 +351,14 @@ static const union AnimCmd *const sAnims_PikeQueenLucy[] ={
 };
 
 static const union AnimCmd *const sAnims_PyramidKingBrandon[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Red[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Leaf[] ={
     sAnim_GeneralFrame0,
 };
 
@@ -443,8 +443,8 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
     [TRAINER_PIC_SAILOR] = sAnims_Sailor,
     [TRAINER_PIC_MAGMA_ADMIN] = sAnims_MagmaAdmin,
     [TRAINER_PIC_WALLY] = sAnims_Wally,
-    [TRAINER_PIC_BRENDAN] = sAnims_Red,
-    [TRAINER_PIC_MAY] = sAnims_Leaf,
+    [TRAINER_PIC_BRENDAN] = sAnims_Brendan,
+    [TRAINER_PIC_MAY] = sAnims_May,
     [TRAINER_PIC_BUG_CATCHER] = sAnims_BugCatcher,
     [TRAINER_PIC_POKEMON_RANGER_M] = sAnims_PokemonRangerM,
     [TRAINER_PIC_POKEMON_RANGER_F] = sAnims_PokemonRangerF,

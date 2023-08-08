@@ -1,7 +1,7 @@
 const struct MonCoords gTrainerBackPicCoords[] =
 {
-    [TRAINER_BACK_PIC_BRENDAN] = {.size = 8, .y_offset = 5},
-    [TRAINER_BACK_PIC_MAY] = {.size = 8, .y_offset = 5},
+    [TRAINER_BACK_PIC_BRENDAN] = {.size = 8, .y_offset = 4},
+    [TRAINER_BACK_PIC_MAY] = {.size = 8, .y_offset = 4},
     [TRAINER_BACK_PIC_RED] = {.size = 8, .y_offset = 5},
     [TRAINER_BACK_PIC_LEAF] = {.size = 8, .y_offset = 5},
     [TRAINER_BACK_PIC_RUBY_SAPPHIRE_BRENDAN] = {.size = 8, .y_offset = 4},
@@ -15,16 +15,6 @@ const struct MonCoords gTrainerBackPicCoords[] =
 // the casts are so they'll play nice with the strict struct definition
 const struct CompressedSpriteSheet gTrainerBackPicTable[] =
 {
-    [TRAINER_BACK_PIC_BRENDAN] = {
-        .data = (const u32 *)gTrainerBackPic_Red,
-        .size = TRAINER_PIC_SIZE * ARRAY_COUNT(gTrainerBackPicTable_Red),
-        .tag = TRAINER_BACK_PIC_BRENDAN,
-    },
-    [TRAINER_BACK_PIC_MAY] = {
-        .data = (const u32 *)gTrainerBackPic_Leaf,
-        .size = TRAINER_PIC_SIZE * ARRAY_COUNT(gTrainerBackPicTable_Leaf),
-        .tag = TRAINER_BACK_PIC_MAY,
-    },
     [TRAINER_BACK_PIC_RED] = {
         .data = (const u32 *)gTrainerBackPic_Red,
         .size = TRAINER_PIC_SIZE * ARRAY_COUNT(gTrainerBackPicTable_Red),

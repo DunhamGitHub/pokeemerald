@@ -268,10 +268,10 @@
 #define ANIM_STD_GO_FASTEST_EAST  19
 #define ANIM_STD_COUNT            20
 
-#define ANIM_RUN_SOUTH                   (ANIM_STD_COUNT + 0)
-#define ANIM_RUN_NORTH                   (ANIM_STD_COUNT + 1)
-#define ANIM_RUN_WEST                    (ANIM_STD_COUNT + 2)
-#define ANIM_RUN_EAST                    (ANIM_STD_COUNT + 3)
+#define ANIM_RUN_SOUTH (ANIM_STD_COUNT + 0)
+#define ANIM_RUN_NORTH (ANIM_STD_COUNT + 1)
+#define ANIM_RUN_WEST  (ANIM_STD_COUNT + 2)
+#define ANIM_RUN_EAST  (ANIM_STD_COUNT + 3)
 #define ANIM_SPIN_SOUTH                  (ANIM_STD_COUNT + 4)
 #define ANIM_SPIN_NORTH                  (ANIM_STD_COUNT + 5)
 #define ANIM_SPIN_WEST                   (ANIM_STD_COUNT + 6)
@@ -307,6 +307,8 @@
 #define ANIM_NURSE_BOW (ANIM_STD_COUNT + 0)
 
 #define ANIM_FIELD_MOVE 0
+
+#define ANIM_VS_SEEKER  0
 
 #define ANIM_STAY_STILL      0
 #define ANIM_REMOVE_OBSTACLE 1

@@ -1,5 +1,14 @@
+static const union AnimCmd sAnimCmd_Brendan_1[] =
+{
+    ANIMCMD_FRAME(0, 24),
+    ANIMCMD_FRAME(1, 9),
+    ANIMCMD_FRAME(2, 24),
+    ANIMCMD_FRAME(0, 9),
+    ANIMCMD_FRAME(3, 50),
+    ANIMCMD_END,
+};
 
-static const union AnimCmd sAnimCmd_Steven_1[] =
+static const union AnimCmd sAnimCmd_May_Steven_1[] =
 {
     ANIMCMD_FRAME(0, 24),
     ANIMCMD_FRAME(1, 9),
@@ -92,7 +101,7 @@ static const union AnimCmd *const sBackAnims_Wally[] =
 static const union AnimCmd *const sBackAnims_Steven[] =
 {
     sAnim_GeneralFrame3,
-    sAnimCmd_Steven_1,
+    sAnimCmd_May_Steven_1,
 };
 
 const union AnimCmd *const *const gTrainerBackAnimsPtrTable[] =
