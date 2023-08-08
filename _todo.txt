@@ -5,4 +5,5 @@ completed
 
 need to do
 
-- Brendan sprite when running "jumps"
+- pokemon shown with birch
+- remove "freis xy"
