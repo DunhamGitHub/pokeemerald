@@ -2,24 +2,32 @@
 
 Changes:
 
+- play as Leaf / Red
 - random Pokémon for wild encounters
-- random Pokémon for all trainers (except Misty, Brock)
+- random Pokémon for all trainers
 - no PP decrease
 - better attacks for starters
 - item prices all 1$
-- first Shop sells Rare Candies etc. for 1$
-- first Route can catch 3 Starters, Mew
+- first shop sells Rare Candies etc. for 1$
+- first route can catch 3 starters, Mew
 - can run indoors
 - no uppercase names
-- sprite = Leaf / Red
 - can teach TM / HM to any
 - can forget HM
-- repel *10
+- repel effect *10
 
 
-...it builds the following ROMs:
+...it builds the following ROMs *(at least it did 2023-08-08)* 😐:
 
 * pokeemerald.gba
+
+...
+
+<img src="./README/pokeemerald-0.png">
+
+...
+
+<img src="./README/pokeemerald-1.png">
 
 ...
 
