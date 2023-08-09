@@ -7,6 +7,10 @@ static const u16 sBulbasaurLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 2, MOVE_SPARK),
     LEVEL_UP_MOVE( 50, MOVE_AEROBLAST),
     LEVEL_UP_MOVE( 50, MOVE_ANCIENT_POWER),
+    LEVEL_UP_MOVE( 79, MOVE_LEAF_BLADE), // ensure catch at Lv80 has proper attacks
+    LEVEL_UP_MOVE( 79, MOVE_HYDRO_PUMP),// ensure catch at Lv80 has proper attacks
+    LEVEL_UP_MOVE( 79, MOVE_FLAMETHROWER),// ensure catch at Lv80 has proper attacks
+    LEVEL_UP_MOVE( 79, MOVE_SPARK),// ensure catch at Lv80 has proper attacks
     LEVEL_UP_END
 };
 static const u16 sCharmanderLevelUpLearnset[] = {
@@ -33,7 +37,6 @@ static const u16 sHoOhLevelUpLearnset[] = {
     LEVEL_UP_MOVE(11, MOVE_SWIFT),
     LEVEL_UP_MOVE(12, MOVE_AEROBLAST),
     LEVEL_UP_MOVE(44, MOVE_FLAMETHROWER),
-    LEVEL_UP_MOVE(77, MOVE_SACRED_FIRE),
     LEVEL_UP_MOVE(81, MOVE_ANCIENT_POWER),
     LEVEL_UP_END
 };
