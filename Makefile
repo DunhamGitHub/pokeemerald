@@ -151,7 +151,7 @@ MAKEFLAGS += --no-print-directory
 # Secondary expansion is required for dependency variables in object rules.
 .SECONDEXPANSION:
 
-.PHONY: all rom clean compare tidy tools mostlyclean clean-tools $(TOOLDIRS) libagbsyscall modern tidymodern tidynonmodern
+.PHONY: createagb all rom clean compare tidy tools mostlyclean clean-tools $(TOOLDIRS) libagbsyscall modern tidymodern tidynonmodern
 
 infoshell = $(foreach line, $(shell $1 | sed "s/ /__SPACE__/g"), $(info $(subst __SPACE__, ,$(line))))
 
@@ -213,7 +213,11 @@ endif
 
 AUTO_GEN_TARGETS :=
 
-all: rom
+all: createagb rom
+
+createagb: 
+	cd ../agbcc && ./install.sh ../pokeemerald
+	
 
 tools: $(TOOLDIRS)
 
