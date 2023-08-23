@@ -1695,7 +1695,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Jessica5[] = {
     {
     .iv = 40,
     .lvl = 44,
-    .species = SPECIES_ILLUMISE,
+    .species = SPECIES_STARYU,
     .moves = {MOVE_BIND, MOVE_LICK, MOVE_FURY_SWIPES, MOVE_FAINT_ATTACK}
     },
     {
@@ -2469,7 +2469,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Axle[] = {
     {
     .iv = 100,
     .lvl = 23,
-    .species = SPECIES_ILLUMISE,
+    .species = SPECIES_STARYU,
     }
 };
 
@@ -2682,7 +2682,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Ethan4[] = {
     {
     .iv = 30,
     .lvl = 31,
-    .species = SPECIES_ILLUMISE,
+    .species = SPECIES_STARYU,
     }
 };
 
@@ -4288,7 +4288,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Katelynn[] = {
     {
     .iv = 100,
     .lvl = 43,
-    .species = SPECIES_ILLUMISE,
+    .species = SPECIES_STARYU,
     .moves = {MOVE_SKILL_SWAP, MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_CALM_MIND}
     },
     {
@@ -4968,7 +4968,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Pablo1[] = {
     {
     .iv = 0,
     .lvl = 33,
-    .species = SPECIES_ILLUMISE,
+    .species = SPECIES_STARYU,
     },
     {
     .iv = 0,
@@ -5535,7 +5535,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Lao4[] = {
     {
     .iv = 30,
     .lvl = 30,
-    .species = SPECIES_ILLUMISE,
+    .species = SPECIES_STARYU,
     .moves = {MOVE_POISON_GAS, MOVE_TACKLE, MOVE_SLUDGE, MOVE_NONE}
     },
     {
@@ -6543,7 +6543,7 @@ static const struct TrainerMonItemCustomMoves sParty_Annika[] = {
     {
     .iv = 100,
     .lvl = 39,
-    .species = SPECIES_ILLUMISE,
+    .species = SPECIES_STARYU,
     .heldItem = ITEM_ORAN_BERRY,
     .moves = {MOVE_FLAIL, MOVE_WATER_PULSE, MOVE_RETURN, MOVE_ATTRACT}
     },
@@ -7214,7 +7214,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Isaac5[] = {
     {
     .iv = 40,
     .lvl = 31,
-    .species = SPECIES_ILLUMISE,
+    .species = SPECIES_STARYU,
     },
     {
     .iv = 40,
@@ -9278,7 +9278,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_JohnAndJay5[] = {
     {
     .iv = 240,
     .lvl = 52,
-    .species = SPECIES_ILLUMISE,
+    .species = SPECIES_STARYU,
     .moves = {MOVE_PSYCHIC, MOVE_FIRE_PUNCH, MOVE_PSYCH_UP, MOVE_PROTECT}
     },
     {
