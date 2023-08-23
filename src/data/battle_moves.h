@@ -40,17 +40,17 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
     },
 
-    [MOVE_THUNDERBOLT] =
+    [MOVE_SHOCK_WAVE] =
     {
-        .effect = EFFECT_PARALYZE_HIT,
-        .power = 150, //95,
+        .effect = EFFECT_ALWAYS_HIT,
+        .power = 150, //60,
         .type = TYPE_ELECTRIC,
-        .accuracy = 100,
-        .pp = 5, //15,
-        .secondaryEffectChance = 10,
+        .accuracy = 0,
+        .pp = 5, //20,
+        .secondaryEffectChance = 0,
         .target = MOVE_TARGET_BOTH, //MOVE_TARGET_SELECTED,
         .priority = 0,
-        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
     },
 
     [MOVE_ANCIENT_POWER] =
@@ -2813,17 +2813,17 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_SNATCH_AFFECTED,
     },
 
-    [MOVE_SHOCK_WAVE] =
+    [MOVE_THUNDERBOLT] =
     {
-        .effect = EFFECT_ALWAYS_HIT,
-        .power = 60,
+        .effect = EFFECT_PARALYZE_HIT,
+        .power = 150, //95,
         .type = TYPE_ELECTRIC,
-        .accuracy = 0,
-        .pp = 20,
-        .secondaryEffectChance = 0,
-        .target = MOVE_TARGET_SELECTED,
+        .accuracy = 100,
+        .pp = 5, //15,
+        .secondaryEffectChance = 10,
+        .target = MOVE_TARGET_BOTH, //MOVE_TARGET_SELECTED,
         .priority = 0,
-        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGS_ROCK_AFFECTED,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
     },
 
     [MOVE_LEAF_BLADE] =

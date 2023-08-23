@@ -5,26 +5,26 @@ static const u16 sBulbasaurLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_RAZOR_LEAF),
     LEVEL_UP_MOVE( 2, MOVE_HYDRO_PUMP),
     LEVEL_UP_MOVE( 2, MOVE_FLAMETHROWER),
-    LEVEL_UP_MOVE( 2, MOVE_THUNDERBOLT),
+    LEVEL_UP_MOVE( 2, MOVE_SHOCK_WAVE),
     LEVEL_UP_MOVE( 50, MOVE_AEROBLAST),
     LEVEL_UP_MOVE( 50, MOVE_ANCIENT_POWER),
     LEVEL_UP_MOVE( 79, MOVE_RAZOR_LEAF), // ensure catch at Lv80 has proper attacks
     LEVEL_UP_MOVE( 79, MOVE_WATER_SPOUT),// ensure catch at Lv80 has proper attacks
     LEVEL_UP_MOVE( 79, MOVE_ERUPTION),// ensure catch at Lv80 has proper attacks
-    LEVEL_UP_MOVE( 79, MOVE_THUNDERBOLT),// ensure catch at Lv80 has proper attacks
+    LEVEL_UP_MOVE( 79, MOVE_SHOCK_WAVE),// ensure catch at Lv80 has proper attacks
     LEVEL_UP_END
 };
 static const u16 sCharmanderLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_FLAMETHROWER),
     LEVEL_UP_MOVE( 2, MOVE_HYDRO_PUMP),
     LEVEL_UP_MOVE( 2, MOVE_RAZOR_LEAF),
-    LEVEL_UP_MOVE( 2, MOVE_THUNDERBOLT),
+    LEVEL_UP_MOVE( 2, MOVE_SHOCK_WAVE),
     LEVEL_UP_MOVE( 30, MOVE_WATER_SPOUT), // mid game
     LEVEL_UP_MOVE( 30, MOVE_ERUPTION), // mid game
     LEVEL_UP_MOVE( 42, MOVE_RAZOR_LEAF), // sp save lv42, todo remove
     LEVEL_UP_MOVE( 42, MOVE_WATER_SPOUT), // sp save lv42, todo remove
     LEVEL_UP_MOVE( 42, MOVE_ERUPTION), // sp save lv42, todo remove
-    LEVEL_UP_MOVE( 42, MOVE_THUNDERBOLT), // sp save lv42, todo remove
+    LEVEL_UP_MOVE( 42, MOVE_SHOCK_WAVE), // sp save lv42, todo remove
     LEVEL_UP_MOVE( 50, MOVE_AEROBLAST),
     LEVEL_UP_MOVE( 50, MOVE_ANCIENT_POWER),
     LEVEL_UP_END
@@ -33,13 +33,13 @@ static const u16 sSquirtleLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_HYDRO_PUMP),
     LEVEL_UP_MOVE( 2, MOVE_RAZOR_LEAF),
     LEVEL_UP_MOVE( 2, MOVE_FLAMETHROWER),
-    LEVEL_UP_MOVE( 2, MOVE_THUNDERBOLT),
+    LEVEL_UP_MOVE( 2, MOVE_SHOCK_WAVE),
     LEVEL_UP_MOVE( 30, MOVE_WATER_SPOUT), // mid game
     LEVEL_UP_MOVE( 30, MOVE_ERUPTION), // mid game
     LEVEL_UP_MOVE( 42, MOVE_RAZOR_LEAF), // sp save lv42, todo remove
     LEVEL_UP_MOVE( 42, MOVE_WATER_SPOUT), // sp save lv42, todo remove
     LEVEL_UP_MOVE( 42, MOVE_ERUPTION), // sp save lv42, todo remove
-    LEVEL_UP_MOVE( 42, MOVE_THUNDERBOLT), // sp save lv42, todo remove
+    LEVEL_UP_MOVE( 42, MOVE_SHOCK_WAVE), // sp save lv42, todo remove
     LEVEL_UP_MOVE( 50, MOVE_AEROBLAST),
     LEVEL_UP_MOVE( 50, MOVE_ANCIENT_POWER),
     LEVEL_UP_END
