@@ -808,7 +808,7 @@ Route110_TrickHouseEntrance_Text_ThenFarewell:
 	.string "THEN FAREWELL.$"
 
 Route110_TrickHouseEntrance_Text_PCFullAgain:
-	.string "YOUR PC STATUS: FULL AGAIN.\n"
+	.string "YOUR MAC STATUS: FULL AGAIN.\n"
 	.string "MEAN, YOU ARE.$"
 
 Route110_TrickHousePuzzle_Text_FoundAScroll:

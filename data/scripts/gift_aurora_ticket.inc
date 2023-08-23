@@ -53,5 +53,5 @@ sText_AuroraTicketThankYou:
 sText_AuroraTicketBagFull:
 	.string "Shit, I am sorry, {PLAYER}.\n"
 	.string "Your BAG's KEY ITEMS POCKET is full.\p"
-	.string "Please store something on your PC,\n"
+	.string "Please store something on your MAC,\n"
 	.string "then come back for this.$"

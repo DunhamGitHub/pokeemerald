@@ -62,7 +62,7 @@ MauvilleCity_BikeShop_EventScript_AskSwitchBikes::
 	goto_if_eq VAR_RESULT, NO, MauvilleCity_BikeShop_EventScript_KeepBike
 	end
 
-@ If the player does not have a bike on them Rydel assumes its stored in the PC
+@ If the player does not have a bike on them Rydel assumes its stored in the MAC
 MauvilleCity_BikeShop_EventScript_SwitchBikes::
 	msgbox MauvilleCity_BikeShop_Text_IllSwitchBikes, MSGBOX_DEFAULT
 	checkitem ITEM_ACRO_BIKE
@@ -250,9 +250,9 @@ MauvilleCity_BikeShop_Text_OhYourBikeIsInPC:
 	.string "Shit? What happened to that Vélo\n"
 	.string "I gave you?\p"
 	.string "Ah shiiiit dude,\l"
-	.string "I get it, you stored it using your PC.\p"
+	.string "I get it, you stored it using your MAC.\p"
 	.string "Ahh, Futz und Tripper...\l"
-	.string "take it out of PC storage,\n"
+	.string "take it out of MAC storage,\n"
 	.string "und I'll be happy to exchange it!\p"
 	.string "May the wind always be at your back\n"
 	.string "on your adventure!$"

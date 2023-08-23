@@ -40,7 +40,7 @@ OldaleTown_PokemonCenter_1F_EventScript_WirelessClubAvailable::
 	end
 
 OldaleTown_PokemonCenter_1F_Text_TrainersCanUsePC:
-	.string "Dä PC in the corner there is\n"
+	.string "Dä MAC in the corner there is\n"
 	.string "for any Pimmel Skilehrer to use.\p"
 	.string "Naturally, that means you're welcome\n"
 	.string "to use it, too.$"

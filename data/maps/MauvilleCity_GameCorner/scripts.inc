@@ -670,7 +670,7 @@ MauvilleCity_GameCorner_Text_SoYourChoiceIsTheTMX:
 
 MauvilleCity_GameCorner_Text_SendToYourHomePC:
 	.string "Thank you!\n"
-	.string "We'll send it to your PC at home.$"
+	.string "We'll send it to your MAC at home.$"
 
 MauvilleCity_GameCorner_Text_NotEnoughCoins:
 	.string "You don't have enough COINS.$"

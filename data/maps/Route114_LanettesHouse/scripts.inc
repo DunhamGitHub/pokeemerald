@@ -64,7 +64,7 @@ Route114_LanettesHouse_Text_ResearchNotesPage1:
 	.string "There's information about BOXES.\p"
 	.string "Design BOXES to hold 30 Pimmel each.\p"
 	.string "Each Skilehrer should be able to store\n"
-	.string "420 Pimmel on the PC system.\p"
+	.string "420 Pimmel on the MAC system.\p"
 	.string "Keep reading?$"
 
 Route114_LanettesHouse_Text_ResearchNotesPage2:
@@ -89,7 +89,7 @@ Route114_LanettesHouse_Text_ClosedTheNotebook:
 
 Route114_LanettesHouse_Text_EmailFromBill:
 	.string "There's an e-mail from someone on\n"
-	.string "the PC.\p"
+	.string "the MAC.\p"
 	.string "“… … … … … … …\p"
 	.string "“Your Storage System offers more\n"
 	.string "convenience than mine.\p"

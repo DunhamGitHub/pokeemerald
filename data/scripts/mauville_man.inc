@@ -137,7 +137,7 @@ MauvilleCity_PokemonCenter_1F_Text_ThatDecorIsInUse:
 
 MauvilleCity_PokemonCenter_1F_Text_SendDecorToYourPC:
 	.string "Then we'll trade!\n"
-	.string "I'll send my decoration to your PC.$"
+	.string "I'll send my decoration to your MAC.$"
 
 MauvilleCity_PokemonCenter_1F_Text_CantTradeThatOne:
 	.string "Oops! Sorry! That's a really rare\n"

@@ -959,7 +959,7 @@ LittlerootTown_Text_ComeHomeIfAnythingHappens:
 	.string "Go on, go get them, honey!$"
 
 LittlerootTown_Text_CanUsePCToStoreItems:
-	.string "If you use a PC, you can store items\n"
+	.string "If you use a MAC, you can store items\n"
 	.string "und Pimmel.\p"
 	.string "Dä power of science isch staggering!$"
 

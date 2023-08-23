@@ -598,7 +598,7 @@ BattleFrontier_BattleDomeLobby_Text_LastWinnerWasTough:
 	.string "Dä winner, {STR_VAR_1}, was seriously\n"
 	.string "tough.\p"
 	.string "You should check out the results\n"
-	.string "on the monitor beside the PC.$"
+	.string "on the monitor beside the MAC.$"
 
 BattleFrontier_OutsideWest_Text_LongDreamedAboutBattleFrontier:
 	.string "Dä Bättle FRONTIER…\n"

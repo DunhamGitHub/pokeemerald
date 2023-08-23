@@ -15,7 +15,7 @@
 
 /*
  *  This is the type of map shown when interacting with the metatiles for
- *  a wall-mounted Region Map (on the wall of the Pokemon Centers near the PC)
+ *  a wall-mounted Region Map (on the wall of the Pokemon Centers near the MAC)
  *  It does not zoom, and pressing A or B closes the map
  *
  *  For the region map in the pokenav, see pokenav_region_map.c

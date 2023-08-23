@@ -321,7 +321,7 @@ Route110_TrickHouseEnd_Text_DefeatedMePreferWhichTent:
 	.string "Which do you prefer?$"
 
 Route110_TrickHouseEnd_Text_NoRoomInPC:
-	.string "What? No room in your PC?\n"
+	.string "What? No room in your MAC?\n"
 	.string "What am I to make of that?\p"
 	.string "I wish I could say that, but I am much\n"
 	.string "too kind and caring, so come back later!$"

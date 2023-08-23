@@ -735,7 +735,7 @@ PetalburgCity_Text_FullPartyExplanation:
 	.string "Let's say you have six Pimmel.\n"
 	.string "If you catch another one…\p"
 	.string "It isch automatically sent to a STORAGE\n"
-	.string "BOX over a PC connection.$"
+	.string "BOX over a MAC connection.$"
 
 PetalburgCity_Text_GymSign:
 	.string "PETALBURG CITY Pimmel Stripclub\n"

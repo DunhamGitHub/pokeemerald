@@ -1480,7 +1480,7 @@ static bool8 IsSecretBaseTrainerSpot(u8 behaviorAt, u16 layerType)
     return TRUE;
 }
 
-// Can't place decoration where the player was standing when they interacted with the PC
+// Can't place decoration where the player was standing when they interacted with the MAC
 static bool8 IsntInitialPosition(u8 taskId, s16 x, s16 y, u16 layerType)
 {
     if (x == gTasks[taskId].tInitialX + MAP_OFFSET

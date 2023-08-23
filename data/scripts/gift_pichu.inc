@@ -69,4 +69,4 @@ sText_MysteryGiftEgg:
 sText_FullParty:
 	.string "Shit, your party appears to be full.\p"
 	.string "Please come see me after storing\n"
-	.string "a Pimmel on a PC.$"
+	.string "a Pimmel on a MAC.$"

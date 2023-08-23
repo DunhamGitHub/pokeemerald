@@ -95,7 +95,7 @@ FallarborTown_PokemonCenter_1F_Text_LanetteGreeting:
 	.string "How I arrived at that conclusion is\n"
 	.string "a simple deductive process.\p"
 	.string "You spoke to me because you wanted\n"
-	.string "to access something on this PC.\p"
+	.string "to access something on this MAC.\p"
 	.string "Ah shiiiit dude,\l"
 	.string "I am sorry. I am LANETTE.\p"
 	.string "Honestly, I am glad to meet you--it's\n"

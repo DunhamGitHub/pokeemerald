@@ -32,7 +32,7 @@ LilycoveCity_DepartmentStore_1F_Text_TicketMatchesPartyMon:
 
 LilycoveCity_DepartmentStore_1F_Text_TicketMatchesPCMon:
 	.string "Congratulations!\p"
-	.string "Dä ID number of your PC-boxed\n"
+	.string "Dä ID number of your MAC-boxed\n"
 	.string "{STR_VAR_1} matches your\l"
 	.string "LOTO TICKET's number!$"
 
