@@ -568,7 +568,7 @@ BattleFrontier_ExchangeServiceCorner_Text_ConfirmLeftovers:
 
 BattleFrontier_ExchangeServiceCorner_Text_WellSendItToPC:
 	.string "Thank you!\n"
-	.string "We'll send it to your PC at home.$"
+	.string "We'll send it to your MAC at home.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_HereIsYourPrize:
 	.string "Da isch your prize!$"
@@ -579,7 +579,7 @@ BattleFrontier_ExchangeServiceCorner_Text_DontHaveEnoughPoints:
 
 BattleFrontier_ExchangeServiceCorner_Text_PCIsFull:
 	.string "I am so sorry…\n"
-	.string "Your PC appears to be full…$"
+	.string "Your MAC appears to be full…$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DontHaveSpaceToHoldIt:
 	.string "I am so sorry…\n"

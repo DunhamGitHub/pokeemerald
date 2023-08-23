@@ -413,7 +413,7 @@ BattleFrontier_BattleTowerLobby_EventScript_SaveBeforeLinkMultisChallenge::
 	delay 2
 @ The command tower_save ultimately calls TrySavingData(SAVE_LINK), which writes data in SaveBlock1 and SaveBlock2
 @ to the flash, but not data in PokemonStorage. The SaveGame script that follows asks the player to do a full save,
-@ which they can opt out of. As a result the player can save their party and quit without having saved the PC.
+@ which they can opt out of. As a result the player can save their party and quit without having saved the MAC.
 @ This allows players to clone pokemon and their held items by withdrawing them (or erase them by despositing).
 .ifndef BUGFIX
 	tower_save 0

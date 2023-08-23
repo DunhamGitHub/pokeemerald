@@ -549,39 +549,39 @@
 	.2byte \itemId
 	.endm
 
-	@ Adds quantity of the specified item to the player's PC.
+	@ Adds quantity of the specified item to the player's MAC.
 	.macro addpcitem itemId:req, quantity=1
 	.byte 0x49
 	.2byte \itemId
 	.2byte \quantity
 	.endm
 
-	@ Checks for quantity of the specified item in the player's PC.
+	@ Checks for quantity of the specified item in the player's MAC.
 	.macro checkpcitem itemId:req, quantity=1
 	.byte 0x4a
 	.2byte \itemId
 	.2byte \quantity
 	.endm
 
-	@ Adds a decoration to the player's PC.
+	@ Adds a decoration to the player's MAC.
 	.macro adddecoration decoration:req
 	.byte 0x4b
 	.2byte \decoration
 	.endm
 
-	@ Removes a decoration from the player's PC.
+	@ Removes a decoration from the player's MAC.
 	.macro removedecoration decoration:req
 	.byte 0x4c
 	.2byte \decoration
 	.endm
 
-	@ Checks for decoration in the player's PC.
+	@ Checks for decoration in the player's MAC.
 	.macro checkdecor decoration:req
 	.byte 0x4d
 	.2byte \decoration
 	.endm
 
-	@ Checks if the player has enough space in their PC to hold the decoration.
+	@ Checks if the player has enough space in their MAC to hold the decoration.
 	@ Sets VAR_RESULT to TRUE if there is room, or FALSE is there is no room.
 	.macro checkdecorspace decoration:req
 	.byte 0x4e
@@ -1535,7 +1535,7 @@
 	.byte 0xc5
 	.endm
 
-	@ Writes the name of the specified PC box to the specified buffer.
+	@ Writes the name of the specified MAC box to the specified buffer.
 	.macro bufferboxname stringVarId:req, box:req
 	.byte 0xc6
 	stringvar \stringVarId

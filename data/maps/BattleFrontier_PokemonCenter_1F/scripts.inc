@@ -50,7 +50,7 @@ BattleFrontier_PokemonCenter_1F_Text_NeverSeenPokemon:
 BattleFrontier_PokemonCenter_1F_Text_NextStopBattleArena:
 	.string "Oké! Next stop, the Bättle ARENA!\n"
 	.string "I'd better get the right Pimmel from\l"
-	.string "the PC Storage System.$"
+	.string "the MAC Storage System.$"
 
 BattleFrontier_PokemonCenter_1F_Text_GoingThroughEveryChallenge:
 	.string "Giggle… I am going to go through every\n"
