@@ -27,6 +27,7 @@ static const u16 sCharmanderLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 42, MOVE_SHOCK_WAVE), // sp save lv42, todo remove
     LEVEL_UP_MOVE( 50, MOVE_AEROBLAST),
     LEVEL_UP_MOVE( 50, MOVE_ANCIENT_POWER),
+    LEVEL_UP_MOVE( 50, MOVE_SWIFT),
     LEVEL_UP_END
 };
 static const u16 sSquirtleLevelUpLearnset[] = {
@@ -42,6 +43,7 @@ static const u16 sSquirtleLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 42, MOVE_SHOCK_WAVE), // sp save lv42, todo remove
     LEVEL_UP_MOVE( 50, MOVE_AEROBLAST),
     LEVEL_UP_MOVE( 50, MOVE_ANCIENT_POWER),
+    LEVEL_UP_MOVE( 50, MOVE_SWIFT),
     LEVEL_UP_END
 };
 
