@@ -371,7 +371,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Archie[] = {
     {
     .iv = 150,
     .lvl = 43,
-    .species = SPECIES_GARDEVOIR,
+    .species = SPECIES_WARTORTLE,
     }
 };
 
@@ -2456,7 +2456,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jeff[] = {
     {
     .iv = 100,
     .lvl = 22,
-    .species = SPECIES_GARDEVOIR,
+    .species = SPECIES_WARTORTLE,
     },
     {
     .iv = 100,
@@ -4780,7 +4780,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Benjamin4[] = {
     {
     .iv = 30,
     .lvl = 36,
-    .species = SPECIES_GARDEVOIR,
+    .species = SPECIES_WARTORTLE,
     }
 };
 
@@ -4934,7 +4934,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Camden[] = {
     {
     .iv = 0,
     .lvl = 33,
-    .species = SPECIES_GARDEVOIR,
+    .species = SPECIES_WARTORTLE,
     },
     {
     .iv = 0,

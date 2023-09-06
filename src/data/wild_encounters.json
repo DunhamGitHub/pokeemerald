@@ -3897,7 +3897,7 @@
 				"mons": [{
 					"min_level": 5,
 					"max_level": 35,
-					"species": "SPECIES_GARDEVOIR"
+					"species": "SPECIES_WARTORTLE"
 				}, {
 					"min_level": 10,
 					"max_level": 30,
@@ -4757,7 +4757,7 @@
 				}, {
 					"min_level": 29,
 					"max_level": 29,
-					"species": "SPECIES_GARDEVOIR"
+					"species": "SPECIES_WARTORTLE"
 				}, {
 					"min_level": 34,
 					"max_level": 34,
@@ -6101,7 +6101,7 @@
 				}, {
 					"min_level": 5,
 					"max_level": 10,
-					"species": "SPECIES_GARDEVOIR"
+					"species": "SPECIES_WARTORTLE"
 				}, {
 					"min_level": 10,
 					"max_level": 30,
@@ -6596,7 +6596,7 @@
 				}, {
 					"min_level": 25,
 					"max_level": 30,
-					"species": "SPECIES_GARDEVOIR"
+					"species": "SPECIES_WARTORTLE"
 				}, {
 					"min_level": 30,
 					"max_level": 35,
@@ -7641,7 +7641,7 @@
 				}, {
 					"min_level": 25,
 					"max_level": 30,
-					"species": "SPECIES_GARDEVOIR"
+					"species": "SPECIES_WARTORTLE"
 				}, {
 					"min_level": 25,
 					"max_level": 30,
@@ -8082,7 +8082,7 @@
 				}, {
 					"min_level": 33,
 					"max_level": 33,
-					"species": "SPECIES_GARDEVOIR"
+					"species": "SPECIES_WARTORTLE"
 				}]
 			}
 		}, {
