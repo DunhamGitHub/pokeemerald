@@ -47,7 +47,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntSeafloorCavern1[] =
     {
     .iv = 0,
     .lvl = 36,
-    .species = SPECIES_HYPNO,
+    .species = SPECIES_CHARMELEON,
     }
 };
 
@@ -1082,7 +1082,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Wilton5[] = {
     {
     .iv = 140,
     .lvl = 35,
-    .species = SPECIES_HYPNO,
+    .species = SPECIES_CHARMELEON,
     },
     {
     .iv = 140,
@@ -1229,7 +1229,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Michelle[] = {
     {
     .iv = 100,
     .lvl = 42,
-    .species = SPECIES_HYPNO,
+    .species = SPECIES_CHARMELEON,
     }
 };
 
@@ -1600,7 +1600,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Connie[] = {
     {
     .iv = 100,
     .lvl = 40,
-    .species = SPECIES_HYPNO,
+    .species = SPECIES_CHARMELEON,
     }
 };
 
@@ -10235,7 +10235,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Pat[] = {
     {
     .iv = 10,
     .lvl = 25,
-    .species = SPECIES_HYPNO,
+    .species = SPECIES_CHARMELEON,
     },
     {
     .iv = 10,

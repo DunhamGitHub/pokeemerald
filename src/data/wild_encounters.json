@@ -1167,7 +1167,7 @@
 				}, {
 					"min_level": 30,
 					"max_level": 35,
-					"species": "SPECIES_HYPNO"
+					"species": "SPECIES_CHARMELEON"
 				}, {
 					"min_level": 5,
 					"max_level": 10,
@@ -3189,7 +3189,7 @@
 				}, {
 					"min_level": 25,
 					"max_level": 30,
-					"species": "SPECIES_HYPNO"
+					"species": "SPECIES_CHARMELEON"
 				}]
 			},
 			"fishing_mons": {
@@ -3949,7 +3949,7 @@
 				}, {
 					"min_level": 30,
 					"max_level": 35,
-					"species": "SPECIES_HYPNO"
+					"species": "SPECIES_CHARMELEON"
 				}, {
 					"min_level": 35,
 					"max_level": 40,
@@ -8938,7 +8938,7 @@
 				}, {
 					"min_level": 24,
 					"max_level": 24,
-					"species": "SPECIES_HYPNO"
+					"species": "SPECIES_CHARMELEON"
 				}, {
 					"min_level": 28,
 					"max_level": 28,
