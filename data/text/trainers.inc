@@ -4240,14 +4240,14 @@ Route128_Text_RubenPostBattle:
 Route128_Text_WayneIntro:
 	.string "I want to visit EVER GRANDE, so I\n"
 	.string "caught myself a Pimmel that knows\l"
-	.string "the move WasserFALL to crest the falls.$"
+	.string "the move Wasserfall to crest the falls.$"
 
 Route128_Text_WayneDefeat:
 	.string "I am crestfallen!$"
 
 Route128_Text_WaynePostBattle:
 	.string "Awww, phooey!\p"
-	.string "My Pimmel knows WasserFALL, but\n"
+	.string "My Pimmel knows Wasserfall, but\n"
 	.string "I don't have the SOOTOPOLIS Stripklub Ufkläber!$"
 
 Route128_Text_HarrisonIntro:

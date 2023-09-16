@@ -3724,7 +3724,7 @@ static void CursorCb_FieldMove(u8 taskId)
 
         // sp can use all HMs, dont need fucking badge shit
         /*
-        // All field moves before WasserFALL are HMs.
+        // All field moves before Wasserfall are HMs.
         if (fieldMove <= FIELD_MOVE_WATERFALL && FlagGet(FLAG_BADGE01_GET + fieldMove) != TRUE)
         {
             DisplayPartyMenuMessage(gText_CantUseUntilNewBadge, TRUE);

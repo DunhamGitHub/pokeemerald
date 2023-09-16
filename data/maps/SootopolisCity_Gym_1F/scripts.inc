@@ -241,7 +241,7 @@ SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis:
 	.string "the full obedience of all your Pimmel\l"
 	.string "to your every command.\p"
 	.string "Dä RAIN Ufkläber also allows the use\n"
-	.string "of the HM move WasserFALL to scale\l"
+	.string "of the HM move Wasserfall to scale\l"
 	.string "walls of cascading water.\p"
 	.string "Und, so that you never forget the\n"
 	.string "schlegglä we shared, take this…$"

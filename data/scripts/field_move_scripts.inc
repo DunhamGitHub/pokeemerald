@@ -210,10 +210,10 @@ Text_CantWaterfall:
 
 Text_WantToWaterfall:
 	.string "It's a large waterfall.\n"
-	.string "Would you like to use WasserFALL?$"
+	.string "Would you like to use Wasserfall?$"
 
 Text_MonUsedWaterfall:
-	.string "{STR_VAR_1} used WasserFALL.$"
+	.string "{STR_VAR_1} used Wasserfall.$"
 
 EventScript_UseDive::
 	lockall
