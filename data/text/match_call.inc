@@ -2310,7 +2310,7 @@ MatchCall_Text_Juan4::
 	.string "of you soaring with the melody…$"
 
 MatchCall_Text_Sidney::
-	.string "SIDNEY: Yo, {PLAYER}!\p"
+	.string "ROCKO: Yo, {PLAYER}!\p"
 	.string "If you want to schlegglä with me\n"
 	.string "again, you come on back whenever\l"
 	.string "you like to the Pimmel LEAGUE.\p"

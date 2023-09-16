@@ -8,6 +8,12 @@ $(OBJEVENTGFXDIR)/people/_prof_oak.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/_misty.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
+$(OBJEVENTGFXDIR)/people/_brock.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/_erika.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
 	
 $(OBJEVENTGFXDIR)/people/_red/red_bike.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
