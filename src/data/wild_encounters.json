@@ -2302,7 +2302,7 @@
 				}, {
 					"min_level": 25,
 					"max_level": 30,
-					"species": "SPECIES_VOLTORB"
+					"species": "SPECIES_CHARMANDER"
 				}, {
 					"min_level": 25,
 					"max_level": 30,
@@ -2900,7 +2900,7 @@
 				}, {
 					"min_level": 25,
 					"max_level": 30,
-					"species": "SPECIES_ELECTRODE"
+					"species": "SPECIES_STARMIE"
 				}, {
 					"min_level": 30,
 					"max_level": 35,
@@ -3622,8 +3622,8 @@
 				}]
 			}
 		}, {
-			"map": "MAP_GRANITE_CAVE_STEVENS_ROOM",
-			"base_label": "gGraniteCave_StevensRoom",
+			"map": "MAP_GRANITE_CAVE_FURZS_ROOM",
+			"base_label": "gGraniteCave_FurzsRoom",
 			"land_mons": {
 				"encounter_rate": 10,
 				"mons": [{
@@ -3815,7 +3815,7 @@
 				}, {
 					"min_level": 40,
 					"max_level": 45,
-					"species": "SPECIES_POOCHYENA"
+					"species": "SPECIES_BULBASAUR"
 				}]
 			}
 		}, {
@@ -4095,7 +4095,7 @@
 				}, {
 					"min_level": 10,
 					"max_level": 30,
-					"species": "SPECIES_VOLTORB"
+					"species": "SPECIES_CHARMANDER"
 				}, {
 					"min_level": 15,
 					"max_level": 25,
@@ -4537,7 +4537,7 @@
 				}, {
 					"min_level": 29,
 					"max_level": 29,
-					"species": "SPECIES_ELECTRODE"
+					"species": "SPECIES_STARMIE"
 				}, {
 					"min_level": 34,
 					"max_level": 34,
@@ -5724,7 +5724,7 @@
 				}, {
 					"min_level": 29,
 					"max_level": 29,
-					"species": "SPECIES_POOCHYENA"
+					"species": "SPECIES_BULBASAUR"
 				}, {
 					"min_level": 29,
 					"max_level": 29,
@@ -6869,7 +6869,7 @@
 				}, {
 					"min_level": 20,
 					"max_level": 25,
-					"species": "SPECIES_POOCHYENA"
+					"species": "SPECIES_BULBASAUR"
 				}, {
 					"min_level": 35,
 					"max_level": 40,
@@ -7153,7 +7153,7 @@
 				}, {
 					"min_level": 30,
 					"max_level": 35,
-					"species": "SPECIES_VOLTORB"
+					"species": "SPECIES_CHARMANDER"
 				}, {
 					"min_level": 35,
 					"max_level": 40,
@@ -7561,7 +7561,7 @@
 				"mons": [{
 					"min_level": 33,
 					"max_level": 33,
-					"species": "SPECIES_POOCHYENA"
+					"species": "SPECIES_BULBASAUR"
 				}, {
 					"min_level": 34,
 					"max_level": 34,
@@ -7569,7 +7569,7 @@
 				}, {
 					"min_level": 35,
 					"max_level": 35,
-					"species": "SPECIES_POOCHYENA"
+					"species": "SPECIES_BULBASAUR"
 				}, {
 					"min_level": 36,
 					"max_level": 36,
@@ -7956,7 +7956,7 @@
 				}, {
 					"min_level": 30,
 					"max_level": 30,
-					"species": "SPECIES_ELECTRODE"
+					"species": "SPECIES_STARMIE"
 				}, {
 					"min_level": 30,
 					"max_level": 30,
@@ -9076,8 +9076,8 @@
 				}]
 			}
 		}, {
-			"map": "MAP_METEOR_FALLS_STEVENS_CAVE",
-			"base_label": "gMeteorFalls_StevensCave",
+			"map": "MAP_METEOR_FALLS_FURZS_CAVE",
+			"base_label": "gMeteorFalls_FurzsCave",
 			"land_mons": {
 				"encounter_rate": 10,
 				"mons": [{

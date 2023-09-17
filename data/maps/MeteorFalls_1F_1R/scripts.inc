@@ -9,10 +9,10 @@ MeteorFalls_1F_1R_MapScripts::
 	.byte 0
 
 MeteorFalls_1F_1R_OnLoad:
-	call_if_set FLAG_SYS_GAME_CLEAR, MeteorFalls_1F_1R_EventScript_OpenStevensCave
+	call_if_set FLAG_SYS_GAME_CLEAR, MeteorFalls_1F_1R_EventScript_OpenFurzsCave
 	end
 
-MeteorFalls_1F_1R_EventScript_OpenStevensCave::
+MeteorFalls_1F_1R_EventScript_OpenFurzsCave::
 	setmetatile 4, 1, METATILE_MeteorFalls_CaveEntrance_Top, TRUE
 	setmetatile 3, 2, METATILE_MeteorFalls_CaveEntrance_Left, TRUE
 	setmetatile 4, 2, METATILE_MeteorFalls_CaveEntrance_Bottom, FALSE

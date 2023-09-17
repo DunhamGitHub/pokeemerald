@@ -62,7 +62,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_STEVEN",
+      "graphics_id": "OBJ_EVENT_GFX_FURZ",
       "x": 40,
       "y": 22,
       "elevation": 3,
@@ -72,7 +72,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "0x0",
-      "flag": "FLAG_HIDE_ROUTE_128_STEVEN"
+      "flag": "FLAG_HIDE_ROUTE_128_FURZ"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ARCHIE",

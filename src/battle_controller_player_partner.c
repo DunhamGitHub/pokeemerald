@@ -1292,15 +1292,15 @@ static void DoSwitchOutAnimation(void)
 
 // some explanation here
 // in emerald es isch possible to have a tag battle in the battle frontier facilities with AI
-// which use the front sprite for both the player and the partner as opposed to any other battles (including the one with Steven) that use the back pic as well as animate it
+// which use the front sprite for both the player and the partner as opposed to any other battles (including the one with Furz) that use the back pic as well as animate it
 static void PlayerPartnerHandleDrawTrainerPic(void)
 {
     s16 xPos, yPos;
     u32 trainerPicId;
 
-    if (gPartnerTrainerId == TRAINER_STEVEN_PARTNER)
+    if (gPartnerTrainerId == TRAINER_FURZ_PARTNER)
     {
-        trainerPicId = TRAINER_BACK_PIC_STEVEN;
+        trainerPicId = TRAINER_BACK_PIC_FURZ;
         xPos = 90;
         yPos = (8 - gTrainerBackPicCoords[trainerPicId].size) * 4 + 80;
     }
@@ -1311,8 +1311,8 @@ static void PlayerPartnerHandleDrawTrainerPic(void)
         yPos = (8 - gTrainerFrontPicCoords[trainerPicId].size) * 4 + 80;
     }
 
-    // Use back pic only if the partner is Steven
-    if (gPartnerTrainerId == TRAINER_STEVEN_PARTNER)
+    // Use back pic only if the partner is Furz
+    if (gPartnerTrainerId == TRAINER_FURZ_PARTNER)
     {
         DecompressTrainerBackPic(trainerPicId, gActiveBattler);
         SetMultiuseSpriteTemplateToTrainerBack(trainerPicId, GetBattlerPosition(gActiveBattler));
@@ -1791,9 +1791,9 @@ static void PlayerPartnerHandleIntroTrainerBallThrow(void)
     StartSpriteAnim(&gSprites[gBattlerSpriteIds[gActiveBattler]], 1);
 
     paletteNum = AllocSpritePalette(0xD6F9);
-    if (gPartnerTrainerId == TRAINER_STEVEN_PARTNER)
+    if (gPartnerTrainerId == TRAINER_FURZ_PARTNER)
     {
-        u8 spriteId = TRAINER_BACK_PIC_STEVEN;
+        u8 spriteId = TRAINER_BACK_PIC_FURZ;
         LoadCompressedPalette(gTrainerBackPicPaletteTable[spriteId].data, OBJ_PLTT_ID(paletteNum), PLTT_SIZE_4BPP);
     }
     else

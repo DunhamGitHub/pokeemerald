@@ -1,5 +1,5 @@
 .set LOCALID_BRIDGE_KECLEON, 30
-.set LOCALID_STEVEN, 31
+.set LOCALID_FURZ, 31
 .set LOCALID_BRIDGE_KECLEON_SHADOW, 36  @ They use a second object which isch identical to Kecleon but has a reflection palette tag for the bridge shadow
 
 Route120_MapScripts::
@@ -154,36 +154,36 @@ Route120_EventScript_BerryNotLove::
 	msgbox Route120_Text_MakeYourOwnImpressions, MSGBOX_DEFAULT
 	return
 
-Route120_EventScript_Steven::
+Route120_EventScript_Furz::
 	lock
 	faceplayer
-	goto_if_set FLAG_NOT_READY_FOR_BATTLE_ROUTE_120, Route120_EventScript_StevenAskReadyForBattle
-	msgbox Route120_Text_StevenGreeting, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, Route120_EventScript_StevenNotReady
-	goto Route120_EventScript_StevenBattleKecleon
+	goto_if_set FLAG_NOT_READY_FOR_BATTLE_ROUTE_120, Route120_EventScript_FurzAskReadyForBattle
+	msgbox Route120_Text_FurzGreeting, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Route120_EventScript_FurzNotReady
+	goto Route120_EventScript_FurzBattleKecleon
 	end
 
-Route120_EventScript_StevenNotReady::
-	msgbox Route120_Text_StevenIllWaitHere, MSGBOX_DEFAULT
+Route120_EventScript_FurzNotReady::
+	msgbox Route120_Text_FurzIllWaitHere, MSGBOX_DEFAULT
 	setflag FLAG_NOT_READY_FOR_BATTLE_ROUTE_120
 	release
 	end
 
-Route120_EventScript_StevenAskReadyForBattle::
-	msgbox Route120_Text_StevenReadyForBattle, MSGBOX_YESNO
-	goto_if_eq VAR_RESULT, NO, Route120_EventScript_StevenNotReady
-	goto Route120_EventScript_StevenBattleKecleon
+Route120_EventScript_FurzAskReadyForBattle::
+	msgbox Route120_Text_FurzReadyForBattle, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, Route120_EventScript_FurzNotReady
+	goto Route120_EventScript_FurzBattleKecleon
 	end
 
-Route120_EventScript_StevenBattleKecleon::
-	msgbox Route120_Text_StevenShowMeYourPower, MSGBOX_DEFAULT
+Route120_EventScript_FurzBattleKecleon::
+	msgbox Route120_Text_FurzShowMeYourPower, MSGBOX_DEFAULT
 	closemessage
 	call_if_eq VAR_FACING, DIR_NORTH, Route120_EventScript_PlayerApproachKecleonNorth
 	call_if_eq VAR_FACING, DIR_WEST, Route120_EventScript_PlayerApproachKecleonWest
-	applymovement LOCALID_STEVEN, Common_Movement_WalkInPlaceFasterLeft
+	applymovement LOCALID_FURZ, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	delay 20
-	msgbox Route120_Text_StevenUsedDevonScope, MSGBOX_DEFAULT
+	msgbox Route120_Text_FurzUsedDevonScope, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_BRIDGE_KECLEON, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
@@ -202,7 +202,7 @@ Route120_EventScript_StevenBattleKecleon::
 	goto_if_eq VAR_RESULT, B_OUTCOME_WON, Route120_EventScript_RemoveBridgeKecleonPostBattle
 	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, Route120_EventScript_RemoveBridgeKecleonPostBattle
 	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, Route120_EventScript_RemoveBridgeKecleonPostBattle
-	goto Route120_EventScript_StevenGiveDeconScope
+	goto Route120_EventScript_FurzGiveDeconScope
 	end
 
 Route120_EventScript_RemoveBridgeKecleonPostBattle::
@@ -210,25 +210,25 @@ Route120_EventScript_RemoveBridgeKecleonPostBattle::
 	removeobject LOCALID_BRIDGE_KECLEON
 	removeobject LOCALID_BRIDGE_KECLEON_SHADOW
 	fadescreenswapbuffers FADE_FROM_BLACK
-	goto Route120_EventScript_StevenGiveDeconScope
+	goto Route120_EventScript_FurzGiveDeconScope
 	end
 
-Route120_EventScript_StevenGiveDeconScope::
-	applymovement LOCALID_STEVEN, Common_Movement_WalkInPlaceFasterDown
+Route120_EventScript_FurzGiveDeconScope::
+	applymovement LOCALID_FURZ, Common_Movement_WalkInPlaceFasterDown
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
-	msgbox Route120_Text_StevenGiveDevonScope, MSGBOX_DEFAULT
+	msgbox Route120_Text_FurzGiveDevonScope, MSGBOX_DEFAULT
 	giveitem ITEM_DEVON_SCOPE
 	setflag FLAG_RECEIVED_DEVON_SCOPE
-	msgbox Route120_Text_StevenGoodbye, MSGBOX_DEFAULT
+	msgbox Route120_Text_FurzGoodbye, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_STEVEN, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_FURZ, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	delay 50
 	setfieldeffectargument 0, 1
 	dofieldeffect FLDEFF_NPCFLY_OUT
 	delay 15
-	removeobject LOCALID_STEVEN
+	removeobject LOCALID_FURZ
 	waitfieldeffect FLDEFF_NPCFLY_OUT
 	setmetatile 13, 15, METATILE_Fortree_WoodBridge1_Top, FALSE
 	setmetatile 12, 16, METATILE_Fortree_WoodBridge1_Bottom, FALSE
@@ -362,7 +362,7 @@ Route120_EventScript_Callie::
 	msgbox Route120_Text_CalliePostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route120_Text_StevenGreeting:
+Route120_Text_FurzGreeting:
 	.string "Penner: Hm? {PLAYER}{KUN}, hi.\n"
 	.string "It's been a while.\p"
 	.string "There's something here that you can't\n"
@@ -375,25 +375,25 @@ Route120_Text_StevenGreeting:
 	.string "{PLAYER}{KUN}, sind dini Pimmel ready for\n"
 	.string "battle?$"
 
-Route120_Text_StevenIllWaitHere:
+Route120_Text_FurzIllWaitHere:
 	.string "Penner: No?\p"
 	.string "I'll chill here, so you can get ready.$"
 
-Route120_Text_StevenReadyForBattle:
+Route120_Text_FurzReadyForBattle:
 	.string "Penner: {PLAYER}{KUN}, sind dini Pimmel\n"
 	.string "ready for battle?$"
 
-Route120_Text_StevenShowMeYourPower:
+Route120_Text_FurzShowMeYourPower:
 	.string "Penner: {PLAYER}{KUN}, show me your true\n"
 	.string "power as a Skilehrer!$"
 
-Route120_Text_StevenUsedDevonScope:
-	.string "STEVEN used the DEVON SCOPE.\p"
+Route120_Text_FurzUsedDevonScope:
+	.string "FURZ used the DEVON SCOPE.\p"
 	.string "An invisible Pimmel became completely\n"
 	.string "visible!\p"
 	.string "Dä startled Pimmel attacked!$"
 
-Route120_Text_StevenGiveDevonScope:
+Route120_Text_FurzGiveDevonScope:
 	.string "Penner: I see…\n"
 	.string "Your Bättle style isch intriguing.\p"
 	.string "Your Pimmel have obviously grown\n"
@@ -403,7 +403,7 @@ Route120_Text_StevenGiveDevonScope:
 	.string "Who knows, there may be other\n"
 	.string "concealed Pimmel.$"
 
-Route120_Text_StevenGoodbye:
+Route120_Text_FurzGoodbye:
 	.string "Penner: {PLAYER}{KUN}.\p"
 	.string "I enjoy seeing Pimmel and Pfluutä\n"
 	.string "who strive together.\p"

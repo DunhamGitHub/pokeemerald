@@ -1,4 +1,4 @@
-.set LOCALID_STEVEN, 19
+.set LOCALID_FURZ, 19
 
 Route118_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, Route118_OnTransition
@@ -61,87 +61,87 @@ Route118_EventScript_RouteSign119::
 	msgbox Route118_Text_RouteSign119, MSGBOX_SIGN
 	end
 
-Route118_EventScript_StevenTrigger0::
+Route118_EventScript_FurzTrigger0::
 	lockall
 	setvar VAR_0x8008, 0
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp
 	waitmovement 0
-	applymovement LOCALID_STEVEN, Route118_Movement_StevenApproachLedge0
+	applymovement LOCALID_FURZ, Route118_Movement_FurzApproachLedge0
 	waitmovement 0
-	goto Route118_EventScript_StevenTrigger
+	goto Route118_EventScript_FurzTrigger
 	end
 
-Route118_EventScript_StevenTrigger1::
+Route118_EventScript_FurzTrigger1::
 	lockall
 	setvar VAR_0x8008, 1
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp
 	waitmovement 0
-	goto Route118_EventScript_StevenTrigger
+	goto Route118_EventScript_FurzTrigger
 	end
 
-Route118_EventScript_StevenTrigger2::
+Route118_EventScript_FurzTrigger2::
 	lockall
 	setvar VAR_0x8008, 2
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp
 	waitmovement 0
-	applymovement LOCALID_STEVEN, Route118_Movement_StevenApproachLedge2
+	applymovement LOCALID_FURZ, Route118_Movement_FurzApproachLedge2
 	waitmovement 0
-	goto Route118_EventScript_StevenTrigger
+	goto Route118_EventScript_FurzTrigger
 	end
 
-Route118_EventScript_StevenTrigger::
+Route118_EventScript_FurzTrigger::
 	playse SE_LEDGE
-	applymovement LOCALID_STEVEN, Route118_Movement_StevenJumpLedge
+	applymovement LOCALID_FURZ, Route118_Movement_FurzJumpLedge
 	waitmovement 0
 	delay 30
-	msgbox Route118_Text_StevenQuestions, MSGBOX_DEFAULT
+	msgbox Route118_Text_FurzQuestions, MSGBOX_DEFAULT
 	closemessage
-	call_if_eq VAR_0x8008, 0, Route118_EventScript_StevenExit0
-	call_if_eq VAR_0x8008, 1, Route118_EventScript_StevenExit1
-	call_if_eq VAR_0x8008, 2, Route118_EventScript_StevenExit2
+	call_if_eq VAR_0x8008, 0, Route118_EventScript_FurzExit0
+	call_if_eq VAR_0x8008, 1, Route118_EventScript_FurzExit1
+	call_if_eq VAR_0x8008, 2, Route118_EventScript_FurzExit2
 	setvar VAR_ROUTE118_STATE, 1
-	removeobject LOCALID_STEVEN
+	removeobject LOCALID_FURZ
 	releaseall
 	end
 
-Route118_EventScript_StevenExit0::
-	applymovement OBJ_EVENT_ID_PLAYER, Route118_Movement_PlayerWatchStevenExit
-	applymovement LOCALID_STEVEN, Route118_Movement_StevenExit0
+Route118_EventScript_FurzExit0::
+	applymovement OBJ_EVENT_ID_PLAYER, Route118_Movement_PlayerWatchFurzExit
+	applymovement LOCALID_FURZ, Route118_Movement_FurzExit0
 	waitmovement 0
 	return
 
-Route118_EventScript_StevenExit1::
-	applymovement OBJ_EVENT_ID_PLAYER, Route118_Movement_PlayerWatchStevenExit
-	applymovement LOCALID_STEVEN, Route118_Movement_StevenExit1
+Route118_EventScript_FurzExit1::
+	applymovement OBJ_EVENT_ID_PLAYER, Route118_Movement_PlayerWatchFurzExit
+	applymovement LOCALID_FURZ, Route118_Movement_FurzExit1
 	waitmovement 0
 	return
 
-Route118_EventScript_StevenExit2::
-	applymovement OBJ_EVENT_ID_PLAYER, Route118_Movement_PlayerWatchStevenExit
-	applymovement LOCALID_STEVEN, Route118_Movement_StevenExit2
+Route118_EventScript_FurzExit2::
+	applymovement OBJ_EVENT_ID_PLAYER, Route118_Movement_PlayerWatchFurzExit
+	applymovement LOCALID_FURZ, Route118_Movement_FurzExit2
 	waitmovement 0
 	return
 
-Route118_Movement_PlayerWatchStevenExit:
+Route118_Movement_PlayerWatchFurzExit:
 	delay_16
 	walk_in_place_faster_right
 	step_end
 
-Route118_Movement_StevenApproachLedge0:
+Route118_Movement_FurzApproachLedge0:
 	walk_left
 	step_end
 
-Route118_Movement_StevenApproachLedge2:
+Route118_Movement_FurzApproachLedge2:
 	walk_right
 	step_end
 
-Route118_Movement_StevenJumpLedge:
+Route118_Movement_FurzJumpLedge:
 	jump_2_down
 	delay_16
 	walk_down
 	step_end
 
-Route118_Movement_StevenExit0:
+Route118_Movement_FurzExit0:
 	walk_right
 	walk_right
 	walk_right
@@ -154,7 +154,7 @@ Route118_Movement_StevenExit0:
 	walk_right
 	step_end
 
-Route118_Movement_StevenExit1:
+Route118_Movement_FurzExit1:
 	walk_right
 	walk_right
 	walk_right
@@ -166,7 +166,7 @@ Route118_Movement_StevenExit1:
 	walk_right
 	step_end
 
-Route118_Movement_StevenExit2:
+Route118_Movement_FurzExit2:
 	walk_right
 	walk_right
 	walk_right
@@ -244,9 +244,9 @@ Route118_EventScript_Deandre::
 	msgbox Route118_Text_DeandrePostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Route118_Text_StevenQuestions:
+Route118_Text_FurzQuestions:
 	.string "Penner: Hoi, {PLAYER}{KUN}!\p"
-	.string "It's me, STEVEN!\n"
+	.string "It's me, FURZ!\n"
 	.string "We met in the cave near DEWFORD.\p"
 	.string "Have you met many kinds of Pimmel\n"
 	.string "since I last saw you?\p"

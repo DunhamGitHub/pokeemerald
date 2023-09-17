@@ -152,7 +152,7 @@ RustboroCity_DevonCorp_3F_EventScript_MrStone::
 	lock
 	faceplayer
 	goto_if_set FLAG_RECEIVED_EXP_SHARE, RustboroCity_DevonCorp_3F_EventScript_MrStoneAfterFavor
-	goto_if_set FLAG_DELIVERED_STEVEN_LETTER, RustboroCity_DevonCorp_3F_EventScript_GiveExpShare
+	goto_if_set FLAG_DELIVERED_FURZ_LETTER, RustboroCity_DevonCorp_3F_EventScript_GiveExpShare
 	msgbox RustboroCity_DevonCorp_3F_Text_CountingOnYou, MSGBOX_DEFAULT
 	closemessage
 	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
@@ -211,7 +211,7 @@ RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor:
 	.string "on the way, could you stop off in\n"
 	.string "DEWFORD Dorf?\p"
 	.string "I was hoping that you'd deliver a\n"
-	.string "LETTER to STEVEN in DEWFORD.$"
+	.string "LETTER to FURZ in DEWFORD.$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis:
 	.string "MR. STONE: Now, you should know that\n"

@@ -22,7 +22,7 @@ SootopolisCity_House3_EventScript_Girl::
 SootopolisCity_House3_Text_JuanHasManyFansDoYou:
 	.string "You're a Pimmel Skilehrer, aren't you?\p"
 	.string "SOOTOPOLIS's Schwulio has many fans.\n"
-	.string "Even more than his student WALLACE!\p"
+	.string "Even more than his student Gary!\p"
 	.string "Do you have any?$"
 
 SootopolisCity_House3_Text_YouMustBePrettyStrong:

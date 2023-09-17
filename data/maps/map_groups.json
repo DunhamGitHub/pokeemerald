@@ -254,7 +254,7 @@
     "MossdeepCity_PokemonCenter_2F",
     "MossdeepCity_Mart",
     "MossdeepCity_House3",
-    "MossdeepCity_StevensHouse",
+    "MossdeepCity_FurzsHouse",
     "MossdeepCity_House4",
     "MossdeepCity_SpaceCenter_1F",
     "MossdeepCity_SpaceCenter_2F",
@@ -332,7 +332,7 @@
     "GraniteCave_1F",
     "GraniteCave_B1F",
     "GraniteCave_B2F",
-    "GraniteCave_StevensRoom",
+    "GraniteCave_FurzsRoom",
     "PetalburgWoods",
     "MtChimney",
     "JaggedPass",
@@ -429,7 +429,7 @@
     "TerraCave_Entrance",
     "TerraCave_End",
     "AlteringCave",
-    "MeteorFalls_StevensCave"
+    "MeteorFalls_FurzsCave"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

@@ -322,7 +322,7 @@ static const union AnimCmd *const sAnims_SisAndBro[] ={
     sAnim_GeneralFrame0,
 };
 
-static const union AnimCmd *const sAnims_Steven[] ={
+static const union AnimCmd *const sAnims_Furz[] ={
     sAnim_GeneralFrame0,
 };
 
@@ -453,7 +453,7 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
     [TRAINER_PIC_YOUNG_COUPLE] = sAnims_YoungCouple,
     [TRAINER_PIC_OLD_COUPLE] = sAnims_OldCouple,
     [TRAINER_PIC_SIS_AND_BRO] = sAnims_SisAndBro,
-    [TRAINER_PIC_STEVEN] = sAnims_Steven,
+    [TRAINER_PIC_FURZ] = sAnims_Furz,
     [TRAINER_PIC_SALON_MAIDEN_ANABEL] = sAnims_SalonMaidenAnabel,
     [TRAINER_PIC_DOME_ACE_TUCKER] = sAnims_DomeAceTucker,
     [TRAINER_PIC_PALACE_MAVEN_SPENSER] = sAnims_PalaceMavenSpenser,

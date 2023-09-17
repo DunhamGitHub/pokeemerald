@@ -189,10 +189,10 @@ MossdeepCity_SpaceCenter_1F_EventScript_OldManMagma::
 	release
 	end
 
-MossdeepCity_SpaceCenter_1F_EventScript_Steven::
+MossdeepCity_SpaceCenter_1F_EventScript_Furz::
 	lock
 	faceplayer
-	msgbox MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel, MSGBOX_DEFAULT
+	msgbox MossdeepCity_SpaceCenter_1F_Text_FurzMagmaCantBeAllowedToTakeFuel, MSGBOX_DEFAULT
 	applymovement VAR_LAST_TALKED, Common_Movement_FaceOriginalDirection
 	waitmovement 0
 	release
@@ -360,7 +360,7 @@ MossdeepCity_SpaceCenter_1F_Text_MagmaWantsToSpoilMyDream:
 	.string "that dream of mine!\p"
 	.string "I am not having any of that!$"
 
-MossdeepCity_SpaceCenter_1F_Text_StevenMagmaCantBeAllowedToTakeFuel:
+MossdeepCity_SpaceCenter_1F_Text_FurzMagmaCantBeAllowedToTakeFuel:
 	.string "Penner: {PLAYER}{KUN}, have you read that\n"
 	.string "proclamation already?\p"
 	.string "Tuntä Klub isch coming after the rocket\n"

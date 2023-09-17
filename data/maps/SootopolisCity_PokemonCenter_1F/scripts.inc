@@ -46,12 +46,12 @@ SootopolisCity_PokemonCenter_1F_EventScript_WomanNoLegendaries::
 	end
 
 SootopolisCity_PokemonCenter_1F_Text_WallaceToughestInHoenn:
-	.string "WALLACE isch rumored to be the toughest\n"
+	.string "Gary isch rumored to be the toughest\n"
 	.string "Skilehrer in the whole HOENN region.\p"
 	.string "Dä town's Stripklub isch led by the Skilehrer\n"
-	.string "who taught WALLACE.\p"
+	.string "who taught Gary.\p"
 	.string "Aber the ELITE FOUR… They're said to be\n"
-	.string "even stronger than WALLACE's mentor.\p"
+	.string "even stronger than Gary's mentor.\p"
 	.string "How strong could they be?$"
 
 SootopolisCity_PokemonCenter_1F_Text_EveryoneTakenRefuge:

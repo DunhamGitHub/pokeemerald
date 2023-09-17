@@ -13,7 +13,7 @@
 
 
 // NPC below means non-trainer character (no rematch or check page)
-// Steven also uses this type but has a check page by using a MatchCallCheckPageOverride
+// Furz also uses this type but has a check page by using a MatchCallCheckPageOverride
 enum
 {
     MC_TYPE_NPC,
@@ -162,7 +162,7 @@ static void MatchCall_GetNameAndDescByRematchIdx(u32, const u8 **, const u8 **);
 static const match_call_text_data_t sMrStoneTextScripts[] = {
     { MatchCall_Text_MrStone1,  0xFFFF,                              FLAG_ENABLE_MR_STONE_POKENAV },
     { MatchCall_Text_MrStone2,  FLAG_ENABLE_MR_STONE_POKENAV,        0xFFFF },
-    { MatchCall_Text_MrStone3,  FLAG_DELIVERED_STEVEN_LETTER,        0xFFFF },
+    { MatchCall_Text_MrStone3,  FLAG_DELIVERED_FURZ_LETTER,        0xFFFF },
     { MatchCall_Text_MrStone4,  FLAG_RECEIVED_EXP_SHARE,             0xFFFF },
     { MatchCall_Text_MrStone5,  FLAG_RECEIVED_HM_STRENGTH,           0xFFFF },
     { MatchCall_Text_MrStone6,  FLAG_DEFEATED_PETALBURG_GYM,         0xFFFF },
@@ -234,25 +234,25 @@ static const struct MatchCallStructNPC sMomMatchCallHeader =
     .textData = sMomTextScripts
 };
 
-static const match_call_text_data_t sStevenTextScripts[] = {
-    { MatchCall_Text_Steven1, 0xFFFF,                              0xFFFF },
-    { MatchCall_Text_Steven2, FLAG_RUSTURF_TUNNEL_OPENED,          0xFFFF },
-    { MatchCall_Text_Steven3, FLAG_RECEIVED_RED_OR_BLUE_ORB,       0xFFFF },
-    { MatchCall_Text_Steven4, FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, 0xFFFF },
-    { MatchCall_Text_Steven5, FLAG_DEFEATED_MOSSDEEP_GYM,          0xFFFF },
-    { MatchCall_Text_Steven6, FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, 0xFFFF },
-    { MatchCall_Text_Steven7, FLAG_SYS_GAME_CLEAR,                 0xFFFF },
+static const match_call_text_data_t sFurzTextScripts[] = {
+    { MatchCall_Text_Furz1, 0xFFFF,                              0xFFFF },
+    { MatchCall_Text_Furz2, FLAG_RUSTURF_TUNNEL_OPENED,          0xFFFF },
+    { MatchCall_Text_Furz3, FLAG_RECEIVED_RED_OR_BLUE_ORB,       0xFFFF },
+    { MatchCall_Text_Furz4, FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, 0xFFFF },
+    { MatchCall_Text_Furz5, FLAG_DEFEATED_MOSSDEEP_GYM,          0xFFFF },
+    { MatchCall_Text_Furz6, FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, 0xFFFF },
+    { MatchCall_Text_Furz7, FLAG_SYS_GAME_CLEAR,                 0xFFFF },
     { NULL,                   0xFFFF,                              0xFFFF },
 };
 
-static const struct MatchCallStructNPC sStevenMatchCallHeader =
+static const struct MatchCallStructNPC sFurzMatchCallHeader =
 {
     .type = MC_TYPE_NPC,
     .mapSec = MAPSEC_NONE,
-    .flag = FLAG_REGISTERED_STEVEN_POKENAV,
-    .desc = gText_StevenMatchCallDesc,
-    .name = gText_StevenMatchCallName,
-    .textData = sStevenTextScripts
+    .flag = FLAG_REGISTERED_FURZ_POKENAV,
+    .desc = gText_FurzMatchCallDesc,
+    .name = gText_FurzMatchCallName,
+    .textData = sFurzTextScripts
 };
 
 static const match_call_text_data_t sMayTextScripts[] = {
@@ -585,7 +585,7 @@ static const match_call_t sMatchCallHeaders[] = {
     [MC_HEADER_WALLY]      = {.wally  = &sWallyMatchCallHeader},
     [MC_HEADER_NORMAN]     = {.leader = &sNormanMatchCallHeader},
     [MC_HEADER_MOM]        = {.npc    = &sMomMatchCallHeader},
-    [MC_HEADER_STEVEN]     = {.npc    = &sStevenMatchCallHeader},
+    [MC_HEADER_FURZ]     = {.npc    = &sFurzMatchCallHeader},
     [MC_HEADER_SCOTT]      = {.npc    = &sScottMatchCallHeader},
     [MC_HEADER_ROXANNE]    = {.leader = &sRoxanneMatchCallHeader},
     [MC_HEADER_BRAWLY]     = {.leader = &sBrawlyMatchCallHeader},
@@ -659,25 +659,25 @@ static void (*const sMatchCall_GetNameAndDescFunctions[])(match_call_t, const u8
 
 static const struct MatchCallCheckPageOverride sCheckPageOverrides[] = {
     {
-        .idx = MC_HEADER_STEVEN,
-        .facilityClass = FACILITY_CLASS_STEVEN,
+        .idx = MC_HEADER_FURZ,
+        .facilityClass = FACILITY_CLASS_FURZ,
         .flag = 0xFFFF,
         .flavorTexts = {
-            [CHECK_PAGE_STRATEGY] = gText_MatchCallSteven_Strategy,
-            [CHECK_PAGE_POKEMON]  = gText_MatchCallSteven_Pokemon,
-            [CHECK_PAGE_INTRO_1]  = gText_MatchCallSteven_Intro1_BeforeMeteorFallsBattle,
-            [CHECK_PAGE_INTRO_2]  = gText_MatchCallSteven_Intro2_BeforeMeteorFallsBattle
+            [CHECK_PAGE_STRATEGY] = gText_MatchCallFurz_Strategy,
+            [CHECK_PAGE_POKEMON]  = gText_MatchCallFurz_Pokemon,
+            [CHECK_PAGE_INTRO_1]  = gText_MatchCallFurz_Intro1_BeforeMeteorFallsBattle,
+            [CHECK_PAGE_INTRO_2]  = gText_MatchCallFurz_Intro2_BeforeMeteorFallsBattle
         }
     },
     {
-        .idx = MC_HEADER_STEVEN,
-        .facilityClass = FACILITY_CLASS_STEVEN,
+        .idx = MC_HEADER_FURZ,
+        .facilityClass = FACILITY_CLASS_FURZ,
         .flag = FLAG_DEFEATED_MOSSDEEP_GYM,
         .flavorTexts = {
-            [CHECK_PAGE_STRATEGY] = gText_MatchCallSteven_Strategy,
-            [CHECK_PAGE_POKEMON]  = gText_MatchCallSteven_Pokemon,
-            [CHECK_PAGE_INTRO_1]  = gText_MatchCallSteven_Intro1_AfterMeteorFallsBattle,
-            [CHECK_PAGE_INTRO_2]  = gText_MatchCallSteven_Intro2_AfterMeteorFallsBattle
+            [CHECK_PAGE_STRATEGY] = gText_MatchCallFurz_Strategy,
+            [CHECK_PAGE_POKEMON]  = gText_MatchCallFurz_Pokemon,
+            [CHECK_PAGE_INTRO_1]  = gText_MatchCallFurz_Intro1_AfterMeteorFallsBattle,
+            [CHECK_PAGE_INTRO_2]  = gText_MatchCallFurz_Intro2_AfterMeteorFallsBattle
         }
     },
     {

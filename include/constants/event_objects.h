@@ -135,7 +135,7 @@
 #define OBJ_EVENT_GFX_LIZA                       131
 #define OBJ_EVENT_GFX_TATE                       132
 #define OBJ_EVENT_GFX_WALLACE                    133
-#define OBJ_EVENT_GFX_STEVEN                     134
+#define OBJ_EVENT_GFX_FURZ                     134
 #define OBJ_EVENT_GFX_WALLY                      135
 #define OBJ_EVENT_GFX_LITTLE_BOY_3               136
 #define OBJ_EVENT_GFX_BRENDAN_FISHING            137

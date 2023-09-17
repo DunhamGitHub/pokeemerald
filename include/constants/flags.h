@@ -207,7 +207,7 @@
 #define FLAG_DECORATION_13                   0xBA
 #define FLAG_DECORATION_14                   0xBB
 #define FLAG_RECEIVED_POKENAV                0xBC
-#define FLAG_DELIVERED_STEVEN_LETTER         0xBD
+#define FLAG_DELIVERED_FURZ_LETTER         0xBD
 #define FLAG_DEFEATED_WALLY_MAUVILLE         0xBE
 #define FLAG_DEFEATED_GRUNT_SPACE_CENTER_1F  0xBF
 #define FLAG_RECEIVED_SUN_STONE_MOSSDEEP     0xC0
@@ -223,7 +223,7 @@
 #define FLAG_RECEIVED_PINK_SCARF             0xCA
 #define FLAG_RECEIVED_GREEN_SCARF            0xCB
 #define FLAG_RECEIVED_YELLOW_SCARF           0xCC
-#define FLAG_INTERACTED_WITH_STEVEN_SPACE_CENTER    0xCD
+#define FLAG_INTERACTED_WITH_FURZ_SPACE_CENTER    0xCD
 #define FLAG_ENCOUNTERED_LATIAS_OR_LATIOS    0xCE
 #define FLAG_MET_ARCHIE_METEOR_FALLS         0xCF
 #define FLAG_GOT_BASEMENT_KEY_FROM_WATTSON   0xD0
@@ -324,12 +324,12 @@
 #define FLAG_RECEIVED_FANCLUB_TM_THIS_WEEK   0x12B
 #define FLAG_MET_FANCLUB_YOUNGER_BROTHER     0x12C
 #define FLAG_RIVAL_LEFT_FOR_ROUTE103         0x12D
-#define FLAG_OMIT_DIVE_FROM_STEVEN_LETTER    0x12E
+#define FLAG_OMIT_DIVE_FROM_FURZ_LETTER    0x12E
 #define FLAG_HAS_MATCH_CALL                  0x12F
 #define FLAG_ADDED_MATCH_CALL_TO_POKENAV     0x130
-#define FLAG_REGISTERED_STEVEN_POKENAV       0x131
+#define FLAG_REGISTERED_FURZ_POKENAV       0x131
 #define FLAG_ENABLE_NORMAN_MATCH_CALL        0x132
-#define FLAG_STEVEN_GUIDES_TO_CAVE_OF_ORIGIN 0x133 // Set after you follow Steven to the entrance of the Cave of Origin.
+#define FLAG_FURZ_GUIDES_TO_CAVE_OF_ORIGIN 0x133 // Set after you follow Furz to the entrance of the Cave of Origin.
 #define FLAG_MET_ARCHIE_SOOTOPOLIS           0x134
 #define FLAG_MET_MAXIE_SOOTOPOLIS            0x135
 #define FLAG_MET_SCOTT_RUSTBORO              0x136
@@ -769,7 +769,7 @@
 #define FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE                    0x2D4
 #define FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT                        0x2D5
 #define FLAG_HIDE_PETALBURG_CITY_WALLY                              0x2D6
-#define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_INVISIBLE_NINJA_BOY   0x2D7
+#define FLAG_HIDE_MOSSDEEP_CITY_FURZS_HOUSE_INVISIBLE_NINJA_BOY   0x2D7
 #define FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM                         0x2D8
 
 #define FLAG_UNUSED_0x2D9                                           0x2D9 // Unused Flag
@@ -797,7 +797,7 @@
 #define FLAG_HIDE_ROUTE_101_ZIGZAGOON                               0x2EE
 #define FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY                           0x2EF
 #define FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE                       0x2F0
-#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_STEVEN              0x2F1
+#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_FURZ              0x2F1
 #define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_1          0x2F2
 #define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_2          0x2F3
 #define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA          0x2F4
@@ -877,8 +877,8 @@
 #define FLAG_HIDE_PETALBURG_CITY_WALLYS_DAD                         0x33E
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS               0x33F
 #define FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER                0x340
-#define FLAG_HIDE_GRANITE_CAVE_STEVEN                               0x341
-#define FLAG_HIDE_ROUTE_128_STEVEN                                  0x342
+#define FLAG_HIDE_GRANITE_CAVE_FURZ                               0x341
+#define FLAG_HIDE_ROUTE_128_FURZ                                  0x342
 #define FLAG_HIDE_SLATEPORT_CITY_GABBY_AND_TY                       0x343
 #define FLAG_HIDE_BATTLE_FRONTIER_RECEPTION_GATE_SCOTT              0x344
 #define FLAG_HIDE_ROUTE_110_BIRCH                                   0x345
@@ -907,7 +907,7 @@
 #define FLAG_HIDE_SLATEPORT_CITY_HARBOR_SS_TIDAL                    0x35C
 #define FLAG_HIDE_LILYCOVE_HARBOR_SSTIDAL                           0x35D
 #define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA          0x35E
-#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_STEVEN              0x35F
+#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_FURZ              0x35F
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_ALT_1           0x360
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_ALT_2           0x361
 #define FLAG_HIDE_PETALBURG_GYM_WALLY                               0x362
@@ -1010,14 +1010,14 @@
 #define FLAG_HIDE_MIRAGE_TOWER_ROOT_FOSSIL                          0x3C3
 #define FLAG_HIDE_MIRAGE_TOWER_CLAW_FOSSIL                          0x3C4
 #define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_FAMILIAR_AQUA_GRUNT 0x3C5
-#define FLAG_HIDE_ROUTE_118_STEVEN                                  0x3C6
-#define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_STEVEN                0x3C7
-#define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_BELDUM_POKEBALL       0x3C8
+#define FLAG_HIDE_ROUTE_118_FURZ                                  0x3C6
+#define FLAG_HIDE_MOSSDEEP_CITY_FURZS_HOUSE_FURZ                0x3C7
+#define FLAG_HIDE_MOSSDEEP_CITY_FURZS_HOUSE_BELDUM_POKEBALL       0x3C8
 #define FLAG_HIDE_FORTREE_CITY_KECLEON                              0x3C9
 #define FLAG_HIDE_ROUTE_120_KECLEON_BRIDGE                          0x3CA
 #define FLAG_HIDE_LILYCOVE_CITY_RIVAL                               0x3CB
-#define FLAG_HIDE_ROUTE_120_STEVEN                                  0x3CC
-#define FLAG_HIDE_SOOTOPOLIS_CITY_STEVEN                            0x3CD
+#define FLAG_HIDE_ROUTE_120_FURZ                                  0x3CC
+#define FLAG_HIDE_SOOTOPOLIS_CITY_FURZ                            0x3CD
 #define FLAG_HIDE_NEW_MAUVILLE_VOLTORB_1                            0x3CE
 #define FLAG_HIDE_NEW_MAUVILLE_VOLTORB_2                            0x3CF
 #define FLAG_HIDE_NEW_MAUVILLE_VOLTORB_3                            0x3D0
@@ -1179,7 +1179,7 @@
 #define FLAG_ITEM_MT_PYRE_4F_SEA_INCENSE                            0x46A
 #define FLAG_ITEM_SAFARI_ZONE_SOUTH_WEST_MAX_REVIVE                 0x46B
 #define FLAG_ITEM_AQUA_HIDEOUT_B1F_NUGGET                           0x46C
-#define FLAG_ITEM_MOSSDEEP_STEVENS_HOUSE_HM08                       0x46D // Unused Flag, leftover from R/S. HM08 is given to the player directly in Emerald
+#define FLAG_ITEM_MOSSDEEP_FURZS_HOUSE_HM08                       0x46D // Unused Flag, leftover from R/S. HM08 is given to the player directly in Emerald
 #define FLAG_ITEM_ROUTE_119_NUGGET                                  0x46E
 #define FLAG_ITEM_ROUTE_104_POTION                                  0x46F
 #define FLAG_UNUSED_0x470                                           0x470 // Unused Flag
@@ -1320,7 +1320,7 @@
 #define FLAG_DEFEATED_FORTREE_GYM                                   0x4F5
 #define FLAG_DEFEATED_MOSSDEEP_GYM                                  0x4F6
 #define FLAG_DEFEATED_SOOTOPOLIS_GYM                                0x4F7
-#define FLAG_DEFEATED_METEOR_FALLS_STEVEN                           0x4F8
+#define FLAG_DEFEATED_METEOR_FALLS_FURZ                           0x4F8
 
 #define FLAG_UNUSED_0x4F9                                           0x4F9 // Unused Flag
 #define FLAG_UNUSED_0x4FA                                           0x4FA // Unused Flag

@@ -215,7 +215,7 @@
 #define VAR_VICTORY_ROAD_1F_STATE                        0x40C3
 #define VAR_FOSSIL_RESURRECTION_STATE                    0x40C4
 #define VAR_WHICH_FOSSIL_REVIVED                         0x40C5
-#define VAR_STEVENS_HOUSE_STATE                          0x40C6
+#define VAR_FURZS_HOUSE_STATE                          0x40C6
 #define VAR_OLDALE_RIVAL_STATE                           0x40C7
 #define VAR_JAGGED_PASS_STATE                            0x40C8
 #define VAR_SCOTT_PETALBURG_ENCOUNTER                    0x40C9

@@ -145,7 +145,7 @@
       "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_STEVEN",
+      "graphics_id": "OBJ_EVENT_GFX_FURZ",
       "x": 1,
       "y": 4,
       "elevation": 3,
@@ -154,8 +154,8 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MossdeepCity_SpaceCenter_1F_EventScript_Steven",
-      "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_STEVEN"
+      "script": "MossdeepCity_SpaceCenter_1F_EventScript_Furz",
+      "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_FURZ"
     }
   ],
   "warp_events": [

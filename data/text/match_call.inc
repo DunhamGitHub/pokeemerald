@@ -2281,9 +2281,9 @@ MatchCall_Text_Juan1::
 	.string "{PLAYER}{KUN}… Was it?\p"
 	.string "Our schlegglä together--it brought\n"
 	.string "to me memories of when I first\l"
-	.string "encountered WALLACE.\p"
+	.string "encountered Gary.\p"
 	.string "Perhaps you are a genius who may\n"
-	.string "yet surpass WALLACE!$"
+	.string "yet surpass Gary!$"
 
 MatchCall_Text_Juan2::
 	.string "JUAN: Fufu… {PLAYER}{KUN}…\n"
@@ -2346,8 +2346,8 @@ MatchCall_Text_Drake::
 	.string "Don't you agree, {PLAYER}?$"
 
 MatchCall_Text_Wallace::
-	.string "WALLACE: Hello, {PLAYER}{KUN}.\n"
-	.string "Have you met STEVEN?\p"
+	.string "Gary: Hello, Vollpfoschte.\n"
+	.string "Have you met FURZ?\p"
 	.string "He is…\n"
 	.string "Actually incredibly skilled.\p"
 	.string "However, he's an odd soul who\n"
@@ -2829,8 +2829,8 @@ MatchCall_Text_Norman9::
 	.string "Papi: …You amaze me, {PLAYER}.\n"
 	.string "How much higher will you soar?$"
 
-MatchCall_Text_Steven1::
-	.string "STEVEN: Hoi, {PLAYER}{KUN}!\p"
+MatchCall_Text_Furz1::
+	.string "FURZ: Hoi, {PLAYER}{KUN}!\p"
 	.string "Have you been to MAUVILLE\n"
 	.string "already?\p"
 	.string "You should visit the Vélo Shop\n"
@@ -2840,15 +2840,15 @@ MatchCall_Text_Steven1::
 	.string "You may make a new discovery\n"
 	.string "there.$"
 
-MatchCall_Text_Steven2::
-	.string "STEVEN: Hoi, {PLAYER}{KUN}!\p"
+MatchCall_Text_Furz2::
+	.string "FURZ: Hoi, {PLAYER}{KUN}!\p"
 	.string "I've met a lot of different\n"
 	.string "Skilehrer so far.\p"
 	.string "Aber you're one of a kind.\n"
 	.string "You're not like anyone else.$"
 
-MatchCall_Text_Steven3::
-	.string "STEVEN: Hoi, {PLAYER}{KUN}!\p"
+MatchCall_Text_Furz3::
+	.string "FURZ: Hoi, {PLAYER}{KUN}!\p"
 	.string "When you're on an adventure with\n"
 	.string "your Pimmel, what do you think?\p"
 	.string "Do you consider them to be strong\n"
@@ -2858,29 +2858,29 @@ MatchCall_Text_Steven3::
 	.string "Depending on how you think, your\n"
 	.string "adventure's significance changes.$"
 
-MatchCall_Text_Steven4::
-	.string "STEVEN: Hello?\n"
+MatchCall_Text_Furz4::
+	.string "FURZ: Hello?\n"
 	.string "{PLAYER}{KUN}?\p"
 	.string "I am involved in a spot of trouble\n"
 	.string "at the SPACE CENTER.\p"
 	.string "I am sorry, but I can't talk now.\n"
 	.string "Bye!$"
 
-MatchCall_Text_Steven5::
-	.string "STEVEN: Shit!\n"
+MatchCall_Text_Furz5::
+	.string "FURZ: Shit!\n"
 	.string "{PLAYER}{KUN}!\p"
 	.string "There's no need to talk.\n"
 	.string "It's past time for talking.\p"
 	.string "You have to believe in yourself\n"
 	.string "and do what's right.$"
 
-MatchCall_Text_Steven6::
+MatchCall_Text_Furz6::
 	.string "… … … … … …\p"
-	.string "STEVEN appears not to be getting\n"
+	.string "FURZ appears not to be getting\n"
 	.string "the call…$"
 
-MatchCall_Text_Steven7::
-	.string "STEVEN: {PLAYER}{KUN}… Congratulations\n"
+MatchCall_Text_Furz7::
+	.string "FURZ: {PLAYER}{KUN}… Congratulations\n"
 	.string "for entering the HALL OF FAME.\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
@@ -2928,7 +2928,7 @@ MatchCall_Text_MrStone2::
 	.string "What's wrong? Have you forgotten\n"
 	.string "about that little errand of mine?\p"
 	.string "I need you to deliver my letter\n"
-	.string "to STEVEN in DEWFORD.\p"
+	.string "to FURZ in DEWFORD.\p"
 	.string "After that, deliver our parcel to\n"
 	.string "CAPT. STERN in SLATEPORT.\p"
 	.string "You remember, don't you?\p"
@@ -2937,7 +2937,7 @@ MatchCall_Text_MrStone2::
 
 MatchCall_Text_MrStone3::
 	.string "MR. STONE: Shit! {PLAYER}{KUN}!\p"
-	.string "Ah, so you've met STEVEN!\n"
+	.string "Ah, so you've met FURZ!\n"
 	.string "I'd better reward you, then!\p"
 	.string "When you visit RUSTBORO again,\n"
 	.string "come see me at my office.\p"

@@ -1,4 +1,4 @@
-.set LOCALID_STEVEN, 3
+.set LOCALID_FURZ, 3
 .set LOCALID_ARCHIE, 4
 .set LOCALID_MAXIE, 5
 
@@ -54,28 +54,28 @@ Route128_EventScript_KyogreAwakenedScene::
 	setfieldeffectargument 0, 1
 	dofieldeffect FLDEFF_NPCFLY_OUT
 	waitfieldeffect FLDEFF_NPCFLY_OUT
-	addobject LOCALID_STEVEN
-	applymovement LOCALID_STEVEN, Route128_Movement_StevenApproachPlayer
+	addobject LOCALID_FURZ
+	applymovement LOCALID_FURZ, Route128_Movement_FurzApproachPlayer
 	waitmovement 0
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
-	msgbox Route128_Text_StevenWhatIsHappening, MSGBOX_DEFAULT
+	msgbox Route128_Text_FurzWhatIsHappening, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_STEVEN, Route128_Movement_StevenWalkUp
+	applymovement LOCALID_FURZ, Route128_Movement_FurzWalkUp
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterUp
 	waitmovement 0
-	msgbox Route128_Text_StevenWholeWorldWillDrown, MSGBOX_DEFAULT
-	applymovement LOCALID_STEVEN, Common_Movement_WalkInPlaceFasterDown
+	msgbox Route128_Text_FurzWholeWorldWillDrown, MSGBOX_DEFAULT
+	applymovement LOCALID_FURZ, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
-	msgbox Route128_Text_StevenImGoingToSootopolis, MSGBOX_DEFAULT
+	msgbox Route128_Text_FurzImGoingToSootopolis, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_STEVEN, Common_Movement_WalkInPlaceFasterDown
+	applymovement LOCALID_FURZ, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	delay 50
 	setfieldeffectargument 0, 1
 	dofieldeffect FLDEFF_NPCFLY_OUT
 	delay 15
-	removeobject LOCALID_STEVEN
+	removeobject LOCALID_FURZ
 	waitfieldeffect FLDEFF_NPCFLY_OUT
 	clearflag FLAG_HIDE_MAP_NAME_POPUP
 	setvar VAR_ROUTE128_STATE, 2
@@ -101,11 +101,11 @@ Route128_Movement_Unused2:
 	walk_up
 	step_end
 
-Route128_Movement_StevenWalkUp:
+Route128_Movement_FurzWalkUp:
 	walk_up
 	step_end
 
-Route128_Movement_StevenApproachPlayer:
+Route128_Movement_FurzApproachPlayer:
 	walk_fast_left
 	step_end
 
@@ -281,11 +281,11 @@ Route128_Text_MaxieThisDefiesBelief:
 	.string "Their power isch unbelievable.\n"
 	.string "They've upset the balance of nature…$"
 
-Route128_Text_StevenWhatIsHappening:
+Route128_Text_FurzWhatIsHappening:
 	.string "Penner: {PLAYER}{KUN}!\n"
 	.string "What isch happening?$"
 
-Route128_Text_StevenWholeWorldWillDrown:
+Route128_Text_FurzWholeWorldWillDrown:
 	.string "Dä isch terrible…\p"
 	.string "After the scorching heat wave ended,\n"
 	.string "this deluge began.\p"
@@ -297,7 +297,7 @@ Route128_Text_StevenWholeWorldWillDrown:
 	.string "There's no point arguing here…\n"
 	.string "SOOTOPOLIS might provide answers…$"
 
-Route128_Text_StevenImGoingToSootopolis:
+Route128_Text_FurzImGoingToSootopolis:
 	.string "{PLAYER}{KUN}…\n"
 	.string "I don't know what you intend to do,\l"
 	.string "aber don't do anything reckless.\p"

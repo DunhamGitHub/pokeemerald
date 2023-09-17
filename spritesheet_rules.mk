@@ -403,7 +403,7 @@ $(OBJEVENTGFXDIR)/people/scientist_2.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/scott.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
-$(OBJEVENTGFXDIR)/people/steven.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/people/_furz.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/people/swimmer_f.4bpp: %.4bpp: %.png
@@ -431,6 +431,9 @@ $(OBJEVENTGFXDIR)/people/unused_woman.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/people/wallace.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/_blue.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/people/wally.4bpp: %.4bpp: %.png

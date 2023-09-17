@@ -769,7 +769,7 @@ struct
     u8 nature;
     u8 evs[NUM_STATS];
     u16 moves[MAX_MON_MOVES];
-} static const sStevenMons[MULTI_PARTY_SIZE] =
+} static const sFurzMons[MULTI_PARTY_SIZE] =
 {
     {
         .species = SPECIES_METANG,
@@ -1447,9 +1447,9 @@ u8 GetFrontierOpponentClass(u16 trainerId)
     {
         return GetFrontierBrainTrainerClass();
     }
-    else if (trainerId == TRAINER_STEVEN_PARTNER)
+    else if (trainerId == TRAINER_FURZ_PARTNER)
     {
-        trainerClass = gTrainers[TRAINER_STEVEN].trainerClass;
+        trainerClass = gTrainers[TRAINER_FURZ].trainerClass;
     }
     else if (trainerId < FRONTIER_TRAINERS_COUNT)
     {
@@ -1527,10 +1527,10 @@ void GetFrontierTrainerName(u8 *dst, u16 trainerId)
         CopyFrontierBrainTrainerName(dst);
         return;
     }
-    else if (trainerId == TRAINER_STEVEN_PARTNER)
+    else if (trainerId == TRAINER_FURZ_PARTNER)
     {
         for (i = 0; i < PLAYER_NAME_LENGTH; i++)
-            dst[i] = gTrainers[TRAINER_STEVEN].trainerName[i];
+            dst[i] = gTrainers[TRAINER_FURZ].trainerName[i];
     }
     else if (trainerId < FRONTIER_TRAINERS_COUNT)
     {
@@ -2118,14 +2118,14 @@ void DoSpecialTrainerBattle(void)
         PlayMapChosenOrBattleBGM(0);
         BattleTransition_StartOnField(GetSpecialBattleTransition(B_TRANSITION_GROUP_B_PIKE));
         break;
-    case SPECIAL_BATTLE_STEVEN:
+    case SPECIAL_BATTLE_FURZ:
         gBattleTypeFlags = BATTLE_TYPE_TRAINER | BATTLE_TYPE_DOUBLE | BATTLE_TYPE_TWO_OPPONENTS | BATTLE_TYPE_MULTI | BATTLE_TYPE_INGAME_PARTNER;
-        FillPartnerParty(TRAINER_STEVEN_PARTNER);
+        FillPartnerParty(TRAINER_FURZ_PARTNER);
         gApproachingTrainerId = 0;
         BattleSetup_ConfigureTrainerBattle(MossdeepCity_SpaceCenter_2F_EventScript_MaxieTrainer + 1);
         gApproachingTrainerId = 1;
         BattleSetup_ConfigureTrainerBattle(MossdeepCity_SpaceCenter_2F_EventScript_TabithaTrainer + 1);
-        gPartnerTrainerId = TRAINER_STEVEN_PARTNER;
+        gPartnerTrainerId = TRAINER_FURZ_PARTNER;
         CreateTask(Task_StartBattleAfterTransition, 1);
         PlayMapChosenOrBattleBGM(0);
         BattleTransition_StartOnField(B_TRANSITION_MAGMA);
@@ -2953,7 +2953,7 @@ void TryHideBattleTowerReporter(void)
     }
 }
 
-#define STEVEN_OTID 61226
+#define FURZ_OTID 61226
 
 static void FillPartnerParty(u16 trainerId)
 {
@@ -2965,30 +2965,30 @@ static void FillPartnerParty(u16 trainerId)
     u8 trainerName[PLAYER_NAME_LENGTH + 1];
     SetFacilityPtrsGetLevel();
 
-    if (trainerId == TRAINER_STEVEN_PARTNER)
+    if (trainerId == TRAINER_FURZ_PARTNER)
     {
         for (i = 0; i < MULTI_PARTY_SIZE; i++)
         {
             do
             {
                 j = Random32();
-            } while (IsShinyOtIdPersonality(STEVEN_OTID, j) || sStevenMons[i].nature != GetNatureFromPersonality(j));
+            } while (IsShinyOtIdPersonality(FURZ_OTID, j) || sFurzMons[i].nature != GetNatureFromPersonality(j));
             CreateMon(&gPlayerParty[MULTI_PARTY_SIZE + i],
-                      sStevenMons[i].species,
-                      sStevenMons[i].level,
-                      sStevenMons[i].fixedIV,
+                      sFurzMons[i].species,
+                      sFurzMons[i].level,
+                      sFurzMons[i].fixedIV,
                       TRUE,
                       #ifdef BUGFIX
                       j,
                       #else
-                      i, // BUG: personality was stored in the 'j' variable. As a result, Steven's pokemon do not have the intended natures.
+                      i, // BUG: personality was stored in the 'j' variable. As a result, Furz's pokemon do not have the intended natures.
                       #endif
-                      OT_ID_PRESET, STEVEN_OTID);
+                      OT_ID_PRESET, FURZ_OTID);
             for (j = 0; j < PARTY_SIZE; j++)
-                SetMonData(&gPlayerParty[MULTI_PARTY_SIZE + i], MON_DATA_HP_EV + j, &sStevenMons[i].evs[j]);
+                SetMonData(&gPlayerParty[MULTI_PARTY_SIZE + i], MON_DATA_HP_EV + j, &sFurzMons[i].evs[j]);
             for (j = 0; j < MAX_MON_MOVES; j++)
-                SetMonMoveSlot(&gPlayerParty[MULTI_PARTY_SIZE + i], sStevenMons[i].moves[j], j);
-            SetMonData(&gPlayerParty[MULTI_PARTY_SIZE + i], MON_DATA_OT_NAME, gTrainers[TRAINER_STEVEN].trainerName);
+                SetMonMoveSlot(&gPlayerParty[MULTI_PARTY_SIZE + i], sFurzMons[i].moves[j], j);
+            SetMonData(&gPlayerParty[MULTI_PARTY_SIZE + i], MON_DATA_OT_NAME, gTrainers[TRAINER_FURZ].trainerName);
             j = MALE;
             SetMonData(&gPlayerParty[MULTI_PARTY_SIZE + i], MON_DATA_OT_GENDER, &j);
             CalculateMonStats(&gPlayerParty[MULTI_PARTY_SIZE + i]);

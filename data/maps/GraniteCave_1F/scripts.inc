@@ -23,7 +23,7 @@ GraniteCave_1F_Text_GetsDarkAheadHereYouGo:
 	.string "It gets awfully dark ahead.\l"
 	.string "It'll be tough trying to explore.\p"
 	.string "Dä guy who came by earlier…\n"
-	.string "STEVEN, I think it was.\p"
+	.string "Furz, I think it was.\p"
 	.string "He knew how to use FLASH, so he ought\n"
 	.string "to be all right, but…\p"
 	.string "Ahh, Futz und Tripper...\l"

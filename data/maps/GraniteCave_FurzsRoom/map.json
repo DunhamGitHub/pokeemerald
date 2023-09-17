@@ -1,7 +1,7 @@
 {
-  "id": "MAP_GRANITE_CAVE_STEVENS_ROOM",
-  "name": "GraniteCave_StevensRoom",
-  "layout": "LAYOUT_GRANITE_CAVE_STEVENS_ROOM",
+  "id": "MAP_GRANITE_CAVE_FURZS_ROOM",
+  "name": "GraniteCave_FurzsRoom",
+  "layout": "LAYOUT_GRANITE_CAVE_FURZS_ROOM",
   "music": "MUS_PETALBURG_WOODS",
   "region_map_section": "MAPSEC_GRANITE_CAVE",
   "requires_flash": false,
@@ -15,7 +15,7 @@
   "connections": null,
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_STEVEN",
+      "graphics_id": "OBJ_EVENT_GFX_FURZ",
       "x": 7,
       "y": 8,
       "elevation": 3,
@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "GraniteCave_StevensRoom_EventScript_Steven",
-      "flag": "FLAG_HIDE_GRANITE_CAVE_STEVEN"
+      "script": "GraniteCave_FurzsRoom_EventScript_Furz",
+      "flag": "FLAG_HIDE_GRANITE_CAVE_FURZ"
     }
   ],
   "warp_events": [

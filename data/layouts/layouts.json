@@ -2872,14 +2872,14 @@
       "blockdata_filepath": "data/layouts/Route104_Prototype/map.bin"
     },
     {
-      "id": "LAYOUT_GRANITE_CAVE_STEVENS_ROOM",
-      "name": "GraniteCave_StevensRoom_Layout",
+      "id": "LAYOUT_GRANITE_CAVE_FURZS_ROOM",
+      "name": "GraniteCave_FurzsRoom_Layout",
       "width": 15,
       "height": 14,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cave",
-      "border_filepath": "data/layouts/GraniteCave_StevensRoom/border.bin",
-      "blockdata_filepath": "data/layouts/GraniteCave_StevensRoom/map.bin"
+      "border_filepath": "data/layouts/GraniteCave_FurzsRoom/border.bin",
+      "blockdata_filepath": "data/layouts/GraniteCave_FurzsRoom/map.bin"
     },
     {
       "id": "LAYOUT_ABANDONED_SHIP_HIDDEN_FLOOR_CORRIDORS",
@@ -3262,14 +3262,14 @@
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room9_Lava/map.bin"
     },
     {
-      "id": "LAYOUT_MOSSDEEP_CITY_STEVENS_HOUSE",
-      "name": "MossdeepCity_StevensHouse_Layout",
+      "id": "LAYOUT_MOSSDEEP_CITY_FURZS_HOUSE",
+      "name": "MossdeepCity_FurzsHouse_Layout",
       "width": 11,
       "height": 8,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_GenericBuilding",
-      "border_filepath": "data/layouts/MossdeepCity_StevensHouse/border.bin",
-      "blockdata_filepath": "data/layouts/MossdeepCity_StevensHouse/map.bin"
+      "border_filepath": "data/layouts/MossdeepCity_FurzsHouse/border.bin",
+      "blockdata_filepath": "data/layouts/MossdeepCity_FurzsHouse/map.bin"
     },
     {
       "id": "LAYOUT_SHOAL_CAVE_LOW_TIDE_ICE_ROOM",
@@ -4302,14 +4302,14 @@
       "blockdata_filepath": "data/layouts/BattleFrontier_ScottsHouse/map.bin"
     },
     {
-      "id": "LAYOUT_METEOR_FALLS_STEVENS_CAVE",
-      "name": "MeteorFalls_StevensCave_Layout",
+      "id": "LAYOUT_METEOR_FALLS_FURZS_CAVE",
+      "name": "MeteorFalls_FurzsCave_Layout",
       "width": 30,
       "height": 32,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_MeteorFalls",
-      "border_filepath": "data/layouts/MeteorFalls_StevensCave/border.bin",
-      "blockdata_filepath": "data/layouts/MeteorFalls_StevensCave/map.bin"
+      "border_filepath": "data/layouts/MeteorFalls_FurzsCave/border.bin",
+      "blockdata_filepath": "data/layouts/MeteorFalls_FurzsCave/map.bin"
     },
     {
       "id": "LAYOUT_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB_WITH_TABLE",

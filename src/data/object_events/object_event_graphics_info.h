@@ -2756,7 +2756,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wallace = {
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Steven = {
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Furz = {
     .tileTag = TAG_NONE,
     .paletteTag = OBJ_EVENT_PAL_TAG_NPC_4,
     .reflectionPaletteTag = OBJ_EVENT_PAL_TAG_NONE,
@@ -2771,7 +2771,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Steven = {
     .oam = &gObjectEventBaseOam_16x32,
     .subspriteTables = sOamTables_16x32,
     .anims = sAnimTable_Standard,
-    .images = sPicTable_Steven,
+    .images = sPicTable_Furz,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
 

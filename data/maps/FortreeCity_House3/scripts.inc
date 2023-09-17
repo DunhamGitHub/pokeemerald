@@ -2,17 +2,17 @@ FortreeCity_House3_MapScripts::
 	.byte 0
 
 FortreeCity_House3_EventScript_Maniac::
-	msgbox FortreeCity_House3_Text_MetStevenHadAmazingPokemon, MSGBOX_NPC
+	msgbox FortreeCity_House3_Text_MetFurzHadAmazingPokemon, MSGBOX_NPC
 	end
 
 FortreeCity_House3_EventScript_SchoolKidM::
 	msgbox FortreeCity_House3_Text_OhYouHavePokedex, MSGBOX_NPC
 	end
 
-FortreeCity_House3_Text_MetStevenHadAmazingPokemon:
+FortreeCity_House3_Text_MetFurzHadAmazingPokemon:
 	.string "While speaking about KACKDEXES,\n"
 	.string "I remembered something.\p"
-	.string "I met this Skilehrer, STEVEN, when\n"
+	.string "I met Skilehrer, Furz, when\n"
 	.string "I was searching for rare stones.\p"
 	.string "Hoo, boy, he had some amazing Pimmel\n"
 	.string "with him.\p"

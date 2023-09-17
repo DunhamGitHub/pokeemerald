@@ -14,7 +14,7 @@
 #define TRAINER_SECRET_BASE                 1024
 #define TRAINER_LINK_OPPONENT               2048
 #define TRAINER_UNION_ROOM                  3072
-#define TRAINER_STEVEN_PARTNER              3075
+#define TRAINER_FURZ_PARTNER              3075
 
 #define TRAINER_PIC_HIKER                  0
 #define TRAINER_PIC_AQUA_GRUNT_M           1
@@ -97,7 +97,7 @@
 #define TRAINER_PIC_YOUNG_COUPLE          78
 #define TRAINER_PIC_OLD_COUPLE            79
 #define TRAINER_PIC_SIS_AND_BRO           80
-#define TRAINER_PIC_STEVEN                81
+#define TRAINER_PIC_FURZ                81
 #define TRAINER_PIC_SALON_MAIDEN_ANABEL   82
 #define TRAINER_PIC_DOME_ACE_TUCKER       83
 #define TRAINER_PIC_PALACE_MAVEN_SPENSER  84
@@ -118,7 +118,7 @@
 #define TRAINER_BACK_PIC_RUBY_SAPPHIRE_BRENDAN  4
 #define TRAINER_BACK_PIC_RUBY_SAPPHIRE_MAY      5
 #define TRAINER_BACK_PIC_WALLY                  6
-#define TRAINER_BACK_PIC_STEVEN                 7
+#define TRAINER_BACK_PIC_FURZ                 7
 
 #define FACILITY_CLASS_HIKER                 0x0
 #define FACILITY_CLASS_AQUA_GRUNT_M          0x1
@@ -195,7 +195,7 @@
 #define FACILITY_CLASS_YOUNG_COUPLE          0x48
 #define FACILITY_CLASS_OLD_COUPLE            0x49
 #define FACILITY_CLASS_SIS_AND_BRO           0x4a
-#define FACILITY_CLASS_STEVEN                0x4b
+#define FACILITY_CLASS_FURZ                0x4b
 #define FACILITY_CLASS_SALON_MAIDEN_ANABEL   0x4c
 #define FACILITY_CLASS_DOME_ACE_TUCKER       0x4d
 #define FACILITY_CLASS_RED                   0x4e

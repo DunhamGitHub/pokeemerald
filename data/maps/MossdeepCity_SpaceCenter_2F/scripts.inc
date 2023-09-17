@@ -1,7 +1,7 @@
 .set LOCALID_RICH_BOY, 1
 .set LOCALID_GENTLEMAN, 2
 .set LOCALID_SCIENTIST, 3
-.set LOCALID_STEVEN, 4
+.set LOCALID_FURZ, 4
 @ Grunt names numbered like their Trainer values (which are for the full Space Center)
 .set LOCALID_GRUNT_6, 5
 .set LOCALID_GRUNT_5, 6
@@ -20,7 +20,7 @@ MossdeepCity_SpaceCenter_2F_OnTransition:
 	end
 
 MossdeepCity_SpaceCenter_2F_EventScript_MoveCivilians::
-	clearflag FLAG_INTERACTED_WITH_STEVEN_SPACE_CENTER
+	clearflag FLAG_INTERACTED_WITH_FURZ_SPACE_CENTER
 	setobjectxyperm LOCALID_SCIENTIST, 5, 3
 	setobjectmovementtype LOCALID_SCIENTIST, MOVEMENT_TYPE_FACE_RIGHT
 	setobjectxyperm LOCALID_RICH_BOY, 3, 2
@@ -187,29 +187,29 @@ MossdeepCity_SpaceCenter_2F_EventScript_Maxie::
 	releaseall
 	end
 
-MossdeepCity_SpaceCenter_2F_EventScript_Steven::
+MossdeepCity_SpaceCenter_2F_EventScript_Furz::
 	lockall
-	goto_if_set FLAG_INTERACTED_WITH_STEVEN_SPACE_CENTER, MossdeepCity_SpaceCenter_2F_EventScript_ReadyForBattlePrompt
-	setflag FLAG_INTERACTED_WITH_STEVEN_SPACE_CENTER
-	msgbox MossdeepCity_SpaceCenter_2F_Text_StevenWhyStealRocketFuel, MSGBOX_DEFAULT
+	goto_if_set FLAG_INTERACTED_WITH_FURZ_SPACE_CENTER, MossdeepCity_SpaceCenter_2F_EventScript_ReadyForBattlePrompt
+	setflag FLAG_INTERACTED_WITH_FURZ_SPACE_CENTER
+	msgbox MossdeepCity_SpaceCenter_2F_Text_FurzWhyStealRocketFuel, MSGBOX_DEFAULT
 	msgbox MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano, MSGBOX_DEFAULT
 	closemessage
 	delay 30
 	playse SE_NOT_EFFECTIVE
 	switch VAR_FACING
-	case DIR_SOUTH, MossdeepCity_SpaceCenter_2F_EventScript_StevenFightMovementSouth
-	applymovement LOCALID_STEVEN, MossdeepCity_SpaceCenter_2F_Movement_StevenFight
+	case DIR_SOUTH, MossdeepCity_SpaceCenter_2F_EventScript_FurzFightMovementSouth
+	applymovement LOCALID_FURZ, MossdeepCity_SpaceCenter_2F_Movement_FurzFight
 	waitmovement 0
 	releaseall
 	end
 
-MossdeepCity_SpaceCenter_2F_EventScript_StevenFightMovementSouth::
-	applymovement LOCALID_STEVEN, MossdeepCity_SpaceCenter_2F_Movement_StevenFightSouth
+MossdeepCity_SpaceCenter_2F_EventScript_FurzFightMovementSouth::
+	applymovement LOCALID_FURZ, MossdeepCity_SpaceCenter_2F_Movement_FurzFightSouth
 	waitmovement 0
 	releaseall
 	end
 
-MossdeepCity_SpaceCenter_2F_Movement_StevenFight:
+MossdeepCity_SpaceCenter_2F_Movement_FurzFight:
 	lock_facing_direction
 	walk_fast_up
 	walk_fast_up
@@ -220,7 +220,7 @@ MossdeepCity_SpaceCenter_2F_Movement_StevenFight:
 	walk_slow_down
 	step_end
 
-MossdeepCity_SpaceCenter_2F_Movement_StevenFightSouth:
+MossdeepCity_SpaceCenter_2F_Movement_FurzFightSouth:
 	face_left
 	lock_facing_direction
 	walk_fast_right
@@ -236,9 +236,9 @@ MossdeepCity_SpaceCenter_2F_Movement_StevenFightSouth:
 MossdeepCity_SpaceCenter_2F_EventScript_ReadyForBattlePrompt::
 	applymovement VAR_LAST_TALKED, Common_Movement_FacePlayer
 	waitmovement 0
-	msgbox MossdeepCity_SpaceCenter_2F_Text_StevenAreYouReadyToBattle, MSGBOX_YESNO
+	msgbox MossdeepCity_SpaceCenter_2F_Text_FurzAreYouReadyToBattle, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, MossdeepCity_SpaceCenter_2F_EventScript_ChoosePartyForMultiBattle
-	msgbox MossdeepCity_SpaceCenter_2F_Text_StevenHurryGetReadyQuickly, MSGBOX_DEFAULT
+	msgbox MossdeepCity_SpaceCenter_2F_Text_FurzHurryGetReadyQuickly, MSGBOX_DEFAULT
 	closemessage
 	applymovement VAR_LAST_TALKED, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
@@ -252,14 +252,14 @@ MossdeepCity_SpaceCenter_2F_EventScript_ChoosePartyForMultiBattle::
 	fadescreen FADE_TO_BLACK
 	special ChooseHalfPartyForBattle
 	waitstate
-	goto_if_ne VAR_RESULT, 0, MossdeepCity_SpaceCenter_2F_EventScript_DoStevenMultiBattle
+	goto_if_ne VAR_RESULT, 0, MossdeepCity_SpaceCenter_2F_EventScript_DoFurzMultiBattle
 	special LoadPlayerParty
 	goto MossdeepCity_SpaceCenter_2F_EventScript_ReadyForBattlePrompt
 
-MossdeepCity_SpaceCenter_2F_EventScript_DoStevenMultiBattle::
+MossdeepCity_SpaceCenter_2F_EventScript_DoFurzMultiBattle::
 	special ReducePlayerPartyToSelectedMons
 	frontier_set FRONTIER_DATA_SELECTED_MON_ORDER
-	setvar VAR_0x8004, SPECIAL_BATTLE_STEVEN
+	setvar VAR_0x8004, SPECIAL_BATTLE_FURZ
 	setvar VAR_0x8005, 0
 	special DoSpecialTrainerBattle
 	waitstate
@@ -303,17 +303,17 @@ MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha::
 	turnobject LOCALID_GENTLEMAN, DIR_NORTH
 	setobjectxy LOCALID_RICH_BOY, 6, 2
 	turnobject LOCALID_RICH_BOY, DIR_NORTH
-	call MossdeepCity_SpaceCenter_2F_EventScript_StevenFacePlayer
+	call MossdeepCity_SpaceCenter_2F_EventScript_FurzFacePlayer
 	fadescreen FADE_FROM_BLACK
-	msgbox MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome, MSGBOX_DEFAULT
+	msgbox MossdeepCity_SpaceCenter_2F_Text_FurzThankYouComeSeeMeAtHome, MSGBOX_DEFAULT
 	closemessage
 	fadescreen FADE_TO_BLACK
 	setflag FLAG_DEFEATED_MAGMA_SPACE_CENTER
-	setflag FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_STEVEN
-	removeobject LOCALID_STEVEN
+	setflag FLAG_HIDE_MOSSDEEP_CITY_FURZS_HOUSE_FURZ
+	removeobject LOCALID_FURZ
 	setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE
-	clearflag FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_STEVEN
-	setvar VAR_STEVENS_HOUSE_STATE, 1
+	clearflag FLAG_HIDE_MOSSDEEP_CITY_FURZS_HOUSE_FURZ
+	setvar VAR_FURZS_HOUSE_STATE, 1
 	setflag FLAG_HIDE_MOSSDEEP_CITY_SCOTT
 	removeobject LOCALID_SCIENTIST
 	setobjectxyperm LOCALID_SCIENTIST, 5, 6
@@ -322,18 +322,18 @@ MossdeepCity_SpaceCenter_2F_EventScript_DefeatedMaxieTabitha::
 	fadescreen FADE_FROM_BLACK
 	end
 
-MossdeepCity_SpaceCenter_2F_EventScript_StevenFacePlayer::
+MossdeepCity_SpaceCenter_2F_EventScript_FurzFacePlayer::
 	switch VAR_FACING
-	case DIR_SOUTH, MossdeepCity_SpaceCenter_2F_EventScript_StevenFacePlayerSouth
-	case DIR_WEST, MossdeepCity_SpaceCenter_2F_EventScript_StevenFacePlayerWest
+	case DIR_SOUTH, MossdeepCity_SpaceCenter_2F_EventScript_FurzFacePlayerSouth
+	case DIR_WEST, MossdeepCity_SpaceCenter_2F_EventScript_FurzFacePlayerWest
 	return
 
-MossdeepCity_SpaceCenter_2F_EventScript_StevenFacePlayerSouth::
-	turnobject LOCALID_STEVEN, DIR_NORTH
+MossdeepCity_SpaceCenter_2F_EventScript_FurzFacePlayerSouth::
+	turnobject LOCALID_FURZ, DIR_NORTH
 	return
 
-MossdeepCity_SpaceCenter_2F_EventScript_StevenFacePlayerWest::
-	turnobject LOCALID_STEVEN, DIR_EAST
+MossdeepCity_SpaceCenter_2F_EventScript_FurzFacePlayerWest::
+	turnobject LOCALID_FURZ, DIR_EAST
 	return
 
 MossdeepCity_SpaceCenter_2F_EventScript_MaxieTrainer::
@@ -452,7 +452,7 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieDontInterfere:
 	.string "Penner: Clear out of the way!\n"
 	.string "Don't you dare interfere!$"
 
-MossdeepCity_SpaceCenter_2F_Text_StevenWhyStealRocketFuel:
+MossdeepCity_SpaceCenter_2F_Text_FurzWhyStealRocketFuel:
 	.string "Penner:\l"
 	.string "Tuntä Klub…\p"
 	.string "What's the point of stealing rocket\n"
@@ -469,13 +469,13 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieUseFuelToEruptVolcano:
 	.string "the volcano erupt!\p"
 	.string "It will be savage!$"
 
-MossdeepCity_SpaceCenter_2F_Text_StevenAreYouReadyToBattle:
+MossdeepCity_SpaceCenter_2F_Text_FurzAreYouReadyToBattle:
 	.string "Penner: {PLAYER}{KUN}!\n"
 	.string "You're going to help me?\p"
 	.string "Let's go into Bättle together!\n"
 	.string "Bisch du ready?$"
 
-MossdeepCity_SpaceCenter_2F_Text_StevenHurryGetReadyQuickly:
+MossdeepCity_SpaceCenter_2F_Text_FurzHurryGetReadyQuickly:
 	.string "Penner: Then, hurry!\n"
 	.string "Get ready quickly!$"
 
@@ -509,7 +509,7 @@ MossdeepCity_SpaceCenter_2F_Text_MaxieWeWillGiveUp:
 	.string "There appear to be more important\n"
 	.string "matters that I must examine…$"
 
-MossdeepCity_SpaceCenter_2F_Text_StevenThankYouComeSeeMeAtHome:
+MossdeepCity_SpaceCenter_2F_Text_FurzThankYouComeSeeMeAtHome:
 	.string "Penner: Whew, that was too tense.\n"
 	.string "{PLAYER}{KUN}, thank you.\p"
 	.string "I have something to give you as\n"

@@ -2034,12 +2034,12 @@ static const struct SpriteTemplate sTrainerBackSpriteTemplates[] =
         .affineAnims = gAffineAnims_BattleSpritePlayerSide,
         .callback = SpriteCB_BattleSpriteStartSlideLeft,
     },
-    [TRAINER_BACK_PIC_STEVEN] = {
+    [TRAINER_BACK_PIC_FURZ] = {
         .tileTag = TAG_NONE,
         .paletteTag = 0,
         .oam = &gOamData_BattleSpritePlayerSide,
         .anims = NULL,
-        .images = gTrainerBackPicTable_Steven,
+        .images = gTrainerBackPicTable_Furz,
         .affineAnims = gAffineAnims_BattleSpritePlayerSide,
         .callback = SpriteCB_BattleSpriteStartSlideLeft,
     },
@@ -6692,9 +6692,9 @@ const u8 *GetTrainerPartnerName(void)
 {
     if (gBattleTypeFlags & BATTLE_TYPE_INGAME_PARTNER)
     {
-        if (gPartnerTrainerId == TRAINER_STEVEN_PARTNER)
+        if (gPartnerTrainerId == TRAINER_FURZ_PARTNER)
         {
-            return gTrainers[TRAINER_STEVEN].trainerName;
+            return gTrainers[TRAINER_FURZ].trainerName;
         }
         else
         {

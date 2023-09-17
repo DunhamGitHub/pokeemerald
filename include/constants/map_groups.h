@@ -224,7 +224,7 @@
 #define MAP_MOSSDEEP_CITY_POKEMON_CENTER_2F (4 | (14 << 8))
 #define MAP_MOSSDEEP_CITY_MART              (5 | (14 << 8))
 #define MAP_MOSSDEEP_CITY_HOUSE3            (6 | (14 << 8))
-#define MAP_MOSSDEEP_CITY_STEVENS_HOUSE     (7 | (14 << 8))
+#define MAP_MOSSDEEP_CITY_FURZS_HOUSE     (7 | (14 << 8))
 #define MAP_MOSSDEEP_CITY_HOUSE4            (8 | (14 << 8))
 #define MAP_MOSSDEEP_CITY_SPACE_CENTER_1F   (9 | (14 << 8))
 #define MAP_MOSSDEEP_CITY_SPACE_CENTER_2F   (10 | (14 << 8))
@@ -302,7 +302,7 @@
 #define MAP_GRANITE_CAVE_1F                          (7 | (24 << 8))
 #define MAP_GRANITE_CAVE_B1F                         (8 | (24 << 8))
 #define MAP_GRANITE_CAVE_B2F                         (9 | (24 << 8))
-#define MAP_GRANITE_CAVE_STEVENS_ROOM                (10 | (24 << 8))
+#define MAP_GRANITE_CAVE_FURZS_ROOM                (10 | (24 << 8))
 #define MAP_PETALBURG_WOODS                          (11 | (24 << 8))
 #define MAP_MT_CHIMNEY                               (12 | (24 << 8))
 #define MAP_JAGGED_PASS                              (13 | (24 << 8))
@@ -399,7 +399,7 @@
 #define MAP_TERRA_CAVE_ENTRANCE                      (104 | (24 << 8))
 #define MAP_TERRA_CAVE_END                           (105 | (24 << 8))
 #define MAP_ALTERING_CAVE                            (106 | (24 << 8))
-#define MAP_METEOR_FALLS_STEVENS_CAVE                (107 | (24 << 8))
+#define MAP_METEOR_FALLS_FURZS_CAVE                (107 | (24 << 8))
 
 // gMapGroup_IndoorDynamic
 #define MAP_SECRET_BASE_RED_CAVE1    (0 | (25 << 8))

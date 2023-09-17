@@ -64,7 +64,7 @@ CaveOfOrigin_B1F_EventScript_AtSkyPillar::
 CaveOfOrigin_B1F_Text_WallaceStory:
 	.string "Ah, so you are {PLAYER}{KUN}?\n"
 	.string "I've heard tales of your exploits.\p"
-	.string "My name isch WALLACE.\p"
+	.string "My name isch Gary.\p"
 	.string "I was once the Stripklub Penner of\n"
 	.string "SOOTOPOLIS, but something came up.\p"
 	.string "So now, I've entrusted my mentor Schwulio\n"

@@ -232,7 +232,7 @@ MossdeepCity_EventScript_KingsRockBoy::
 	lock
 	faceplayer
 	goto_if_set FLAG_RECEIVED_KINGS_ROCK, MossdeepCity_EventScript_ReceivedKingsRock
-	msgbox MossdeepCity_Text_WantKingsRockStevenGaveMe, MSGBOX_YESNO
+	msgbox MossdeepCity_Text_WantKingsRockFurzGaveMe, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, MossdeepCity_EventScript_DeclineKingsRock
 	msgbox MossdeepCity_Text_YouCanKeepIt, MSGBOX_DEFAULT
 	giveitem ITEM_KINGS_ROCK
@@ -242,7 +242,7 @@ MossdeepCity_EventScript_KingsRockBoy::
 	end
 
 MossdeepCity_EventScript_ReceivedKingsRock::
-	msgbox MossdeepCity_Text_StevensHouseOverThere, MSGBOX_DEFAULT
+	msgbox MossdeepCity_Text_FurzsHouseOverThere, MSGBOX_DEFAULT
 	release
 	end
 
@@ -310,8 +310,8 @@ MossdeepCity_Movement_ScottExitEast:
 	walk_left
 	step_end
 
-MossdeepCity_Text_WantKingsRockStevenGaveMe:
-	.string "I got this from STEVEN, but I don't\n"
+MossdeepCity_Text_WantKingsRockFurzGaveMe:
+	.string "I got this from Furz, but I don't\n"
 	.string "know what es isch good for.\p"
 	.string "I think es isch called KING'S ROCK.\n"
 	.string "Do you want it?$"
@@ -320,10 +320,10 @@ MossdeepCity_Text_YouCanKeepIt:
 	.string "Why would you want it?\n"
 	.string "You're weird.\p"
 	.string "You can keep it, but keep it a secret\n"
-	.string "from STEVEN.$"
+	.string "from Furz.$"
 
-MossdeepCity_Text_StevensHouseOverThere:
-	.string "STEVEN's house isch right over there!$"
+MossdeepCity_Text_FurzsHouseOverThere:
+	.string "Furz's house isch right over there!$"
 
 MossdeepCity_Text_WhatToDoWithWeirdRock:
 	.string "Yeah, you think so, too! What bisch du\n"
@@ -432,5 +432,5 @@ MossdeepCity_Text_SootopolisNewGymLeader:
 	.string "I think the Stripklub there had a new\n"
 	.string "Chéf come in.\p"
 	.string "People tell me the new Chéf once\n"
-	.string "mentored WALLACE.$"
+	.string "mentored Gary.$"
 

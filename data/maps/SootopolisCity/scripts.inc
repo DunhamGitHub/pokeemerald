@@ -3,7 +3,7 @@
 .set LOCALID_KIRI, 3
 .set LOCALID_NINJA_BOY, 4
 .set LOCALID_BOY_1, 5
-.set LOCALID_STEVEN, 7
+.set LOCALID_FURZ, 7
 .set LOCALID_WOMAN_1, 8
 .set LOCALID_GROUDON, 9
 .set LOCALID_KYOGRE, 10
@@ -115,23 +115,23 @@ SootopolisCity_EventScript_SetDownpour::
 	return
 
 SootopolisCity_EventScript_CheckSetEnterCaveOfOriginObjPos::
-	goto_if_set FLAG_STEVEN_GUIDES_TO_CAVE_OF_ORIGIN, SootopolisCity_EventScript_SetEnterCaveOfOriginObjPos
+	goto_if_set FLAG_FURZ_GUIDES_TO_CAVE_OF_ORIGIN, SootopolisCity_EventScript_SetEnterCaveOfOriginObjPos
 	return
 
 SootopolisCity_EventScript_SetEnterCaveOfOriginObjPos::
 	setobjectxyperm LOCALID_EXPERT, 30, 18
-	setobjectxyperm LOCALID_STEVEN, 32, 18
+	setobjectxyperm LOCALID_FURZ, 32, 18
 	return
 
 SootopolisCity_EventScript_SetExitCaveOfOriginObjPos::
 	setobjectxyperm LOCALID_EXPERT, 30, 18
 	setobjectxyperm LOCALID_WALLACE, 31, 18
-	setobjectxyperm LOCALID_STEVEN, 32, 18
+	setobjectxyperm LOCALID_FURZ, 32, 18
 	end
 
 SootopolisCity_EventScript_SetOutsideGymObjPos::
 	setobjectxyperm LOCALID_EXPERT, 31, 18
-	setobjectxyperm LOCALID_STEVEN, 29, 33
+	setobjectxyperm LOCALID_FURZ, 29, 33
 	setobjectxyperm LOCALID_MAXIE, 33, 35
 	setobjectxyperm LOCALID_ARCHIE, 34, 35
 	call_if_eq VAR_SOOTOPOLIS_WALLACE_STATE, 0, SootopolisCity_EventScript_SetWallaceMiddle
@@ -893,53 +893,53 @@ EventScript_ClosedSootopolisDoor::
 	msgbox SootopolisCity_Text_DoorIsClosed, MSGBOX_SIGN
 	end
 
-SootopolisCity_EventScript_Steven::
+SootopolisCity_EventScript_Furz::
 	lockall
-	applymovement LOCALID_STEVEN, Common_Movement_FacePlayer
+	applymovement LOCALID_FURZ, Common_Movement_FacePlayer
 	waitmovement 0
-	call_if_unset FLAG_STEVEN_GUIDES_TO_CAVE_OF_ORIGIN, SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin
-	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 2, SootopolisCity_EventScript_StevenHelpWallace
-	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 3, SootopolisCity_EventScript_StevenHelpedWallace
-	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 4, SootopolisCity_EventScript_StevenHelpedWallace
-	goto_if_set FLAG_SOOTOPOLIS_ARCHIE_MAXIE_LEAVE, SootopolisCity_EventScript_StevenMaxieArchieLeft
+	call_if_unset FLAG_FURZ_GUIDES_TO_CAVE_OF_ORIGIN, SootopolisCity_EventScript_FurzLeadPlayerCaveOfOrigin
+	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 2, SootopolisCity_EventScript_FurzHelpWallace
+	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 3, SootopolisCity_EventScript_FurzHelpedWallace
+	goto_if_eq VAR_SOOTOPOLIS_CITY_STATE, 4, SootopolisCity_EventScript_FurzHelpedWallace
+	goto_if_set FLAG_SOOTOPOLIS_ARCHIE_MAXIE_LEAVE, SootopolisCity_EventScript_FurzMaxieArchieLeft
 	msgbox SootopolisCity_Text_SoThatsRayquaza, MSGBOX_DEFAULT
 	releaseall
 	end
 
-SootopolisCity_EventScript_StevenHelpWallace::
+SootopolisCity_EventScript_FurzHelpWallace::
 	msgbox SootopolisCity_Text_KnowWhatsNeededToHelpHim, MSGBOX_DEFAULT
 	releaseall
 	end
 
-SootopolisCity_EventScript_StevenMaxieArchieLeft::
+SootopolisCity_EventScript_FurzMaxieArchieLeft::
 	msgbox SootopolisCity_Text_MaxieArchieLeft, MSGBOX_DEFAULT
 	releaseall
 	end
 
-SootopolisCity_EventScript_StevenHelpedWallace::
+SootopolisCity_EventScript_FurzHelpedWallace::
 	msgbox SootopolisCity_Text_NeverBeenToSkyPillar, MSGBOX_DEFAULT
 	releaseall
 	end
 
-SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin::
+SootopolisCity_EventScript_FurzLeadPlayerCaveOfOrigin::
 	msgbox SootopolisCity_Text_InvolvedWithCrisisComeWithMe, MSGBOX_DEFAULT
 	closemessage
 	call_if_eq VAR_FACING, DIR_WEST, SootopolisCity_EventScript_StartWalkToCaveOfOriginWest
 	call_if_eq VAR_FACING, DIR_NORTH, SootopolisCity_EventScript_StartWalkToCaveOfOriginNorth
 	msgbox SootopolisCity_Text_DoesThisMakeYourFearPokemon, MSGBOX_DEFAULT
 	closemessage
-	applymovement LOCALID_STEVEN, SootopolisCity_Movement_StevenWalkToCaveOfOrigin
+	applymovement LOCALID_FURZ, SootopolisCity_Movement_FurzWalkToCaveOfOrigin
 	applymovement OBJ_EVENT_ID_PLAYER, SootopolisCity_Movement_PlayerWalkToCaveOfOrigin
 	waitmovement 0
 	delay 120
 	applymovement LOCALID_EXPERT, SootopolisCity_Movement_ExpertMoveAside
 	waitmovement 0
-	applymovement LOCALID_STEVEN, SootopolisCity_Movement_StevenArriveCaveEntrance
+	applymovement LOCALID_FURZ, SootopolisCity_Movement_FurzArriveCaveEntrance
 	applymovement OBJ_EVENT_ID_PLAYER, SootopolisCity_Movement_PlayerArriveCaveEntrance
 	waitmovement 0
 	msgbox SootopolisCity_Text_HereWereAreHelpWallace, MSGBOX_DEFAULT
 	closemessage
-	setflag FLAG_STEVEN_GUIDES_TO_CAVE_OF_ORIGIN
+	setflag FLAG_FURZ_GUIDES_TO_CAVE_OF_ORIGIN
 	applymovement OBJ_EVENT_ID_PLAYER, SootopolisCity_Movement_PlayerEnterCaveOfOrigin
 	waitmovement 0
 	warp MAP_CAVE_OF_ORIGIN_ENTRANCE, 9, 20
@@ -947,18 +947,18 @@ SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin::
 	end
 
 SootopolisCity_EventScript_StartWalkToCaveOfOriginWest::
-	applymovement LOCALID_STEVEN, SootopolisCity_Movement_StevenStartWalkToCaveOfOrigin
+	applymovement LOCALID_FURZ, SootopolisCity_Movement_FurzStartWalkToCaveOfOrigin
 	applymovement OBJ_EVENT_ID_PLAYER, SootopolisCity_Movement_PlayerStartWalkToCaveOfOriginWest
 	waitmovement 0
 	return
 
 SootopolisCity_EventScript_StartWalkToCaveOfOriginNorth::
-	applymovement LOCALID_STEVEN, SootopolisCity_Movement_StevenStartWalkToCaveOfOrigin
+	applymovement LOCALID_FURZ, SootopolisCity_Movement_FurzStartWalkToCaveOfOrigin
 	applymovement OBJ_EVENT_ID_PLAYER, SootopolisCity_Movement_PlayerStartWalkToCaveOfOriginNorth
 	waitmovement 0
 	return
 
-SootopolisCity_Movement_StevenStartWalkToCaveOfOrigin:
+SootopolisCity_Movement_FurzStartWalkToCaveOfOrigin:
 	walk_up
 	walk_up
 	walk_up
@@ -1073,7 +1073,7 @@ SootopolisCity_Movement_PlayerStartWalkToCaveOfOriginNorth:
 	walk_up
 	step_end
 
-SootopolisCity_Movement_StevenWalkToCaveOfOrigin:
+SootopolisCity_Movement_FurzWalkToCaveOfOrigin:
 	walk_up
 	walk_up
 	walk_right
@@ -1191,7 +1191,7 @@ SootopolisCity_Movement_ExpertMoveAside:
 	walk_in_place_faster_right
 	step_end
 
-SootopolisCity_Movement_StevenArriveCaveEntrance:
+SootopolisCity_Movement_FurzArriveCaveEntrance:
 	walk_down
 	walk_down
 	walk_left
@@ -1543,7 +1543,7 @@ SootopolisCity_Text_LeadSuperiorTrainerToCave:
 	.string "A Skilehrer who has knowledge and\n"
 	.string "experience of many kinds of Pimmel…\p"
 	.string "If such a person were to appear, I was\n"
-	.string "instructed by WALLACE to lead that\l"
+	.string "instructed by Gary to lead that\l"
 	.string "Skilehrer to this CAVE.$"
 
 SootopolisCity_Text_AwakenedPokemonClash:
@@ -1666,7 +1666,7 @@ SootopolisCity_Text_DoesThisMakeYourFearPokemon:
 SootopolisCity_Text_HereWereAreHelpWallace:
 	.string "Penner: Okay, here we are!\p"
 	.string "Inside here you'll find someone named\n"
-	.string "WALLACE.\p"
+	.string "Gary.\p"
 	.string "I think you have what's needed to\n"
 	.string "help him…$"
 

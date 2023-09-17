@@ -21,7 +21,7 @@ DewfordTown_OnTransition:
 DewfordTown_EventScript_Briney::
 	lock
 	faceplayer
-	goto_if_unset FLAG_DELIVERED_STEVEN_LETTER, DewfordTown_EventScript_ReturnToPetalburgPrompt
+	goto_if_unset FLAG_DELIVERED_FURZ_LETTER, DewfordTown_EventScript_ReturnToPetalburgPrompt
 	message DewfordTown_Text_WhereAreWeBound
 	waitmessage
 	multichoicedefault 21, 6, MULTI_BRINEY_ON_DEWFORD, 2, FALSE
@@ -660,7 +660,7 @@ Route104_Text_LandedInDewfordDeliverLetter:
 	.string "Alte Sack: Hoii!\n"
 	.string "We've hit land in DEWFORD.\p"
 	.string "I suppose you're off to deliver that\n"
-	.string "LETTER to, who was it now, STEVEN!$"
+	.string "LETTER to, who was it now, Furz!$"
 
 DewfordTown_Text_SetSailBackToPetalburg:
 	.string "Alte Sack: Have you delivered your\n"

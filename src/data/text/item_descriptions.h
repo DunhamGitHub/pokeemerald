@@ -1043,7 +1043,7 @@ static const u8 sPokeblockCaseDesc[] = _(
     "a BERRY BLENDER.");
 
 static const u8 sLetterDesc[] = _(
-    "A letter to STEVEN\n"
+    "A letter to Furz\n"
     "from the PRESIDENT\n"
     "of the DEVON CORP.");
 

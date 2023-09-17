@@ -327,7 +327,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
     [FRONTIER_FACILITY_FACTORY] =
     {
         // Because Factory's pokemon are random, this facility's Brain also uses random pokemon.
-        // What is interesting, this team is actually the one Steven uses in the multi tag battle alongside the player.
+        // What is interesting, this team is actually the one Furz uses in the multi tag battle alongside the player.
         {
             {
                 .species = SPECIES_METANG,

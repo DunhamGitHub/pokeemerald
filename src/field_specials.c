@@ -4214,7 +4214,7 @@ static void BufferFanClubTrainerName_(struct LinkBattleRecords *linkRecords, u8 
             StringCopy(gStringVar1, gText_Wallace);
             break;
         case 1:
-            StringCopy(gStringVar1, gText_Steven);
+            StringCopy(gStringVar1, gText_Furz);
             break;
         case 2:
             StringCopy(gStringVar1, gText_Brawly);
