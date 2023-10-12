@@ -1,7 +1,7 @@
 gText_Birch_Welcome::
-	.string "Hoii, dumme Siech!"
-	.string "Wilkomme zum Gaggi!"
-	.string "Min name isch Penner."
+	.string "Hoii, dumme Siech!\p"
+	.string "Wilkomme zum Gaggi!\n"
+	.string "Min name isch Penner.\n"
 	.string "Aber alli säged mir Vollpfoschte.\p"
 	.string "$"
 
