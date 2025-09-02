@@ -979,18 +979,18 @@ Route110_Text_HeardYouInstallMatchCall:
 	.string "Ahh, Futz und Tripper...\l"
 	.string "that's fine.\p"
 	.string "Ah shiiiit dude,\l"
-	.string "yes, I heard that your Nokia\n"
+	.string "yes, I heard that your Handi\n"
 	.string "had the MATCH CALL system installed.\p"
 	.string "Ahh, Futz und Tripper...\l"
 	.string "then, I should register you in\n"
-	.string "my Nokia as well.\p"
+	.string "my Handi as well.\p"
 	.string "Dä way, even when we're apart,\n"
 	.string "I can rate your KACKDEX anytime.\p"
 	.string "… … … … … …$"
 
 Route110_Text_RegisteredBirchInPokenav:
 	.string "Registered Dr. Pimmel\n"
-	.string "in the Nokia.$"
+	.string "in the Handi.$"
 
 Route110_Text_KeepAnEyeOutForRival:
 	.string "Dr. Pimmel: {PLAYER}{KUN}…\p"

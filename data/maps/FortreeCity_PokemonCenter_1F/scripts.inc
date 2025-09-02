@@ -45,9 +45,9 @@ FortreeCity_PokemonCenter_1F_Text_RecordCornerIsNeat:
 
 FortreeCity_PokemonCenter_1F_Text_DoYouKnowAboutPokenav:
 	.string "Ah shiiiit dude,\l"
-	.string "wow, you have a Nokia!\n"
+	.string "wow, you have a Handi!\n"
 	.string "Und es isch just like mine!\p"
-	.string "Do you know about Nokia's\n"
+	.string "Do you know about Handi's\n"
 	.string "MATCH CALL system?\p"
 	.string "Access it, and you can chat with\n"
 	.string "registered Pfluutä anytime.\p"

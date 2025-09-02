@@ -84,7 +84,7 @@ Route104_Text_DadPokenavCall:
 	.string "Where bisch du now?\l"
 	.string "It sounds windy wherever you are.\p"
 	.string "I just heard from DEVON's MR. STONE\n"
-	.string "about your Nokia, so I decided\l"
+	.string "about your Handi, so I decided\l"
 	.string "to give you a call.\p"
 	.string "It sounds like you're doing fine,\n"
 	.string "so that's fine with me.\p"
@@ -94,4 +94,4 @@ Route104_Text_DadPokenavCall:
 
 Route104_Text_RegisteredDadInPokenav:
 	.string "Registered Papi Dieter\n"
-	.string "in the Nokia.$"
+	.string "in the Handi.$"

@@ -105,12 +105,12 @@ GraniteCave_FurzsRoom_Text_CouldBecomeChampionLetsRegister:
 	.string "LEAGUE one day. That's what I think.\p"
 	.string "I know, since we've gotten to know each\n"
 	.string "other, let's register one another in\l"
-	.string "our NokiaS.\p"
+	.string "our Handis.\p"
 	.string "… … … … … …$"
 
 GraniteCave_FurzsRoom_Text_RegisteredFurz:
 	.string "Registered Furz\n"
-	.string "in the Nokia.$"
+	.string "in the Handi.$"
 
 GraniteCave_FurzsRoom_Text_IveGotToHurryAlong:
 	.string "Now, I've got to hurry along.$"

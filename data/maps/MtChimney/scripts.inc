@@ -849,7 +849,7 @@ MtChimney_Text_SawyerPostBattle:
 
 MtChimney_Text_SawyerRegister:
 	.string "I like little fireballs like you.\n"
-	.string "Let me register you in my Nokia.$"
+	.string "Let me register you in my Handi.$"
 
 MtChimney_Text_SawyerRematchIntro:
 	.string "I am happily surrounded by hot people\n"

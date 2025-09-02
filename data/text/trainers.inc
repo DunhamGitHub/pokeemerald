@@ -15,11 +15,11 @@ Route102_Text_CalvinRegister:
 	.string "I've been working hard at this since\n"
 	.string "I saw you before.\p"
 	.string "I'd like to schlegglä you again, so can\n"
-	.string "you register me in your GPS?$"
+	.string "you register me in your Handi?$"
 
 Route102_Text_CalvinRegisterShort:
 	.string "I'd like to schlegglä you again, so can\n"
-	.string "you register me in your GPS?$"
+	.string "you register me in your Handi?$"
 
 Route102_Text_CalvinRematchIntro:
 	.string "Ever since I lost to you, I desperately\n"
@@ -323,13 +323,13 @@ Route104_Text_HaleyPostBattle:
 
 Route104_Text_HaleyRegister1:
 	.string "You're strong, but should I register\n"
-	.string "you in my GPS?\l"
+	.string "you in my Handi?\l"
 	.string "Maybe I shouldn't…\p"
 	.string "Okay, sure, I will register you!$"
 
 Route104_Text_HaleyRegister2:
 	.string "You're strong, but should I register\n"
-	.string "you in my GPS?\l"
+	.string "you in my Handi?\l"
 	.string "Maybe I shouldn't…\p"
 	.string "Okay, sure, I will register you!$"
 
@@ -358,13 +358,13 @@ Route104_Text_WinstonPostBattle:
 
 Route104_Text_WinstonRegister1:
 	.string "Hm?\n"
-	.string "Ah, you've obtained a GPS.\p"
+	.string "Ah, you've obtained a Handi.\p"
 	.string "I will gladly register you.\n"
 	.string "After all, I have plenty of money.$"
 
 Route104_Text_WinstonRegister2:
 	.string "Hm?\n"
-	.string "Ah, you've obtained a GPS.\p"
+	.string "Ah, you've obtained a Handi.\p"
 	.string "I will gladly register you.\n"
 	.string "After all, I have plenty of money.$"
 
@@ -396,13 +396,13 @@ Route104_Text_CindyRegister1:
 	.string "Ciao, dumme Siech\l"
 	.string "we meet again.\p"
 	.string "We seem to be drawn together. Let's\n"
-	.string "register each other in our GPSS.$"
+	.string "register each other in our Handis.$"
 
 Route104_Text_CindyRegister2:
 	.string "We should commemorate how we seem\n"
 	.string "to be drawn to each other.\p"
 	.string "Let's register each other in our\n"
-	.string "GPSS.$"
+	.string "Handis.$"
 
 Route104_Text_CindyRematchIntro:
 	.string "Ciao, dumme Siech\l"
@@ -509,7 +509,7 @@ Route105_Text_AndresPostBattle:
 
 Route105_Text_AndresRegister:
 	.string "Huh? I am so weak, but you're willing\n"
-	.string "to register me in your GPS?$"
+	.string "to register me in your Handi?$"
 
 Route105_Text_AndresRematchIntro:
 	.string "I've told you that I am weak…\n"
@@ -778,7 +778,7 @@ Route108_Text_CoryPostBattle:
 
 Route108_Text_CoryRegister:
 	.string "I love tough Skilehrer, too!\n"
-	.string "Register me in your GPS!$"
+	.string "Register me in your Handi!$"
 
 Route108_Text_CoryRematchIntro:
 	.string "Win or lose, I love battling at sea!$"
@@ -1307,7 +1307,7 @@ Route111_Text_DustyRegister:
 	.string "I haven't been searching for any\n"
 	.string "tough Pimmel.\p"
 	.string "Aber, for some reason, I sure do like\n"
-	.string "GPSS.$"
+	.string "Handis.$"
 
 Route111_Text_DustyRematchIntro:
 	.string "For thirty years I have searched for\n"
@@ -1547,7 +1547,7 @@ Route112_Text_TrentRegister:
 	.string "Ow, my legs have cramped up.\n"
 	.string "Can you grab me some bandages from\l"
 	.string "my backpack?\p"
-	.string "No, that's my GPS!\n"
+	.string "No, that's my Handi!\n"
 	.string "Shit, fine, I'll register you.$"
 
 Route112_Text_TrentRematchIntro:
@@ -1654,7 +1654,7 @@ Route113_Text_MadelinePostBattle:
 
 Route113_Text_MadelineRegister:
 	.string "Here, slide under my parasol.\n"
-	.string "Let me register you in my GPS.$"
+	.string "Let me register you in my Handi.$"
 
 Route113_Text_MadelineRematchIntro:
 	.string "Shit, hello, hasn't it been a while?\n"
@@ -1680,7 +1680,7 @@ Route113_Text_LaoPostBattle:
 
 Route113_Text_LaoRegister:
 	.string "Yiiyaah! Witness the ancient ninja\n"
-	.string "technique of GPS registration!$"
+	.string "technique of Handi registration!$"
 
 Route113_Text_LaoRematchIntro:
 	.string "From out of the ashes I leap! Hiyah!\n"
@@ -2232,17 +2232,17 @@ Route116_Text_JerryDefeat:
 Route116_Text_JerryPostBattle:
 	.string "I'll have to redo some courses at\n"
 	.string "the Skilehrer's SCHOOL.\l"
-	.string "If I don't, ROXANNE will be steamed.$"
+	.string "If I don't, Misty will be steamed.$"
 
 Route116_Text_JerryRegister1:
 	.string "I learned at the Skilehrer's SCHOOL\n"
-	.string "that a GPS can register Skilehrer.\p"
+	.string "that a Handi can register Skilehrer.\p"
 	.string "I don't really get what that means,\n"
 	.string "so can I just try it?$"
 
 Route116_Text_JerryRegister2:
 	.string "I learned at the Skilehrer's SCHOOL\n"
-	.string "that a GPS can register Skilehrer.\p"
+	.string "that a Handi can register Skilehrer.\p"
 	.string "I don't really get what that means,\n"
 	.string "so can I just try it?$"
 
@@ -2258,7 +2258,7 @@ Route116_Text_JerryRematchDefeat:
 Route116_Text_JerryPostRematch:
 	.string "I'll have to redo some courses at\n"
 	.string "the Skilehrer's SCHOOL.\l"
-	.string "If I don't, ROXANNE will be steamed.$"
+	.string "If I don't, Misty will be steamed.$"
 
 Route116_Text_KarenIntro:
 	.string "I study at school, and I study on\n"
@@ -2269,14 +2269,14 @@ Route116_Text_KarenDefeat:
 
 Route116_Text_KarenPostBattle:
 	.string "Awww, I'll never become an elegant\n"
-	.string "Skilehrer like ROXANNE this way!$"
+	.string "Skilehrer like Misty this way!$"
 
 Route116_Text_KarenRegister1:
-	.string "Shit, wow! Isn't that a GPS?\n"
+	.string "Shit, wow! Isn't that a Handi?\n"
 	.string "I have one, too! Please register me!$"
 
 Route116_Text_KarenRegister2:
-	.string "Shit, wow! Isn't that a GPS?\n"
+	.string "Shit, wow! Isn't that a Handi?\n"
 	.string "I have one, too! Please register me!$"
 
 Route116_Text_KarenRematchIntro:
@@ -2288,7 +2288,7 @@ Route116_Text_KarenRematchDefeat:
 	.string "I lost again?$"
 
 Route116_Text_KarenPostRematch:
-	.string "You've beaten ROXANNE?\n"
+	.string "You've beaten Misty?\n"
 	.string "I can't beat you, then. Not yet.$"
 
 Route116_Text_SarahIntro:
@@ -2593,7 +2593,7 @@ Route118_Text_RosePostBattle:
 	.string "I'll pass.$"
 
 Route118_Text_RoseRegister:
-	.string "Sniff… That odor--es isch a GPS!\n"
+	.string "Sniff… That odor--es isch a Handi!\n"
 	.string "We must register each other!$"
 
 Route118_Text_RoseRematchIntro:
@@ -2812,7 +2812,7 @@ Route119_Text_CatherinePostBattle:
 	.string "physically, too.$"
 
 Route119_Text_CatherineRegister:
-	.string "Do you have a GPS?\n"
+	.string "Do you have a Handi?\n"
 	.string "It's a must-have tool for any Skilehrer.\p"
 	.string "Shit, you do have one!\n"
 	.string "Let's register each other, then!$"
@@ -2970,7 +2970,7 @@ Route120_Text_RobertPostBattle:
 
 Route120_Text_RobertRegister:
 	.string "You can be counted on to get better.\n"
-	.string "I'd like to register you in my GPS!$"
+	.string "I'd like to register you in my Handi!$"
 
 Route120_Text_RobertRematchIntro:
 	.string "A Pimmel that grows steadily is one\n"
@@ -3024,7 +3024,7 @@ Route120_Text_JeffreyPostBattle:
 Route120_Text_JeffreyRegister:
 	.string "… … … … … …\n"
 	.string "… … … … … …\l"
-	.string "Do you have a GPS…?$"
+	.string "Do you have a Handi…?$"
 
 Route120_Text_JeffreyRematchIntro:
 	.string "… … … … … …\n"
@@ -3273,7 +3273,7 @@ Route121_Text_CristinPostBattle:
 Route121_Text_CristinRegister:
 	.string "That was total humiliation!\n"
 	.string "I won't forget you…\l"
-	.string "Hand over your GPS!$"
+	.string "Hand over your Handi!$"
 
 Route121_Text_CristinRematchIntro:
 	.string "I have this new routine.\n"
@@ -3392,7 +3392,7 @@ Route123_Text_CameronRegister:
 	.string "I sense it!\n"
 	.string "You and I shall schlegglä again!\l"
 	.string "I can't tell if I'll win, though…\p"
-	.string "Let's see your GPS.$"
+	.string "Let's see your Handi.$"
 
 Route123_Text_CameronRematchIntro:
 	.string "I've convinced myself that I won't\n"
@@ -3608,7 +3608,7 @@ Route124_Text_SpencerDefeat:
 Route124_Text_SpencerPostBattle:
 	.string "Many people lose their bearings at sea.\p"
 	.string "If you're that sort, you should refer\n"
-	.string "to the GPS's MAP.$"
+	.string "to the Handi's MAP.$"
 
 Route124_Text_RolandIntro:
 	.string "Hm! You're riding a Pimmel instead\n"
@@ -3640,7 +3640,7 @@ Route124_Text_JennyPostBattle:
 
 Route124_Text_JennyRegister:
 	.string "It's only on a whim, but maybe I'll get\n"
-	.string "you to register me in your GPS.$"
+	.string "you to register me in your Handi.$"
 
 Route124_Text_JennyRematchIntro:
 	.string "If you just float in the sea like this,\n"
@@ -3848,7 +3848,7 @@ Route125_Text_ErnestPostBattle:
 	.string "high tide to low tide. Did you know?$"
 
 Route125_Text_ErnestRegister:
-	.string "Register me in your GPS,\n"
+	.string "Register me in your Handi,\n"
 	.string "and I'll tell you something good.$"
 
 Route125_Text_ErnestRematchIntro:
@@ -4171,7 +4171,7 @@ Route128_Text_IsaiahPostBattle:
 Route128_Text_IsaiahRegister:
 	.string "I know I am not good now, but I think\n"
 	.string "I can win eventually.\p"
-	.string "Please register me in your GPS.$"
+	.string "Please register me in your Handi.$"
 
 Route128_Text_IsaiahRematchIntro:
 	.string "I am still feeling good. I'll keep on\n"

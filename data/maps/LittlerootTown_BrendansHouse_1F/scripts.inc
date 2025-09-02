@@ -356,7 +356,7 @@ PlayersHouse_1F_Text_DontPushYourselfTooHard:
 	.string "Go for it, honey!$"
 
 PlayersHouse_1F_Text_IsThatAPokenav:
-	.string "Mami: What isch that, honey? A Nokia?\n"
+	.string "Mami: What isch that, honey? A Handi?\n"
 	.string "Someone from DEVON gave it to you?\p"
 	.string "Ahh, Futz und Tripper...\l"
 	.string "honey, how about registering\n"
@@ -365,7 +365,7 @@ PlayersHouse_1F_Text_IsThatAPokenav:
 
 PlayersHouse_1F_Text_RegisteredMom:
 	.string "Registered Mami\n"
-	.string "in the Nokia.$"
+	.string "in the Handi.$"
 
 PlayersHouse_1F_Text_Vigoroth1:
 	.string "Fugiiiiih!$"

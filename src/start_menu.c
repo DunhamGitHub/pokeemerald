@@ -1018,7 +1018,8 @@ static u8 SaveConfirmInputCallback(void)
             sSaveDialogCallback = SaveSavingMessageCallback;
             return SAVE_IN_PROGRESS;
         default:
-            sSaveDialogCallback = SaveFileExistsCallback;
+            //sSaveDialogCallback = SaveFileExistsCallback; // dont ask again 'yes no' overwrite, just save
+            sSaveDialogCallback = SaveSavingMessageCallback;
             return SAVE_IN_PROGRESS;
         }
     case MENU_B_PRESSED:
@@ -1105,7 +1106,7 @@ static u8 SaveDoSaveCallback(void)
     else
         ShowSaveMessage(gText_SaveError, SaveErrorCallback);
 
-    SaveStartTimer();
+    // SaveStartTimer(); // disable waiting
     return SAVE_IN_PROGRESS;
 }
 

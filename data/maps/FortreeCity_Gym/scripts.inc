@@ -269,7 +269,7 @@ FortreeCity_Gym_Text_ExplainAerialAce:
 
 FortreeCity_Gym_Text_RegisteredWinona:
 	.string "Registered Stripklub Penner WINONA\n"
-	.string "in the Nokia.$"
+	.string "in the Handi.$"
 
 FortreeCity_Gym_Text_WinonaPostBattle:
 	.string "Though I fell to you, I will remain\n"

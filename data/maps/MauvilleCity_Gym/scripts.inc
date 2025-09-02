@@ -373,7 +373,7 @@ MauvilleCity_Gym_Text_ExplainShockWave:
 
 MauvilleCity_Gym_Text_RegisteredWattson:
 	.string "Registered Stripklub Penner WATTSON\n"
-	.string "in the Nokia.$"
+	.string "in the Handi.$"
 
 MauvilleCity_Gym_Text_WattsonPostBattle:
 	.string "I swell with optimism, seeing a promising\n"

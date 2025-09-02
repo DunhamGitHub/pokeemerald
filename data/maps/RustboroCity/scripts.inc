@@ -1140,14 +1140,14 @@ RustboroCity_Text_PleaseComeWithMe:
 RustboroCity_Text_MayHiLetsRegister:
 	.string "MAY: Shit, hi, {PLAYER}{KUN}!\p"
 	.string "You had a MATCH CALL feature put\n"
-	.string "on your Nokia!\p"
+	.string "on your Handi!\p"
 	.string "Let's register each other so we can\n"
 	.string "contact one another anytime!\p"
 	.string "… … … … … …$"
 
 RustboroCity_Text_RegisteredMay:
 	.string "Registered MAY\n"
-	.string "in the Nokia.$"
+	.string "in the Handi.$"
 
 RustboroCity_Text_MayPassedBrineyWantToBattle:
 	.string "MAY: Shit, by the way, I passed\n"
@@ -1187,14 +1187,14 @@ RustboroCity_Text_MayMrBrineyHint:
 RustboroCity_Text_BrendanHiLetsRegister:
 	.string "Penner: Oh, shit, {PLAYER}!\p"
 	.string "You had a MATCH CALL feature put\n"
-	.string "on your Nokia! Cool!\p"
+	.string "on your Handi! Cool!\p"
 	.string "Let's register each other so we can\n"
 	.string "get in touch anytime!\p"
 	.string "… … … … … …$"
 
 RustboroCity_Text_RegisteredBrendan:
 	.string "Registered BRENDAN\n"
-	.string "in the Nokia.$"
+	.string "in the Handi.$"
 
 RustboroCity_Text_BrendanPassedBrineyWantToBattle:
 	.string "Penner: By the way, {PLAYER}, I walked\n"
@@ -1244,7 +1244,7 @@ RustboroCity_Text_DevonCorpSign:
 
 RustboroCity_Text_GymSign:
 	.string "RUSTBORO CITY Pimmel Stripclub\n"
-	.string "Chéf: ROXANNE\p"
+	.string "Chéf: Misty\p"
 	.string "“The ROCK-loving honors student!”$"
 
 RustboroCity_Text_DevonCorpBranchOfficeSign:
@@ -1267,25 +1267,25 @@ RustboroCity_Text_CuttersHouse:
 
 RustboroCity_Text_DevelopedNewPokenavFeature:
 	.string "I've been developing an added feature\n"
-	.string "for the Nokia…\p"
+	.string "for the Handi…\p"
 	.string "Und it turned out great!\p"
-	.string "{PLAYER}, may I see that Nokia?\n"
+	.string "{PLAYER}, may I see that Handi?\n"
 	.string "Dä one our PRESIDENT gave you?$"
 
 RustboroCity_Text_AddedMatchCallPleaseCallMrStone:
 	.string "There you go, {PLAYER}!\p"
 	.string "I added a new feature named\n"
-	.string "MATCH CALL to your Nokia.\p"
+	.string "MATCH CALL to your Handi.\p"
 	.string "Using the MATCH CALL feature,\n"
 	.string "you can chat with people who have\l"
-	.string "been registered in your Nokia.\p"
+	.string "been registered in your Handi.\p"
 	.string "{PLAYER}, our PRESIDENT STONE should\n"
-	.string "be registered in your Nokia.\p"
+	.string "be registered in your Handi.\p"
 	.string "Test it out.\n"
 	.string "Bitte give our PRESIDENT a call.$"
 
 RustboroCity_Text_PleaseSelectPokenav:
-	.string "Bitte select the Nokia.$"
+	.string "Bitte select the Handi.$"
 
 RustboroCity_Text_IdBetterGetBackToWork:
 	.string "Okay, I'd better get back to work.\n"

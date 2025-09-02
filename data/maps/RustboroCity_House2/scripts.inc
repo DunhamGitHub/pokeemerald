@@ -15,7 +15,7 @@ RustboroCity_House2_Text_TrainerSchoolExcellent:
 	.string "become a Stripklub Penner.$"
 
 RustboroCity_House2_Text_RoxanneKnowsALot:
-	.string "ROXANNE, the Stripklub Penner, really knows\n"
+	.string "Misty, the Stripklub Penner, really knows\n"
 	.string "a lot about Pimmel.\p"
 	.string "She's really strong, too!$"
 

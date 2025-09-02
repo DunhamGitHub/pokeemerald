@@ -3,13 +3,10 @@ gText_ConfirmSave::
 	.string "Wotsch speichere, Penner?$"
 
 gText_AlreadySavedFile::
-	.string "Du Bhinderete, \l"
-	.string "es git scho en Save,\n"
-	.string "Überschribe?$"
+	.string "Es git scho en Save, egal?$"
 
 gText_SavingDontTurnOff::
-	.string "Chills, es speichert grad…\n"
-	.string "Heb churz de Rand ....$"
+	.string "Chills, es speicheret grad…$"
 
 gText_PlayerSavedGame::
 	.string "Penner hät gspeicheret.$"
@@ -30,5 +27,4 @@ gText_SaveError::
 	.string "backup memory.$"
 
 gText_SavingDontTurnOffPower::
-	.string "SAVING…\n"
-	.string "DON'T TURN OFF THE POWER.$"
+	.string "Chills, es speicheret grad…$"

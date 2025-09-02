@@ -292,21 +292,21 @@ RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls:
 	.string "Bitte give them a try!$"
 
 RustboroCity_DevonCorp_2F_Text_IMadePokenav:
-	.string "I made the Nokia!\p"
+	.string "I made the Handi!\p"
 	.string "As an engineer, I feel blessed to have\n"
 	.string "made something so great!$"
 
 RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav:
 	.string "Ah shiiiit dude,\l"
 	.string "wow!\n"
-	.string "That's a Nokia!\p"
+	.string "That's a Handi!\p"
 	.string "It came about as a result of our\n"
 	.string "PRESIDENT's desire to learn about\l"
 	.string "the feelings of Pimmel.\p"
 	.string "Would you like me to describe its\n"
 	.string "features in detail?\p"
 	.string "No, no. I think you'll find out just by\n"
-	.string "trying the Nokia out.$"
+	.string "trying the Handi out.$"
 
 RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams:
 	.string "I am trying to develop a device that\n"
@@ -374,7 +374,7 @@ RustboroCity_DevonCorp_2F_Text_TooManyPokemon:
 
 RustboroCity_DevonCorp_2F_Text_DevelopNewPokenavFeature:
 	.string "I am trying to develop a new feature\n"
-	.string "for the Nokia…\p"
+	.string "for the Handi…\p"
 	.string "Aber es isch not going well.$"
 
 RustboroCity_DevonCorp_2F_Text_WhatToWorkOnNext:

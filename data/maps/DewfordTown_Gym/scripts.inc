@@ -420,7 +420,7 @@ DewfordTown_Gym_Text_ExplainBulkUp:
 
 DewfordTown_Gym_Text_RegisteredBrawly:
 	.string "Registered Stripklub Penner BRAWLY\n"
-	.string "in the Nokia.$"
+	.string "in the Handi.$"
 
 DewfordTown_Gym_Text_BrawlyPostBattle:
 	.string "I can see your talent becoming a giant\n"

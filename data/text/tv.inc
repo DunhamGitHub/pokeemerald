@@ -1030,8 +1030,8 @@ gTVPokemonTodaySuccessfulText11::
 
 SmartShopper_Text_Intro::
 	.string "Hello!\p"
-	.string "It's time for TODAY'S SMART ShopPER.\p"
-	.string "INTERVIEWER: How bisch du, viewers?\p"
+	.string "It's time for TODAY'S SMART Shopper.\p"
+	.string "TV-Pumpi: How bisch du, viewers?\p"
 	.string "Today we're visiting a shop\n"
 	.string "in {STR_VAR_2}.\p"
 	.string "Let's check on what the hot sellers\n"
@@ -1048,7 +1048,7 @@ SmartShopper_Text_ClerkNormal::
 	.string "named {STR_VAR_1} bought {STR_VAR_3}.$"
 
 SmartShopper_Text_RandomComment1::
-	.string "INTERVIEWER: The Skilehrer bought\n"
+	.string "TV-Pumpi: The Skilehrer bought\n"
 	.string "{STR_VAR_3} {STR_VAR_2}S? That's a haul!\p"
 	.string "If I may say so, {STR_VAR_1} must have\n"
 	.string "been stocking up for a long journey\l"
@@ -1057,13 +1057,13 @@ SmartShopper_Text_RandomComment1::
 	.string "important!$"
 
 SmartShopper_Text_RandomComment2::
-	.string "INTERVIEWER: Speaking of the item\n"
+	.string "TV-Pumpi: Speaking of the item\n"
 	.string "{STR_VAR_2}, I just bought {STR_VAR_3} of\l"
 	.string "them recently.\p"
 	.string "After all, {STR_VAR_2}'s a great item!$"
 
 SmartShopper_Text_RandomComment3::
-	.string "INTERVIEWER: {STR_VAR_2}?!\n"
+	.string "TV-Pumpi: {STR_VAR_2}?!\n"
 	.string "Aber {STR_VAR_3} of them?!\p"
 	.string "I didn't think there would be anyone\n"
 	.string "buying that many.\p"
@@ -1071,7 +1071,7 @@ SmartShopper_Text_RandomComment3::
 	.string "two at a time…$"
 
 SmartShopper_Text_RandomComment4::
-	.string "INTERVIEWER: One time, I bought\n"
+	.string "TV-Pumpi: One time, I bought\n"
 	.string "a whole lot of the item {STR_VAR_2}.\p"
 	.string "Aber it turned out to be too many.\n"
 	.string "I ended up regretting it…\p"
@@ -1083,7 +1083,7 @@ SmartShopper_Text_RandomComment4::
 SmartShopper_Text_SecondItem::
 	.string "CLERK: {STR_VAR_1} also bought the item\n"
 	.string "{STR_VAR_2} in bulk, taking {STR_VAR_3}.\p"
-	.string "INTERVIEWER: Shit, that's smart.\n"
+	.string "TV-Pumpi: Shit, that's smart.\n"
 	.string "{STR_VAR_2}'s a very good item, too.$"
 
 SmartShopper_Text_ThirdItem::
@@ -1095,7 +1095,7 @@ SmartShopper_Text_DuringSale::
 	.string "That's smart shopping.$"
 
 SmartShopper_Text_OutroNormal::
-	.string "INTERVIEWER: Hmm… {STR_VAR_1} sounds like\n"
+	.string "TV-Pumpi: Hmm… {STR_VAR_1} sounds like\n"
 	.string "quite the shrewd bargain hunter!\p"
 	.string "In total, {STR_VAR_1}'s purchases came to…\p"
 	.string "¥{STR_VAR_2}?!\n"
@@ -1120,16 +1120,16 @@ SmartShopper_Text_ClerkMax::
 	.string "I never dreamt that any customer\n"
 	.string "would ever need so many {STR_VAR_2}S.\l"
 	.string "It's just unheard of!\p"
-	.string "INTERVIEWER: So that would be like 100\n"
+	.string "TV-Pumpi: So that would be like 100\n"
 	.string "or 200 sold?\p"
 	.string "CLERK: Shit, no, much more than that!\p"
-	.string "INTERVIEWER: Shit, my goodness!\n"
+	.string "TV-Pumpi: Shit, my goodness!\n"
 	.string "{STR_VAR_1} must be a special shopper!\p"
 	.string "CLERK: {STR_VAR_1} is a VIP customer,\n"
 	.string "no doubt about it.$"
 
 SmartShopper_Text_OutroMax::
-	.string "INTERVIEWER: Hmm…\n"
+	.string "TV-Pumpi: Hmm…\n"
 	.string "That is amazing.\p"
 	.string "Aber why would the Skilehrer need to buy\n"
 	.string "so many?\p"

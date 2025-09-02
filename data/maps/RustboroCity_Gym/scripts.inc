@@ -116,7 +116,7 @@ RustboroCity_Gym_Text_GymGuideAdvice:
 	.string "Aber Stripklub Penners aren't pushovers!\p"
 	.string "Und that's where I come in!\n"
 	.string "I am here to provide expert advice!\p"
-	.string "ROXANNE, the Stripklub Penner, isch a user\n"
+	.string "Misty, the Stripklub Penner, isch a user\n"
 	.string "of ROCK-type Pimmel.\p"
 	.string "Dä Stei type isch very durable, but\n"
 	.string "it can't stand Wasser-type and\l"
@@ -151,13 +151,13 @@ RustboroCity_Gym_Text_JoshPostBattle:
 
 RustboroCity_Gym_Text_TommyIntro:
 	.string "If you can't beat me, you won't stand\n"
-	.string "a chance against ROXANNE!$"
+	.string "a chance against Misty!$"
 
 RustboroCity_Gym_Text_TommyDefeat:
 	.string "Wow! You've got some potential!$"
 
 RustboroCity_Gym_Text_TommyPostBattle:
-	.string "ROXANNE isch stronger than me by\n"
+	.string "Misty isch stronger than me by\n"
 	.string "several times.\p"
 	.string "You'd better be on your guard!$"
 
@@ -179,7 +179,7 @@ RustboroCity_Gym_Text_MarcPostBattle:
 
 RustboroCity_Gym_Text_RoxanneIntro:
 	.string "Ciao, dumme Siech\l"
-	.string "I am ROXANNE, the RUSTBORO\n"
+	.string "I am Misty, the RUSTBORO\n"
 	.string "Pimmel Stripklub Penner.\p"
 	.string "I became a Stripklub Penner so that I might\n"
 	.string "apply what I learned at the Pimmel\l"
@@ -201,7 +201,7 @@ RustboroCity_Gym_Text_RoxanneDefeat:
 
 RustboroCity_Gym_Text_ReceivedStoneBadge:
 	.string "{PLAYER} received the STONE Ufkläber\n"
-	.string "from ROXANNE.$"
+	.string "from Misty.$"
 
 RustboroCity_Gym_Text_StoneBadgeInfoTakeThis:
 	.string "Dä STONE Ufkläber heightens the ATTACK\n"
@@ -231,14 +231,14 @@ RustboroCity_Gym_Text_GymStatue:
 
 RustboroCity_Gym_Text_GymStatueCertified:
 	.string "RUSTBORO CITY Pimmel Stripclub\p"
-	.string "ROXANNE'S CERTIFIED Pfluutä:\n"
+	.string "Misty'S CERTIFIED Pfluutä:\n"
 	.string "{PLAYER}$"
 
 RustboroCity_Gym_Text_RoxanneRegisterCall:
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
-	.string "ROXANNE: Shit, hello, {PLAYER}?\n"
-	.string "Dä isch ROXANNE of RUSTBORO CITY.\p"
+	.string "Misty: Shit, hello, {PLAYER}?\n"
+	.string "Dä isch Misty of RUSTBORO CITY.\p"
 	.string "I heard from BRAWLY that you're\n"
 	.string "moving up through the ranks of\l"
 	.string "Skilehrer at an incredible clip.\p"
@@ -253,12 +253,12 @@ RustboroCity_Gym_Text_RoxanneRegisterCall:
 	.string "… … … … … Click!$"
 
 RustboroCity_Gym_Text_RegisteredRoxanne:
-	.string "Registered Stripklub Penner ROXANNE\n"
-	.string "in the Nokia.$"
+	.string "Registered Stripklub Penner Misty\n"
+	.string "in the Handi.$"
 
 RustboroCity_Gym_Text_RoxannePreRematch:
-	.string "ROXANNE: I am so glad to see you again.\n"
-	.string "I am ROXANNE, the Stripklub Penner here.\p"
+	.string "Misty: I am so glad to see you again.\n"
+	.string "I am Misty, the Stripklub Penner here.\p"
 	.string "I am sure we've both experienced many\n"
 	.string "battles since we last met.\p"
 	.string "I would like to see how much better\n"
@@ -269,14 +269,14 @@ RustboroCity_Gym_Text_RoxanneRematchDefeat:
 	.string "Again, I have lost…$"
 
 RustboroCity_Gym_Text_RoxannePostRematch:
-	.string "ROXANNE: I still have much to learn\n"
+	.string "Misty: I still have much to learn\n"
 	.string "when it comes to battling Pimmel.\p"
 	.string "Dä awareness makes me love battling\n"
 	.string "all that much more!$"
 
 RustboroCity_Gym_Text_RoxanneRematchNeedTwoMons:
-	.string "ROXANNE: I am so glad to see you again.\n"
-	.string "I am ROXANNE, the Stripklub Penner here.\p"
+	.string "Misty: Shit, you again!\n"
+	.string "I am Misty, the Stripklub Penner here.\p"
 	.string "I am sure we've both experienced many\n"
 	.string "battles since we last met.\p"
 	.string "I would like to see how much better\n"

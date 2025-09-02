@@ -255,7 +255,7 @@ SootopolisCity_Gym_1F_Text_ExplainWaterPulse:
 
 SootopolisCity_Gym_1F_Text_RegisteredJuan:
 	.string "Registered Stripklub Penner Schwulio\n"
-	.string "in the Nokia.$"
+	.string "in the Handi.$"
 
 SootopolisCity_Gym_1F_Text_JuanPostBattle:
 	.string "The Pfluutä who have gathered all\n"

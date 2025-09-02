@@ -1084,14 +1084,14 @@ Route104_Text_TrainerTipsDoubleBattles:
 
 Route104_Text_MayWeShouldRegister:
 	.string "MAY: Shit, hi, {PLAYER}{KUN}!\p"
-	.string "DEVON upgraded your Nokia with\n"
+	.string "DEVON upgraded your Handi with\n"
 	.string "the MATCH CALL system, huh?\p"
 	.string "We should register each other so we\n"
 	.string "can get in contact anytime.$"
 
 Route104_Text_RegisteredMay:
 	.string "{PLAYER} registered MAY\n"
-	.string "in the Nokia.$"
+	.string "in the Handi.$"
 
 Route104_Text_MayHowsYourPokedex:
 	.string "MAY: Shit, by the way, {PLAYER}{KUN},\n"
@@ -1131,13 +1131,13 @@ Route104_Text_MayPostBattle:
 Route104_Text_BrendanWeShouldRegister:
 	.string "Penner: Oh, shit, {PLAYER}!\p"
 	.string "Cool, you had DEVON install the MATCH\n"
-	.string "CALL system on your Nokia!\p"
+	.string "CALL system on your Handi!\p"
 	.string "Let's register each other in our\n"
-	.string "NokiaS so we can keep in touch.$"
+	.string "Handis so we can keep in touch.$"
 
 Route104_Text_RegisteredBrendan:
 	.string "{PLAYER} registered BRENDAN\n"
-	.string "in the Nokia.$"
+	.string "in the Handi.$"
 
 Route104_Text_BrendanHowsYourPokedex:
 	.string "Penner: {PLAYER}, how's your KACKDEX?\n"

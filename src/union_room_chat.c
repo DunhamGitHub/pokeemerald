@@ -2654,7 +2654,7 @@ static bool32 Display_AskSave(u8 *state)
     {
     case 0:
         AddStdMessageWindow(STDMESSAGE_ASK_SAVE, 0);
-        AddYesNoMenuAt(23, 10, 1);
+        //AddYesNoMenuAt(23, 10, 1); // just save man!
         CopyWindowToVram(sDisplay->messageWindowId, COPYWIN_FULL);
         (*state)++;
         break;
@@ -2671,7 +2671,7 @@ static bool32 Display_AskOverwriteSave(u8 *state)
     {
     case 0:
         AddStdMessageWindow(STDMESSAGE_ASK_OVERWRITE, 0);
-        AddYesNoMenuAt(23, 10, 1);
+        //AddYesNoMenuAt(23, 10, 1); // just save man
         CopyWindowToVram(sDisplay->messageWindowId, COPYWIN_FULL);
         (*state)++;
         break;

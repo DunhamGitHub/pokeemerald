@@ -221,11 +221,11 @@ RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis:
 	.string "That's why I want you to have this!$"
 
 RustboroCity_DevonCorp_3F_Text_ReceivedPokenav:
-	.string "{PLAYER} received a Nokia.$"
+	.string "{PLAYER} received a Handi.$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
 	.string "MR. STONE: That device…\p"
-	.string "It's a Pimmel NAVIGATOR, or Nokia\n"
+	.string "It's a Pimmel NAVIGATOR, or Handi\n"
 	.string "for short.\p"
 	.string "It's an indispensable tool for any\n"
 	.string "Skilehrer on an adventure.\p"

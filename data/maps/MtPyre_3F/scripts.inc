@@ -78,7 +78,7 @@ MtPyre_3F_Text_GabriellePostBattle:
 MtPyre_3F_Text_GabrielleRegister:
 	.string "I would like to see your Pimmel\n"
 	.string "when they grow up some more…\p"
-	.string "Please, I need to see your Nokia.$"
+	.string "Please, I need to see your Handi.$"
 
 MtPyre_3F_Text_GabrielleRematchIntro:
 	.string "Ah shiiiit dude,\l"

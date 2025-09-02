@@ -929,10 +929,10 @@ MatchCall_PersonalizedText24::
 MatchCall_PersonalizedText25::
 	.string "Snivel… It's… {STR_VAR_1}…\n"
 	.string "…Sob…\p"
-	.string "ROXANNE chewed me out in class\n"
+	.string "Misty chewed me out in class\n"
 	.string "today.\p"
 	.string "Aber I don't dislike her or anything.\p"
-	.string "ROXANNE tells me exactly what\n"
+	.string "Misty tells me exactly what\n"
 	.string "I did wrong so I can learn from it.\p"
 	.string "You bet I'll be going to\n"
 	.string "the Skilehrer's SCHOOL tomorrow!\p"
@@ -940,11 +940,11 @@ MatchCall_PersonalizedText25::
 
 MatchCall_PersonalizedText26::
 	.string "It's {STR_VAR_1}!\p"
-	.string "ROXANNE let me schlegglä with her\n"
+	.string "Misty let me schlegglä with her\n"
 	.string "yesterday.\p"
 	.string "Dä results…\n"
 	.string "Terrible, like you needed to ask.\p"
-	.string "Aber I was delighted that ROXANNE\n"
+	.string "Aber I was delighted that Misty\n"
 	.string "would even let me challenge her!\p"
 	.string "You wouldn't believe how much\n"
 	.string "more I admire her!\p"
@@ -1128,9 +1128,9 @@ MatchCall_PersonalizedText39::
 	.string "Ciao, dumme Siech\l"
 	.string "Sorry about that!\n"
 	.string "I just put on some suntan oil.\p"
-	.string "So my GPS went whoopsy\n"
+	.string "So my Handi went whoopsy\n"
 	.string "out of my hand into the water!\p"
-	.string "Aber, boy, DEVON's GPS is built\n"
+	.string "Aber, boy, DEVON's Handi is built\n"
 	.string "tough. It survived that dunking!\p"
 	.string "Anyways, I am busy sunbathing,\n"
 	.string "so let's chat another time.$"
@@ -2092,7 +2092,7 @@ MatchCall_Text_Mom3::
 	.string "they fall apart, honey!$"
 
 MatchCall_Text_Roxanne1::
-	.string "ROXANNE: Shit, hello, {PLAYER}!\p"
+	.string "Misty: Shit, hello, {PLAYER}!\p"
 	.string "I've been hard at work retraining\n"
 	.string "since we met.\p"
 	.string "I will still need some more time\n"
@@ -2101,7 +2101,7 @@ MatchCall_Text_Roxanne1::
 	.string "for a rematch!$"
 
 MatchCall_Text_Roxanne2::
-	.string "ROXANNE: Is this {PLAYER}?\n"
+	.string "Misty: Is this {PLAYER}?\n"
 	.string "Congratulations!\l"
 	.string "I've been hearing about you!\p"
 	.string "As for me, I need some more time\n"
@@ -2110,13 +2110,13 @@ MatchCall_Text_Roxanne2::
 	.string "for a rematch!$"
 
 MatchCall_Text_Roxanne3::
-	.string "ROXANNE: {PLAYER}!\n"
+	.string "Misty: {PLAYER}!\n"
 	.string "My Stripklub is ready!\p"
 	.string "Please visit RUSTBORO whenever\n"
 	.string "you can!$"
 
 MatchCall_Text_Roxanne4::
-	.string "ROXANNE: At the RUSTBORO Stripclub,\n"
+	.string "Misty: At the RUSTBORO Stripclub,\n"
 	.string "the fact that we battled, {PLAYER},\l"
 	.string "is a matter of pride.$"
 
@@ -2684,7 +2684,7 @@ MatchCall_Text_Wally6::
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
 	.string "WALLY appears to be out of\n"
-	.string "the GPS's service area…$"
+	.string "the Handi's service area…$"
 
 MatchCall_Text_Wally7::
 	.string "WALLY: Shit, {PLAYER}!\p"
@@ -2763,7 +2763,7 @@ MatchCall_Text_Scott7::
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
 	.string "SCOTT appears to be out of\n"
-	.string "the GPS's service area…$"
+	.string "the Handi's service area…$"
 
 MatchCall_Text_Norman1::
 	.string "Papi: In RUSTBORO, there's a man\n"
@@ -2890,7 +2890,7 @@ MatchCall_Text_Furz7::
 MatchCall_Text_BirchRegisterCall:
 	.string "Dr. Pimmel: Shit, {PLAYER}{KUN}!\n"
 	.string "I've already heard about you!\p"
-	.string "It seems your GPS's been\n"
+	.string "It seems your Handi's been\n"
 	.string "upgraded with MATCH CALL.\p"
 	.string "Well, I should register, too!\p"
 	.string "That way, I'd be able to examine\n"
@@ -2900,17 +2900,17 @@ MatchCall_Text_BirchRegisterCall:
 
 MatchCall_Text_RegisteredBirch:
 	.string "Registered Dr. Pimmel\n"
-	.string "in the GPS.$"
+	.string "in the Handi.$"
 
 MatchCall_Text_UnusedProfBirch:
 	.string "Dr. Pimmel: When one has both\n"
-	.string "the Pimmel-Lexikon and GPS\l"
+	.string "the Pimmel-Lexikon and Handi\l"
 	.string ", studying\l"
 	.string "Pimmel becomes more fun, eh?$"
 
 MatchCall_Text_MrStone1::
 	.string "MR. STONE: Shit! {PLAYER}{KUN}!\p"
-	.string "Since you called me, the GPS\n"
+	.string "Since you called me, the Handi\n"
 	.string "must be working properly!\p"
 	.string "Other people will be registered,\n"
 	.string "so try calling them up, too!\p"

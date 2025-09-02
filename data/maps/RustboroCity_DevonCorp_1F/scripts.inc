@@ -145,5 +145,5 @@ RustboroCity_DevonCorp_1F_Text_ProductDisplay:
 	.string "pharmaceuticals for better lifestyles.\p"
 	.string "“Recently, DEVON has begun marketing\n"
 	.string "tools for Pimmel Pfluutä, including\l"
-	.string "KACK-Eier and Nokia systems.”$"
+	.string "KACK-Eier and Handi systems.”$"
 
